@@ -42,6 +42,35 @@ Two cross-client observations:
 
 The exact numbers with 95% confidence intervals are in [REPORT.md](REPORT.md) and [data/ANALYSIS.md](data/ANALYSIS.md).
 
+![Higher fee first, by client and arrival condition](data/figures/fee-vs-arrival.svg)
+
+*Generated from the raw data by `docker compose run --rm itb analyze` (`src/figures.ts`); the same numbers
+are in the "Fee vs arrival" table of `data/ANALYSIS.md`.*
+
+### Client or operator?
+
+Splitting the same numbers by the validator that built the block (table "Per validator" in
+`data/ANALYSIS.md`): **Harmonic (both builds), AgaveBam and FireBAM behave the same on every validator
+we hit** (Harmonic: 83-100% fee order in bursts on all 9 validators, 8-30% once the higher fee is sent
+later on the 6 that have such pairs). **Jito, Firedancer and vanilla Agave differ between operators**: for example one
+Jito validator ordered 100% of burst pairs by fee and two others ~64%; one Firedancer validator kept
+69% fee order when the higher fee arrived later, another 0%. For those three clients the verdict
+describes the client's typical behaviour, and operator configuration is a real source of variance.
+
+### See it yourself (one click each)
+
+Fees are micro-lamports per CU, read in block order; "sent" is our send order read in block order.
+
+| Leader client | Condition | Block | Fees in block order | Sent | What it shows |
+|---|---|---|---|---|---|
+| Agave 4.3.2 | burst, queued before the slot | [461333732](https://solscan.io/block/461333732) | 500k 250k 100k 50k 20k 5k 1k 0 | 5 4 7 2 0 3 6 1 | the open-source rule: sorted by fee, send order irrelevant |
+| Agave 4.3.2 | burst, arriving mid-block | [461370428](https://solscan.io/block/461370428) | 500k 20k 5k 1k 50k 0 250k 100k | 0 2 1 3 4 5 6 7 | same client, same burst, now in arrival order |
+| AgaveBam 4.3.2 | burst, arriving mid-block | [461368198](https://solscan.io/block/461368198) | 500k 250k 100k 50k 20k 5k 1k 0 | 4 7 1 0 2 6 3 5 | BAM keeps fee order even mid-block |
+| HarmonicFiredancer 26.10.4 | 15 ms apart | [461249400](https://solscan.io/block/461249400) | 250k 50k 5k 500k 100k 1k 0 20k | 0 2 1 3 5 6 4 7 | arrival order, fee ignored |
+| Firedancer 26.10.4 | 15 ms apart | [461217264](https://solscan.io/block/461217264) | 500k 250k 100k 50k 20k 5k 1k 0 | 3 5 0 7 6 4 2 1 | fee order even though the probes arrived spread over 105 ms |
+
+Every other client/condition has an example with a Solscan link in the "Examples" table of `data/ANALYSIS.md`.
+
 ## Design
 
 ### Probes
@@ -202,7 +231,9 @@ src/
   solana.ts, b58.ts  transaction serialization and signing, no SDK
   ledger.ts          spend cap
   collect.ts         signature statuses + blocks (trimmed), v1 transaction support
-  analyze.ts         pair statistics, bootstrap CIs, fee-vs-arrival, supplementary block correlation
+  analyze.ts         pair statistics, bootstrap CIs, fee-vs-arrival, sorted runs, per-validator split,
+                     explorer examples, supplementary block correlation
+  figures.ts         the README figure (SVG, generated from the raw data)
 test/                offline unit tests
 data/
   runs/<run>/        config.json, targets.json, plan.json, windows.jsonl, probes.jsonl, statuses.json,
@@ -211,6 +242,7 @@ data/
   logs/              structured JSON log of every command
   spend-ledger.json  every live transaction with its worst-case fee
   ANALYSIS.md        generated tables
+  figures/           generated figure(s)
 ```
 
 ## Verifying a claim by hand

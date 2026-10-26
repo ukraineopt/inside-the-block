@@ -127,6 +127,17 @@ does not guarantee an earlier position.
 
 Verdict: fee preference, no arrival rule; small sample.
 
+### Client or operator? (per-validator split)
+
+Table "Per validator" in `data/ANALYSIS.md` repeats the fee-vs-arrival comparison per block producer.
+Consistent across all validators hit: HarmonicAgave (5 validators) and HarmonicFiredancer (4): 83-100%
+in bursts, 8-30% once the higher fee is sent later; AgaveBam (all 4 validators with burst pairs) and FireBAM (2): 100% in bursts.
+Not consistent: JitoLabs (burst 100% on `C8Bey3…`, 63-65% on `HEL1US…` and `E1r4Ps…`), Firedancer
+(higher fee sent later: 69% on `EvnRmn…`, 0% on `JD549H…`, 17% on `9eGrDo…`), vanilla Agave (burst
+33-100% across 4 validators). For these three the per-client verdict is the typical behaviour, and
+operator configuration (block-engine / scheduler settings, hardware, load) is a material source of variance
+that this design does not separate further.
+
 ## 3. Cross-client findings
 
 1. **The moment of arrival matters more than the client for "is it fee-ordered".** Probes that wait

@@ -8,6 +8,8 @@ import { join } from 'node:path';
 import { readJsonl, type TrimmedBlock } from './collect.ts';
 import { rng } from './rng.ts';
 import type { ProbeRecord } from './experiment.ts';
+import { feeVsArrivalSvg } from './figures.ts';
+import { mkdirSync } from 'node:fs';
 
 interface Landed extends ProbeRecord {
   leaderClient: string; // client group of the leader that actually produced the block
@@ -340,6 +342,69 @@ function runModes(dataDir: string): Map<string, string> {
   return m;
 }
 
+// Same fee-vs-arrival question, split by the validator that built the block: are validators of one
+// client consistent with each other, or is it one operator's configuration?
+export interface PerValidator {
+  leader: string;
+  group: string;
+  burstPairs: number;
+  burstFeeWins: number | null;
+  laterPairs: number; // higher-fee probe sent >= 1 ms later
+  laterFeeWins: number | null;
+}
+
+export function perValidator(landed: Landed[]): PerValidator[] {
+  const byBlock = new Map<string, Landed[]>();
+  for (const p of landed) {
+    if (p.arm !== 'F' || p.path !== 'tpu' || !p.sentAtUs || !p.leader) continue;
+    const k = `${p.runId}/${p.batchId}/${p.slot}`;
+    byBlock.set(k, [...(byBlock.get(k) ?? []), p]);
+  }
+  const acc = new Map<string, { group: string; b: [number, number]; l: [number, number] }>();
+  for (const ps of byBlock.values()) for (let a = 0; a < ps.length; a++) for (let b = a + 1; b < ps.length; b++) {
+    const fa = BigInt(ps[a].cuPrice), fb = BigInt(ps[b].cuPrice);
+    if (fa === fb) continue;
+    const [hi, lo] = fa > fb ? [ps[a], ps[b]] : [ps[b], ps[a]];
+    const dt = Number(BigInt(hi.sentAtUs!) - BigInt(lo.sentAtUs!));
+    if (dt < 0) continue;
+    const e = acc.get(hi.leader!) ?? { group: hi.leaderClient, b: [0, 0], l: [0, 0] };
+    const slot = dt < 1_000 ? e.b : e.l;
+    slot[0]++;
+    if (hi.index < lo.index) slot[1]++;
+    acc.set(hi.leader!, e);
+  }
+  return [...acc.entries()].map(([leader, e]) => ({
+    leader, group: e.group,
+    burstPairs: e.b[0], burstFeeWins: e.b[0] ? e.b[1] / e.b[0] : null,
+    laterPairs: e.l[0], laterFeeWins: e.l[0] ? e.l[1] / e.l[0] : null,
+  })).sort((a, b) => a.group.localeCompare(b.group) || b.burstPairs + b.laterPairs - a.burstPairs - a.laterPairs);
+}
+
+// One complete batch per client and condition, with explorer links, so anyone can look at the block.
+export function examples(landed: Landed[], leads: Map<string, number>, modes: Map<string, string>): string[] {
+  const byBlock = new Map<string, Landed[]>();
+  for (const p of landed) {
+    if (p.arm !== 'F' || p.path !== 'tpu') continue;
+    const k = `${p.runId}/${p.batchId}/${p.slot}`;
+    byBlock.set(k, [...(byBlock.get(k) ?? []), p]);
+  }
+  const seen = new Set<string>();
+  const out: string[] = [];
+  const blocks = [...byBlock.values()].filter((ps) => ps.length === 8).sort((a, b) => a[0].slot - b[0].slot);
+  for (const ps of blocks) {
+    ps.sort((a, b) => a.index - b.index);
+    const mode = modes.get(ps[0].runId) ?? '?';
+    const cond = mode === 'burst' ? `burst, ${ps[0].leadSlots ?? leads.get(ps[0].runId)} slot(s) early` : mode;
+    const key = `${ps[0].leaderClient}|${cond}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const fees = ps.map((p) => (p.cuPrice === '0' ? '0' : `${Number(p.cuPrice) / 1000}k`)).join(', ');
+    const sends = ps.map((p) => p.sendSeq).join(', ');
+    out.push(`| ${ps[0].leaderClient} | ${cond} | [${ps[0].slot}](https://solscan.io/block/${ps[0].slot}) | ${ps[0].index}-${ps.at(-1)!.index} | ${fees} | ${sends} | [first probe](https://solscan.io/tx/${ps[0].signature}) |`);
+  }
+  return out.sort();
+}
+
 const pct = (x: number | null) => (x === null ? 'n/a' : `${(x * 100).toFixed(1)}%`);
 const ci = (c: [number, number] | null) => (c ? `${pct(c[0])} to ${pct(c[1])}` : 'n/a');
 
@@ -431,10 +496,32 @@ export function writeAnalysis(dataDir: string, outPath: string): void {
   const withLead = landed.map((p) => ({ ...p, leadSlots: p.leadSlots ?? leads.get(p.runId) ?? p.leadSlots }));
   for (const r of sortedRuns(withLead, runModes(dataDir))) lines.push(`| ${r.group} | ${r.mode} | ${r.batches} | ${r.meanRuns.toFixed(2)} | ${r.fullySorted} |`);
   lines.push('');
+  lines.push('## Per validator (arm F, tpu path): is it the client or the operator?', '');
+  lines.push('| block leader | client | pairs, same burst | higher fee first | pairs, higher fee sent 1-150 ms later | higher fee first |');
+  lines.push('|---|---|---|---|---|---|');
+  for (const v of perValidator(landed)) lines.push(`| \`${v.leader}\` | ${v.group} | ${v.burstPairs} | ${pct(v.burstFeeWins)} | ${v.laterPairs} | ${pct(v.laterFeeWins)} |`);
+  lines.push('');
+  lines.push('## Examples: one complete batch (arm F, 8 probes in one block) per client and condition', '');
+  lines.push('Fees (micro-lamports per CU, in thousands) and our send order, both read in block order. Open the block on Solscan to see the probes in place.', '');
+  lines.push('| block leader client | condition | block | positions | fees in block order | send order in block order | tx |');
+  lines.push('|---|---|---|---|---|---|---|');
+  for (const e of examples(withLead, leads, runModes(dataDir))) lines.push(e);
+  lines.push('');
   lines.push('## Supplementary: all non-vote transactions in collected blocks', '');
   lines.push('| leader client group | blocks | mean Spearman rho (price vs earlier position) | median txs per block |');
   lines.push('|---|---|---|---|');
   for (const p of passive) lines.push(`| ${p.group} | ${p.blocks} | ${p.meanRho === null ? 'n/a' : p.meanRho.toFixed(3)} | ${p.medianTxs ?? 'n/a'} |`);
   writeFileSync(outPath, lines.join('\n') + '\n');
+  // figure: client order by stake share from the latest validator snapshot
+  const snapRuns = existsSync(runsDir) ? readdirSync(runsDir).filter((r) => existsSync(join(runsDir, r, 'validators-start.json'))).sort() : [];
+  const share = new Map<string, number>();
+  if (snapRuns.length) {
+    for (const v of JSON.parse(readFileSync(join(runsDir, snapRuns.at(-1)!, 'validators-start.json'), 'utf8')) as { clientId: string; version: string; stakeShare: number }[]) {
+      share.set(`${v.clientId} ${v.version}`, (share.get(`${v.clientId} ${v.version}`) ?? 0) + v.stakeShare);
+    }
+  }
+  const order = [...share.entries()].map(([group, s]) => ({ group, share: s })).sort((a, b) => b.share - a.share);
+  mkdirSync(join(dataDir, 'figures'), { recursive: true });
+  writeFileSync(join(dataDir, 'figures', 'fee-vs-arrival.svg'), feeVsArrivalSvg(feeVsArrival(landed, runLeads(dataDir)), order));
   writeFileSync(join(dataDir, 'landed-probes.json'), JSON.stringify(landed, null, 1));
 }

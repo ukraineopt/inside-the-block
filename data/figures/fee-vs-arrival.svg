@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1216 496" width="1216" height="496" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" role="img" aria-labelledby="t d">
+<title id="t">Higher fee first, by client and arrival condition</title>
+<desc id="d">Share of same-block pairs of our probes (shared fee payer) in which the higher-fee probe is earlier, when it was sent at the same time or later than the lower-fee one. 95% bootstrap intervals. Data: data/ANALYSIS.md.</desc>
+<style>
+  .bg{fill:#fcfcfb}.ink{fill:#0b0b0b}.ink2{fill:#52514e}.muted{fill:#898781}
+  .grid{stroke:#e1e0d9;stroke-width:1}.base{stroke:#c3c2b7;stroke-width:1}.half{stroke:#898781;stroke-width:1;stroke-dasharray:3 3}
+  .s{stroke:#2a78d6;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ci{stroke:#2a78d6;stroke-width:1.5;opacity:.45}
+  .dot{fill:#2a78d6;stroke:#fcfcfb;stroke-width:2}.sep{stroke:#e1e0d9;stroke-width:1}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19}.ink{fill:#f0efec}.ink2{fill:#c3c2b7}
+    .grid{stroke:#2c2c2a}.base{stroke:#383835}.sep{stroke:#2c2c2a}
+    .s{stroke:#3987e5}.ci{stroke:#3987e5}.dot{fill:#3987e5;stroke:#1a1a19}
+  }
+  text{font-size:11px}.t{font-size:13px;font-weight:600}.h{font-size:15px;font-weight:600}.v{font-size:10px;font-variant-numeric:tabular-nums}
+</style>
+<rect class="bg" width="1216" height="496"/>
+<text class="h ink" x="12" y="22">Does the higher-fee transaction still land first if it arrives later?</text>
+<text class="ink2" x="12" y="42">Share of same-block pairs of our probes (shared fee payer) in which the higher-fee probe is earlier. 100% = ordered by fee, 0% = ordered by arrival,</text>
+<text class="ink2" x="12" y="58">dashed line = coin flip. Left: all 8 probes sent within 1 ms (queued before the slot / arriving mid-block). Right: higher fee sent this many ms later. Bars: 95% CI.</text>
+<g transform="translate(8,64)">
+<text class="t ink" x="42" y="22">AgaveBam 4.3.2</text>
+<text class="ink2" x="42" y="36">35.4% of stake</text>
+<line class="base" x1="42" x2="284" y1="160" y2="160"/>
+<text class="v muted" x="36" y="163.5" text-anchor="end">0%</text>
+<line class="half" x1="42" x2="284" y1="103" y2="103"/>
+<text class="v muted" x="36" y="106.5" text-anchor="end">50%</text>
+<line class="grid" x1="42" x2="284" y1="46" y2="46"/>
+<text class="v muted" x="36" y="49.5" text-anchor="end">100%</text>
+<line class="sep" x1="138.8" x2="138.8" y1="46" y2="160"/>
+<text class="v muted" x="66.2" y="175" text-anchor="middle">queued</text>
+<text class="v muted" x="114.6" y="175" text-anchor="middle">mid-block</text>
+<text class="v muted" x="163" y="175" text-anchor="middle">1–20</text>
+<text class="v muted" x="211.4" y="175" text-anchor="middle">20–50</text>
+<text class="v muted" x="259.8" y="175" text-anchor="middle">50–150</text>
+<text class="v ink2" x="90.4" y="192" text-anchor="middle">burst</text>
+<text class="v ink2" x="211.4" y="192" text-anchor="middle">higher fee sent later, ms</text>
+<polyline class="s" points="163,84 211.4,92.94117647058823 259.8,118.54545454545455"/>
+<line class="ci" x1="66.2" x2="66.2" y1="46" y2="46"/>
+<circle class="dot" cx="66.2" cy="46" r="4.5"><title>AgaveBam 4.3.2, queued: 100% of 45 pairs, 4 batches</title></circle>
+<line class="ci" x1="114.6" x2="114.6" y1="46" y2="46"/>
+<circle class="dot" cx="114.6" cy="46" r="4.5"><title>AgaveBam 4.3.2, mid-block: 100% of 31 pairs, 3 batches</title></circle>
+<line class="ci" x1="163" x2="163" y1="96.66666666666666" y2="65"/>
+<circle class="dot" cx="163" cy="84" r="4.5"><title>AgaveBam 4.3.2, 1–20: 67% of 9 pairs, 4 batches</title></circle>
+<line class="ci" x1="211.4" x2="211.4" y1="151.23076923076923" y2="52.333333333333336"/>
+<circle class="dot" cx="211.4" cy="92.94117647058823" r="4.5"><title>AgaveBam 4.3.2, 20–50: 59% of 17 pairs, 5 batches</title></circle>
+<line class="ci" x1="259.8" x2="259.8" y1="160" y2="74.5"/>
+<circle class="dot" cx="259.8" cy="118.54545454545455" r="4.5"><title>AgaveBam 4.3.2, 50–150: 36% of 22 pairs, 4 batches</title></circle>
+<text class="v ink2" x="66.2" y="61" text-anchor="middle">100%</text>
+<text class="v ink2" x="259.8" y="109.54545454545455" text-anchor="middle">36%</text>
+</g>
+<g transform="translate(308,64)">
+<text class="t ink" x="42" y="22">JitoLabs 4.3.2</text>
+<text class="ink2" x="42" y="36">23.0% of stake</text>
+<line class="base" x1="42" x2="284" y1="160" y2="160"/>
+<text class="v muted" x="36" y="163.5" text-anchor="end">0%</text>
+<line class="half" x1="42" x2="284" y1="103" y2="103"/>
+<text class="v muted" x="36" y="106.5" text-anchor="end">50%</text>
+<line class="grid" x1="42" x2="284" y1="46" y2="46"/>
+<text class="v muted" x="36" y="49.5" text-anchor="end">100%</text>
+<line class="sep" x1="138.8" x2="138.8" y1="46" y2="160"/>
+<text class="v muted" x="66.2" y="175" text-anchor="middle">queued</text>
+<text class="v muted" x="114.6" y="175" text-anchor="middle">mid-block</text>
+<text class="v muted" x="163" y="175" text-anchor="middle">1–20</text>
+<text class="v muted" x="211.4" y="175" text-anchor="middle">20–50</text>
+<text class="v muted" x="259.8" y="175" text-anchor="middle">50–150</text>
+<text class="v ink2" x="90.4" y="192" text-anchor="middle">burst</text>
+<text class="v ink2" x="211.4" y="192" text-anchor="middle">higher fee sent later, ms</text>
+<polyline class="s" points="163,128.07999999999998 211.4,91.23809523809524 259.8,130.94117647058823"/>
+<line class="ci" x1="66.2" x2="66.2" y1="99.70247933884298" y2="54.76923076923076"/>
+<circle class="dot" cx="66.2" cy="75.36363636363636" r="4.5"><title>JitoLabs 4.3.2, queued: 74% of 132 pairs, 10 batches</title></circle>
+<line class="ci" x1="114.6" x2="114.6" y1="108.18181818181819" y2="52.333333333333336"/>
+<circle class="dot" cx="114.6" cy="75.05882352941177" r="4.5"><title>JitoLabs 4.3.2, mid-block: 75% of 51 pairs, 5 batches</title></circle>
+<line class="ci" x1="163" x2="163" y1="155.44" y2="98.25"/>
+<circle class="dot" cx="163" cy="128.07999999999998" r="4.5"><title>JitoLabs 4.3.2, 1–20: 28% of 25 pairs, 8 batches</title></circle>
+<line class="ci" x1="211.4" x2="211.4" y1="120.53846153846153" y2="69.0886075949367"/>
+<circle class="dot" cx="211.4" cy="91.23809523809524" r="4.5"><title>JitoLabs 4.3.2, 20–50: 60% of 63 pairs, 15 batches</title></circle>
+<line class="ci" x1="259.8" x2="259.8" y1="160" y2="104.78125"/>
+<circle class="dot" cx="259.8" cy="130.94117647058823" r="4.5"><title>JitoLabs 4.3.2, 50–150: 25% of 51 pairs, 9 batches</title></circle>
+<text class="v ink2" x="66.2" y="66.36363636363636" text-anchor="middle">74%</text>
+<text class="v ink2" x="259.8" y="121.94117647058823" text-anchor="middle">25%</text>
+</g>
+<g transform="translate(608,64)">
+<text class="t ink" x="42" y="22">HarmonicAgave 4.3.2</text>
+<text class="ink2" x="42" y="36">21.7% of stake</text>
+<line class="base" x1="42" x2="284" y1="160" y2="160"/>
+<text class="v muted" x="36" y="163.5" text-anchor="end">0%</text>
+<line class="half" x1="42" x2="284" y1="103" y2="103"/>
+<text class="v muted" x="36" y="106.5" text-anchor="end">50%</text>
+<line class="grid" x1="42" x2="284" y1="46" y2="46"/>
+<text class="v muted" x="36" y="49.5" text-anchor="end">100%</text>
+<line class="sep" x1="138.8" x2="138.8" y1="46" y2="160"/>
+<text class="v muted" x="66.2" y="175" text-anchor="middle">queued</text>
+<text class="v muted" x="114.6" y="175" text-anchor="middle">mid-block</text>
+<text class="v muted" x="163" y="175" text-anchor="middle">1–20</text>
+<text class="v muted" x="211.4" y="175" text-anchor="middle">20–50</text>
+<text class="v muted" x="259.8" y="175" text-anchor="middle">50–150</text>
+<text class="v ink2" x="90.4" y="192" text-anchor="middle">burst</text>
+<text class="v ink2" x="211.4" y="192" text-anchor="middle">higher fee sent later, ms</text>
+<polyline class="s" points="163,85.1875 211.4,148.20689655172413 259.8,160"/>
+<line class="ci" x1="66.2" x2="66.2" y1="60.074074074074076" y2="51.24137931034483"/>
+<circle class="dot" cx="66.2" cy="55.27906976744187" r="4.5"><title>HarmonicAgave 4.3.2, queued: 92% of 86 pairs, 7 batches</title></circle>
+<line class="ci" x1="163" x2="163" y1="99.64705882352942" y2="72.6"/>
+<circle class="dot" cx="163" cy="85.1875" r="4.5"><title>HarmonicAgave 4.3.2, 1–20: 66% of 32 pairs, 9 batches</title></circle>
+<line class="ci" x1="211.4" x2="211.4" y1="160" y2="132.64"/>
+<circle class="dot" cx="211.4" cy="148.20689655172413" r="4.5"><title>HarmonicAgave 4.3.2, 20–50: 10% of 29 pairs, 9 batches</title></circle>
+<line class="ci" x1="259.8" x2="259.8" y1="160" y2="160"/>
+<circle class="dot" cx="259.8" cy="160" r="4.5"><title>HarmonicAgave 4.3.2, 50–150: 0% of 58 pairs, 8 batches</title></circle>
+<text class="v ink2" x="66.2" y="70.27906976744187" text-anchor="middle">92%</text>
+<text class="v ink2" x="259.8" y="151" text-anchor="middle">0%</text>
+</g>
+<g transform="translate(908,64)">
+<text class="t ink" x="42" y="22">HarmonicFiredancer 26.10.4</text>
+<text class="ink2" x="42" y="36">8.7% of stake</text>
+<line class="base" x1="42" x2="284" y1="160" y2="160"/>
+<text class="v muted" x="36" y="163.5" text-anchor="end">0%</text>
+<line class="half" x1="42" x2="284" y1="103" y2="103"/>
+<text class="v muted" x="36" y="106.5" text-anchor="end">50%</text>
+<line class="grid" x1="42" x2="284" y1="46" y2="46"/>
+<text class="v muted" x="36" y="49.5" text-anchor="end">100%</text>
+<line class="sep" x1="138.8" x2="138.8" y1="46" y2="160"/>
+<text class="v muted" x="66.2" y="175" text-anchor="middle">queued</text>
+<text class="v muted" x="114.6" y="175" text-anchor="middle">mid-block</text>
+<text class="v muted" x="163" y="175" text-anchor="middle">1–20</text>
+<text class="v muted" x="211.4" y="175" text-anchor="middle">20–50</text>
+<text class="v muted" x="259.8" y="175" text-anchor="middle">50–150</text>
+<text class="v ink2" x="90.4" y="192" text-anchor="middle">burst</text>
+<text class="v ink2" x="211.4" y="192" text-anchor="middle">higher fee sent later, ms</text>
+<polyline class="s" points="163,125.30434782608695 211.4,144.45454545454544 259.8,160"/>
+<line class="ci" x1="66.2" x2="66.2" y1="56.15841584158416" y2="48.88607594936709"/>
+<circle class="dot" cx="66.2" cy="52.47727272727272" r="4.5"><title>HarmonicFiredancer 26.10.4, queued: 94% of 88 pairs, 6 batches</title></circle>
+<line class="ci" x1="163" x2="163" y1="141" y2="113.55555555555556"/>
+<circle class="dot" cx="163" cy="125.30434782608695" r="4.5"><title>HarmonicFiredancer 26.10.4, 1–20: 30% of 23 pairs, 7 batches</title></circle>
+<line class="ci" x1="211.4" x2="211.4" y1="160" y2="120.34782608695652"/>
+<circle class="dot" cx="211.4" cy="144.45454545454544" r="4.5"><title>HarmonicFiredancer 26.10.4, 20–50: 14% of 22 pairs, 7 batches</title></circle>
+<line class="ci" x1="259.8" x2="259.8" y1="160" y2="160"/>
+<circle class="dot" cx="259.8" cy="160" r="4.5"><title>HarmonicFiredancer 26.10.4, 50–150: 0% of 42 pairs, 6 batches</title></circle>
+<text class="v ink2" x="66.2" y="67.47727272727272" text-anchor="middle">94%</text>
+<text class="v ink2" x="259.8" y="151" text-anchor="middle">0%</text>
+</g>
+<g transform="translate(8,274)">
+<text class="t ink" x="42" y="22">Firedancer 26.10.4</text>
+<text class="ink2" x="42" y="36">6.5% of stake</text>
+<line class="base" x1="42" x2="284" y1="160" y2="160"/>
+<text class="v muted" x="36" y="163.5" text-anchor="end">0%</text>
+<line class="half" x1="42" x2="284" y1="103" y2="103"/>
+<text class="v muted" x="36" y="106.5" text-anchor="end">50%</text>
+<line class="grid" x1="42" x2="284" y1="46" y2="46"/>
+<text class="v muted" x="36" y="49.5" text-anchor="end">100%</text>
+<line class="sep" x1="138.8" x2="138.8" y1="46" y2="160"/>
+<text class="v muted" x="66.2" y="175" text-anchor="middle">queued</text>
+<text class="v muted" x="114.6" y="175" text-anchor="middle">mid-block</text>
+<text class="v muted" x="163" y="175" text-anchor="middle">1–20</text>
+<text class="v muted" x="211.4" y="175" text-anchor="middle">20–50</text>
+<text class="v muted" x="259.8" y="175" text-anchor="middle">50–150</text>
+<text class="v ink2" x="90.4" y="192" text-anchor="middle">burst</text>
+<text class="v ink2" x="211.4" y="192" text-anchor="middle">higher fee sent later, ms</text>
+<polyline class="s" points="163,100.52173913043478 211.4,95.56521739130434 259.8,103"/>
+<line class="ci" x1="66.2" x2="66.2" y1="67.375" y2="46"/>
+<circle class="dot" cx="66.2" cy="53.90751445086705" r="4.5"><title>Firedancer 26.10.4, queued: 93% of 173 pairs, 12 batches</title></circle>
+<line class="ci" x1="114.6" x2="114.6" y1="89.18181818181819" y2="46"/>
+<circle class="dot" cx="114.6" cy="63.91428571428571" r="4.5"><title>Firedancer 26.10.4, mid-block: 84% of 70 pairs, 5 batches</title></circle>
+<line class="ci" x1="163" x2="163" y1="128.9090909090909" y2="70.78260869565217"/>
+<circle class="dot" cx="163" cy="100.52173913043478" r="4.5"><title>Firedancer 26.10.4, 1–20: 52% of 23 pairs, 8 batches</title></circle>
+<line class="ci" x1="211.4" x2="211.4" y1="141" y2="57.4"/>
+<circle class="dot" cx="211.4" cy="95.56521739130434" r="4.5"><title>Firedancer 26.10.4, 20–50: 57% of 23 pairs, 8 batches</title></circle>
+<line class="ci" x1="259.8" x2="259.8" y1="147.78571428571428" y2="57.4"/>
+<circle class="dot" cx="259.8" cy="103" r="4.5"><title>Firedancer 26.10.4, 50–150: 50% of 42 pairs, 8 batches</title></circle>
+<text class="v ink2" x="66.2" y="68.90751445086704" text-anchor="middle">93%</text>
+<text class="v ink2" x="259.8" y="94" text-anchor="middle">50%</text>
+</g>
+<g transform="translate(308,274)">
+<text class="t ink" x="42" y="22">FireBAM 26.10.4</text>
+<text class="ink2" x="42" y="36">1.6% of stake</text>
+<line class="base" x1="42" x2="284" y1="160" y2="160"/>
+<text class="v muted" x="36" y="163.5" text-anchor="end">0%</text>
+<line class="half" x1="42" x2="284" y1="103" y2="103"/>
+<text class="v muted" x="36" y="106.5" text-anchor="end">50%</text>
+<line class="grid" x1="42" x2="284" y1="46" y2="46"/>
+<text class="v muted" x="36" y="49.5" text-anchor="end">100%</text>
+<line class="sep" x1="138.8" x2="138.8" y1="46" y2="160"/>
+<text class="v muted" x="66.2" y="175" text-anchor="middle">queued</text>
+<text class="v muted" x="114.6" y="175" text-anchor="middle">mid-block</text>
+<text class="v muted" x="163" y="175" text-anchor="middle">1–20</text>
+<text class="v muted" x="211.4" y="175" text-anchor="middle">20–50</text>
+<text class="v muted" x="259.8" y="175" text-anchor="middle">50–150</text>
+<text class="v ink2" x="90.4" y="192" text-anchor="middle">burst</text>
+<text class="v ink2" x="211.4" y="192" text-anchor="middle">higher fee sent later, ms</text>
+<line class="ci" x1="66.2" x2="66.2" y1="46" y2="46"/>
+<circle class="dot" cx="66.2" cy="46" r="4.5"><title>FireBAM 26.10.4, queued: 100% of 24 pairs, 2 batches</title></circle>
+<line class="ci" x1="114.6" x2="114.6" y1="46" y2="46"/>
+<circle class="dot" cx="114.6" cy="46" r="4.5"><title>FireBAM 26.10.4, mid-block: 100% of 14 pairs, 2 batches</title></circle>
+<line class="ci" x1="211.4" x2="211.4" y1="46" y2="46"/>
+<circle class="dot" cx="211.4" cy="46" r="4.5"><title>FireBAM 26.10.4, 20–50: 100% of 11 pairs, 3 batches</title></circle>
+<text class="v ink2" x="66.2" y="61" text-anchor="middle">100%</text>
+</g>
+<g transform="translate(608,274)">
+<text class="t ink" x="42" y="22">Rakurai 4.3.2</text>
+<text class="ink2" x="42" y="36">1.2% of stake</text>
+<line class="base" x1="42" x2="284" y1="160" y2="160"/>
+<text class="v muted" x="36" y="163.5" text-anchor="end">0%</text>
+<line class="half" x1="42" x2="284" y1="103" y2="103"/>
+<text class="v muted" x="36" y="106.5" text-anchor="end">50%</text>
+<line class="grid" x1="42" x2="284" y1="46" y2="46"/>
+<text class="v muted" x="36" y="49.5" text-anchor="end">100%</text>
+<line class="sep" x1="138.8" x2="138.8" y1="46" y2="160"/>
+<text class="v muted" x="66.2" y="175" text-anchor="middle">queued</text>
+<text class="v muted" x="114.6" y="175" text-anchor="middle">mid-block</text>
+<text class="v muted" x="163" y="175" text-anchor="middle">1–20</text>
+<text class="v muted" x="211.4" y="175" text-anchor="middle">20–50</text>
+<text class="v muted" x="259.8" y="175" text-anchor="middle">50–150</text>
+<text class="v ink2" x="90.4" y="192" text-anchor="middle">burst</text>
+<text class="v ink2" x="211.4" y="192" text-anchor="middle">higher fee sent later, ms</text>
+<line class="ci" x1="66.2" x2="66.2" y1="97.81818181818181" y2="46"/>
+<circle class="dot" cx="66.2" cy="65" r="4.5"><title>Rakurai 4.3.2, queued: 83% of 30 pairs, 2 batches</title></circle>
+<line class="ci" x1="114.6" x2="114.6" y1="56.36363636363637" y2="46"/>
+<circle class="dot" cx="114.6" cy="50.22222222222223" r="4.5"><title>Rakurai 4.3.2, mid-block: 96% of 27 pairs, 2 batches</title></circle>
+<text class="v ink2" x="66.2" y="56" text-anchor="middle">83%</text>
+</g>
+<g transform="translate(908,274)">
+<text class="t ink" x="42" y="22">Agave 4.3.2</text>
+<text class="ink2" x="42" y="36">0.9% of stake</text>
+<line class="base" x1="42" x2="284" y1="160" y2="160"/>
+<text class="v muted" x="36" y="163.5" text-anchor="end">0%</text>
+<line class="half" x1="42" x2="284" y1="103" y2="103"/>
+<text class="v muted" x="36" y="106.5" text-anchor="end">50%</text>
+<line class="grid" x1="42" x2="284" y1="46" y2="46"/>
+<text class="v muted" x="36" y="49.5" text-anchor="end">100%</text>
+<line class="sep" x1="138.8" x2="138.8" y1="46" y2="160"/>
+<text class="v muted" x="66.2" y="175" text-anchor="middle">queued</text>
+<text class="v muted" x="114.6" y="175" text-anchor="middle">mid-block</text>
+<text class="v muted" x="163" y="175" text-anchor="middle">1–20</text>
+<text class="v muted" x="211.4" y="175" text-anchor="middle">20–50</text>
+<text class="v muted" x="259.8" y="175" text-anchor="middle">50–150</text>
+<text class="v ink2" x="90.4" y="192" text-anchor="middle">burst</text>
+<text class="v ink2" x="211.4" y="192" text-anchor="middle">higher fee sent later, ms</text>
+<polyline class="s" points="163,103 211.4,100.52173913043478 259.8,134.35000000000002"/>
+<line class="ci" x1="66.2" x2="66.2" y1="109.33333333333334" y2="47.40740740740741"/>
+<circle class="dot" cx="66.2" cy="78.37037037037038" r="4.5"><title>Agave 4.3.2, queued: 72% of 81 pairs, 6 batches</title></circle>
+<line class="ci" x1="114.6" x2="114.6" y1="134.0909090909091" y2="71.33333333333333"/>
+<circle class="dot" cx="114.6" cy="102.03389830508475" r="4.5"><title>Agave 4.3.2, mid-block: 51% of 59 pairs, 5 batches</title></circle>
+<line class="ci" x1="163" x2="163" y1="149.63636363636363" y2="55.5"/>
+<circle class="dot" cx="163" cy="103" r="4.5"><title>Agave 4.3.2, 1–20: 50% of 12 pairs, 5 batches</title></circle>
+<line class="ci" x1="211.4" x2="211.4" y1="127" y2="77.0909090909091"/>
+<circle class="dot" cx="211.4" cy="100.52173913043478" r="4.5"><title>Agave 4.3.2, 20–50: 52% of 46 pairs, 12 batches</title></circle>
+<line class="ci" x1="259.8" x2="259.8" y1="160" y2="88"/>
+<circle class="dot" cx="259.8" cy="134.35000000000002" r="4.5"><title>Agave 4.3.2, 50–150: 23% of 40 pairs, 6 batches</title></circle>
+<text class="v ink2" x="66.2" y="69.37037037037038" text-anchor="middle">72%</text>
+<text class="v ink2" x="259.8" y="125.35000000000002" text-anchor="middle">23%</text>
+</g>
+</svg>
