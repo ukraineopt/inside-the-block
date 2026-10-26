@@ -1,0 +1,12 @@
+node_modules/
+keys/*
+!keys/.gitkeep
+.env
+*.log
+.DS_Store
+test/.devnet-key.json
+data-dev/
+sender/target/
+data/verify-tmp/
+notes.md
+RESEARCH.md

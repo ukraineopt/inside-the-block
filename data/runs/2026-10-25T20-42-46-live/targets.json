@@ -1,0 +1,38 @@
+[
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "vote": "8BMMDVM8Tb88a2Hx1VSZ1TKmH1rMHbVU7xVafMk9JrEW",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1875001.9534662,
+  "stakeShare": 0.0042888900803605,
+  "tpuQuic": "5.199.172.176:12002"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "vote": "AzbQjKoLepbDS8C6hgkRY7UCRwbwZZ9HqdtnWyef9WjX",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1207980.324911175,
+  "stakeShare": 0.0027631410320424427,
+  "tpuQuic": "185.189.44.172:12002"
+ },
+ {
+  "identity": "rsbp8zMHbGCpLoRktmsjspYv77VcjxAzH1KxPCD9BiU",
+  "vote": "R4spmF6oFW6wMQHv9L3PCEKumkspN3nveQihWyDAdRy",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 278047.357418118,
+  "stakeShare": 0.0006360070990307444,
+  "tpuQuic": "209.250.251.15:8002"
+ },
+ {
+  "identity": "dxa6QFqLcByyHykLCAW5tv1VYNVQFV3v6oovM2h8inH",
+  "vote": "7MKUXUiiVeWFwLaNyw5exkujXnen5yB77hQa54KLD98h",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 191577.05063598,
+  "stakeShare": 0.00043821442989882593,
+  "tpuQuic": "67.213.112.229:8002"
+ }
+]

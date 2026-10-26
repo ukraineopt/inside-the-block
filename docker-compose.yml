@@ -1,0 +1,33 @@
+# One command:   docker compose up
+#   -> mainnet DRY-RUN: snapshot validators, pick leader windows, build+sign+time every batch WITHOUT sending,
+#      fetch the targeted blocks, write data/ANALYSIS.md.
+# Live sending needs all three: a key in ./keys/burner.json, LIVE=I_UNDERSTAND_THIS_SPENDS_SOL in .env,
+# and the --live flag:   docker compose run --rm itb all --live
+services:
+  itb:
+    build: .
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./data:/app/data
+      - ./keys:/keys:ro
+    command: ["all"]
+
+  # Offline checks (no network): tx encoding, spend cap, analysis on fixture blocks.
+  test:
+    build: .
+    entrypoint: ["sh", "-c", "node --test test/*.test.ts"]
+    command: []
+    profiles: ["test"]
+
+  # Judges: re-fetch every block that contains one of our probes and compare positions with data/blocks.
+  verify:
+    build: .
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./data:/app/data
+    command: ["verify"]
+    profiles: ["verify"]

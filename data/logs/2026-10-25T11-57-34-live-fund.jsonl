@@ -1,0 +1,11 @@
+{"ts":"2026-10-25T11:57:34.497Z","event":"start","cmd":"fund","live":true,"rpc":"https://api.mainnet-beta.solana.com","capSol":0.05,"seed":1928092060}
+{"ts":"2026-10-25T11:57:35.372Z","event":"wallet","payer":"ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD","balance":"59641776","subPayersLocked":"0","ledgerReserved":"634256","capRemaining":"49365744"}
+{"ts":"2026-10-25T11:57:35.559Z","event":"fund.sent","sub":"7Ff6MJZGpNbBo8sZMe1Fk1yX5HBAGgHsRbQ967JcNYno","sig":"4szB4D6FE6xTfQWaYY99kUQKVwsMkBFFC3A88LmzZadQSPKhpRWpQ3HTMxupvojUm6z8A49LpSpF1wP3BqZexAq1"}
+{"ts":"2026-10-25T11:57:37.250Z","event":"fund.sent","sub":"7UgHRrUuVQK8o2nNj4ywksU3ri4RhNn2mN3ozK1rNPqJ","sig":"41zNFuJSFnTU7PBPMnM9CgvVVdzu8LsnnqSTtndxSsNX9b4o6jVVTgEnYnoWArL6tcmzPUCxNZiWNHrJ5ZBegt6E"}
+{"ts":"2026-10-25T11:57:38.977Z","event":"fund.sent","sub":"3QC3z17XaDookSJFGua5m75MkuBQ5oo5eEjEChaAjHBY","sig":"5U7MNJ2ivhaeJivMJnaDaU3LCepvXK1rFbeLNBoYFizbFCwTvbEP38Mnn1UgzSUQ3v3MHDbf1MrxNwWTFNMzzWMm"}
+{"ts":"2026-10-25T11:57:40.739Z","event":"fund.sent","sub":"C4J8scggRrdZ4Ez2MQnhM9TDpzb2XGeRVdJFUaNMiLqv","sig":"S3dWwSrxevmf1RashyYuw3J5oBXfjb3mL1vzhtCr89gbKvHff8o5o85zNNuvY3asqh951tsxFxUWfXgRRu3zR1U"}
+{"ts":"2026-10-25T11:57:42.463Z","event":"fund.sent","sub":"GxLqnV5iAiWmm41uCLK9XJCRRAQ4b26Sekfve1hhFvx9","sig":"48tEndSgcsG1BnjSwaZjWmDRinBaUPYP3XSPJn8m3QKeqhkBK4arrUvwCbs3N8uQhwKmnoin2dEQb4xEG9eRMzDB"}
+{"ts":"2026-10-25T11:57:44.178Z","event":"fund.sent","sub":"EZpDcHQ3qEmtC7ChWoGXamjSKGQdh5CZ2P4Z9wYVfMzA","sig":"2WJPcjbWQLDbjMcw2BZepkyt89szwudN48nKSGLVGVJALx18q2xezP6E7RDj6PcpT1cf9xWYicyAsBxUjCuJgBFH"}
+{"ts":"2026-10-25T11:57:45.860Z","event":"fund.sent","sub":"2YMoxgE921qDQWgWMTG5HUvopQEzFNLuCCWxjBD9MPPR","sig":"TfKH9HJeU6Qsa6NQR1FPPwLLhMu1hpLmgQJPPYEpmqvgPqGzodnyHPQDbmg2sgqU4nbGy8iHQzMehf39iQLediM"}
+{"ts":"2026-10-25T11:57:47.579Z","event":"fund.sent","sub":"APtVK7gBRxjjZhjSKftx4H5n7Ha8QBMxMbutbLUHRQxr","sig":"5yx8qyaQ1Dk5Z5yFsSkUEefc3Zz95X3dfnVXEY4HqVutxUFV8Hi1nGLn31QD4hkNRwTFKMV3WSdNozLLtcdVicvm"}
+{"ts":"2026-10-25T11:57:49.498Z","event":"fund.confirmed","subPayers":8}

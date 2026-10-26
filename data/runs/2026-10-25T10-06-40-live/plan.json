@@ -1,0 +1,42 @@
+[
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461217264,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461217280,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461217296,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461217320,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461217392,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461217416,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461217672,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461217884,
+  "client": "Agave 4.3.2"
+ }
+]

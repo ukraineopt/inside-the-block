@@ -1,0 +1,5987 @@
+[
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "vote": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 17099112.748625334,
+  "stakeShare": 0.039130522456271875,
+  "tpuQuic": "198.13.140.105:12341"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "vote": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 16646121.3256387,
+  "stakeShare": 0.03809387270079833,
+  "tpuQuic": "64.130.57.215:8002"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "vote": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 12588035.108330877,
+  "stakeShare": 0.028807131558710865,
+  "tpuQuic": "208.91.105.55:5010"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "vote": "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 10881430.464745795,
+  "stakeShare": 0.024901646384624707,
+  "tpuQuic": "64.130.32.153:8002"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "vote": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 9721917.560720269,
+  "stakeShare": 0.02224815515403699,
+  "tpuQuic": "198.13.140.105:12349"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "vote": "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 9483244.321828647,
+  "stakeShare": 0.021701962572500233,
+  "tpuQuic": "64.130.46.242:12291"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "vote": "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 9216836.57797752,
+  "stakeShare": 0.02109230086919757,
+  "tpuQuic": "185.26.10.33:8022"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "vote": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 7785035.622557846,
+  "stakeShare": 0.017815691125603397,
+  "tpuQuic": "104.204.143.114:9007"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "vote": "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 7038249.327744019,
+  "stakeShare": 0.016106705501095026,
+  "tpuQuic": "86.54.152.246:9007"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "vote": "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 7006652.891236588,
+  "stakeShare": 0.01603439852900423,
+  "tpuQuic": "198.13.140.105:12351"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "vote": "3JD3jMmnR6g88qff2WZ3cMHJRjJMUk9yVZtmYTYeFrXf",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 6608866.541600444,
+  "stakeShare": 0.015124083010528751,
+  "tpuQuic": "86.54.153.246:9007"
+ },
+ {
+  "identity": "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm",
+  "vote": "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 5973284.73285579,
+  "stakeShare": 0.01366958366863278,
+  "tpuQuic": "188.42.129.244:11228"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "vote": "GHViLgbrJdZDPb6sphRbeuPNM9cmjsFuGWzrTF1sKF5n",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 5695980.556098735,
+  "stakeShare": 0.013034985986558176,
+  "tpuQuic": "63.254.180.13:5010"
+ },
+ {
+  "identity": "GnC339vkyXRm1jRX69dt9mapPPu2LbzXfSDoxc91qta6",
+  "vote": "FKsC411dik9ktS6xPADxs4Fk2SCENvAiuccQHLAPndvk",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 4860666.858820382,
+  "stakeShare": 0.011123409528182589,
+  "tpuQuic": "23.109.158.124:11228"
+ },
+ {
+  "identity": "9rkJMARqK6VBkcxGfKBAwnA44gPAfGxPbPsfsggFNDSQ",
+  "vote": "HimWQUK61d9wxhw7EYu9jUje7xQiDs4jKexaTSvuCmXE",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 4724283.013079442,
+  "stakeShare": 0.010811301454688097,
+  "tpuQuic": "64.34.88.249:8002"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "vote": "HZKopZYvv8v6un2H6KUNVQCnK5zM9emKKezvqhTBSpEc",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 4477329.987787841,
+  "stakeShare": 0.010246160967934235,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "vote": "2tucttroqFNXsrYeMBQ8LfzKNfgwT2rHBzAF6RzbbHEp",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 4319077.999838884,
+  "stakeShare": 0.009884008670372237,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "vote": "3ZYJxzCeweSoh2Jj7oCgencFs9y27iKmXJeqYapje1cj",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 4111388.028620624,
+  "stakeShare": 0.00940871985263215,
+  "tpuQuic": "63.254.166.232:12324"
+ },
+ {
+  "identity": "FBKFWadXZJahGtFitAsBvbqh5968gLY7dMBBJUoUjeNi",
+  "vote": "AZoCYB4VgoM9DR9f1ZFcBn8xPSbtbqoxZnKJR7tkvEoX",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 4064606.245070861,
+  "stakeShare": 0.00930166192169444,
+  "tpuQuic": "64.130.46.242:12326"
+ },
+ {
+  "identity": "BtsmiEEvnSuUnKxqXj2PZRYpPJAc7C34mGz8gtJ1DAaH",
+  "vote": "G9x1mqewTeVnXLmv3FamYD5tq1AdS395RHH3MLQPj6TY",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 4063118.299306379,
+  "stakeShare": 0.009298256827172476,
+  "tpuQuic": "64.130.46.242:12315"
+ },
+ {
+  "identity": "5ZqveVffQPiUbkjBg4KD9kib1MKHLqiFno4ke9jSq9qk",
+  "vote": "EcEowA4GKDsdVBF9PNAZa6c9M4WgYG8y4GnpZSUaqioS",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 4043045.014180512,
+  "stakeShare": 0.009252320049870857,
+  "tpuQuic": "198.13.140.105:12302"
+ },
+ {
+  "identity": "A1vqhA2fS6K7CvHsJKX1ACcHJFEmyRg4KuR5pctHANy4",
+  "vote": "HkFuE9NJahP7uA8RooXtp64UQb7XNUMVisWsJTgx3far",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 3952258.902083781,
+  "stakeShare": 0.009044560264299272,
+  "tpuQuic": "63.254.166.232:12313"
+ },
+ {
+  "identity": "Hz5aLvpKScNWoe9YZWxBLrQA3qzHJivBGtfciMekk8m5",
+  "vote": "H74qox1GASBWd94FWMyy6GVAbRVLf9SAMgbJ1tzSUAst",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 3949030.125037797,
+  "stakeShare": 0.009037171358537812,
+  "tpuQuic": "64.130.46.242:12337"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "vote": "8Pep3GmYiijRALqrMKpez92cxvF4YPTzoZg83uXh14pW",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 3830697.317339731,
+  "stakeShare": 0.008766372244161826,
+  "tpuQuic": "64.130.45.196:9007"
+ },
+ {
+  "identity": "9UM8wQ8F5oMiRcP5YdqD6Lr4krpBWCD8LtgQYoisJd9i",
+  "vote": "9jToNMWCLW1GeoLGPZNvEfuXE4AUwiRsrC1HMGmh3PTu",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 3701335.423318138,
+  "stakeShare": 0.00847033357985132,
+  "tpuQuic": "64.130.46.242:12305"
+ },
+ {
+  "identity": "FNKgX9dYUhYQFRTM9bkeKoRpsyEtZGNMxbdQLDzfqB8a",
+  "vote": "AaVsZUEnrHUZoXC2oVgTY3GF5GGhzCTBGrjpBtuUWy1H",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 3649998.233364578,
+  "stakeShare": 0.008352850813707142,
+  "tpuQuic": "198.13.140.105:12327"
+ },
+ {
+  "identity": "shftkxnsXmqAkmLgz9Mn7bNB5Fr6mKgFc58kFHfVikj",
+  "vote": "shft7Fry1js37Hm9wq4dfwcZSp2DyKszeWMvEpjYCQ1",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 3604996.706320791,
+  "stakeShare": 0.008249866916797344,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "5EhGYUyQNrxgUbuYF4vbL2SZDT6RMfhq3yjeyevvULeC",
+  "vote": "iZADA4YKVRJZJaDUV3j79DzyK4VJkK3DGTfvvqvbC1K",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 3598007.0679959,
+  "stakeShare": 0.008233871455310295,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "krakeNd6ednDPEXxHAmoBs1qKVM8kLg79PvWF2mhXV1",
+  "vote": "KRAKEnMdmT4EfM8ykTFH6yLoCd5vNLcQvJwF66Y2dag",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 3407230.321292908,
+  "stakeShare": 0.007797287763469554,
+  "tpuQuic": "64.130.61.195:5010"
+ },
+ {
+  "identity": "6y7V8dL673XFzm9QyC5vvh3itWkp7wztahBd2yDqsyrK",
+  "vote": "7xENfwKCajMB5aVTgmTB6h7d7Su91wTcnfMjoAQCMvKq",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2916668.65537848,
+  "stakeShare": 0.006674660258379039,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "DrifTrN923QaouP89UxkQzFGbumKPCnfkNYQRwmZxatz",
+  "vote": "DriFTm3wM9ugxhCA1K3wVQMSdC4Dv4LNmyZMmZiuHRpp",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 2818118.309847001,
+  "stakeShare": 0.006449132386518968,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "GBQ2GvTzmjXMu97dr7WUnLKYTNim1aoZsYS53KYXAAAA",
+  "vote": "AuGwcQWqWuNbnrkgERSp8VN6kZeJiM4AZuLMrwbkzg9m",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2704164.867862008,
+  "stakeShare": 0.0061883552464348,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "GoeW4aFK4dGoekJySgUynWDxBZiQJqm8GDAF4H53tDK9",
+  "vote": "Ak5BJzQe2R8qFuyYmaAFPjXuD7XPux3ZNTv52D7rfiqR",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 2635697.699320404,
+  "stakeShare": 0.006031671322799641,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "3psxMyr7rQzywVp1MXKd1XFmFz33NjydzCoJx9t2sMQW",
+  "vote": "23XqhxnRHt5gQWHowvyRHDX4Ky6BZyFdYxjTzxx2QEFr",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 2618887.038750832,
+  "stakeShare": 0.005993200909709039,
+  "tpuQuic": "64.130.45.196:9007"
+ },
+ {
+  "identity": "GSTampk6BJRKSDkzhaMM49R7qRx98MTPYYWvKbp83XKc",
+  "vote": "At2rZHk554qWrjcmdNkCQGp8i4hdKLf52EXMrDmng5ab",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2502416.693398342,
+  "stakeShare": 0.005726663953592895,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "5ejbTALcBsKQ7Cj1iSuu2mY5jqbYHqh9gF5ERXLiYj1z",
+  "vote": "72LbWsZFEyB7xrB9ggeoPUrSw2vzPEnsPJJHZo1svkM7",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2502416.680489477,
+  "stakeShare": 0.005726663924051559,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "GQzMeEMwAR44ugoNCifTb5NdRKos1GduDUPeNh6AgV46",
+  "vote": "oixpqSNX7CKWHw93ViA8u1CcLzZXDmacKJjV4AvxMZE",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2502396.555572177,
+  "stakeShare": 0.005726617869116434,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "BSVckjdW2f8kcXPGcrPPtV9kUDBZ8w8PjrrGVnxgEdwq",
+  "vote": "2uXzxR2EZVaHE3CuaDaUJ8C9Qr54LMfwkY5BtRPAzbPE",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2502392.14187419,
+  "stakeShare": 0.005726607768574333,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "76rcGHdPvgs8G1XrzCXUTWtwgT59AFDvpB4VbTS2TBBJ",
+  "vote": "8mHUDJjzPo2AwJp8SHKmG9rk9ftWTp7UysqYz36cMpJe",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2502384.46042285,
+  "stakeShare": 0.00572659018993101,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "3SkE34PVeGck2ArEffFKjihrQgURsvnoTAhitsNXNzXd",
+  "vote": "BhREyEsP3YAtQbTCrKcXgTNTeaq9gdjWji3Nz4d8Q1P2",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 2500001.947676992,
+  "stakeShare": 0.005721137920572084,
+  "tpuQuic": "185.189.44.170:12002"
+ },
+ {
+  "identity": "HpcB5Qg8Y9E73dUkot5e8HkgAJbExsYeUzniY4bCuKac",
+  "vote": "HDc84gs3CtqhebHycmoDpc5n2y3CFfd5GqYZkr2XiBMR",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2500001.93738256,
+  "stakeShare": 0.005721137897013756,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "DUND26mEDfFeaPsVof3YvbXDRvpuQX7HMUJrLgEWzYw4",
+  "vote": "JDMq8hxZnad2smKLGkFbfg8zVMZHKQcMugD4tMR9u2da",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2500000.99217168,
+  "stakeShare": 0.005721135733942718,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "2GUnfxZavKoPfS9s3VSEjaWDzB3vNf5RojUhprCS1rSx",
+  "vote": "BU3ZgGBXFJwNTrN6VUJ88k9SJ71SyWfBJTabYqRErm4F",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2500000.93966544,
+  "stakeShare": 0.0057211356137846356,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "Aw5wEMXhbygFLR7jHtHpih8QvxVBGAMTqsQ2SjWPk1ex",
+  "vote": "33hurzEz6aEnzfESL6pnNyR6DCgcKzssT1pwSzDCBTRQ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2500000.93966544,
+  "stakeShare": 0.0057211356137846356,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "FbYX2uN573G5WsgiPdHU6fS5PNUyjdXfGfpZNkYUuT4k",
+  "vote": "E9W5kU2fnha9yp4RmFZgNNsRUvy6oKnB9ZyR9LC81WaE",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 2409418.943075628,
+  "stakeShare": 0.005513842937035864,
+  "tpuQuic": "185.189.44.171:12002"
+ },
+ {
+  "identity": "22rU5yUmdVThrkoPieVNphqEyAtMQKmZxjwcD8v4bJDU",
+  "vote": "HxYHGzR58gyf6c4JAX85eK8GVuaZU2zne4be82Lq9SBQ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2322630.005990086,
+  "stakeShare": 0.005315230500150518,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "vote": "4AUED4uj6nSTuANzaAUnGBPJQRmhpDYDwoWJNkoUUBBW",
+  "clientId": "Rakurai",
+  "version": "4.3.2",
+  "activatedStakeSol": 2264904.869679214,
+  "stakeShare": 0.005183129216539442,
+  "tpuQuic": "45.32.145.112:8002"
+ },
+ {
+  "identity": "6WgdYhhGE53WrZ7ywJA15hBVkw7CRbQ8yDBBTwmBtAHN",
+  "vote": "6aow5rTURdbhbeMDrFrbP2GR5vZjMEhktEy87iH1VGPs",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2216721.670511798,
+  "stakeShare": 0.005072864211287214,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "HnfPZDrbJFooiP9vvgWrjx3baXVNAZCgisT58gyMCgML",
+  "vote": "CxFH1pqJnEmyaE4wEwqdqMKpQMpkmdaMxhS7SzpHokA8",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2182666.92162986,
+  "stakeShare": 0.004994931505920703,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "CQdLgwkmmHF8DE6t4sguXMTXWDxq3oLh3xfekDTmow12",
+  "vote": "2iWXwF2Q5W6o7yntV2mkbxncB4rYHnX61y3NU8a8EFMJ",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 2132566.942974902,
+  "stakeShare": 0.004880280040161219,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "AEHqTB2RtJjegsR2ePjvoJSm6AA5pnYKWVbcsn6kqTBD",
+  "vote": "FjkSLYmi6BJAJQn1iSLUGrPrBQjMaD4y1DVdnv3yaTsX",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 2083335.28043832,
+  "stakeShare": 0.0047676156753623964,
+  "tpuQuic": "84.32.186.105:12002"
+ },
+ {
+  "identity": "AWcCdYG7Dy6GX45c6QMPbgGwgRZPKcBDT4bXGb3QrVRV",
+  "vote": "G2W5QfMSBYXT5NNWEG8jSN9ZMqvVoaon3DMHMQ3BV7Bj",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2013801.997122051,
+  "stakeShare": 0.004608491997761971,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "2m1A2WM1vte7RWz5xTTw4i1SiXmngVtXhqFERaUjoAAb",
+  "vote": "8wTSPukwTAzNzEYyUdc8UiKkTg1hNtZ1xLum7o1Ne6wr",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 2005489.249610397,
+  "stakeShare": 0.00458946866257727,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "BUv44cVtsdvU9z2BfFGk6s5JZZWrmVnq5qCaii5ARyyB",
+  "vote": "6jzDwKeR21EFHwaRgZMefMxJ9D2vnQRqfYxkpUuJppPh",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1937410.077711701,
+  "stakeShare": 0.004433672651173083,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "DNVZMSqeRH18Xa4MCTrb1MndNf3Npg4MEwqswo23eWkf",
+  "vote": "9Diao4uo6NpeMud7t5wvGnJ3WxDM7iaYxkGtJM36T4dy",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 1920464.475164445,
+  "stakeShare": 0.004394893429656823,
+  "tpuQuic": "23.109.46.35:9007"
+ },
+ {
+  "identity": "FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89",
+  "vote": "H43AYFsvhNuALQieHpLXefp1ECgEBT6oVnS4EcTsC25C",
+  "clientId": "Firedancer",
+  "version": "26.10.3",
+  "activatedStakeSol": 1917963.877610646,
+  "stakeShare": 0.004389170928719404,
+  "tpuQuic": "170.23.224.5:9007"
+ },
+ {
+  "identity": "FzQqaDStQQHs52YKeCnDovwSqvyZBCgs2kJcmvoFZwaS",
+  "vote": "BkSS8kGUNcQkTgEKMmBhHxGVLdzw43EAzDYpZqyyxFrT",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1881605.316350045,
+  "stakeShare": 0.004305966056115704,
+  "tpuQuic": "198.13.130.10:9007"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "vote": "8BMMDVM8Tb88a2Hx1VSZ1TKmH1rMHbVU7xVafMk9JrEW",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1875001.9534662,
+  "stakeShare": 0.004290854567969397,
+  "tpuQuic": "5.199.172.176:12002"
+ },
+ {
+  "identity": "7qGNnXKW1e3DsqEaSxwxMdBTFsrK73XtWTmkGitRyMQc",
+  "vote": "JEJzKYzyYJJjtn6Yb1P7r6YV75TdSNmmJT49sgDoHvmk",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1842857.01406275,
+  "stakeShare": 0.004217292372569327,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "3JotfSFPaod4KVK7nj7ULvcq5PjUBdZNVGracNkJNhrt",
+  "vote": "74pfDmYto6aAqCzFH1mNJ8NxF7A4LQ4cXkipGwgjY39u",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1837001.18355872,
+  "stakeShare": 0.004203891577428276,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "HbidP4hpQdwhkzrxder3x3VNPt6DQnE25gFG46napD2p",
+  "vote": "HhYEE3dAShc3772wEiy73XDYnLjVxyBL8eAWKyRcF14y",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1835665.80072854,
+  "stakeShare": 0.004200835616069797,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "8gDfqHXZ5ektqQQrLrCGtSzYRwkWQrm3ANnAvQCt2LoM",
+  "vote": "LSTmLs1DENX82ihc7jU134mydiV3NDEPXsRrekAY6Ys",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1828122.882032568,
+  "stakeShare": 0.004183573998244493,
+  "tpuQuic": "67.213.121.155:8002"
+ },
+ {
+  "identity": "HTeRsa3gm3CGrizMoCrtWj4uBZ1NKYcGqh8jfBu2u3Jo",
+  "vote": "G83jy4NB16A4mchfRjZvfH8SPH2TxwjSZYxh5fzg2Qys",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1810589.53370838,
+  "stakeShare": 0.00414344974791528,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "722RdWmHC5TGXBjTejzNjbc8xEiduVDLqZvoUGz6Xzbp",
+  "vote": "EXhYxF25PJEHb3v5G1HY8Jn8Jm7bRjJtaxEghGrUuhQw",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1691135.668987163,
+  "stakeShare": 0.0038700851467994802,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "pSo1KZXgG1EGHch6pPmscfYhv3buXyaj2dR8WkVnkfc",
+  "vote": "34kE8AGJazhgrsovREiB2Uru1CuhN4gCznNAmVUxB9AB",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 1610077.667102166,
+  "stakeShare": 0.003684587687975109,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "CW9C7HBwAMgqNdXkNgFg9Ujr3edR2Ab9ymEuQnVacd1A",
+  "vote": "6D2jqw9hyVCpppZexquxa74Fn33rJzzBx38T58VucHx9",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1589318.153247155,
+  "stakeShare": 0.0036370805082151475,
+  "tpuQuic": "64.130.46.242:12317"
+ },
+ {
+  "identity": "ChorusmmK7i1AxXeiTtQgQZhQNiXYU84ULeaYF1EH15n",
+  "vote": "Chorus6Kis8tFHA7AowrPMcRJk3LbApHTYpgSNXzY5KE",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1573484.280762813,
+  "stakeShare": 0.003600845429124971,
+  "tpuQuic": "185.229.190.123:11228"
+ },
+ {
+  "identity": "Df16xM2XWzTXEGYxFBXtwXRhCdE6hwBbxS162TyS4r65",
+  "vote": "8hPk5CbKDoM7dN9LssTdVkFhDykeq7A8CZurA5AQSFJH",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1565848.934356665,
+  "stakeShare": 0.003583372294793413,
+  "tpuQuic": "170.23.153.115:11228"
+ },
+ {
+  "identity": "CoG8d9Fp2TFJRkAmrPMiPsGhQWHzdTTVoegEp9svRgmJ",
+  "vote": "2NxEEbhqqj1Qptq5LXLbDTP5tLa9f7PqkU8zNgxbGU9P",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1560678.2921614,
+  "stakeShare": 0.0035715395211571646,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "EUcJwf7jXskRE6NZBtFPVH2EedNvNYko8LL2WT62XctB",
+  "vote": "Bwkz1ddKoGE8hgiSV6HZLXi9RBLqfBi3HZb2QujzVGgz",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1540009.088992886,
+  "stakeShare": 0.0035242390131934517,
+  "tpuQuic": "169.155.45.11:11228"
+ },
+ {
+  "identity": "HSDTxfgrqY8ZK88Q5Fx2DdX7zxMDqXgxJKgErTBSLoQJ",
+  "vote": "hsdtGUwm6TeePfXWgHqLpiLEijvnz177fxHf61BfsLT",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1530504.399474395,
+  "stakeShare": 0.0035024879742880494,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "jzDsimGW1g8esbD1Kr2oRvr9X573XS2zQd7AsYJ1to5",
+  "vote": "J1to5o1Q7W7Y2Q7zpETTezv3DyzPMHKDg66X2nZPMr4X",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1524646.559791049,
+  "stakeShare": 0.003489082581233791,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "9W3QTgBhkU4Bwg6cwnDJo6eGZ9BtZafSdu1Lo9JmWws7",
+  "vote": "GqcuMuWq4gKeCuCrD8iAjXTozCET2EP6qJXmZDFsSTWK",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1477671.806137029,
+  "stakeShare": 0.00338158304720772,
+  "tpuQuic": "198.13.140.105:12312"
+ },
+ {
+  "identity": "GYx8kpp7SsRwtQEEsGQjAxb4hFMMmT91kFJuDeky3YGQ",
+  "vote": "7jPqpHuN5v59dtBom2tjmYEfi6WaM4sFtJeTD6fzhcdS",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1443866.072040883,
+  "stakeShare": 0.0033042202005707597,
+  "tpuQuic": "198.13.133.200:9007"
+ },
+ {
+  "identity": "AMukCLCr52XxsEjXoDxKKxjNg4FpnsReXNaQx8aR6DJF",
+  "vote": "71nnaeTyVeA4pTozAPjRuQyMydQTZCrFUkz7Pzy5tiDJ",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1428354.711673196,
+  "stakeShare": 0.003268723175425762,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "CMPSSdrTnRQBiBGTyFpdCc3VMNuLWYWaSkE8Zh5z6gbd",
+  "vote": "EARNynHRWg6GfyJCmrrizcZxARB3HVzcaasvNa8kBS72",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1418822.166250741,
+  "stakeShare": 0.0032469083895826315,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "CfgRXmp1LEYr97EaT2RyoL2cSvtWgJh52Bes89RxVSoW",
+  "vote": "g5kwi5sFXQTx26jwetYK97ytvx1WpA1RWuQ82Afdzyn",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1395660.822209028,
+  "stakeShare": 0.003193904733400848,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "A9mvukTd77EbRoBX4ydSCFQHdu5bsRFkNXTTRstA8FAC",
+  "vote": "FsT844wGgZg7MLR9Uc9T9qHQxmSoFVanhfgAEQvS966r",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1380970.099942689,
+  "stakeShare": 0.003160285700297037,
+  "tpuQuic": "57.129.36.165:8022"
+ },
+ {
+  "identity": "Ninja1spj6n9t5hVYgF3PdnYz2PLnkt7rvaw3firmjs",
+  "vote": "BLADE1qNA1uNjRgER6DtUFf7FU3c1TWLLdpPeEcKatZ2",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1376945.203400052,
+  "stakeShare": 0.003151074912178309,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "bitHUmbKSQDTGoyoiW3BeqaGWdyV5sS3nYt5SduUHfb",
+  "vote": "bithumBZcvBDmC3vhP6cvHGsmwrXLq7DEgPJtmSc2da",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1349007.002539592,
+  "stakeShare": 0.003087139641838276,
+  "tpuQuic": "116.126.141.28:9002"
+ },
+ {
+  "identity": "7y5VhV4fkz6r4zUmH2UiwPjLwXzPL1PcV28or5NWkWRL",
+  "vote": "HxRrsnbc6K8CdEo3LCTrSUkFaDDxv9BdJsTDzBKnUVWH",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1340469.07577814,
+  "stakeShare": 0.0030676009944370615,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "6TkKqq15wXjqEjNg9zqTKADwuVATR9dW3rkNnsYme1ea",
+  "vote": "GvZEwtCHZ7YtCkQCaLRVEXsyVvQkRDhJhQgB6akPme1e",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1329883.505324888,
+  "stakeShare": 0.003043376409897333,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "privaEdSEmnMPGPoQACUkcDGkFBbTArVvsEGd7C5wUM",
+  "vote": "privSGy4XbFCjzEkdLXssV8xMWRWWiWbJeDzh1emUyL",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1324632.001,
+  "stakeShare": 0.003031358587046802,
+  "tpuQuic": "64.130.40.170:8002"
+ },
+ {
+  "identity": "G3a3iYZKNLbivothF3twqcaTCEvoPb9uJ2bFc9DNKkBQ",
+  "vote": "Eqwa3Jo6aa4ugEbPZNcDQyBfVU7dSz3VR8CcDYRrPyh4",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1324632.001,
+  "stakeShare": 0.003031358587046802,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "6ptuwW4rg5A3wP9hNKxeymG3QhSagugPd3grnMTGJwWG",
+  "vote": "2e7PfK4w5QzYxNFJZYqpeXpZ6sx2CGC1BMpF76nzDoCC",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 1265525.228603798,
+  "stakeShare": 0.0028960954936589137,
+  "tpuQuic": "64.130.46.242:9007"
+ },
+ {
+  "identity": "EXckihF3qmguH5znjhfzLvHsbk2E3nEW2DqNh4MMnDMm",
+  "vote": "CMPxjQDTDyXKh3ZsKP7HLwi3tvgSVpFtLJYMxbeNZE68",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 1251487.419120078,
+  "stakeShare": 0.002863970621022833,
+  "tpuQuic": "198.13.140.111:12288"
+ },
+ {
+  "identity": "5DYpYgKgHV5aswMXBLp3UfJnbbzzFnGiJPpcxVAm56bG",
+  "vote": "FuvD3qqrVjuh355sBs1u8bUS3aU8NgknymLskPvtAc6N",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1251435.307766692,
+  "stakeShare": 0.002863851366619761,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "HLnodbYkL5PFA8hjAZDkm5pGzV7eLTvcs671AW2L6St9",
+  "vote": "7KVnUL45FH4N8Z7x1dnvJ7GzMx12cs81mS26mHzNjQPN",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1235735.18717918,
+  "stakeShare": 0.0028279223725106834,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "DcTPJqPNrTLv3te1c9ctA9H194x6DsaPA4ChuSEv7KPZ",
+  "vote": "Haz7b47sZBpxh9SwggGndN3fAyNQ1S949BPdxWXS3ab6",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1231921.025596396,
+  "stakeShare": 0.002819193841524245,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "vote": "AzbQjKoLepbDS8C6hgkRY7UCRwbwZZ9HqdtnWyef9WjX",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1207980.324911175,
+  "stakeShare": 0.0027644066639932216,
+  "tpuQuic": "185.189.44.172:12002"
+ },
+ {
+  "identity": "6yFGGAgYpBxgYPuHW4rv7hJmhKrUiXKyHkpVGaYtKrwE",
+  "vote": "9jYFwBfbjYmvasFbJyES9apLJDTkwtbgSDRWanHEvcRw",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 1192803.424568426,
+  "stakeShare": 0.002729675035024562,
+  "tpuQuic": "198.13.140.105:12293"
+ },
+ {
+  "identity": "7cVfgArCheMR6Cs4t6vz5rfnqd56vZq4ndaBrY5xkxXy",
+  "vote": "FQwewNXahV7MiZcLpY6p1xhUs2acVGQ3U5Xxc7FzV571",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1187058.12273458,
+  "stakeShare": 0.0027165271795929723,
+  "tpuQuic": "64.130.42.70:8002"
+ },
+ {
+  "identity": "6xWLi1TDSh65fWsSqE1zdvANTSuVDRMx4ghsGJwgunS8",
+  "vote": "BbM5kJgrwEj3tYFfBPnjcARB54wDUHkXmLUTkazUmt2x",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1183161.5565458,
+  "stakeShare": 0.002707610069506973,
+  "tpuQuic": "164.152.161.197:11228"
+ },
+ {
+  "identity": "FWwwP9tNttSy9dJFxwf6ebXWfc6VJXqFNMTccrMiLFTH",
+  "vote": "5orRi4tMEGneZ9U2y381JnBEnsqFJDBSNQLhBn98Bkcv",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1147655.868572732,
+  "stakeShare": 0.0026263569576654116,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "BkoS26vBuaXnSowACdChi4WKid8UwmuPNhEJWa8KsLHd",
+  "vote": "CKYFpKErmUn75nS3uNcNCPXUxWSpuBqbwMM3QnwPEFHX",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1144065.78009437,
+  "stakeShare": 0.0026181412075333564,
+  "tpuQuic": "67.213.124.111:8002"
+ },
+ {
+  "identity": "HaLanfo94ezLc3JZ55qqxr7W3qbe1PprJyv2uEtriEqN",
+  "vote": "8zHJtME22tiY3UsSHtDJXo2J8hUfwikBxXNbVqQzA92r",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1136806.281204245,
+  "stakeShare": 0.002601528182722221,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "58KprHKFNHgH1Cvo4QwxWkDeJNaSQVteCoAAFUWjtESn",
+  "vote": "3tUZu4CkwMLwYdosoGc85n48VgDMyxZVkL1VUJc7DrxW",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1102602.810769026,
+  "stakeShare": 0.0025232551350136277,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "ACvL73V4GNnxPVfZ7K89jCrYurLyzpEuE9qirjvh2Xmi",
+  "vote": "HCvnhbT3Sn5RsueDisWzzn5FkW8tAqoQK1dr7cvAVzin",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1065400.906353792,
+  "stakeShare": 0.0024381203109126856,
+  "tpuQuic": "188.42.130.84:11228"
+ },
+ {
+  "identity": "CwyVpfmfSiMeCexi3JgUNvaiDfYN14cLDjzT99zcBuD2",
+  "vote": "8uEgdseqbUrDLfmHbUpTHoH1LLRxeViYDk7K6NdXKRYM",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1061410.956632558,
+  "stakeShare": 0.002428989496965705,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "AicQr2zCWBLiBwt2r6o7iTemmtyE7q5pTKyuuupbXEQA",
+  "vote": "Bkskrv38Kn7zJR5mvmbCDGn2M4Jyhzt2ZqwQXV6rYnXa",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1039474.644011736,
+  "stakeShare": 0.002378789268086234,
+  "tpuQuic": "64.130.45.196:9007"
+ },
+ {
+  "identity": "5essVpBYvocZkQnkrWsMDfRPwtp4BeihJRaweKLR4dRn",
+  "vote": "A5ed2x2wEuHW8KsuhbSaTFU4CYT3WgHfQcwyQXz5SdDw",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1039055.660264207,
+  "stakeShare": 0.0023778304433107896,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "6aDs9tUm2gErcPn2c1TZnp5cu2bQV9BzyuwW4baWQYd4",
+  "vote": "ERut3CwqVeoa616QBaoHc5jL52RpkXjZZZ7MeaMaCtLi",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1017085.034700911,
+  "stakeShare": 0.002327551690861952,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "8tjFeSApQ85ThoQXT28acfF2KUfQr3TvTdirSkzNnYC7",
+  "vote": "AtvnDGvf7Dd4AUA7iihx3hV8598skHejZTn2YTNV6AMF",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1009587.083617707,
+  "stakeShare": 0.0023103929793223178,
+  "tpuQuic": "148.113.199.156:11228"
+ },
+ {
+  "identity": "2DTXh3ruMU2SeWanqr4yeg5GR47V99Jq3wUdStQfda3V",
+  "vote": "HEYbDQwzZxSBSLaV7fpep3oUP8iCEch2265xzgWPW2pQ",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1008007.86019343,
+  "stakeShare": 0.0023067790001307887,
+  "tpuQuic": "198.13.133.200:9007"
+ },
+ {
+  "identity": "3ytgyJXpm3teGLwkHqp9h2qqYNpY4Z1QpWAeVpz79gpJ",
+  "vote": "3RGSTMXnGoeXW1y7uWpcBmQvhBQU6Tc8stxY72SuhN8y",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1006803.780451602,
+  "stakeShare": 0.002304023519769357,
+  "tpuQuic": "198.13.140.105:12339"
+ },
+ {
+  "identity": "C1ocKDYMCm2ooWptMMnpd5VEB2Nx4UMJgRuYofysyzcA",
+  "vote": "AS3nKBQfKs8fJ8ncyHrdvo4FDT6S8HMRhD75JjCcyr1t",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1004689.993126719,
+  "stakeShare": 0.002299186216009794,
+  "tpuQuic": "64.130.45.196:9007"
+ },
+ {
+  "identity": "PUmpKiNnSVAZ3w4KaFX6jKSjXUNHFShGkXbERo54xjb",
+  "vote": "DsiG71AvUHUEo9rMMHqM9NAWQ6ptguRAHyot6wGzLJjx",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1002320.712487145,
+  "stakeShare": 0.002293764227709289,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "8uJiHDJ1b7UDQ4KFsQGJXK9nUCkokdKRJymg1Wy9nxvM",
+  "vote": "5sMmkL4BXjU6vZXQxE3RquH2CR8v8Zbfi1EAAFxLfxMx",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 1002079.487912363,
+  "stakeShare": 0.0022932121965144967,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "Ex1AxFCipXGfSxgvXPPT3nPQUARddCduHwKR6jHiXAaT",
+  "vote": "8tjRQLzor4dP4qd1e7pVDdQmsdwdVv4kSeCVEHwWEiQW",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 922229.096948994,
+  "stakeShare": 0.0021104782989919252,
+  "tpuQuic": "63.254.166.232:12325"
+ },
+ {
+  "identity": "G2TBEh2ahNGS9tGnuBNyDduNjyfUtGhMcssgRb8b6KfH",
+  "vote": "F5b1wSUtpaYDnpjLQonCZC7iyFvizLcNqTactZbwSEXK",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 907017.709812689,
+  "stakeShare": 0.0020756677486038016,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "Ha1iade1AH3B12K9SccfWoPdFtQKKQsj2ZyWwxcjqJJU",
+  "vote": "Ha1VoTEPWFQp1wZjbQhBNXJftuHvimu1ruzF3xKYRPDQ",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 906972.344928082,
+  "stakeShare": 0.002075563933180046,
+  "tpuQuic": "109.109.165.39:8002"
+ },
+ {
+  "identity": "AiDoLWFKzNxSXKeZ4zym2TEPkg6F4kQ3YBA8WhANVPEq",
+  "vote": "AiDoLYTz5CVN3ZLzqDWRtaGUaHGzDnWMeC6KCNYJPqFX",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 897632.613529296,
+  "stakeShare": 0.0020541903932421264,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "vote": "DierScgiTrz5AM7mddeJLHYNvafym3XhjjdM51AnKevU",
+  "clientId": "Rakurai",
+  "version": "4.3.2",
+  "activatedStakeSol": 887407.927458828,
+  "stakeShare": 0.0020307916757899037,
+  "tpuQuic": "51.89.11.197:8002"
+ },
+ {
+  "identity": "HH5dA42XF1HxNk1TRpG6LuKfLViMYNdAz5iWrFM4hWFi",
+  "vote": "FiijvR2ibXEHaFqB127CxrL3vSj19K2Kx1jf2RbK4BWS",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 844327.389412309,
+  "stakeShare": 0.0019322038726541468,
+  "tpuQuic": "23.111.240.149:11228"
+ },
+ {
+  "identity": "BFmqBsaGjeYA7gHpReKmnVkRyhqiMmHoR9ttv1crWmzy",
+  "vote": "2hK2uke7ssm7QuBzbrgxBs2aStmFmdKyC12yV2iwvvPm",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 831761.976569966,
+  "stakeShare": 0.0019034485110966204,
+  "tpuQuic": "137.239.202.126:9007"
+ },
+ {
+  "identity": "siidBVew9gpXxjM1y5spQiAyx1dyFrg9m6YjoxrYWbi",
+  "vote": "FKBPfTuoqdF9yTmMJowTukend68EnyWXQXdc5Cxd5rSa",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 821523.032692486,
+  "stakeShare": 0.0018800171653176737,
+  "tpuQuic": "67.213.121.29:11228"
+ },
+ {
+  "identity": "6YY2VS44RP1sBosdEsvSaiw7gETDNx3tmg5mM5wHpTqM",
+  "vote": "CooLbbZy5Xmdt7DiHPQ3ss2uRXawnTXXVgpMS8E8jDzr",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 819387.961086387,
+  "stakeShare": 0.001875131153472707,
+  "tpuQuic": "64.130.45.196:9007"
+ },
+ {
+  "identity": "Gv9gguvrAkgQtB5g5a3Un7trcHCxLYsk8vSojLmQMsWV",
+  "vote": "67qytGR1YAkdGjpJZgkvyXu7zduBXK3Jri6heaU7mVTh",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 815718.633190122,
+  "stakeShare": 0.0018667340676264974,
+  "tpuQuic": "208.91.110.230:8002"
+ },
+ {
+  "identity": "5RvfTSowms7BTYaBj8SxVjj7ELAAKdQadKsuNpmBAwCs",
+  "vote": "C89gGyN6Q4N47bg5kZWGYVc3P1x3rYaHbpG3EjSLeEx3",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 810051.961193158,
+  "stakeShare": 0.0018537661529113112,
+  "tpuQuic": "198.13.140.105:12301"
+ },
+ {
+  "identity": "3iSQtPgkZBqKVK1CNxcxZoKggAkWiDrE22cXeT38bKsE",
+  "vote": "94qeNkhspb7DjuqNPcGUgVcnnsNuibGYuqNTvm9FnX9m",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 800973.252928524,
+  "stakeShare": 0.0018329899522483988,
+  "tpuQuic": "198.13.140.111:9007"
+ },
+ {
+  "identity": "GEM1N1UE3C8BB8EaaEPrcFvT3iLMVrurknjW5AYjUReR",
+  "vote": "GEM1N1pCDGKiTa547eckcwuHWYMsUQeXgnXHfEZLDvpB",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 798593.666968586,
+  "stakeShare": 0.0018275443807026198,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "BXAxLMMMUNYfC1z166VjWHR3WjTmqzLxB837o5ghmRtH",
+  "vote": "J21SMPFJEY9ExCDPiSJQXN23PVSeoQe3LnKD7QcP3bgP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 794032.621784795,
+  "stakeShare": 0.001817106641410986,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "GZ4U21pYmFkCk6ZNTHRzfVEZZXauyZLKDmuuuKGwvp5H",
+  "vote": "DqbRPQXbN8GDKWZkKiHnRjiSKPqE3rQaNgTPxdLGPDMK",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 775151.144985993,
+  "stakeShare": 0.0017738972619101403,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "7PdKhpKz7T39vZHFL1UfcYNDsLvay6hp4KPQq1aUckFf",
+  "vote": "7opSZGmevWhRDyLt5Wu38FZFjUyredGmMki4DNmxDnjd",
+  "clientId": "Rakurai",
+  "version": "4.3.2",
+  "activatedStakeSol": 770106.531813812,
+  "stakeShare": 0.001762352899818423,
+  "tpuQuic": "64.130.41.180:8002"
+ },
+ {
+  "identity": "vu1sGn2f1Xim6voHNLt4nLn38zNkYdLasU7hEr1TC2D",
+  "vote": "6F5xdRXh2W3B2vhte12VG79JVUkUSLYrHydGX1SAadfZ",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 758075.051153702,
+  "stakeShare": 0.001734819417170881,
+  "tpuQuic": "169.155.44.26:11228"
+ },
+ {
+  "identity": "8o8wWCYNwPRSCAasp8rYvWuo3Ku1R1i6SEo9j9B6fe5i",
+  "vote": "BN6EvLCeuYdrTjGaHCyugF7sSH5uckoVoy3Kg2TkyuDW",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 751689.246697013,
+  "stakeShare": 0.0017202058013437139,
+  "tpuQuic": "23.111.240.207:11228"
+ },
+ {
+  "identity": "6XKqyUVUcpe3CNucjF6gk5zonJDqNGvob6kaTy4Ps1U",
+  "vote": "SKRuTecmFDZHjs2DxRTJNEK7m7hunKGTWJiaZ3tMVVA",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 743987.734441517,
+  "stakeShare": 0.0017025812495502198,
+  "tpuQuic": "141.98.218.73:5010"
+ },
+ {
+  "identity": "ANC1u9sY36q3mi2MyVhtz71un8yLgTsFBUuyLcSPzKsk",
+  "vote": "ANCVpxEySGWWLqqkVKw2xWYDE9UP4fmZWMCBr5t96jch",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 739987.891284269,
+  "stakeShare": 0.0016934277949361002,
+  "tpuQuic": "70.40.185.181:8002"
+ },
+ {
+  "identity": "7EzbSahSfSjeRexHcNDLDpzHBAGBLjLKtjbmuoQnEtjE",
+  "vote": "2HQ5YHuw8cR1erRYZmemDmQVpfEMCjAvwU7V4fgdemJB",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 695798.699468855,
+  "stakeShare": 0.0015923028893297215,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "3cZSHGfNdaULpFAvGbWbxpVwzXB4gHdk8NFucPNR5pgA",
+  "vote": "HJmfKJjKiyuuxFUuXgecgD5gdD312apCpHwZt6ETuRMU",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 663677.313205297,
+  "stakeShare": 0.0015187945941923736,
+  "tpuQuic": "216.18.201.138:8002"
+ },
+ {
+  "identity": "XkCriyrNwS3G4rzAXtG5B1nnvb5Ka1JtCku93VqeKAr",
+  "vote": "beefKGBWeSpHzYBHZXwp5So7wdQGX6mu4ZHCsH3uTar",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 661093.936420593,
+  "stakeShare": 0.0015128826568437531,
+  "tpuQuic": "63.254.166.232:12338"
+ },
+ {
+  "identity": "4SsMncJdtKiUcDtukkX15mqei7WiuQ9yvRtQrQW4reWC",
+  "vote": "5s3vajJvaAbabQvxFdiMfg14y23b2jvK6K2Mw4PYcYK",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 649666.162935953,
+  "stakeShare": 0.0014867307299256827,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "HM19KBHDJy93DYEJv4iFayMmCbJ1QVAk2EDG6XDgmnJS",
+  "vote": "HMV14UAuULSwqmZhsKHzaVkYAd94iWpEeURgbUegfQLc",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 647569.984089506,
+  "stakeShare": 0.0014819337223482077,
+  "tpuQuic": "70.40.185.183:8002"
+ },
+ {
+  "identity": "BeaCHioStqCEFDFxKwAEzyrUPYxqnBPhJ98gDKeEiTPb",
+  "vote": "BeachiopjxQxL7CaHNSZsynApiZCKx9QFVtcWNz3jDBo",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 633027.438266303,
+  "stakeShare": 0.0014486537841273222,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "Frog1Fks1AVN8ywFH3HTFeYojq6LQqoEPzgQFx2Kz5Ch",
+  "vote": "Pond1QyT1sQtiru3fi9G5LGaLRGeUpJKR1a2gdbq2u4",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 630319.532142168,
+  "stakeShare": 0.0014424568671903039,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "Va1idLRtYEtVFJFsvz8vtt1uCJgea4Q1zi2Rh3eraJh",
+  "vote": "Va1idkzkB6LEmVFmxWbWU8Ao9qehC62Tjmf68L3uYKj",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 622497.612883011,
+  "stakeShare": 0.0014245567695816608,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "STKEsvUSpD38eDxkAJN6cENMYfjVxieajVpmVVkgd1t",
+  "vote": "oRAnGeU5h8h2UkvbfnE5cjXnnAa4rBoaxmS4kbFymSe",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 606122.582667142,
+  "stakeShare": 0.0013870832762487562,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "2Wf9V9rPeVRUTfmWdPedCJuWVr6MFfyLuigEq42DuMDc",
+  "vote": "528hi3StRe7uGjt99d35myh95JPc2MqBEHTPYcEhqMg5",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 603374.198548815,
+  "stakeShare": 0.0013807937273088967,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "LeDbQ99QT342j9S5YdyXLrsq2Gu3T3dMGajExdAuE3V",
+  "vote": "CpfvLiiPALdzZTP3fUrALg2TXwEDSAknRh1sn5JCt9Sr",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 597931.97678323,
+  "stakeShare": 0.001368339456485555,
+  "tpuQuic": "169.150.223.12:11228"
+ },
+ {
+  "identity": "bkpk9KVsDRfrArzzmkJ9mPEvbXfQxczzQYR3QMGiR8Z",
+  "vote": "bkpkQKgJMQXqwZL5dRX9LMwnsz9zkZZqCtqWfnBcwDx",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 589913.322088171,
+  "stakeShare": 0.0013499891390026013,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "7CR3Jq4ny2tsr3DX3DvyjoU8TYs776MGkU6nLMWjAqCT",
+  "vote": "EcLPNfLFgCkbcTuvdeQ85pnQMgAfBDqi2dkoNVPrSyr5",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 587934.11613669,
+  "stakeShare": 0.0013454598184426067,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "mineL1YNwcRnxN93B2sX6q22R11WfRqxnY4NBV8KfFY",
+  "vote": "6q1VNp8Vy2Go12vb8CwbjUqqj2SXr2JYftJRWs71sW23",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 581571.135011623,
+  "stakeShare": 0.001330898432745955,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "4k6wgP5WPBKQpsFGtzuXNrjcTE2fKWLj17nDvFeG5zSF",
+  "vote": "8zuMRTXThoPTTPLLvaiKiJshLLCqGMt9BdRjjCL19xBc",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 558662.923990787,
+  "stakeShare": 0.0012784740596827441,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "GREEDkgav1ox1jYyd9Anv6exLqKV2vYnxMw5prGwmNKc",
+  "vote": "GREEDkpTvpKzcGvBu9qd36yk6BfjTWPShB67gLWuixMv",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 551501.35048499,
+  "stakeShare": 0.0012620851325488868,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "EdFUcP2f6j9iBg5BqsgJn3WDr1JieiKCo41hZ5Zrsk6w",
+  "vote": "7tKWFaaLi2FJSqukHxUrnXph8M3ynrqn3kEkKPpgcNHZ",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 549733.596738722,
+  "stakeShare": 0.0012580397105037542,
+  "tpuQuic": "8.221.136.213:8002"
+ },
+ {
+  "identity": "2mMGsb5uy1Q4Dvezr8HK2E8SJoChcb2X7b61tJPaVHHd",
+  "vote": "CAf8jfgqhia5VNrEF4A7Y9VLD3numMq9DVSceq7cPhNY",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 549152.672493793,
+  "stakeShare": 0.0012567102924488077,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "ALp2GdA1eJV8vZHMHazCtTxNXe3BLUSco9LDASgjDs8R",
+  "vote": "4tuMshQNpAFpy1YtEHnSsE5EPN1mAT8FevWvn2UPJHNM",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 543440.023197894,
+  "stakeShare": 0.001243637160828224,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "2Df1aLCRYi3J1X24GXmASL4hjrZLHnvEF32KFWGJfR9E",
+  "vote": "xBLpiTwufjcuFCjbk4aCmFy7HUY5D9xy8L1EX2rBwmC",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 543373.467665856,
+  "stakeShare": 0.001243484851595617,
+  "tpuQuic": "170.23.153.201:11228"
+ },
+ {
+  "identity": "FLwV8tm3pL8pZj6d927VASzPrgW51Gf4nRJuTewrfega",
+  "vote": "HHLMTHR9YoyDNsWKVJBT5AKrX86iQjkiKRFRrnaFubgq",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 533509.308307001,
+  "stakeShare": 0.0012209111827170987,
+  "tpuQuic": "64.34.87.157:8002"
+ },
+ {
+  "identity": "G9vCpJUUSpEm4zPwzSNpDmZ8MGwLEbiSLV59EBzCGvzM",
+  "vote": "8UHnwrLihP4q1fZjAYGCZdGgtAkCaFiDLXa33r7niRjD",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 532109.10072334,
+  "stakeShare": 0.0012177068729320607,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "EJsJx7Smt3jBheNF2ReTxq3HXh9Aczt6PHK12B5tkJk8",
+  "vote": "FpTQXdt7NjYsJWXaE9UgG2yPUshoFiW3nzXbXKz1CjKh",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 521410.399440523,
+  "stakeShare": 0.0011932233937624252,
+  "tpuQuic": "198.13.140.111:12289"
+ },
+ {
+  "identity": "2X5yarNUWGyyiJDtRoPATvJYeNecvWG7zCkBrY2J1to1",
+  "vote": "J1to1yufRnoWn81KYg1XkTWzmKjnYSnmE2VY8DGUJ9Qv",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 519825.229192054,
+  "stakeShare": 0.0011895958055409418,
+  "tpuQuic": "63.254.163.103:5010"
+ },
+ {
+  "identity": "RNXnAJV1DeBt6Lytjz4wYzvS3d6bhsfidS5Np4ovwZz",
+  "vote": "RNXpSdqrJL6eoLrbW69Q9qsFviEwRpfFfk3HiRRRohq",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 516654.527795915,
+  "stakeShare": 0.0011823398031969767,
+  "tpuQuic": "195.12.227.249:9007"
+ },
+ {
+  "identity": "4VRs6A9zBRXz6MLcmQGsBiSoWE2JjHrmw7LintC3T4Nv",
+  "vote": "GMeW3doRSeroW6e7gEMLb2Ne8MfmeLzKSBs4XcWtkdBP",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 510413.614741847,
+  "stakeShare": 0.0011680577645906472,
+  "tpuQuic": "64.130.63.145:9007"
+ },
+ {
+  "identity": "fishfishrD9BwrQQiAcG6YeYZVUYVJf3tb9QGQPMJqF",
+  "vote": "7VGU4ZwR1e1AFekqbqv2gvjeg47e1PwMPm4BfLt6rxNk",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 507863.234463655,
+  "stakeShare": 0.0011622213382090592,
+  "tpuQuic": "64.130.45.196:9007"
+ },
+ {
+  "identity": "Cogent51kHgGLHr7zpkpRjGYFXM57LgjHjDdqXd4ypdA",
+  "vote": "CogentC52e7kktFfWHwsqSmr8LiS1yAtfqhHcftCPcBJ",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 503380.235360873,
+  "stakeShare": 0.0011519622037357246,
+  "tpuQuic": "64.130.43.202:8002"
+ },
+ {
+  "identity": "VQwCCSfW3o5NDx7n5FBr9SoYiLXVgetstHvaWBvv2YH",
+  "vote": "6XtfZoG7P9Hjmecg4Da8pqd9A4TzU4QynbwY94Z1ZLcy",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 499856.546576758,
+  "stakeShare": 0.0011438984062087558,
+  "tpuQuic": "86.54.153.251:9007"
+ },
+ {
+  "identity": "3YVoK8UN62dyiPZnGBzBTkGdwsVmmK1MpRoLcxNRs9BE",
+  "vote": "FRTcwF2LHHLV2VxKB9nzNpqyBXjpKvkEs5aRuMXrrk8X",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 496286.429120906,
+  "stakeShare": 0.0011357283588307725,
+  "tpuQuic": "135.125.142.235:8002"
+ },
+ {
+  "identity": "7tqeaFKsg2K9xKnQWe61w71AtCZVMQvG4hbFAiFAngYw",
+  "vote": "4CjWMmjGtRAZH6unY8EAzDYHWKUoPKqkZoFNrgxSGnyc",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 488300.361466803,
+  "stakeShare": 0.0011174526152720136,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "Cu9Ls6dsTL6cxFHZdStHwVSh1uy2ynXz8qPJMS5FRq86",
+  "vote": "5iJDEVRi1nMLwKAWhYbEokZnvBAe15rgFaHGkggVEP9z",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 486364.755201608,
+  "stakeShare": 0.0011130230705617009,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "HW4zorvt6xDwhU36RqjcWNwU8YMj9tiqnAafBKW4cqV",
+  "vote": "4jEHuQZTNTRYAhxRYEjV3HJ1b4wqdQjnBRdPzFWzkCft",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 474615.129068532,
+  "stakeShare": 0.0010861345988607296,
+  "tpuQuic": "84.32.103.226:9007"
+ },
+ {
+  "identity": "hy1oMaD3ViyJ8i6w1xjP79zAWBBaRd1zWdTW8zYXnwu",
+  "vote": "hy1oJTV2kX9acsqpwk7hbteqXFw9VDbWvbxoamFEufW",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 472459.777639184,
+  "stakeShare": 0.001081202177585594,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "HnrXmm65CyvmSyvwEMjmyHzYjAyhHiHEJ7s1pf6BxTYA",
+  "vote": "2WUCao1mdk4e7KbXUga6hQr2D9piZ1SFYK4KQt8Mdvzv",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 468235.134258156,
+  "stakeShare": 0.001071534278138335,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "4SNKY7GCp7ohY4AawND5Cc2D71sWMWN3Uifo854yvtks",
+  "vote": "HeQ9mBd2RA3JLkBUBcyJJTGhcFtRPeQuQKY2qx1VU3RA",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 450001.01230257,
+  "stakeShare": 0.0010298063400199773,
+  "tpuQuic": "64.130.37.141:9007"
+ },
+ {
+  "identity": "32ke3uf1qL3xLqbwzU76T2sbG2XaJrGuSCNdUnien3zm",
+  "vote": "AX6v1G9GH7FNcoX6ogNyoD2fZiLaNps7heL9RrGUYGC8",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 428596.529098862,
+  "stakeShare": 0.0009808231779705357,
+  "tpuQuic": "72.251.3.57:11228"
+ },
+ {
+  "identity": "LA1NEzryoih6CQW3gwQqJQffK2mKgnXcjSQZSRpM3wc",
+  "vote": "GE6atKoWiQ2pt3zL7N13pjNHjdLVys8LinG8qeJLcAiL",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 418029.122983954,
+  "stakeShare": 0.0009566401616723832,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "RBFiUqjYuy4mupzZaU96ctXJBy23sRBRsL3KivDAsFM",
+  "vote": "RBFvvcGPBpgkBYmJGsphoDQJD8sszSuorM7TorWm12Y",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 415190.783363756,
+  "stakeShare": 0.0009501447537597351,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "Bi9kKNxfW2XqgCmLcuhHt6A3x55GuAGmrVZxRHLyVoQ4",
+  "vote": "ADoJoWDcMS7HVW8cMu5GRvy3FBm3RG5bEWQi74YRnwKt",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 411143.708625981,
+  "stakeShare": 0.0009408832118752623,
+  "tpuQuic": "64.130.46.242:9007"
+ },
+ {
+  "identity": "EUDis6LJeJzDHTEBgfHGQyjHp63XZkGkx4E69xunC2Ej",
+  "vote": "steakxfubt37xYdvuXz7BV5Uhhhk1FyJx9zGHfDcTVr",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 402871.223829976,
+  "stakeShare": 0.000921952016038492,
+  "tpuQuic": "198.13.130.10:9007"
+ },
+ {
+  "identity": "3RXKQBRv7xKTQeNdLSPhCiD4QcUfxEQ12rtgUkMf5LnS",
+  "vote": "BxFf75Vtzro2Hy3coFHKxFMZo5au8W7J8BmLC3gCMotU",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 398805.823370453,
+  "stakeShare": 0.000912648536594046,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "9iFPQbP1jGkj67sXg6YLLGRUBVEDMcapdS6jmCZSnz8R",
+  "vote": "7kqphS3JdqYsp4kGvLZAi4siKRZFiU4qBrKZfkGdht4N",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 396067.417840848,
+  "stakeShare": 0.0009063818231893284,
+  "tpuQuic": "198.13.140.105:12304"
+ },
+ {
+  "identity": "CVvaeDPR2o7P1eawG5c9TPFLzSXAewwPovPmREaEL4Cm",
+  "vote": "DMSuZcavta8L1w1tSiH8bALWjz6Q6KSryGG6m6Az4Qt5",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 390724.688303489,
+  "stakeShare": 0.0008941552356924875,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "DF1owXYZ1fk5vWyHJ8s1cJeAozgkqsi1JUVqvktqrpwd",
+  "vote": "A9mzXPB6sRNUXcDF9L91oV1EvmeYQe7WzSfEL7fBdysh",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 389902.292061248,
+  "stakeShare": 0.0008922732202278225,
+  "tpuQuic": "64.130.43.217:8002"
+ },
+ {
+  "identity": "WUNoB9YQXmXXRcJsjY1G8PfVag5aAfnyGmFd6YwJVwp",
+  "vote": "BDn3HiXMTym7ZQofWFxDb7ZGQX6GomQzJYKfytTAqd5g",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 386621.654347838,
+  "stakeShare": 0.0008847656337464243,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "23SUe5fzmLws1M58AnGnvnUBRUKJmzCpnFQwv4M4b9Er",
+  "vote": "4PsiLMyoUQ7QRn1FFiFCvej4hsUTFzfvJnyN4bj1tmSN",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 381269.636825355,
+  "stakeShare": 0.0008725177911285833,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "Certusm1sa411sMpV9FPqU5dXAYhmmhygvxJ23S6hJ24",
+  "vote": "CertusDeBmqN8ZawdkxK5kFGMwBXdudvWHYwtNgNhvLu",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 376681.586250286,
+  "stakeShare": 0.0008620182512578563,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "4NwpynvugnHvyLzr5h9Y7mw44saGJXDNoBjm6wgMiYDr",
+  "vote": "DgPHEon4S2ArZ5m1NaNNyCbhr8Gh2fsMN7vAjx71GGq9",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 376591.591178489,
+  "stakeShare": 0.0008618123017311366,
+  "tpuQuic": "57.129.84.178:11228"
+ },
+ {
+  "identity": "AurseT3W3tk1dATBWAXtWR6oubBgECqintfcvP74teU3",
+  "vote": "AursLzSguMy6DM3Vb6aoa4teC74hnujxq8LvN5Up4hHJ",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 373456.344671006,
+  "stakeShare": 0.0008546374362471439,
+  "tpuQuic": "198.13.133.200:9007"
+ },
+ {
+  "identity": "7GkMBmtrTZz8QbjSe1sXvAUtz7Pp42SQxfT5ymmJD4We",
+  "vote": "J2nUHEAgZFRyuJbFjdqPrAa9gyWDuc7hErtDQHPhsYRp",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 364296.028438947,
+  "stakeShare": 0.0008336744795549053,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "BbCQMWnfxo4eKTTTmBKuKYkbCDNf3ZpxtvwyN71ivCi4",
+  "vote": "6XPxXV2VZMNqSquPUF3bjnGt5u8R884A9UVYS6jv8g5f",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 364131.4513661,
+  "stakeShare": 0.0008332978525953957,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "5d9Mdc2Zk8as8GL1AxQeXxv5htBBvC5bjfmsXC7UUWwG",
+  "vote": "47hzyKgoz9Fu1HP4mR48tvAFj7akCFZKGzZqWo32sNqG",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 361538.766161343,
+  "stakeShare": 0.0008273646133613925,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2",
+  "vote": "J1to2NAwajc8hD6E6kujdQiPn1Bbt2mGKKZLY9kSQKdB",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 354415.580727722,
+  "stakeShare": 0.0008110635355412639,
+  "tpuQuic": "64.130.52.171:5010"
+ },
+ {
+  "identity": "juigBT2qetpYpf1iwgjaiWTjryKkY3uUTVAnRFKkqY6",
+  "vote": "juicQdAnksqZ5Yb8NQwCLjLWhykvXGktxnQCDvMe6Nx",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 353910.71504973,
+  "stakeShare": 0.0008099081739713103,
+  "tpuQuic": "64.130.45.196:9007"
+ },
+ {
+  "identity": "9WzPWqKSqbE5PT9hMsmCDFjzpurAXEYCE9qrpVWp28KR",
+  "vote": "AGJmwvFJmJqHsSCu4EPsZ4W5N2hpwWC3FNQJc8ZFJBsy",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 352815.495559458,
+  "stakeShare": 0.0008074018152210833,
+  "tpuQuic": "84.32.103.81:9007"
+ },
+ {
+  "identity": "74MzXStH8pLPZjbNxZKdtDGJehur2JgjZNeTPqSn37nE",
+  "vote": "8VXS59E5BGN2w9zpKy6b7qMvdet6X6xF8AWwMNQNFkE2",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 352039.130227126,
+  "stakeShare": 0.0008056251393480306,
+  "tpuQuic": "23.111.240.231:11228"
+ },
+ {
+  "identity": "9xcXe4WRAfbVoVgQmFD5xgFHioL9dD7c74pQZ7PeczT",
+  "vote": "AVD61fbwxDGuLGCanPWQPxRjdqYk3icssz5u7JH8kbta",
+  "clientId": "Raiku",
+  "version": "4.3.2",
+  "activatedStakeSol": 351500.327532496,
+  "stakeShare": 0.0008043921144974626,
+  "tpuQuic": "70.40.184.198:8002"
+ },
+ {
+  "identity": "2Mob8FJkb8chZY5pTBMpKfLwgZAQHE5i9jAC5zbASitD",
+  "vote": "3Gzmaw7NVNeaTzYBySzSwsU8ctTNy2DBRkxi46fumw3X",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 350655.650307187,
+  "stakeShare": 0.0008024591100416664,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "Diman2GphWLwECE3swjrAEAJniezpYLxK1edUydiDZau",
+  "vote": "voteRnv6PBzmiGP8NicWtQiqEJTwKKq2SxtqtdLUJjd",
+  "clientId": "Unknown(59073)",
+  "version": "4.3.2",
+  "activatedStakeSol": 342645.806010958,
+  "stakeShare": 0.0007841289547457416,
+  "tpuQuic": "104.243.42.47:8002"
+ },
+ {
+  "identity": "mds4GEuiSgQRqveGyktWpETBFCb4AS2wDnhqwLHcT6Z",
+  "vote": "GLCrZmxWYcrGMA5uRa8mmNnQurGBL2p9zrKk9DKugSZX",
+  "clientId": "Agave",
+  "version": "4.4.0-rc.0",
+  "activatedStakeSol": 342155.459234917,
+  "stakeShare": 0.0007830068190061094,
+  "tpuQuic": "189.1.164.35:8003"
+ },
+ {
+  "identity": "BEsnodYCgiGB6MjzxGJoVM6iNhyM3ndEfNuSd7fRHUTG",
+  "vote": "oPaLTmyvoUhW26QCMwLA5JNUeBYy72PDpFoXQF8SeX4",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 338372.580374246,
+  "stakeShare": 0.0007743498770709939,
+  "tpuQuic": "64.130.45.196:9007"
+ },
+ {
+  "identity": "mint13XHZSSxtgHuTSM9qPDEJSbWktpmpM4CZxeLB8f",
+  "vote": "mintrNtxN3PhAB45Pt41XqyKghTTpqcoBkQTZqh96iR",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 335885.555904164,
+  "stakeShare": 0.0007686584375029576,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "FyrwfMaomErzqrFUXMjCJ7mA4u81DsiDdrzC3MJD6d4j",
+  "vote": "1Dadio3JRvpEjY6iSmXmhbGy9RiU8Nxh2GmoVbNusbE",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 331526.067939959,
+  "stakeShare": 0.0007586819525128293,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "HcZvwZ83PfjrQDiq3GLHxisTs17aGURs6bJ2LwtmL4qv",
+  "vote": "JnGGar3XbAN6J3cKGRbNajCuhqnc9XWrk6WWr6hDmuM",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 330551.865269753,
+  "stakeShare": 0.000756452535114168,
+  "tpuQuic": "204.15.240.10:18504"
+ },
+ {
+  "identity": "D1Vbgkrhp1TmLGhfUD1urRMx5Ntz9AqQpgdX8DR8QMC1",
+  "vote": "gfR2VCrsVcm1gF2teasQpP6BdX99mVVFhEQck3UhTNC",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 327633.160669586,
+  "stakeShare": 0.0007497732156910453,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "5VrW7YNBccVnhnZVmooCePdLFcs2UjfxRT3hoY9mN8Ec",
+  "vote": "78QvBqfkWbDbyo1DMb2ku42r1UfxecwptjbPWJqxkX6E",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 320834.937590441,
+  "stakeShare": 0.0007342157990711324,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "D2RV1q6FgePVVjrMa7AMzVbvvAeg5oS7TAV7qdNKSDsX",
+  "vote": "CCxSNvJogH6LWyoiEbG7JfcWybw2FqqCExs5GuemChGr",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 312932.526516258,
+  "stakeShare": 0.0007161314996958991,
+  "tpuQuic": "88.216.197.108:9007"
+ },
+ {
+  "identity": "5tfcGyf3NQFcufDigvbRt9kWoVN2KPEkBRUY3UaC3Zwm",
+  "vote": "46mwXQRqWwj8Jp4ZR2tL1Yr3Snm99xDfKUs5jz7hLmEK",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 310446.079502144,
+  "stakeShare": 0.0007104413816089275,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "PuRposE4utktenW49N8DCtVzdVEwYrmsrroboEUram4",
+  "vote": "purPoSEsip98bLpbh4K7GKZYSdRmEJJKdxSvL6sg3uX",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 309045.071762729,
+  "stakeShare": 0.0007072352407047455,
+  "tpuQuic": "208.91.105.55:5010"
+ },
+ {
+  "identity": "gUvo3g5LfH4Pd8qnG7T6MPEFa5bPr8LhDdxDahwYqis",
+  "vote": "685Njwvpn3t5a8cAfVj7R65AfCJ6XoBpca9qy15XFiTd",
+  "clientId": "Rakurai",
+  "version": "4.3.2",
+  "activatedStakeSol": 308741.775124452,
+  "stakeShare": 0.0007065411604861117,
+  "tpuQuic": "162.19.94.48:11228"
+ },
+ {
+  "identity": "4XspXDcJy3DWZsVdaXrt8pE1xhcLpXDKkhj9XyjmWWNy",
+  "vote": "9sWYTuuR4s12Q4SuSfo5CfWaFggQwA6Z8pf8dWowN5rk",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 308510.972654516,
+  "stakeShare": 0.0007060129797924367,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "DidkDYa64DEMx97P4iahDwsWtgUTnLiEhHSMUbQGihi5",
+  "vote": "DyjoG2US2XiVvL1MVzL2wjS5jCTmvo6aNwvqJfaPNx9u",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 308483.780783474,
+  "stakeShare": 0.0007059507524630964,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY",
+  "vote": "punK4RDD3pFbcum79ACHatYPLLE1hr5UNnQVUGNfeyP",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 303811.305635424,
+  "stakeShare": 0.0006952580108925232,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "8vk6QpG93JSaQCSgnycBsv5qmfQBk4qC9FjNA35E5JhU",
+  "vote": "2ZP7DPXW6gwMRSY9PSXQ75fZLrk4gKWKnT85pK5sVPa5",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 302209.628766057,
+  "stakeShare": 0.000691592648038565,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "EfPYQ4BUMiKa6736qqrtnCBGkUSRDGSr1WvtyUgWHuyp",
+  "vote": "6x9uLhegx488uA3dPoq8DWHS488K4FsEqeeMXeW7kQPx",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 302058.312489493,
+  "stakeShare": 0.0006912463677932018,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "HT41udB8mLZZf7tev9tUoHYJ41TP8GWZ6zFMbjiviXk5",
+  "vote": "FrtCZRajYfrdoZarPxCsUB6f66ga5DPSXGz4F7VKyfKP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 301433.235022549,
+  "stakeShare": 0.0006898159071478605,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "AoB1wTR7RYHMS6dEDzQ7UvHPNkNoDXbMjBhPBG5Vbu8v",
+  "vote": "538iREQi6JxNqDHsMJRAJJ1ZqDQ2tvYuS8tfhtb7BaGu",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 301092.790958789,
+  "stakeShare": 0.0006890368167776226,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "9AW87WqARQonyJYhx1G25fKfvjURFYVmHs79z1NUXDPD",
+  "vote": "2NXwP6K1ityVnvK575SY7KdoEkvPHrfcRLY7BJRBk4ht",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 300683.615044264,
+  "stakeShare": 0.0006881004367708195,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "7S22CYpfBRV1p8cTqWXFD4HwfqfNx3hAhfpdj8E2bYvJ",
+  "vote": "Dkj8XzgvjDuZzvAwiWYExt3rwLPqtVEQTpgK49tRirb5",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 300001.99771712,
+  "stakeShare": 0.0006865405872909956,
+  "tpuQuic": "84.32.49.239:8002"
+ },
+ {
+  "identity": "AHZxzLeRGRfNVFrCmP58iJgEwbcXyZeAkZ32CmbfEmYR",
+  "vote": "AF84u2vQvSyuSurDqJNSgLGKA8viTrHmeYwjKzisC6w1",
+  "clientId": "Firedancer",
+  "version": "0.1.1",
+  "activatedStakeSol": 299998.99643426,
+  "stakeShare": 0.0006865337189950742,
+  "tpuQuic": "64.130.36.36:9007"
+ },
+ {
+  "identity": "adramSYKBv1yHoZTub4kepcmF5LybPxwyJcsz4fpfi7",
+  "vote": "adraBKLNY3DL3pg6SJRDYiMA8BsznaWpUdE42X41gbP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 296488.042621591,
+  "stakeShare": 0.0006784990648566235,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "FACb6bbTDRBHCK999V8ox8jga5JBnt1r3vvzmAYAMv2o",
+  "vote": "FACqsS19VScz8oo2YhdMg35EsAy6xsCZ9Y58eJXGv8QJ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 296469.280495323,
+  "stakeShare": 0.000678456128605249,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "Raydiumm3w3a4nGanDBLkUtKxMFooSPmeg9qwUKMsMc",
+  "vote": "RaydiumNAMK9EbDEP5wab8XiRkHNz1897SBsGUKotrV",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 295607.134828708,
+  "stakeShare": 0.000676483148435809,
+  "tpuQuic": "67.213.112.63:8003"
+ },
+ {
+  "identity": "AfZTWYoFQbzqCMmUBTD7XwxFvjob1FVyCvkaXRryxtKc",
+  "vote": "86Sw9R6ynPmXnHfwUWinXtq1QoF2KHesfQQyZG5r8sXo",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 295133.595895408,
+  "stakeShare": 0.0006753994766607981,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "9gFxqsXbFyrKXUkqpAatonn47uYZ7sEZSnMxhzQoXrUJ",
+  "vote": "48oxpSHQkM4sdXUY9NQ8KnEtebzZbyk8uUT7JRdVQNuf",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 294284.163364671,
+  "stakeShare": 0.0006734555899101966,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "2dfgsiSaZ51QYPsECMYMG247PXxyKdwkV9wTHoQb8YEC",
+  "vote": "NDf9Pv6TAxTDPR6ud3djsd2Ux1WS2m2YfTw4qEmSnQH",
+  "clientId": "Rakurai",
+  "version": "4.3.2",
+  "activatedStakeSol": 292882.182423982,
+  "stakeShare": 0.0006702472218802645,
+  "tpuQuic": "64.130.42.87:8002"
+ },
+ {
+  "identity": "radM7PKUpZwJ9bYPAJ7V8FXHeUmH1zim6iaXUKkftP9",
+  "vote": "radYEig9KGrMTMWbWRFV7LStotQbnLgPaEFHVDsudQz",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 291970.898631804,
+  "stakeShare": 0.0006681617914010295,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "PRGNnb8DxVcP2WjSHfVRGgc8SkA5u6dbMwoTVV1BGKN",
+  "vote": "VotESBSkLKU8vebS6wTR2rzWWJsLc6YThYS6tebPxXq",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 291402.881336104,
+  "stakeShare": 0.0006668619102977409,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "2oHUYyW2PU9VJh4XBs5TbGgzdernunvGqyKth3kxW4ns",
+  "vote": "6tgtejPHUHR1pECzXqQT8EHZqnKCWZFSqdZXDyBaKe3b",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 285746.686842108,
+  "stakeShare": 0.000653917972859692,
+  "tpuQuic": "74.63.225.151:8003"
+ },
+ {
+  "identity": "7RtC1QgiNVLANGRTEKxASz4bRiMYyf2hUVLs1XGuJ6Gr",
+  "vote": "HjQugFHAUm7XbaZhmjnGioNUccdMUnFmwFTJgepm5q3n",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 282612.62183684,
+  "stakeShare": 0.0006467458111884429,
+  "tpuQuic": "146.0.249.83:12002"
+ },
+ {
+  "identity": "EQhTjikb1L2jvxsCaSW2o2TuRXh4Do6HzBEWCxpeM44W",
+  "vote": "Eajfs6oXGGkvjYsxkQZZJcDCLLkUajaHizfgg2xTsqyd",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 279274.456105381,
+  "stakeShare": 0.0006391065745193874,
+  "tpuQuic": "70.34.247.7:8002"
+ },
+ {
+  "identity": "grptonHnt7YSmJokGK9TJJTBXDT8ca4LSWMHCCfzzPa",
+  "vote": "mnvkHm47ZmRKoSWuQZAfXLRiDPiKCq8PWkMWrp1Wwqe",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 278086.314234328,
+  "stakeShare": 0.0006363875672322863,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "qZMH9GWnnBkx7aM1h98iKSv2Lz5N78nwNSocAxDQrbP",
+  "vote": "6JfBwvcz5QUKQJ37BMKTLrf968DDJBtwoZLw19aHwFtQ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 277986.052521742,
+  "stakeShare": 0.0006361581229766967,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "SLNDCSGTEsA6KHpgR32MBt9UAurZnVSJGUtW2tRpdU2",
+  "vote": "SLNDoinxE7cCgE5ga6FJZ19F4FiUaEmtzSatbY6cjWy",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 277484.758808446,
+  "stakeShare": 0.000635010935681444,
+  "tpuQuic": "64.130.53.11:5010"
+ },
+ {
+  "identity": "FNTPSUuRpDoJx1hwFmB5ncNLLMX42aE83P4hsFYUfNRL",
+  "vote": "A9jRCzF4uxLVnVs8ihQECtZ5ZMbHUvoZusddxTQ1iRQc",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 275785.59598146,
+  "stakeShare": 0.0006311224807577472,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "2mDrrmhSzpSyaF12izGk8hnFjtKCGeCFPwQHpRiJDby2",
+  "vote": "9wQQnnnkk5b5GkQWTW9L4kEA3CjFv6CqsQd5gt6tRsHK",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 275259.527740323,
+  "stakeShare": 0.000629918598110386,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "Tri1F8B6YtjkBztGCwBNSLEZib1EAqMUEUM7dTT7ZG3",
+  "vote": "tri1cHBy47fPyhCvrCf6FnR7Mz6XdSoSBah2FsZVQeT",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 274906.121735602,
+  "stakeShare": 0.0006291098449424751,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "BULKzVM41WAyQZfL34vxqdsYwEYH9mJAJyzRS4xraf8b",
+  "vote": "BULKEEKf9Hjy4nwCthjzheEk4joH23LLXttAHjqEZmB2",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 271753.627604983,
+  "stakeShare": 0.0006218955090769273,
+  "tpuQuic": "64.130.32.181:8003"
+ },
+ {
+  "identity": "DP9SwUE9Wi4NijWxgKDmmVsqGtQ597AKKmDBwzpt8GgZ",
+  "vote": "2Bgb4T6Zdy9iy2S3xxDRpwdgQHpitoDnZt5aBnCwv3Ez",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 267311.106022967,
+  "stakeShare": 0.0006117290055230207,
+  "tpuQuic": "94.242.197.139:11228"
+ },
+ {
+  "identity": "3KiDz3wuZrJfsgKt5KEvRb1WPpbci1PWj78aPVF5ei3F",
+  "vote": "2s2K5hcECd67832EzrVMCiCtbb54CHsqXtewuwwNVqtA",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 266623.640949909,
+  "stakeShare": 0.0006101557737492633,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "BGAjnivVWqLqByqCVT9dSyPUFicvyJrz7vRvrvui3SEk",
+  "vote": "8LMatbjxgUW1S7CyuBhGk89BC9vhRzCRLwtXbyJru4Qi",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 266141.466045942,
+  "stakeShare": 0.0006090523389579436,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "UPSCQNqdbiaqrQou9X9y8mr43ZHzvoNpKC26Mo7GubF",
+  "vote": "A9V5e8ZLwQ2ArKZnCcrmz9Q92pDCkUXE5tqJmJDZkCMo",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 265497.507210458,
+  "stakeShare": 0.0006075786691808467,
+  "tpuQuic": "148.113.199.40:8022"
+ },
+ {
+  "identity": "ALPHA6rdHZkx1om79xp47vX1iZXcbM3qfEwLyttZ1T7R",
+  "vote": "ALPHAthakWdoUxXJP6z8cjCkwrufcARXqi34EjShtFVT",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 265432.392700008,
+  "stakeShare": 0.0006074296576589713,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "gridqZmeBcsUKT2Mv4M9YFHFN3tVLFb2TCtTcLD1cAd",
+  "vote": "gridZ5cMHjWGktAQt6o36NtF7XSv19nJBrW83zmo7BM",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 264785.212978651,
+  "stakeShare": 0.0006059486170346944,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "43Am3PKFeo9cACpqYL5Sk95rpVdxLw3Mc22PqRqZXEW2",
+  "vote": "EBVj3uwSKZpqEb1K267JaPxDQhULVqCy6hYeQqjsPh81",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 264463.975311842,
+  "stakeShare": 0.0006052134796085797,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "BoNKmNCGvoHS4CkKvYRnF21iEpUP827pZjhFGdA4t5as",
+  "vote": "BoNKvwirX136zCjcnayEM4W82vn13RKkjm1Sy3UPBdim",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 260421.00230696,
+  "stakeShare": 0.0005959613243486318,
+  "tpuQuic": "208.91.105.55:5010"
+ },
+ {
+  "identity": "soLStaCk5TiGCpeLKa9Fvv6f5JQGMa6S3uhLh826e9N",
+  "vote": "soLStAckuvkHtNzHF1cwmeSRG1FzVxKxwsdWZ1yrHrz",
+  "clientId": "AgaveBam",
+  "version": "4.5.0-alpha.2",
+  "activatedStakeSol": 259178.585264952,
+  "stakeShare": 0.0005931181108628176,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "rsbp8zMHbGCpLoRktmsjspYv77VcjxAzH1KxPCD9BiU",
+  "vote": "R4spmF6oFW6wMQHv9L3PCEKumkspN3nveQihWyDAdRy",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 259143.7035671,
+  "stakeShare": 0.000593038285723281,
+  "tpuQuic": "209.250.251.15:8002"
+ },
+ {
+  "identity": "4b1onMDEasBh4BuPekQWijx3BYR64hAE1z2jJyeZUkck",
+  "vote": "6anBvYWGwkkZPAaPF6BmzF6LUPfP2HFVhQUAWckKH9LZ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 257860.595360751,
+  "stakeShare": 0.0005901019524046764,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "G8kUFxhR7eSmSyAtVYEAyhvkBKdR49n7d8BKqpBo55kJ",
+  "vote": "8n9ZTVwH2ZMTmCNmAgT54TUUJbLRLCDDy77nBpVzGEcE",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 257830.250854177,
+  "stakeShare": 0.00059003251041588,
+  "tpuQuic": "170.23.153.109:11228"
+ },
+ {
+  "identity": "ABC1U4cf9DZMwqy8ktEr4WJj8VHmVBQibbC57gEJthwY",
+  "vote": "abc1zP7ihWsgQW8z5YmfQNqMckJE5Dfx8fwUNMNVNkY",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 257031.6936626,
+  "stakeShare": 0.0005882050495074107,
+  "tpuQuic": "195.189.98.82:9002"
+ },
+ {
+  "identity": "icex1C6pnZxznQWiHZZANjGU8nZ8kNquFnjyY7XXrXE",
+  "vote": "votem3UdGx5xWFbY9EFbyZ1X2pBuswfR5yd2oB3JAaj",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 254336.878029409,
+  "stakeShare": 0.0005820380895487093,
+  "tpuQuic": "84.32.64.137:8002"
+ },
+ {
+  "identity": "3WDh9HgusCujDmXCVhophLrHvoKHQd1Sd4uFHz1Awo35",
+  "vote": "9G19HT8xqceG7mKQVSrTRS3DGnGqDHErPyQEaEfyWEuW",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 252261.576133471,
+  "stakeShare": 0.0005772888578993026,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "sbidYi7fbif6qNsMpwBKvyF5DKcLCbjaegpADsKqNux",
+  "vote": "SBLZib4npE7svxFA7AsD3ytdQAfYNb39c8zsU82AA2E",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 250536.119733063,
+  "stakeShare": 0.000573340231358495,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "9gMjDS6WPahWXBboJVoZA5DUVU4qTUdQY6acHbpQ38t6",
+  "vote": "EhFqitfsRp2iyL8dhm94a6APQvd5mT9AV7BTtGTCMSBM",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 250329.547791169,
+  "stakeShare": 0.0005728675010987469,
+  "tpuQuic": "84.32.49.39:8002"
+ },
+ {
+  "identity": "ETcW7iuVraMKLMJayNCCsr9bLvKrJPDczy1CMVMPmXTc",
+  "vote": "C616NHpqpaiYpqVAv619QL73vEqKJs1mjsJLtAuCzMX6",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 250132.606535683,
+  "stakeShare": 0.0005724168102159127,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "mD1afZhSisoXfJLT8nYwSFANqjr1KPoDUEpYTEfFX1e",
+  "vote": "4PL2ZFoZJHgkbZ54US4qNC58X69Fa1FKtY4CaVKeuQPg",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 248336.285782083,
+  "stakeShare": 0.0005683060139061414,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "7VZM7YHcX73TpGoXDeBu61g4QKC86GwAEnew8dA7Y2xn",
+  "vote": "HMk1qny4fvMnajErxjXG5kT89JKV4cx1PKa9zhQBF9ib",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 245098.446075409,
+  "stakeShare": 0.0005608963686681449,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "2gDeeRa3mwPPtw1CMWPkEhRWo9v5izNBBfEXanr8uibX",
+  "vote": "3Xn3K5zeTzs4sURj1PCRaF6rvFg2hPgT49B4SiM998f7",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 243810.791200201,
+  "stakeShare": 0.0005579496305097978,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "8NpDWRcKHkBjn8mbHMYgDm2Z2DRvXXuDiSScPsGSdSgr",
+  "vote": "7qTwituXJJ5dtUwBZXjMNgtAyXJbx3X8V4B9gXFRjK9d",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 243398.155944734,
+  "stakeShare": 0.0005570053339625047,
+  "tpuQuic": "170.23.153.105:11228"
+ },
+ {
+  "identity": "anza1rXDVhy1NfVNtsbT3kSBh2jgB1BGZUKuUibSAJd",
+  "vote": "anza1Vgz2kcN9Qo6ECvf43v8RxBzQ7UpvxFoxJtLmGz",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 243304.654301111,
+  "stakeShare": 0.0005567913598096188,
+  "tpuQuic": "67.213.126.13:8003"
+ },
+ {
+  "identity": "5MAGJ3zShtXMMVXjZRoFqtFF7XhP8iLSyZrxdL7KpjcB",
+  "vote": "9J7aJMntadsYJP7ZAyXgpRsXqrZQfRMob3pfkiB4sv8a",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 238979.635210061,
+  "stakeShare": 0.0005468937552289518,
+  "tpuQuic": "185.26.11.117:8002"
+ },
+ {
+  "identity": "Fudp7uPDYNYQRxoq1Q4JiwJnzyxhVz37bGqRki3PBzS",
+  "vote": "4QhNoG3PN1FXXFhAEA2QWdor6xjXvM9pjq6MXAUV8Zg2",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 234936.982573358,
+  "stakeShare": 0.0005376423331166477,
+  "tpuQuic": "216.18.215.218:8003"
+ },
+ {
+  "identity": "8BwBBt23a6v8HgNsFybpLFiBKLV8vWko2Vft3D2DxGvR",
+  "vote": "H2tJNyMHnRF6ahCQLQ1sSycM4FGchymuzyYzUqKEuydk",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 234843.96197922,
+  "stakeShare": 0.0005374294598230842,
+  "tpuQuic": "51.89.11.213:11228"
+ },
+ {
+  "identity": "9GHvMeJ4ZWuAX6sDGscFL1TBMszx2EehnrcTVUy4MZJQ",
+  "vote": "GVYt3tbokX7mH4i86AA6Nh5hPiHEekercNZyNevviotL",
+  "clientId": "unknown",
+  "version": "unknown",
+  "activatedStakeSol": 234453.472827317,
+  "stakeShare": 0.0005365358436014648,
+  "tpuQuic": null
+ },
+ {
+  "identity": "vALigXFg9wnnhVHN16vNxHxXtAXiBv5QjAE6udoniBY",
+  "vote": "gaToR246dheK1DGAMEqxMdBJZwU4qFyt7DzhSwAHFWF",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 233543.997095952,
+  "stakeShare": 0.0005344545507851183,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "AHNX2YiD8Sb36yLA7bjx1bNs4jqCdDt3KKrwMZJMVedb",
+  "vote": "55L7AV93xRmx5F7rX1GCfsHxfYWNu4bKsG6f8tG6dFRo",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 232088.855357493,
+  "stakeShare": 0.0005311245267475608,
+  "tpuQuic": "170.23.153.107:11228"
+ },
+ {
+  "identity": "UNrgBLmc8JT6A3dxXY9DWeHvDezt2DZQbhg1KPQfqEL",
+  "vote": "unRgBLTLNXdBmenHXNPAg3AMn3KWcV3Mk4eoZBmTrdk",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 229212.605720338,
+  "stakeShare": 0.0005245423635282683,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "simpRo1FrQYGa1moicfgnPDp6KyE38d4gYrZzhjXYJb",
+  "vote": "Simpj3KyRQmpRkXuBvCQFS7DBBG6vqw93SkZb9UD1hp",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 228703.335688094,
+  "stakeShare": 0.0005233769227989163,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "Pid6HQnMCFb9izqX9i7X6ePdUPieGmjHoPxC1Jfooix",
+  "vote": "PineDoC593nrX16W8ZLWfF5Evb6otv7fRfZMLjPAHe3",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 227506.312533348,
+  "stakeShare": 0.0005206375911080815,
+  "tpuQuic": "103.14.27.39:8002"
+ },
+ {
+  "identity": "DViARWAWKkxAzp4UCgbw5B9pLSrBY3PaztFErcwgVUKX",
+  "vote": "HeTyhZdUKswQoonJJTXqAnDN48ceyVAeFaKfYKayGPNS",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 225350.839205471,
+  "stakeShare": 0.0005157048908738447,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "spcti6GQVvinbtHU9UAkbXhjTcBJaba1NVx4tmK4M5F",
+  "vote": "49DJjUX3cwFvaZD5rCAwubiz7qdRWDez9xmB381XdHru",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 225328.583772652,
+  "stakeShare": 0.0005156539603532674,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "61QB1Evn9E3noQtpJm4auFYyHSXS5FPgqKtPgwJJfEQk",
+  "vote": "5iZ5PQPy5Z9XDnkfoWPi6nvUgtxWnRFwZ36WaftPuaVM",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 224950.687812701,
+  "stakeShare": 0.000514789163064403,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "GiYSnFRrXrmkJMC54A1j3K4xT6ZMfx1NSThEe5X2WpDe",
+  "vote": "DfpdmTsSCBPxCDwZwgBMfjjV8mF8xHkGRcXP8dJBVmrq",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 224917.916995007,
+  "stakeShare": 0.0005147141685757101,
+  "tpuQuic": "185.191.117.166:8002"
+ },
+ {
+  "identity": "TREEir31FswHK7JZBS5oFQteS72dobi6inpmQha88dA",
+  "vote": "TREEvcfDjQPEghHbisphwrvstkxCQNRH3E3jyosGagK",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 223524.861603333,
+  "stakeShare": 0.0005115262262486375,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "4DraK9wUrMSpzbGjUbSWTHAhJimMyB49HyKhvfwe6e51",
+  "vote": "D9BcS9Fasxj7zNv3kP5rHErv7aFxihi5EBZo9xUqaHeh",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 222037.166904585,
+  "stakeShare": 0.000508121706278903,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "73hojLdq1vZDSxeVQEqVFJ4iwLngdvEJPEpEHkSdv6BZ",
+  "vote": "Ehdn9LdjTAURQSMoDPERXLehtvzy7QD762wwPkzGT7RS",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 221778.875071941,
+  "stakeShare": 0.0005075306174600777,
+  "tpuQuic": "198.13.140.105:12352"
+ },
+ {
+  "identity": "zeroT6PTAEjipvZuACTh1mbGCqTHgA6i1ped9DcuidX",
+  "vote": "5BAi9YGCipHq4ZcXuen5vagRQqRTVTRszXNqBZC6uBPZ",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 221756.618528072,
+  "stakeShare": 0.0005074796843969142,
+  "tpuQuic": "64.130.45.196:9007"
+ },
+ {
+  "identity": "DnQBmTJyLbBMgJYQLJDqJz25AJModNkyexL5LdVRGnG4",
+  "vote": "6AAeoHYMUQfSdFGqubUmWVAasFkzJEq47oKpHNNTZxLN",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 221657.260872283,
+  "stakeShare": 0.0005072523090331623,
+  "tpuQuic": "185.191.117.114:8002"
+ },
+ {
+  "identity": "NordEHiwa6wT5TCjdeWJzpsA7DSmWQPqfSS7m2b6cv3",
+  "vote": "NoRDTy8jpkpjPR7yxahVdoEUPngbojPhFU5jb8TtY4m",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 220577.236282272,
+  "stakeShare": 0.0005047807231038778,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "BTGPbq4KuFENn4CKuaKGqkaDd3TJD3TEgtMjSrsZnMLb",
+  "vote": "DFQjGLCKVydxt8yysCGz54mCEWn9kfFiWGuJV9n1fgyP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 219906.662687015,
+  "stakeShare": 0.0005032461466896778,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "8W8v28d1fBZE1fkaaHbowJM4hGZGnVHWNK1NyhUsob6Z",
+  "vote": "MkyLHecSHN7TBdWgnh2J8KCsEHnsqqbVYSxtGmsshrk",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 219510.318523968,
+  "stakeShare": 0.0005023391315479845,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "8pyp3vfVPRziYdAYEyqkwytdBbdVbQmHqfQAVDcRV3w",
+  "vote": "GB44NXtM7zGm6QnzQjzHZcRKSswkJbox8aJsKiXGbFJr",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 218668.350015596,
+  "stakeShare": 0.0005004123258646328,
+  "tpuQuic": "212.20.238.52:8901"
+ },
+ {
+  "identity": "FwnWx7x99rGwLmipzz8ii15NqcHkKRo2oS1Y7j6LivgZ",
+  "vote": "9f7dqiYNBZbgPesAnLeWnKCtxYHSfMg5x1EMZCJwVwG7",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 218099.429552177,
+  "stakeShare": 0.0004991103779041201,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "BeSovDCzhEAfgwDyXBuhmCFKsu5WQ3PaX61GEfteNzXM",
+  "vote": "BeSov1og3sEYyH9JY3ap7QcQDvVX8f4sugfNPf9YLkcV",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 217522.681959281,
+  "stakeShare": 0.000497790517922658,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "Ey3DkEVbfBxfWmkTsG7Hqj7jshYf5Zx9H8462Zjjkykf",
+  "vote": "GA2t11gJcmuZ4y7pShTzgYDkxVaJaVQJqkVUqojhPPsT",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 215242.829401377,
+  "stakeShare": 0.0004925731816183972,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "mXv18ov8qCiQGs3ieoen981LdgZzYJjJak6reK6fpNC",
+  "vote": "Mxv1Ubm71XoUvxrN3qjN8ii6Bh5b43NuuKywsWx6ox2",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 214848.543007387,
+  "stakeShare": 0.0004916708755852688,
+  "tpuQuic": "69.67.151.75:8002"
+ },
+ {
+  "identity": "AsMpvJ3DZ2Ydu1WTRMAyMH4QjSLiUG39rKzfzvtE1bWr",
+  "vote": "B1w6SZcyvjyp6zEyStcc8u9AxXAh2AbYvNzMmP9rRKE9",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 212726.094468818,
+  "stakeShare": 0.0004868137510419247,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "E99w1XfS4UNM1xUKXWEuDmj8Mduy7u65jm2NCULTspSV",
+  "vote": "EfnywDKqArxK6N6FS9ctsuzNdxfx3pzfXEQE5EevQ1SV",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 210925.431677121,
+  "stakeShare": 0.000482693018180371,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "PAWsME7oYbjt5TRNc11mBa33JhKnQr9AYherdr9YAZ6",
+  "vote": "3ZUQekqiZoybB57y49eqtvSaoonqDwuNbeqEGwN88JkQ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 210523.094710216,
+  "stakeShare": 0.00048177228878640115,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "idCE5k2BtTpwXdwAC7Var1enT9reut9fWECcxQP7LY7",
+  "vote": "Cer1umMkC6cvRGKKLP3QwxsdxsgxmC1EhqMhB1mqVvYZ",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 210253.602400002,
+  "stakeShare": 0.00048115556819676295,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "Ed9WjPnZfAXsPttcqxMwj94qsuXVRyBsyXnDkxFva2Zv",
+  "vote": "4YykTGwg94GgHZEPSsQfbaMaEE9HHAHqSuXT65L6C6wf",
+  "clientId": "Rakurai",
+  "version": "4.3.2",
+  "activatedStakeSol": 209932.579520194,
+  "stakeShare": 0.0004804209223006878,
+  "tpuQuic": "185.191.117.155:8002"
+ },
+ {
+  "identity": "3s97yjq2MhoPVPC3U9VeE3Z5S643Pweovg88ysvrQPw5",
+  "vote": "D3QPJm7BDzzPeRG51YZSEz3LfV7GvFNu9NkcibzURxuj",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 209083.737009775,
+  "stakeShare": 0.0004784783857840806,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "2Gfd4mkMqDVNFXxT6xvCSYUVdFPbuJLT6bhVsezdaRwe",
+  "vote": "G8hvpQDLe7hGgYtWYt4TJJEbGbgLFCBJYiMi9pMD9Kk2",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 208863.617090241,
+  "stakeShare": 0.0004779746516090375,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "6k1YkmTKwPRUhChnxA9ryJmbtuQMbro4xFTL6mL9jycB",
+  "vote": "91413b9eEvG6UofpSgwdUgH9Lz4QBF1G3J325Bw7JwGR",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 207995.630595019,
+  "stakeShare": 0.0004759883049755985,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "11AMA4mnNbsrPQeuoNN7uiZVJZtqEzQHrTfa5vnbcjk",
+  "vote": "AAAAQwH5KManM6mbxGLc1m1XnWcRBFDmdUgpZ4Ww621j",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 206872.826058692,
+  "stakeShare": 0.0004734188191333416,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "5pZvwjSpGYCxpJeySwSbSAji7kZe4YntL7rQvXM3YcNT",
+  "vote": "4vqwZsEEEsKtSqqEWbLyFAciWg66jGLP9zrbcZ1Hsrxb",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 206226.467573827,
+  "stakeShare": 0.00047193965787049505,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "GHQsq6bAdgooi998uKhwdzFubsJ7R3SuhTE9gJ83gctU",
+  "vote": "Ha8d5UUJUmEVHh2mLitaihGxQJeU6GfGx5FwBenEJCxN",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 205514.925584766,
+  "stakeShare": 0.00047031132719680145,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "puffinQSvKFriPbyE5atyx1ptfnyytovbzxybr1jsyy",
+  "vote": "PUFFiNkUHF2DMfbKeUcYTSQckDDtkswfxZCDv5WQqwp",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 205204.987423436,
+  "stakeShare": 0.00046960204816225306,
+  "tpuQuic": "45.139.132.119:9007"
+ },
+ {
+  "identity": "ECZx4Dfyn2o55KTYbM9r3Dt4VZRcrdfdrst7sUbWgrdU",
+  "vote": "3VZHxnkK1A3HYeWYaqgMebHnc2acgLzRiXYwTNm3ooYM",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 204970.822605945,
+  "stakeShare": 0.00046906617289293323,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "6XJ4aKjsKQsTfhajjXNycZ11HhkXzTCheKdpWt78doFu",
+  "vote": "Ec55BotYhWgC3xRmZ2UpuJvyySwxZeUrvEDPrxxG7r9B",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 203844.227479684,
+  "stakeShare": 0.0004664880124623093,
+  "tpuQuic": "104.204.142.221:8009"
+ },
+ {
+  "identity": "97jbhVBYcSmwGXjrx5PPWXucDsVBqwyoQ6rzP3B6eeMt",
+  "vote": "57GUg9QH2LFMV11oaduuoqVJ5qHDEp7EGJ2xgkGiqAum",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 203573.834966221,
+  "stakeShare": 0.0004658692317994985,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "H9ENbtmy2tWFtAJNmpC8xQtbcr1NTp4FXLdphRaG8L2T",
+  "vote": "BH2PMb9vuHxkVFMMHbH8iudCoBfUoX5tVaHfnEkKJ2gQ",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 203546.630920751,
+  "stakeShare": 0.0004658069766095471,
+  "tpuQuic": "64.239.35.205:8002"
+ },
+ {
+  "identity": "5marvipGzf98hxnoJFXsZbGHSXcEQ3yRGJ4ps7D3V4ou",
+  "vote": "i6PZjkPHGYmPfPE8LsJuLn5huZyusXhmysiDiHGPjxb",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 201803.628169255,
+  "stakeShare": 0.00046181819606219145,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "sTEAKPk59EtPPbixCweyv6oRLNCDEE8pnnef6gUfbiW",
+  "vote": "STeaKrJdxdPMww27XJsjRBfrzqfjFT1BxotgQtFyDgx",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 201492.865070368,
+  "stakeShare": 0.000461107029196498,
+  "tpuQuic": "70.40.184.22:8002"
+ },
+ {
+  "identity": "91oPXTs2oq8VvJpQ5TnvXakFGnnJSpEB6HFWDtSctwMt",
+  "vote": "Ac1beBKixfNdrTAac7GRaTsJTxLyvgGvJjvy4qQfvyfc",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 200576.787411792,
+  "stakeShare": 0.0004590106281774756,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "HrpWeJSYnQVtZe3BKxFCBrAEr8GRCmYUbQev4hoGDBs6",
+  "vote": "EZCQcPkgsNS5rnfoAWRsVZNGEo3GoZSVV4qSdeWrXzhX",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 199927.039322802,
+  "stakeShare": 0.0004575237099635942,
+  "tpuQuic": "216.158.67.210:8003"
+ },
+ {
+  "identity": "Stakex4B2tpDHPWGvV1dninfiaYCGdakgTknpzPitLh",
+  "vote": "StakeyJXE1yJbEApBVswHN4JdZXcj7V5MHbzffa4dFp",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 199130.326017787,
+  "stakeShare": 0.00045570046870356995,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "AwcMVMvmT1aCETVYV42WE1cSMCyNp4vZqVjLsvs6dM4o",
+  "vote": "57QggzHa8AEELBU3C8RG567oGmbG6VyoX5jsi6M3gaHp",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 198803.832590361,
+  "stakeShare": 0.0004549533037142786,
+  "tpuQuic": "148.113.215.144:11228"
+ },
+ {
+  "identity": "dcntruDNP5SEcGV4RxnsqXFURdDZGT3DTQv68Q8H7Vu",
+  "vote": "dcntrKBwh8j5yL62Eg96Z5QjJWv3UXxMu4rqL82w6Cb",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 198579.849832037,
+  "stakeShare": 0.0004544407296127294,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "2T9NfUEDBcFUGGX3GgguMboJaGTe9eZMGemptqXMnvzR",
+  "vote": "242yMU95HFBsubQPoHc4yv4gcbmYSyUUHSFzbGDt6RYt",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 198433.245866233,
+  "stakeShare": 0.0004541052332708778,
+  "tpuQuic": "70.40.184.155:8009"
+ },
+ {
+  "identity": "4vcmYPfLztUckU3c3FvXDwSq8aDNDqwEpvEiqAv97LGJ",
+  "vote": "8xG2YekjpQYLZLr8iWa6ZtFo79jYEhgySk5Khxq2MYbN",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 197768.744749327,
+  "stakeShare": 0.0004525845534403177,
+  "tpuQuic": "51.77.236.177:8002"
+ },
+ {
+  "identity": "9pBHfuE19q7PRbupJf8CZAMwv6RHjasdyMN9U9du7Nx2",
+  "vote": "FCvNkHa4U3yh7AXWGGL2jWLWiSRouR8EtzY5WVTHKTHa",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 197309.083376158,
+  "stakeShare": 0.00045153263981476913,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "Hj2jzpAp57KyM3SmnYwJbDVrQ8tTWizMon2hhzYzwxet",
+  "vote": "686JcEJ98r8fMtUiVuKiz4WRoBpJ2Sm9zMhdc2b6H4bu",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 196921.697374397,
+  "stakeShare": 0.00045064612500759745,
+  "tpuQuic": "45.152.160.63:8002"
+ },
+ {
+  "identity": "4uH4G6YiD5G8rU3mtPg73C2Uqamrqedy3FboTZcZrh6x",
+  "vote": "EJHf5N9is5spAF5Kz384tTvTV3CwTka6qzUoZrYm53SV",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 196367.440250883,
+  "stakeShare": 0.00044937773341693107,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "MARiKM3t7pDCyXtvLq24ErWDAvYu84yXqCthkR1GS33",
+  "vote": "MARvNLH6rCLroQEGr8fWNxygJ7fHJRCfykRk9DqzwVn",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 196050.183559339,
+  "stakeShare": 0.0004486517062671386,
+  "tpuQuic": "57.128.210.101:8002"
+ },
+ {
+  "identity": "fdzip81euDS8jEZHx5H1mn27zGVMLzkgpQuzYRBfBYG",
+  "vote": "fdvtuDvWJZ89Z7TmeLjCwxgoLcmoEWNxruV48DvJtfm",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 195221.543229521,
+  "stakeShare": 0.0004467554014991194,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "AmhQFcGvH2hjkucP78rn6GMKSbstYwyFpCDVKZUwBGrG",
+  "vote": "BdM7KCd6ZYWcaCMmHVi8YeL4jFzDVM9cRLJUeRAGSvMS",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 193878.551990549,
+  "stakeShare": 0.00044368202865178286,
+  "tpuQuic": "216.18.215.202:8003"
+ },
+ {
+  "identity": "sTepQGoReJq2tBKStL19DT6nnGHcGiAvFjyYaokLyuM",
+  "vote": "StepeLdhJ2znRjHcZdjwMWsC4nTRURNKQY8Nca82LJp",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 193252.598939473,
+  "stakeShare": 0.00044224956427297055,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "7Zm1pE4FubFYZDyAQ5Labh3A4cxDcvve1s3WCRgEAZ84",
+  "vote": "XzMLju7T6BSSngmsPogeuryd6uswiimkPU87gB2chho",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 193022.280233921,
+  "stakeShare": 0.000441722490651538,
+  "tpuQuic": "23.111.240.159:11228"
+ },
+ {
+  "identity": "1ggyZGbYtEo1WrV1kmXfnvhPeSPxrYAXoDBeApnszLT",
+  "vote": "1ggyFRMuSB33BM6oNiDTt9YovbJnYoVow6yEsHhkaFh",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 192632.772535757,
+  "stakeShare": 0.0004408311204410502,
+  "tpuQuic": "155.138.145.139:8003"
+ },
+ {
+  "identity": "5aD6KB8g4MPt3xJafmMmun86hHMDnoFiGbd5gYiMFZw7",
+  "vote": "QWmexgr4teHa2ZF85tyf2hvEwBvJ6ioAEr1h8DRjoie",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 192097.322438958,
+  "stakeShare": 0.0004396057678543383,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "dxa6QFqLcByyHykLCAW5tv1VYNVQFV3v6oovM2h8inH",
+  "vote": "7MKUXUiiVeWFwLaNyw5exkujXnen5yB77hQa54KLD98h",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 191739.811152926,
+  "stakeShare": 0.0004387876199415134,
+  "tpuQuic": "67.213.112.229:8002"
+ },
+ {
+  "identity": "9FXD1NXrK6xFU8i4gLAgjj2iMEWTqJhSuQN8tQuDfm2e",
+  "vote": "2g2QU1NDRax6i2mKzRwgRfdBFoDkMC6bj7Zp5Q3i8sCq",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 191380.572302906,
+  "stakeShare": 0.00043796551857903167,
+  "tpuQuic": "64.130.61.195:5010"
+ },
+ {
+  "identity": "3B2mGaZoFwzAnWCoZ4EAKdps4FbYbDKQ48jo8u1XWynU",
+  "vote": "edu1fZt5i82cFm6ujUoyXLMdujWxZyWYC8fkydWHRNT",
+  "clientId": "Rakurai",
+  "version": "4.3.2",
+  "activatedStakeSol": 190902.472620051,
+  "stakeShare": 0.00043687140974126183,
+  "tpuQuic": "77.81.119.170:8604"
+ },
+ {
+  "identity": "THWsLPufeq9LWs2H9vYPbtFwdxAHbQHvSbT6pztG8x1",
+  "vote": "THWfRpcJSC7oDrNMSCcixTZmCHVBTEVQL4qnd1UTD1x",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 190811.469498594,
+  "stakeShare": 0.00043666315333988506,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "MCFmmmXdzTKjBEoMggi8JGFJmd856uYSowuH2sCU5kx",
+  "vote": "2het6nBRLq9LLZER8fqUEk7j5pbLxq2mVGqSse2nS3tf",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 190585.873215245,
+  "stakeShare": 0.00043614688676153003,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "3tzpLMWRkWucvTRWU5PjgKzN1iwJuV69yCCjmuuo4gTk",
+  "vote": "GrefCNn5jSbcWv3uiervqZiCC87F8oX7PXz9LEBiog6s",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 189123.661762922,
+  "stakeShare": 0.00043280068401334694,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "popscoyTKVksa4TyTXw488b3vvFxM7qQEyTBeMQopKu",
+  "vote": "HLM6hyDWrEca9QMS92nDBa2AreU1qDkppttPVuJ7E2CU",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 189086.638161258,
+  "stakeShare": 0.00043271595722678066,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "CLsFr1KZVbAyz16iFpwg2e4hiekR1unpwyxfNdjBMaoE",
+  "vote": "9bb63m29Xy1KiWqijLs3f8adTE4KcSmVkt1qPxGkbkna",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 188628.66432924,
+  "stakeShare": 0.00043166790546049207,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "2N7v8pDKDYhtBUJBQUgxvysUjgM9s4ULPCmeEiPWTf6Z",
+  "vote": "F3scMRjzSvXUa7JoK2uwBjNsYGi5sM84sDzE7FfGBo6o",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 188555.620967391,
+  "stakeShare": 0.0004315007491317905,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "5zm9g3zgAPWzX3wmUB2JtTkcwCqe74NWsTmt5wLFwCKK",
+  "vote": "4udPrmxccbP1NwDJ6vChFKs5qcqyjmQff6gsKXD1mdaj",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 188479.786136232,
+  "stakeShare": 0.0004313272046556964,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "9ppJrpsbbuGNjiMhhD52Ueco4KXUzVfrtNQ6tAcDab4f",
+  "vote": "EcjtYtuxBuupjeyXNdttATwoQoNL5Ck7bmrqDCj3ALT4",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 188233.52498565,
+  "stakeShare": 0.00043076364749196393,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "FCWkGAHDWK41ANjiaoPudkCZRkvTecaEkoZQugezUnpr",
+  "vote": "GptPXjYUBUjxpRmueH6F5JcqizvjPTRDShTJQ8Vp6uN1",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 187747.704286644,
+  "stakeShare": 0.0004296518694686449,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "JC7bH7HSZoDhwggBXtRF31cVt71WiizY2J6YDDQfG5er",
+  "vote": "6hkfqeNAbURk7CmAQsP4Qm6WwHVF4LxHupEvQf7Tkrf1",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 187671.300366641,
+  "stakeShare": 0.0004294770226592591,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "ciTyjzN9iyobidMycjyqRRM7vXAHXkFzH3m8vEr6cQj",
+  "vote": "CiTYUYPAPHdcri5yEfsmqVcs54J6j8X1QaiFLgYqMVe",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 186904.526776991,
+  "stakeShare": 0.0004277222970422187,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "ByszyWdqC3rVMWy8f6jwK5cmwkpwYdwsr7UL58xS5vnm",
+  "vote": "DG6fVEB2Qy1jntvHVPui3R12CMqcwNNnjYPYdsbQ9ACP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 186640.015793357,
+  "stakeShare": 0.0004271169759862561,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "1KXvrkPXwkGF6NK1zyzVuJqbXfpenPVPP6hoiK9bsK3",
+  "vote": "1KXz4xKV2viJCGpxqnQqdf2J45vQr5USdmtcJLTaHkm",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 186358.799043806,
+  "stakeShare": 0.0004264734245637258,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "BitokuDHQiAhpUKrwx1VssAAoW5Rst8zB6gpfoaxM3Kh",
+  "vote": "6hZL2FZim27WkQccMfygvvXH2eow5u3wR6XUJHbMoeWP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 186308.285841924,
+  "stakeShare": 0.00042635782745587344,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "DeXsDvvZzKhVux4YfDFE6p4acJLGzr8yKt5pSTjzZB8t",
+  "vote": "H6rbcwuQtadcv9JvxLM7GEskF6xFXnrNT3iPkk4RfyBE",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 186140.885742281,
+  "stakeShare": 0.00042597474013113555,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "EdGevanA2MZsDpxDXK6b36FH7RCcTuDZZRcc6MEyE9hy",
+  "vote": "EdGevanAjM8a6Gg9KxBVrmVdZAUGAZ9xaVd7t9R4H2x",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 185371.728492017,
+  "stakeShare": 0.00042421455961789344,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "AmjX7CerZbHrU814UeBp2gJC7gANNG3KrP4c3RyD7TSD",
+  "vote": "FzUNgBRnVxawDytN9GM7BFwxFfekuMs7BcAGybn4AmMk",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 185141.920242441,
+  "stakeShare": 0.00042368865415116723,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "8GLRbAstsabZuZUx73AoyfGi1FRCWSUhRgMugFyofEz7",
+  "vote": "7PmWxxiTneGteGxEYvzj5pGDVMQ4nuN9DfUypEXmaA8o",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 184591.360924623,
+  "stakeShare": 0.00042242872481646426,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "BNtHBLo1L2vAG7PBQ6mJvWz7GqVPxBnioXsY2Gjtubrg",
+  "vote": "ErvMUdtMC7AX55zKdYSyy4DnWNCrTsWn5GwprSG7ocnx",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 184409.345713959,
+  "stakeShare": 0.0004220121914914329,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "DDnAqxJVFo2GVTujibHt5cjevHMSE9bo8HJaydHoshdp",
+  "vote": "9GJmEHGom9eWo4np4L5vC6b6ri1Df2xN8KFoWixvD1Bs",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 183692.435871464,
+  "stakeShare": 0.00042037157673537615,
+  "tpuQuic": "74.63.225.105:8003"
+ },
+ {
+  "identity": "MBVyz9s72WSfUmbr1S8fgHjDJQkPs1Q4Wxi6A2Mees9",
+  "vote": "3vwstewNgWAwN2uyuJduoZVVhmiwvAbwCxrjeJG6bASy",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 182873.943794573,
+  "stakeShare": 0.00041849849577112327,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "4VrjyXQT61WFSjuG3ehgqZUK1jqvYqB46veQbXLotq3n",
+  "vote": "FahWJg2PkphJaMUUCzdYhXkD5NngUuuFRFD3YCE3BSwb",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 182095.577629806,
+  "stakeShare": 0.0004167172410863113,
+  "tpuQuic": "64.130.61.195:5010"
+ },
+ {
+  "identity": "SFundNVpuWk89g211WKUZGkuu4BsKSp7PbnmRsPZLos",
+  "vote": "SFund7s2YPS7iCu7W2TobbuQEpVEAv9ZU7zHKiN1Gow",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 181807.671039405,
+  "stakeShare": 0.0004160583802748402,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "5AsoSeQtLoN8eLsf3wKrR3LwxHME4sTBGR6dpTCP1k3H",
+  "vote": "uTnZDhnbiSV3TX2obj71nFPAm2aXy83mFTFYzaBRk34",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 180730.338848264,
+  "stakeShare": 0.0004135929557748645,
+  "tpuQuic": "148.113.187.125:8003"
+ },
+ {
+  "identity": "GwHH8ciFhR8vejWCqmg8FWZUCNtubPY2esALvy5tBvji",
+  "vote": "3iPuTgpWaaC6jYEY7kd993QBthGsQTK3yPCrNJyPMhCD",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 180333.112704212,
+  "stakeShare": 0.00041268392226075453,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "5zuNci3TV79w6zLoJZzbZujMvkVZb2FcSPhgv9aT24AK",
+  "vote": "76DafWkJ6pGK2hoD41HjrM4xTBhfKqrDYDazv13n5ir1",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 179266.738347811,
+  "stakeShare": 0.00041024357425478584,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "5XKJwdKB2Hs7pkEXzifAysjSk6q7Rt6k5KfHwmAMPtoQ",
+  "vote": "GMpKrAwQ9oa4sJqEYQezLr8Z2TUAU72tXD4iMyfoJjbh",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 178870.010362598,
+  "stakeShare": 0.0004093356807539575,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "8T8AJfUCXwPFwEMmjca8gCRSktPrqbUBVa6ggNyhLhFJ",
+  "vote": "DPsW8v7gkGUbPPRnraS5e163bDepd9tD537X9S231T2j",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 176618.235425514,
+  "stakeShare": 0.0004041825987761151,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "8hAYbagNt7CMBooFfqVJhBgLqLffpjXTWJMk8yybjJsN",
+  "vote": "74y2qkCaJ5L17hTsz3E8jftNxTBCTvdz4P2L6qTHDW59",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 175695.890622808,
+  "stakeShare": 0.0004020718556898918,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "4Kbcyn7JVPAWLRLPsNGTPmcNMvCkLTw51ZLRhqsUC6jP",
+  "vote": "9gX9MV3nGHRs1R9E52Q3vMg1tNGe5NHvzdfo3AMHnr5t",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 175260.371782682,
+  "stakeShare": 0.0004010751911258167,
+  "tpuQuic": "173.231.12.146:8003"
+ },
+ {
+  "identity": "8AkVj5aAtJ27tYXeq89cnSf68V43NarFHMx2iSDjZv7c",
+  "vote": "CV7uvPY1Hk5Avb2NvkGJoUzGnipZrEZK27j5rQJoUae9",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 174102.034745147,
+  "stakeShare": 0.00039842439081088,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "nymsGg7ZXcYBwGYKZL8qEHk9PQ8sAkKvnXgUNLPyGDV",
+  "vote": "nymsndUdAZyUPpWYz5VEg8Ghj9cFvwTRgciLogpmYaQ",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 174014.872096109,
+  "stakeShare": 0.0003982249231516119,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "CVRr5oHCAAooVbYze7CvXtRp4FUtkMCSqBZU7MVu8v8e",
+  "vote": "cover89z945JotsCRGdbjakJm4rnL5XspFSPgN1mVZj",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 173289.05953787,
+  "stakeShare": 0.00039656393494557187,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "GWJyUxzcVwRRtpLuLiu1mpiUQsZ4onYFAYfCjQnuLmz5",
+  "vote": "9KgZYnDzHhQANoJ43Z8czkgXYdTjtWLRrH9nDf42gqa",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 172834.56661979,
+  "stakeShare": 0.0003955238490885688,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "BPKAfGkkzF5u1QRjjB1nWYYbPMUCMPJe1xZPmwEMNMCT",
+  "vote": "9Gko8QZBbV5SrEvHKtQHcMrGGSfgFP3KJUozEGifu25x",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 171796.209800656,
+  "stakeShare": 0.00039314761791060826,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "NdMV1C3XMCRqSBwBtNmoUNnKctYh95Ug4xb6FSTcAWr",
+  "vote": "NeodymeDFipD7eA1ShrLJAZTBdHWcFsDB9YkoHshZNk",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 170866.987337425,
+  "stakeShare": 0.0003910211356188732,
+  "tpuQuic": "185.134.66.3:8002"
+ },
+ {
+  "identity": "4QNekaDqrLmUENqkVhGCJrgHziPxkX9kridbKwunx9su",
+  "vote": "GNZ1PAAS33davY4Q1BMEpZEpVBtRtGvSpcTH5wYVkkVt",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 170136.92039442,
+  "stakeShare": 0.0003893504114516128,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "Lake8NXDThihebhxS3Js7mFnj9fthmus93zEdsFNrsL",
+  "vote": "LAKEuKJQYVFpf4vyjX7iuf9ajHo3k9FiyewYKf6VxPV",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 169225.34313005,
+  "stakeShare": 0.00038726430937494657,
+  "tpuQuic": "84.32.70.12:9007"
+ },
+ {
+  "identity": "ChKZmewGBzbsxvoLNChDe9YDzzKJ3p1A6uLTECmR7g41",
+  "vote": "GFWtwTkSkgc9RcAUkUxs7LyZ124DsBtcSnWGWwbrA113",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 168693.172367273,
+  "stakeShare": 0.0003860464613912791,
+  "tpuQuic": "64.130.45.196:9007"
+ },
+ {
+  "identity": "Je6ckvDiPr7zKz49JVXFuhXRFLS3W57WnksbS2G8tbP",
+  "vote": "BBzWbWp6WzmoMMCKrHhcAnqSWYdFqVLyn6qNebcX44yo",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 168329.18907073,
+  "stakeShare": 0.00038521350258409015,
+  "tpuQuic": "70.40.185.125:8009"
+ },
+ {
+  "identity": "74Xkp2iLXm315h69sFRiCFjmKnaWkMV8W2LgJwPRSgN5",
+  "vote": "FN2BJjzy7WMRAqMNwzZrv5iDmHaNwukyFMfWCc6FxZDw",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 168183.848766145,
+  "stakeShare": 0.0003848808980720331,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "GmCxjmjKZoaKN1DKunbYq8RCYib94Nm3sHyncFfofaF5",
+  "vote": "7S9dHgoeMYvtShTjEC3x5D3THRDQz123WVGPseZsm3hm",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 168000.1724085,
+  "stakeShare": 0.00038446056328956954,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "AbvfvRfKHDpytbQqE8Y4jQrt262akV3RnA1RqMxQxg1x",
+  "vote": "GiJj4MFyM4sCQ1aYQRQA9tqwtZFoaBdSxgNitWjHc2o9",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 167638.1002355,
+  "stakeShare": 0.00038363197799952246,
+  "tpuQuic": "198.13.140.111:9007"
+ },
+ {
+  "identity": "3V2xaccDpFib4DbTksdiveNDmiwpXBqSWyjSof3w1Bg7",
+  "vote": "34yvUa2fxfm2tUqxFEj9PHrVNwCcdzd51eo9hntWpZRs",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 167157.510926702,
+  "stakeShare": 0.00038253217176883504,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "8Nvaxzif1NrdvxNkRetjT8xJvd33EHkKVrfL8EDkgaNy",
+  "vote": "2DNGsVZ9rg6RvT8bY4SGmGvyiVJ4xt9RL3NDd6uhfN46",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 166650.886514196,
+  "stakeShare": 0.00038137278541692886,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "capyS1jerxhFp1RehdWRG6kbWi8bnWF3fkEG2RGLsQf",
+  "vote": "capyZmRCkNE34ifDrRdfLtDB4Fi58rtLa94H9nU5z7n",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 166110.788599352,
+  "stakeShare": 0.00038013679651527734,
+  "tpuQuic": "103.88.233.107:8002"
+ },
+ {
+  "identity": "LimeA3gMLb2SjxrKbP7NsWk1UwTZrw4B6Ctc9dmVU6E",
+  "vote": "LimeNKYH66uR9BwnrPtxPbpqmkambxHVcutGoSaWPiq",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 164884.612607112,
+  "stakeShare": 0.00037733074991478657,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "parafiUS6h6oLhCFwhjvEmQJKw8pF1iXsxMJdTq46dS",
+  "vote": "pt1LsjkNwqCKdYYfc35ToDkqtEG9pswLTJNaMo8inft",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 164384.157300036,
+  "stakeShare": 0.0003761854812730863,
+  "tpuQuic": "64.130.53.11:5010"
+ },
+ {
+  "identity": "GFXVa19rX6iwfs3sLS5UvX9Exu2usRsG4V5MRMDRo23V",
+  "vote": "GFXVa1g8zzAVDRnSuB6o9PnHuyH25ADvy2YJPZLpATuP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 163799.073627449,
+  "stakeShare": 0.0003748465445618348,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "8LDyyeJQTjR2hNRpjEVYNT2WFMXDpiCs4r98EpWSTt8D",
+  "vote": "7emL18Bnve7wbYE9Az7vYJjikxN6YPU81igf6rVU5FN8",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 162236.627398218,
+  "stakeShare": 0.00037127095919910555,
+  "tpuQuic": "198.13.130.10:9007"
+ },
+ {
+  "identity": "yJeahQNRHNWtL9Z1SqPX3SBwTYXr5ECMYYVK4uYVwxt",
+  "vote": "J4pH3yiFrzFG1AQPRGBJXo3HP72MCZwsQamtp9ym4LwN",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 161970.107440208,
+  "stakeShare": 0.00037066104069893114,
+  "tpuQuic": "198.244.253.219:8002"
+ },
+ {
+  "identity": "7MTjmteQHhthwwTZhUzsc2dP4NBvGNRqj8jzdqNxHFGE",
+  "vote": "ENVaKoD7ytn58xJ8s5htFfQ8hqQt1G9dcPUDqbSwVcgB",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 161525.604466698,
+  "stakeShare": 0.00036964381636439884,
+  "tpuQuic": "64.130.53.11:5010"
+ },
+ {
+  "identity": "5HYjArGt81naevDdwMaEx8yeGNw9jYBSDJa8YavT9Mp4",
+  "vote": "4ibf8qJirtoBGg7gSD7V7CeCKoFB96PBYQ3J5QjSmAob",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 161308.531632448,
+  "stakeShare": 0.0003691470553019894,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "LunaowJnt875WWoqDkhHhE93SNYHa6tfFNVn1rqc57c",
+  "vote": "LunaFpQkZsZVJL2P2BUqNDJqyVYqrw9buQnjQtMLXdK",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 160973.19305711,
+  "stakeShare": 0.0003683796486040148,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "8yjHdsCgx3bp2zEwGiWSMgwpFaCSzfYAHT1vk7KJBqhN",
+  "vote": "DPmsofVJ1UMRZADgwYAHotJnazMwohHzRHSoomL6Qcao",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 160918.669654893,
+  "stakeShare": 0.0003682548743396299,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "ReFiqMfGnc7tW8WQtFFcJRPZSDAWDBnAsdoFYF2QnfR",
+  "vote": "ReFiSbuMcV8PMYcpvm9RmHDhF9HR3qyxsHZgf359NUx",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 159421.412686663,
+  "stakeShare": 0.0003648284715619276,
+  "tpuQuic": "103.106.58.73:8002"
+ },
+ {
+  "identity": "jagBNeXYncnn1hzwSq1JJ16XhWTgQ7DCFVqndSJZ6vT",
+  "vote": "jag77EXci8uf5uGmKE5izaYvxBCS5H9U2rxWYh8BUUf",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 159096.821095188,
+  "stakeShare": 0.00036408565883555674,
+  "tpuQuic": "103.14.27.37:8002"
+ },
+ {
+  "identity": "2X7WoaXX9KPqNrNfvguhnwo3rjFPNsfw2t75fGjWRthz",
+  "vote": "BmMVRAVef2qmJ1tJpG3JwRUtnfEiTbvDw9ZeFEi4wE7D",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 157074.819676093,
+  "stakeShare": 0.0003594584028428228,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "vaoJKVZYPAsqc52T2nNQhABR1gU6Cy2koDKfCQaEiva",
+  "vote": "voEskim7SFWrPx1tV2PVisqyrJejxmDEARX11mtZ5vo",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 156563.067887574,
+  "stakeShare": 0.0003582872827299216,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "AiBEt9kE8yZ4CnaLfTCGMp7Fg2wCtqhPTfvJ8D3zrLfu",
+  "vote": "H9p8zGs56CnL4b7RrbwQ6htc6V4K8PUtKvqH2m7hYAtL",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 156453.810126464,
+  "stakeShare": 0.0003580372514366324,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "SyndicAgdEphcy5xhAKZAomTYhcF8xhC7za2UD9xeug",
+  "vote": "SyNdica7qx3njeVKNgXvV7KC1NjPYNS4fyb3NxgevLH",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 156404.876413828,
+  "stakeShare": 0.0003579252689162922,
+  "tpuQuic": "198.244.253.130:8003"
+ },
+ {
+  "identity": "FjYEr2UCeFzNfAKiFrbhG34Zv8LxbmfHYAFhAfc7SLQL",
+  "vote": "21wUViiyG1g47VZ39ZZsSkFX9nu6bkyfy6jryHGD2TUB",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 155968.242762116,
+  "stakeShare": 0.0003569260531578691,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "BVHwHvRNwt8eM1x7cmfrEdhrbZAdWiFe9FnEFGhGuUTR",
+  "vote": "GkwAKTia6y2PkYpfYF52PT7ux1g5H3BpfqptpyJcK3vG",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 155299.902097558,
+  "stakeShare": 0.0003553965867014865,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "PAD9aPiKJGcbGxuVLbc8o4Vf65GPq3fJQ7PkHWuX6a8",
+  "vote": "1234LB7uvDC23rdCQoK8C3jNwnovUNyeKxz8wC3dghJ5",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 154732.637699919,
+  "stakeShare": 0.0003540984285703144,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "novaeuhY2JH2WHhc9KVTHDx2cyJZdXJC6faf4CtARZn",
+  "vote": "novaoLcuVHSudkW3Cphuhiv82vspN5qzinGCtEbwQxz",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 154174.82566271,
+  "stakeShare": 0.000352821901725368,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "MagiCBYNPD9iTBXqiFybAFCREQzG6MSM4LmFLXQZxuV",
+  "vote": "magiCChVWbehZ1e3XqQfLh164yUfQ8LnRWgSP9i4oFp",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 153857.018633293,
+  "stakeShare": 0.00035209461515300694,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "HwN6eoEe9N3kwHi66hpQDBMFPk6ASQGthWKPX5MZmisp",
+  "vote": "HwcVgFSgmfeeF7zGFUBLoVA8Hpx8rtwyfCrJ1npBaSVC",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 153243.297020585,
+  "stakeShare": 0.0003506901418507357,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "GGX3BEoZDqjxcw4AbCdu62ZTMrkpSgmPt81oP2mVuZNS",
+  "vote": "Cat8oWQiFfrR3c7BcceTYcpnYCzSWfCPjMXT7mfHXvEP",
+  "clientId": "AgaveBam",
+  "version": "4.3.0",
+  "activatedStakeSol": 152903.152708947,
+  "stakeShare": 0.00034991173744925623,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "3CKKAoVi94EnfX8QcVxEmk8CAvZTc6nAYzXp1WkSUofX",
+  "vote": "4MU64AyHBkRBUAYgAm91sP5vFgzUUgFHuS82CVhE8Q2Q",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 152803.337787093,
+  "stakeShare": 0.0003496833156534298,
+  "tpuQuic": "64.130.53.11:5010"
+ },
+ {
+  "identity": "9XhmwxwWtoR6oD4xpSHutoTXku8hXyq76XoTKFZb7ct7",
+  "vote": "Cu4GibmVNncBa4NWD8JpDcBKc29NnSWH9h8YHgTQn5f2",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 152714.204227138,
+  "stakeShare": 0.00034947933765640146,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "A23LfQn6khffj2hGhGfXr6P52W2pxrVcCaHVQLYQgiX2",
+  "vote": "53RJBy7aBGA7Aag6AryxEmBbsHDgwfBWagLrPbGHnfvR",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 151613.40008306,
+  "stakeShare": 0.00034696019868626606,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "CTwsruptUccEtZGNxBDbuusHYxkBX3P6ndrxVjSG213y",
+  "vote": "Fhks5gukimP6vxKYbRY4V1aw888EgHhpdDSscD9V6bub",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 150705.895705695,
+  "stakeShare": 0.0003448834172216546,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "Ste1115xFGdAYK5jaWA3dEFcUc1S5jEbVvD8e327zty",
+  "vote": "Ste11vRHQJyQjcTKrDbTWAYsTXkX6PCnoEw3mSH3u2k",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 150481.049399624,
+  "stakeShare": 0.0003443688669313404,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "7nzTzRZzezmugqE5ZjHRMxarhXunpwZ2PUdjV7uYzt7A",
+  "vote": "so1arJJbp9sis5XpovLyjTZPk8bDjfs37Meghi5wXbu",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 148945.342952808,
+  "stakeShare": 0.00034085447431420263,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "8uPW9msN75rfaKiwy8y8NxEX5zSk2WejtVv5YhZr3jCo",
+  "vote": "5daP6pZoPSak6UEKuRg2HHjvTPpqqwB113oNamGNKuuZ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 148481.580704584,
+  "stakeShare": 0.0003397931760272515,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "8ebFZA8NPLBZD91CwsG1HWQsa2B5Ludgdyf5Hi3sYhhs",
+  "vote": "9tedbEYypEKXAMkHcg42rn3fXY1B8hB6cdE3ZTFouXLL",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 146868.287763184,
+  "stakeShare": 0.0003361012303339247,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "99rG5AhkVagxJ7y8NpMAmy1h1u9GhT3h1Cimu2X3cwaJ",
+  "vote": "HZDt9b6AVva1cgbuHBRKQczfA5FGGwLh4a6wLRM6FSvT",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 146839.315762868,
+  "stakeShare": 0.0003360349292617208,
+  "tpuQuic": "67.213.127.81:8002"
+ },
+ {
+  "identity": "2VKu11f8zc3huqDQUN6WJTFpX32PgHpXXjf72P6YvYMd",
+  "vote": "EUiPhYZ8NoWX5ZzDh2cRR1fAS4su9jjV3YE7veyactzd",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 146561.299593635,
+  "stakeShare": 0.00033539870221805426,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "2Eq6YD8P8QXTeoz9h6JHjgZ55t8RSxNdx4waMDCoPmQU",
+  "vote": "C8MLmDCg3LReWoNCkFdHgsscFpHx2WdtcU9ZziNfXrhd",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 146342.023530134,
+  "stakeShare": 0.00033489689916820663,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "PKdLMugp1Mf88Ji1GkdqRDBewaUh2cqg79CBEo6eJoQ",
+  "vote": "PKvGYwh4efgythYddWAqGaPVuoZt8ybk7eXEoUqWxuA",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 145783.106522856,
+  "stakeShare": 0.0003336178436507651,
+  "tpuQuic": "92.42.110.111:9007"
+ },
+ {
+  "identity": "BSGMRbK97DcgLe4u4kfNQnmTVZGVnwdtKQBJqWRBTZxU",
+  "vote": "BSGMtRHy9qvsPbUKtT8yqd7nNqn2urTcSMVUgzj9zJVd",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 145366.110769538,
+  "stakeShare": 0.0003326635683074031,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "gVALrRd3xq4D62KJNGDCpMMGz976w2x1Vo79mSNn4bh",
+  "vote": "gVot34jauJpexBL2YUSPBKsmZ4V2ffmDcRk4yfSEnx8",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 144489.600139929,
+  "stakeShare": 0.00033065771458976897,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "HLXxkmjb47spcmbbKi3UCfZ2qmFY29t8MN562AEmh2Qh",
+  "vote": "HLXktVmNFeELB5uL5nrpP4WL7jyi3TMyekxASVjDhZ1t",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 142268.073297925,
+  "stakeShare": 0.00032557385396751314,
+  "tpuQuic": "37.72.171.242:8002"
+ },
+ {
+  "identity": "Ee8dX3qtwrDRnxYK6NGQfmMeKT3Qpp2QZHpxiAiw23W9",
+  "vote": "5szskKdH8nfnUuHTvn9hnhH3Xuvo7RVmcDDvD5WD7yNh",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 141619.966642997,
+  "stakeShare": 0.0003240906920989678,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "bookoVmqw4QjVj5BbkFacouadx9M7816wyRkfM7A5Lo",
+  "vote": "bookLxG3LkSmt4htJ1x9zPw6E34RRMAi7sUn5mM3CNN",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 141118.821651284,
+  "stakeShare": 0.00032294384514612514,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "BRAZAtTTzR2Es8c98hJvcngerTEyRGSdgkHU59n4A6GT",
+  "vote": "STBRgoYTmMwukhcBVjGpg3A4R9HBsrWo82wJgiBukaW",
+  "clientId": "Firedancer",
+  "version": "26.10.3",
+  "activatedStakeSol": 140726.99936372,
+  "stakeShare": 0.00032204717810568916,
+  "tpuQuic": "103.88.233.109:9007"
+ },
+ {
+  "identity": "6gnbmed7kzwQVQ7ghsjgEuCoYmGeWciV2qCwni6WS6HU",
+  "vote": "DTwEEF6VSrmTBYkDcj3BKAc52qhvP8CEQUEAMMT1cG3",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 140724.531367277,
+  "stakeShare": 0.00032204153021087414,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "h3ZXAE168mNxsszYYrUfkMVSCWx6DU2Uvrx97Kb1Nch",
+  "vote": "Ec37CQZjwRgGnuMmUi3BnEBXS5Xa3siakAPxPkHtahSf",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 139965.023781201,
+  "stakeShare": 0.00032030343250431066,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "pebb1eQXvcuQfXkeyYjdoBVufKHwdKGL3G37GUts8Db",
+  "vote": "PEBBLETUXFPdrwm5heff4x1VsrypGS1fNSRPEF6LiZL",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 139909.591265583,
+  "stakeShare": 0.0003201765777762855,
+  "tpuQuic": "45.139.132.52:9007"
+ },
+ {
+  "identity": "8augxYLUge2iWmitQMwbcBL5VQEpsM6aJdRofhwpnzyw",
+  "vote": "o27rnqfNHPwHsRp2xPXXwWzn2q2dGxn6UD4Rt5KMU5h",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 139283.2344534,
+  "stakeShare": 0.00031874318940900104,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "fhsM2sxME8cHrrk3qvtMsRRDv5AoLFja7NjNnHeYZxe",
+  "vote": "FH9xcL7Fqkreq1wSkn2Vf7AfnMEyo2KK7QX32LTFndt6",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 138552.943035899,
+  "stakeShare": 0.0003170719515423203,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "3rqEEEGjHRyndHuduBcjkf17rX3hgmGACpYTQYeZ5Ltk",
+  "vote": "8xV77wuFP5BkMDdb1845hRRWZNbDNAbcV75BjMuViWpf",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 137066.950092268,
+  "stakeShare": 0.00031367132595984447,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "2P9ZYA4vBoBBr56hrEFTmrd5ctuz3r7wtvRYmbgk6jRL",
+  "vote": "FGtsnE1HB4bBi6g4xAt5mvWtuC3qBPWPBgWVrnRmUiVH",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 136416.089517417,
+  "stakeShare": 0.00031218186187392826,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "RoYFUUD7QD9aQ34UCMcwfye8dC5YvJeXz2J3mmoy5S4",
+  "vote": "2ayMCC4aizr8RGg5ptXYqu8uoxW1whNek1hE1zaAd58z",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 136237.862761656,
+  "stakeShare": 0.000311773998251345,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "SLAY6uN1zZpXBTfbuDDCesNmM5D288xrz8uYvfS3n41",
+  "vote": "SLaYv7tCwetrFGbPCRnqpHswG5qqKino78EYpbGF7xY",
+  "clientId": "Rakurai",
+  "version": "4.3.2",
+  "activatedStakeSol": 135556.487414685,
+  "stakeShare": 0.00031021470253186727,
+  "tpuQuic": "65.19.161.132:8002"
+ },
+ {
+  "identity": "gotasRuLTuJNZDtLHmaDJpEUjCWZqkHcuwbLhkgCwCX",
+  "vote": "Gotas1PRPrkqqSNm1ZKcn8Tpx9qL8krSQzTZ5DPKzkFX",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 135355.910202049,
+  "stakeShare": 0.000309755690930584,
+  "tpuQuic": "103.14.27.33:8002"
+ },
+ {
+  "identity": "HnwMGBAw5PxaX56eSYc969MorEy2NzEMPLkmBkdnJmeq",
+  "vote": "2wUhcnViyzstvWmk7NAboKtjbFbqJPo4BvFBV37dacLc",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 134782.427040917,
+  "stakeShare": 0.00030844330144904356,
+  "tpuQuic": "185.189.44.198:28902"
+ },
+ {
+  "identity": "2t53LvZfskcpXkdwLaBnfZLbNgyVHPu2BNFpcRBaEBhM",
+  "vote": "Gvt8s5Bwnhg4G27VbnT1Zkfh7Jsztq6CNvZcc5anPonS",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 133555.039934137,
+  "stakeShare": 0.00030563448326938365,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "revtecFsGSRCdF29atQvchSXrjwBesA9vSisD4fyH5K",
+  "vote": "B1rsc6jv3RsFpkak8qvJN3PfGYSg9E3Uw1joaV1EoiFj",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 132945.430377494,
+  "stakeShare": 0.0003042394202157352,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "5ysfTZ42VT1TjnjzQShZSrix7wdVtjXwssocSeYKDs5d",
+  "vote": "ExYX8UKQTCf2VPtV9jbfqikeTV6tPfhzauJ896o91wtj",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 131553.714322149,
+  "stakeShare": 0.0003010545428974188,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "57i31UEyDg4koaZMZ1wAHbYuezXv3AVaHtvJgJarxt3f",
+  "vote": "Ev3gPXRo6TJeQ2QhxfqWFoasdoGbmDytYvJbUabEHfLf",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 131462.69787009,
+  "stakeShare": 0.0003008462559895808,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "YuRBAsy9Stw1u46A8dMp7WQVBFweLP1PKuYibzYAMmQ",
+  "vote": "9gANMngbGUmAaLXL1RC3JdiaLjRowJXNbzCTh53ht7mq",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 131420.006366123,
+  "stakeShare": 0.0003007485584728013,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "avnujiRNoSRe9PcET42DPKznyfYnb2LRaZAsqv6REZo",
+  "vote": "avnu2RYyQbLL4LQnwi7ismwDNaegnXeUEzvZb2FUptF",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 131225.47572172,
+  "stakeShare": 0.0003003033841610607,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "5fSQdv4zsAJNx6RKpGho6sL6rY6a8nziaqcmwaRJB9NE",
+  "vote": "89DXJe6XTDASsmyXJoPyRetLq1csRj9N2Bwn67fNvYGt",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 130724.391769792,
+  "stakeShare": 0.00029915667689492067,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "CjmXSapt1ouz3CZzgkRJckBEwMSo5fVdVrizLeRscwYD",
+  "vote": "B6nDYYLc2iwYqY3zdmavMmU9GjUL2hf79MkufviM2bXv",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 130118.11837964,
+  "stakeShare": 0.00029776924850277264,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "38zm5bBgDaNRSQBDUAL72kMH3RsX4UKmZiNmmrjuTq8W",
+  "vote": "FnAPJkzf19s87sm24Qhv6bHZMZvZ43gjNUBRgjwXpD4v",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 129299.243534246,
+  "stakeShare": 0.00029589529159064324,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "FGiEdzde7Fco2WLpNQMat299hUVoykJdaA5hxdmCzHiS",
+  "vote": "3r5ZXC1yFqMmk8VwDdUJbEdPmZ8KZvEkzd5ThEYRetTk",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 128619.643952024,
+  "stakeShare": 0.000294340059626017,
+  "tpuQuic": "45.250.253.96:8002"
+ },
+ {
+  "identity": "GvfaiJUhNCRZGVGumsEF1eHDb8JpAeFAyHSrTifyhrbt",
+  "vote": "6oscGUEkXE8fyWoC4czRKbM1cuLkJNtgRsX1Un6w88Vf",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 128262.688309329,
+  "stakeShare": 0.0002935231832770677,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "HE2REn7YRhFEghuctv3y1dUEK9aWhw8QQSUpRiHd819r",
+  "vote": "ARf5F66NrsQDQY4cmSCwyQJrYKhsiydgmeDNiHEWEmKT",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 127379.183369003,
+  "stakeShare": 0.0002915013234053949,
+  "tpuQuic": "198.13.130.10:12329"
+ },
+ {
+  "identity": "E9hD3ikumJx1GVswDjnpCt6Uu4WG5mz1PDWCqdE5uhmo",
+  "vote": "3a2onvgTpGynakAQwx6gigtSeL7itZewNxqb5JiAvWeA",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 126683.396577738,
+  "stakeShare": 0.0002899090477674346,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "SWD1LwTcEtpCRL683CT4HYDaGgMyMZ9LpSa5Foarsq4",
+  "vote": "SWDV7HwnwKq2QtJtGzCUPDeswekexTYL9cRPYmjWqjY",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 126298.673680865,
+  "stakeShare": 0.0002890286273516595,
+  "tpuQuic": "195.12.227.235:9007"
+ },
+ {
+  "identity": "6NDen7aDi65apHo8m1Vea4nuS6LyjQeM6pDNqcW4Q5Pg",
+  "vote": "6cvBCfFXugkTqgSFVPvzhoWaLbhHWvZfSsZadWP5rryR",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 125559.600479432,
+  "stakeShare": 0.00028733729278181006,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "9PRr9k87HjjdLMRkxtxygidjxVta9VQ1kAsqgLBWXKdQ",
+  "vote": "7obieMdVPKKcwEhhKizSkpdLaW1HMZh2ENrUDUhdGvVr",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 125508.117048746,
+  "stakeShare": 0.00028721947535056665,
+  "tpuQuic": "64.130.45.196:12340"
+ },
+ {
+  "identity": "HVXXmNKkmDZbZwj74iL2Y9Wu4SyrchBoxAfFYVAktLrG",
+  "vote": "644K33yWfSzc32VvY5fRUfUqphw8LTaLQntCkyEpJ8h7",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 125492.147971223,
+  "stakeShare": 0.00028718293086104805,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "NLMSHTjmSiRxGJPs3uaqtsFBC2dTGYwK41U18Nmw5kH",
+  "vote": "H4QVPxS7napq3NEYxqLhxbKi9nJ8s56dD2EQZGsyZ3sb",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 125255.07277917,
+  "stakeShare": 0.0002866403953352091,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "SQDS9iwyWvT2mQbSZzuNKGoxuBug5jRHouF6SuMRBkA",
+  "vote": "SQDSVTDfE5HqL7D6RjZk1vvZhaheWoskrDdDHCki68w",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 124920.699972813,
+  "stakeShare": 0.00028587519875452857,
+  "tpuQuic": "64.130.53.11:5010"
+ },
+ {
+  "identity": "Av8EnYrPBnSJHK5e2wmTdnCpSy7nzmBgyFaUKSyLnBfe",
+  "vote": "3QPGLackJy5LKctYYoPGmA4P8ncyE197jdxr1zP2ho8K",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 124316.089526143,
+  "stakeShare": 0.00028449157593102157,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "H4te9uzz1c74QeqfhyKeENoTvSseEPm4A3oFXBvqpF8Q",
+  "vote": "5StcxdmFy5TKeZZGV587H2Kz6jADJmQB5ihWsX97SNvf",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 124237.678007567,
+  "stakeShare": 0.000284312134825885,
+  "tpuQuic": "70.40.185.12:8009"
+ },
+ {
+  "identity": "9q16BB7WGmBxf1nJTdxH5zPnBUhtHqdqXqRFjSjuM4k7",
+  "vote": "GK9MfwWEK7BvMS8eQDaiEPnKcqMJoS7SKUiEBQY2pfxC",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 123902.958921368,
+  "stakeShare": 0.0002835461457999277,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "EydLxzdWfD434DDxZYXkTcajvK5VKH7p6CofEDCRUkJ4",
+  "vote": "7Eg46UwGgsufXdd9C9kF27UAyD2t4VdmCdVTtPFoqxCy",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 123718.303928251,
+  "stakeShare": 0.0002831235714558052,
+  "tpuQuic": "141.98.218.73:5010"
+ },
+ {
+  "identity": "nSGZ3tv2UhskkPqiB666yDVj7PTi9qKgDqvjHyw5JgM",
+  "vote": "AY271jdvcyo5VzBiWsMGLEjpZFFrarq8FDydJHLmYgCG",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 123404.819747967,
+  "stakeShare": 0.00028240617752217694,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "2XmhZKHmfjku3T3nC9xKhgr5bm1CAmWXqNsNt49mo82C",
+  "vote": "Ebm1XKkMzaFg2L5rzLPBnFHMtpDPa6SWJ7nVUzZUmXmR",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 123383.104798288,
+  "stakeShare": 0.0002823564838720711,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "phz1CRbEsCtFCh2Ro5tjyu588VU1WPMwW9BJS9yFNn2",
+  "vote": "phz34EcgWRCT9otPzRS2JtSzVHxQJk4SovqJvV1TQk8",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 122709.333948056,
+  "stakeShare": 0.0002808145906888997,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "3Pfubj3ytkRxFAGwFb5vtacuZJUxko5Du39xie9MBXuC",
+  "vote": "94EhHE7MaKHq4p8oFADeyizDjwYwgFn1YBYGky8mR35z",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 122645.686021029,
+  "stakeShare": 0.0002806689353748235,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "cybi55ebub37HZW9YmRaLh59Lh3kqaLTsEBQwW6vFkC",
+  "vote": "VaCdXKupamusfRsDf9Ai7e8Up36Z4f3MP6SqhnM7c76",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 121447.26174905,
+  "stakeShare": 0.0002779263972925136,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "CpNnGGhgVATJAbzHUXdrcGfpPiGuZyPka4QUmH7YgavX",
+  "vote": "4qvFxnUXYjBdcviCwVV7gKcGJMCENEBfS82hSLJUhyvu",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 121092.756954625,
+  "stakeShare": 0.0002771151295955848,
+  "tpuQuic": "64.130.53.11:5010"
+ },
+ {
+  "identity": "4aRPyjsqqFsf5488a9QAaHJLQJMGwoL5P6wRtLmroe2d",
+  "vote": "8EVaZkBcoJAAyyRZfozNAnZiEopgPvnixx5Ja5PpVDae",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 120357.827948811,
+  "stakeShare": 0.0002754332788242293,
+  "tpuQuic": "146.0.238.23:8002"
+ },
+ {
+  "identity": "D4r6Rcua2L7nHHhdaiZe2k2bTfPg2WQqcNYpG6bugvCG",
+  "vote": "8yPiZWMNYMhEqTmPSRc6LsWLFC8pewYEzmgc5kRCLTrZ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 120024.730771519,
+  "stakeShare": 0.000274671001461201,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "9hQqNe3DQTiwhspatewA8EXhz12e6sq5UJVJ2qNRwnTf",
+  "vote": "2Y2opv8Kq8zFATg6ipqb2AjgCf18tkv1CLMLXQGif2NH",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 119784.881858712,
+  "stakeShare": 0.00027412211840471254,
+  "tpuQuic": "177.54.155.251:8002"
+ },
+ {
+  "identity": "RAuSNo4DRjo83uGhdgg4fPqYBVszi1KsrQGpqcPHK1D",
+  "vote": "7K8DVxtNJGnMtUY1CQJT5jcs8sFGSZTDiG7kowvFpECh",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 119264.765148181,
+  "stakeShare": 0.0002729318555577147,
+  "tpuQuic": "103.244.113.94:8002"
+ },
+ {
+  "identity": "EPFZFVrXuveEQar9LaEkt5kDRPMnbvK54qu5FwCxpkcy",
+  "vote": "1oH9rfyrbKoP7ucJ1Zr2HLHmDU8N6G1G6dEuruFsSqy",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 119075.920954282,
+  "stakeShare": 0.00027249969442288063,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "chrtyETASKQhsndRM9pr6qC3gAHG5MuRwCgXSNVqnJL",
+  "vote": "chrtyiAw8suFRvS7rTcfgcDyNu49bGPNZ2fjSPzNPFr",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 118692.207782299,
+  "stakeShare": 0.0002716215847154483,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "3KNGMiXwhy2CAWVNpLoUt25sNngFnX1mZpaiEeVccBA6",
+  "vote": "BH7asDZbKkTmT3UWiNfmMVRgQEEpXoVThGPmQfgWwDhg",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 118220.499892634,
+  "stakeShare": 0.00027054210319844266,
+  "tpuQuic": "195.14.6.38:8003"
+ },
+ {
+  "identity": "ppppoqHcHVzigV6SK4856BAsNxhTAi32hqQQWrziyHE",
+  "vote": "vvvvXsU6iG2enDVvs4KeVqS4YrZczTujSv5p3dSeNHx",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 118207.335584609,
+  "stakeShare": 0.00027051197729317686,
+  "tpuQuic": "64.130.53.11:5010"
+ },
+ {
+  "identity": "EN5F2BU5juUEWr9zRNNqKuQMi9zBUY1YLPHV5EyMrvnW",
+  "vote": "9ymU1ayh9mZVyDL4dUUtXKtX1wCaFNzZPGutLJgqzuC1",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 118142.883030231,
+  "stakeShare": 0.0002703644806269153,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "6xUK9Nbonr4eoJNtHGoUEMmYKoPz5mipKzyDBv6deX4d",
+  "vote": "8vyuJTHSDkx7k1zymea4TMsgvixf3rCYBXHPDQajePkE",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 118034.388557355,
+  "stakeShare": 0.0002701161960831692,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "93Q99nhdKjuSe6WNXgMBbC3s8QVQEAoHKt91PNRkUkMn",
+  "vote": "8D8XL6ovqx15RKwC1XtFyTz6H8JYF2fUsxTnsY4b123P",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 117932.899860437,
+  "stakeShare": 0.0002698839439311313,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "EAW9vxqogvdPNapq7QTDpiVTHK6o7begUhPVnf854VTc",
+  "vote": "DyDjFYB6i51FMHQvB4eKSwGHmgMxVf1i3FWwANAngqyY",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 117810.511404709,
+  "stakeShare": 0.00026960386365529137,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "dmMwc4RazLHkvDZYrWAfbHQ6cViAvNa5szCJKaiun8S",
+  "vote": "dedxrPfNqPKBRmUyP9LDkaitpQzU6PD44jA6GP9Ndhk",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 116877.012413615,
+  "stakeShare": 0.00026746759472889067,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "CtvdyHYt8cMuGVHFarV2RADfoCdnrbd8e9jAsB225uMW",
+  "vote": "FLCrbfbwEhFARa8nK9rnZw8BVtKNAuHujh9EhWy5A4U4",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 116774.963113831,
+  "stakeShare": 0.0002672340596633262,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "2AKKnirWVZMhnzuwqpizw9SwfZjGpRFLx2zCCNtPWpbc",
+  "vote": "CHiaohVV2SQCFhiYP73iQzWT6HxnZqnAZJJqAYTeLAo",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 116470.876219242,
+  "stakeShare": 0.0002665381709799599,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "peNgUgnzs1jGogUPW8SThXMvzNpzKSNf3om78xVPAYx",
+  "vote": "pENgUh4K9zNacyU3PXVE9KugW98XCqZsWpEvA8d8wzX",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 116317.727942435,
+  "stakeShare": 0.0002661876982874386,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "tapeQbu7YwpMuJNA2oSKBJkfBdic5QJ9bCZt27Q4PVf",
+  "vote": "TAPEtHVPxwEGgjZtEErkE4cSG7f2c22BZtdVvYGN5D3",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 116311.920079758,
+  "stakeShare": 0.0002661744072644337,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "8nbE53mcKhy74HLiGZ1q5HRocwiCvgh49csSaHSdtukr",
+  "vote": "HdQ1Ap8wm6Mz65FaP8jMNBVfCDv5T9NdS8UTSvHmcotn",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 115593.398428176,
+  "stakeShare": 0.00026453010395841524,
+  "tpuQuic": "208.91.110.228:9003"
+ },
+ {
+  "identity": "R2D2imoV8nXk1ngT9v4dEK65We4uLNyUarTBdWbFruq",
+  "vote": "R2D2vs3bJwpNF2ejaB6UW1JdCZ5VstuAmuwxDuUUWNj",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 114625.897565645,
+  "stakeShare": 0.00026231602333421587,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "kyzzzgRymGpePUsLyr48kQHt53kh5CSfRH1qfvz1xgj",
+  "vote": "kyvvvkDpDCtSxQMPhzRhmv14DgUBVEGGzn8Dnb8ircP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 114407.201255565,
+  "stakeShare": 0.0002618155470230472,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "bay3wXfJsu9ds1zQBoQQ4DUwFGs3NP6q4gca9WM5G1z",
+  "vote": "bay3rQMjiLPy6Nvi7tfNeVK26inBCxf88hKYyeKy64H",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 114273.617278244,
+  "stakeShare": 0.0002615098463179169,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "BuonuQoAR74GoMwCFhxKWVWWSGGt2wfbNmQ3cizaJ97G",
+  "vote": "9FZWpUMfXZ3993g2BfqSFg7xcx9iUCxQwKeYzr2WQCM1",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 114065.320337732,
+  "stakeShare": 0.0002610331684792417,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "omeg2wsojzB7tfyAxsFhp8npxHL8yxVnaf51poXCwSd",
+  "vote": "EMVmh5hF6LT1sZM9G7dEX1bykRYEymWY2vtE7QHBBAW6",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 114024.40565842,
+  "stakeShare": 0.0002609395371428592,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "c3rtoMCHSbFrLRTAdw4iRowKSn4BrDtvSPbuyJwkHwx",
+  "vote": "AuBB9st3RqhHBkzZgBSm6SVnHZNJQSHeBWCSkik4bzdA",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 113993.534276522,
+  "stakeShare": 0.0002608688894244439,
+  "tpuQuic": "103.14.27.43:8002"
+ },
+ {
+  "identity": "tkmaiSoZ3F8MofkQBVWG6JYSCzyN6ioe7ReYXohx3WJ",
+  "vote": "TKMA1fBGq4M7gF2CNnhphX6vNateFc2cm2FL2mYwq7e",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 113584.618120767,
+  "stakeShare": 0.00025993310386347734,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "nebu15XQKGpxzhhckADBX9PgvGN5qk9RRJCFLKc118w",
+  "vote": "nebu1WnZBrFZz5X7sfPWuEqyb8LBSsrXpxaesnK9CRE",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 112856.300792584,
+  "stakeShare": 0.0002582663836081794,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "mastWEbKEMjvBCd1uaUBpNjWcfSPhXMWnH9tTrgzn1g",
+  "vote": "masvNDXtxVVMrYSV84RMry97JyHXAFcdfTZJ5VzpSYR",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 112698.471555379,
+  "stakeShare": 0.00025790519875598856,
+  "tpuQuic": "141.98.218.73:5010"
+ },
+ {
+  "identity": "2zykwzzo1pd3H2oSj5j5SRLTvmpa9Nr2S2Bh8tTVd5Tq",
+  "vote": "Hmq1oALENff8DejgYhJxB4njb6pyCtuMKKxotdZicB4n",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 112632.15919075,
+  "stakeShare": 0.000257753446000662,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "eyeYaqg9e2L6xw7YwsSLm27eWJfhLNAm6ETQm8TXNoK",
+  "vote": "eyeVhGmVEoPSWmQU2wP5WZmMihPBTCk7kMMm4VhuAKS",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 112613.404693328,
+  "stakeShare": 0.0002577105272075459,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "2UBhtRuyr9nvWsUnrbWrvJiYWEU8TVBD4PLYQJKiRa9H",
+  "vote": "Luna8BkZNpZ9DKmszrZYPvFpTr4eJJfxxTnGDwTrYkv",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 112395.329000077,
+  "stakeShare": 0.00025721147114906055,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "CeJjdkRwfqYjrb7ZgKgqTurxx88H6kZyRadJwNJBcQwC",
+  "vote": "CSBiJLi8fo5R3oJ3CAhBi4zcFLWkiv2wbjBgWS9e4ueD",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 112110.242229368,
+  "stakeShare": 0.0002565590633635097,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "chopskqnudaeCTENWzUjfFCBSLcxprqbdMoCAucAwfb",
+  "vote": "chopjqMvdGWRcrcuC1r8LmAzz9obXi1gSYPYM6zimWa",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 111077.64858589,
+  "stakeShare": 0.0002541960209443896,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "bxrAptB5ZpZBhoLedJpoGWY5hBjjt3zvVBr2323Rrq6",
+  "vote": "bXr9MyoUAaGusQZ4gaUPmSZByHAV7RRGr1FhCW5tFh8",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 110289.078253901,
+  "stakeShare": 0.0002523914144985536,
+  "tpuQuic": "67.213.121.17:8002"
+ },
+ {
+  "identity": "GQiWnDYrzHMALWG9avt5FCu1wisAQHjGY5ve7GMBiPEe",
+  "vote": "5XGMWvqZSBk1fktPtxbwaMF5dhkbrtchpwd4xiXG9q8u",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 109981.968701743,
+  "stakeShare": 0.00025168860860424075,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "9dH6wfdJVgnDcbCUjT8rkmejAzTnGQaFarmLfvBYXANK",
+  "vote": "GakAanHMN4dYY8rMKL1e6uUKjNJj2nN2sENFaxzdMEBm",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 109510.082605002,
+  "stakeShare": 0.0002506087192686487,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "mrgn2vUPsPynMcNh7cTbfrX8VAdgxEYwS7ZDHNYA9Ry",
+  "vote": "mrgn2vsZ5EJ8YEfAMNPXmRux7th9cNfBasQ1JJvVwPn",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 109053.192105375,
+  "stakeShare": 0.0002495631466580377,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "huinBRP3muBuqZLMW8ARjdn4mBnEmFFcxiBzrkQz553",
+  "vote": "G1juWDqojmp5CWDhgRqtXrtpAFw9xqhjmEQAKr9faf4V",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 108718.170460055,
+  "stakeShare": 0.00024879646523963574,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "DP9iBgK9c7tJYb83KhxQMFNc1LXYu7nE7EhWpEzQnjmg",
+  "vote": "EnRcbgr5r7EUS2P35szncy6TW6eWA9UQiU3yQRCDbh2P",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 108308.041592368,
+  "stakeShare": 0.0002478579044439429,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "LiFiDJwJjW98MB8wxcnXpafKYsuz1hwpUkuszkERiX6",
+  "vote": "LiFiDDUsf6GCRHwkHzW4YnR1QErj99MAU9diwb8TvWk",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 107178.46574264,
+  "stakeShare": 0.00024527292276661013,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "MicoB9cA9R6jsicdhzWFjwd9HMkV8FA4o3WxYU6Z2yz",
+  "vote": "MicobSZgB9CZNvmnFSYbEtMjy7CUui5o6P3XoGTwZC5",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 106426.119051658,
+  "stakeShare": 0.00024355121243466675,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "LodeuWMHPiPj2PUHUyca2bkpFv9HyzR3gaDBmGJ9TSS",
+  "vote": "LodezVTbz3v5GK6oULfWNFfcs7D4rtMZQkmRjnh65gq",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 104051.629696835,
+  "stakeShare": 0.00023811730423211689,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "rapXHroUoGG3KvZ3qwjvGMdA7siWXwXpiNC1bYarvSC",
+  "vote": "rapxbkwBSSvtqRFrsY83f51oUuZNuVXci74MuzYhiCy",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 103808.717703676,
+  "stakeShare": 0.00023756141145902723,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "vahMVcSS3v6uwyFormV7FDAUbQSHwmy6vUedp1P7L42",
+  "vote": "vahVByZszdHguLa7U7GLz8UdUFN85mcwdkefiqVjtGt",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 103725.847856714,
+  "stakeShare": 0.00023737176767720265,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "ExCHWgfeJyKRzpfryiQn4W6aYaWhbSAEnsoUnBGNqjWD",
+  "vote": "ExCHgw3CfdZTbsrDA2phe95jswV2bDr5oSJwyKJKzEdN",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 103603.277983315,
+  "stakeShare": 0.00023709127223547937,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "2jS8AX38m8F9C5juToW1FmTufEbb1DfDzZJj9HSJcWwo",
+  "vote": "D3DfFvmLBKkX9JJNEpJRXpM1pYTVPQ5dpPQRc9F49xk4",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 103004.110090674,
+  "stakeShare": 0.00023572010444316508,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "odcvDWH5wHVKz9XtmGGxTj5ZsmawTjCCty3nyBKDGzS",
+  "vote": "odc2aCE7yWTcV8ApP1cHmVqQZTkLNduqaYyKE1XhpE3",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 102779.551644698,
+  "stakeShare": 0.00023520621290725976,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "svsD6T44XJnuXQWB15sy1pBxxruzrFy8rR7gXy8Jsj3",
+  "vote": "9rwCwfL74J6AfgKbVK7s7jjMqngvHtiBcV1WTNXN8hLa",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 101520.038060904,
+  "stakeShare": 0.0002323238747825174,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "6qwYjs5vCSEKaTMBbHinnW8fvdGj1r8cpzPoAV1EHKsw",
+  "vote": "Azc2uttGtHsRLorfQzd7tsMNtfaEg7LyvVEMVtckPCNN",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 101406.233503952,
+  "stakeShare": 0.00023206343835889103,
+  "tpuQuic": "141.98.218.73:5010"
+ },
+ {
+  "identity": "SWiz7QwnYPm61pWWUUkMhj4r5pZLP1SvYibdHcB2cov",
+  "vote": "SWiz8fJt7CV99Uv9VZTLGAkMP3vTpc6u7ZqNN5dsWXU",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 100701.20855692,
+  "stakeShare": 0.00023045002163209124,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "EBk678aQvc3cUkfGyoehfw21JQfJXjmWuBeopYc89RSV",
+  "vote": "EtMSc3MvcDXUr6ChK5GxyFVwTxYA3zqP5XzjE9jwKvSV",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 100699.68507805,
+  "stakeShare": 0.00023044653522171366,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "mALL2W6DUgDDtcyurC9v5YTF2CMMeuRwPBkf6tEoG3y",
+  "vote": "mALLoAbdQrgsnm7kWJyPrhcQcmxfT73t8DaqEkpZNd6",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 100577.596691542,
+  "stakeShare": 0.0002301671416402961,
+  "tpuQuic": "103.88.233.21:8002"
+ },
+ {
+  "identity": "G4GT8z4AKWNoy3x6nuzxW83UfFXLXzrwn7DZQt4GvWdU",
+  "vote": "77i1Ryv5bLp45yNeJCwCU28f37fGYspvRtGbNyxsD6Qe",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 100468.565385981,
+  "stakeShare": 0.0002299176285799746,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "F6kVwubXEfZZo6e4Kozrtg7WoWk5wTRmrC8pwoxSLa7S",
+  "vote": "E5Y8uSQ8SWHH7GynZqMGirckAybkWXH5QcxtZ6tLezbn",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 100134.832322887,
+  "stakeShare": 0.00022915389602193005,
+  "tpuQuic": "64.130.45.196:12348"
+ },
+ {
+  "identity": "AWZhUiQjrjtxL8MEMWsCFbMausFQKkdTnDsFW2i411hN",
+  "vote": "41HgiTYQ3qDWFW8jSDkecH2mEHUqZsmwFGDPndtmyLDR",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 99110.686594815,
+  "stakeShare": 0.00022681018626342003,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "BJvrWSfonXnS2Km8iA9KLY6D6vS3GcsaUwUNPFBumTca",
+  "vote": "GdVBPczdFaPf1GXvx8ByHeA1ZHAHwwmdQEPihH74SXm9",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 98466.220991314,
+  "stakeShare": 0.00022533535677133904,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "4JahMMrVRS1gimWoXpD5H6KwKc2MrsoTDFMaStMttL1E",
+  "vote": "4EsJD6cpaae8rh27U9pHsfxAheCLQnze1bDvXZfpjcUv",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 98148.424163455,
+  "stakeShare": 0.00022460809354476793,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "pitch9cMruwjDtAnisNS4mwZUPhMsBztNEGu2weMg55",
+  "vote": "P1TCHYwYPsNaNUK6fGkZzwXPjnYAMYRnUUv4c1TREee",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 98143.52833518,
+  "stakeShare": 0.00022459688966997785,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "hnhCMmnrmod4rcyc3QRKkLEC9XnPTvYJ2gBvjgFiV4o",
+  "vote": "hnhxfrndd827LET6jvnQV4aWqpS2EedaHcT4gj8ArSu",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 97956.926275887,
+  "stakeShare": 0.00022416985955567333,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "5FbKKGdEaFcxGxxaLKVvBes2JxiKbreh8w2ZpMcSQ2a5",
+  "vote": "6n8taYki7RscA1XW7xGmevLcqj855oSgDgjPe1dZyHfW",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 97949.405123348,
+  "stakeShare": 0.00022415264774868363,
+  "tpuQuic": "64.176.186.185:8002"
+ },
+ {
+  "identity": "DCKyEmMENQMtLXgbmUoHRmgP9XdJ9HsR5WxrKnSDCzKA",
+  "vote": "DCKYVqFDwUs5m2DhW9muK2EX86pootvWD8wXA4nSqDxU",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 97761.355099652,
+  "stakeShare": 0.00022372230403533918,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "6gL3uHvuUjaPp9mTBf2VZ4tpKiYhbWyPrAPboGByzEHd",
+  "vote": "8mu3JHHF1Qkcrbqjo6KWxyWvTxarZjqptJTokR2jrDFo",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 97408.738817221,
+  "stakeShare": 0.00022291535811007633,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "D8xKNftHzFcCekENuTEcFC1eoL9y8wNHEg4Q5z57KK4e",
+  "vote": "4269foF8CYyT8SynFSYHiKFzHva5YL6PoAQj9pH3mQmh",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 97328.364259876,
+  "stakeShare": 0.00022273142468222322,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "dst2u7mXMyDvb14cSErRNA1mxH1d5VXbSXgZ3DKE9xH",
+  "vote": "dstqVmt3cDH43Ux2SeTY2Hza1eVW6pwGLwehWCLfuPd",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 96850.003878339,
+  "stakeShare": 0.000221636719247672,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "uEhHSnCXvWgtgvVaYscPHjG13G3peMmngQQ2ghC54i3",
+  "vote": "5K8qgC9nHzKHSSyo9fKLsMfYmavYdMgEaYx86cMmVKVv",
+  "clientId": "AgaveBam",
+  "version": "4.3.0",
+  "activatedStakeSol": 96811.902848846,
+  "stakeShare": 0.00022154952681774297,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "sCANXAaS1a7yB8jz3USvGNLfd8DSc9r7TNzNSKKPkfY",
+  "vote": "21oUQzzytWh6y3G3SQ7ehktMh1RrbsJNA4R5pAMNyyrG",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 96811.643580682,
+  "stakeShare": 0.00022154893349463536,
+  "tpuQuic": "103.70.2.244:5010"
+ },
+ {
+  "identity": "ADjyeNzWd8yhEjCVyAqT87eqoyGRbimERQsNhFQcXjop",
+  "vote": "26RGqX3mezgYDxJnGh94gnMM4L2k9grH1eWcTSCHnaxR",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 96801.715419309,
+  "stakeShare": 0.0002215262133601309,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "BCJN2vZFAHDYmufBDcbD5UAQHSyerXfc6UQkgX3mSWuh",
+  "vote": "647eBPzfDqmSVEg5cQofnjzeFr7PfwvHcDEcb22JWA5X",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 96389.60032013,
+  "stakeShare": 0.00022058310716625607,
+  "tpuQuic": "64.34.87.167:8002"
+ },
+ {
+  "identity": "HMWXfjaeSHhww1wvdBhqhHVP9v96mFB4LJ9xP2MXbDGH",
+  "vote": "FwLsjPJdnSiuCvs1NXyR1cV6Sw5GRE6Lj2s1gZ9NNTmv",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 95983.060082993,
+  "stakeShare": 0.0002196527587842942,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "SaGAgdkowooXBrHihpmE8gsjf1dUG7n5SqnyJxYFnXJ",
+  "vote": "sagasJDjjAHND4hien3bbo5xXkzCT5Ss6nKjyUJ45aw",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 95700.751830214,
+  "stakeShare": 0.00021900670950750656,
+  "tpuQuic": "208.91.105.55:5010"
+ },
+ {
+  "identity": "7Nu9ckgtjobZ3MkbadGFKEvRymYuah9HmcxiUJKMM9NB",
+  "vote": "DPhzpiNGU9C6576uLsNSHmdi2AxwxpjMsRdh2iVC4TPh",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 95408.204026866,
+  "stakeShare": 0.00021833722749655472,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "N43JWBg42ZoUFMkHsRUVbP7wGVdxaHKanqaF9BBNiFC",
+  "vote": "vanFfAkyFXFnj6TpmVwet6pJBnS4nBWNcJiE5GEsZ4K",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 94865.912047846,
+  "stakeShare": 0.00021709621758131195,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "2uxEHizFmmnLekKG2LZJwxNabhpymEYfdVCpgDxjt87m",
+  "vote": "Dcoj98wWiKhA4iqxcSg7NtuR2miA7tZqtycMdkPo8XDw",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 93620.03865707,
+  "stakeShare": 0.00021424509440245862,
+  "tpuQuic": "64.130.61.195:5010"
+ },
+ {
+  "identity": "By8MseMKtZQQaQjMHJiyetmc5AC8RZZv8C2ss33ktrHt",
+  "vote": "H1kyn75BFTXr8QRmToRRvuEEmYan5n6M5APyfhMLau3b",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 93322.8927041,
+  "stakeShare": 0.00021356508974043793,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "BhNnboEZb3mKkVADMH11cYGWCqefAfmhzx5rU4eRTKGY",
+  "vote": "HYUU9pLdZRXsMSy3efikYHLKagtubP2UZYtmfwP9FXpu",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 93264.586228655,
+  "stakeShare": 0.00021343165808931732,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "DefiihS7gLkj6xLjjhcr87bFuwpVVNYpeNBaBeFe56CY",
+  "vote": "Defi89YpAhk3Gst1Jpsi3Nhj7yCu5HropESh37SQ2v9g",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 92914.493889459,
+  "stakeShare": 0.00021263048809049505,
+  "tpuQuic": "103.14.27.97:8002"
+ },
+ {
+  "identity": "CpgSfd6QUoBw1267rTtJoZhELqC5q7isKLojBifSbNEE",
+  "vote": "7miZ2ZoXwS3YDzBRCbWcEtNVyuxk8WbbcyQwq7i5btvZ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 92557.671977261,
+  "stakeShare": 0.00021181391777755433,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "BxkAkLR2W3agWtjMXBNvhxmB8vsn7zhjNQcyfost99KY",
+  "vote": "FSDKGroWxgBf7VmV6X1NLDhnncrWW2ekztwRWiJrPf3k",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 92277.382958638,
+  "stakeShare": 0.00021117248942400683,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "3Rv6ZVGUuRczP76322LyhTTYw2iM4avV4B5xFJocQJer",
+  "vote": "GaxxAn5335dA4U3772MCFeqdyqCVEfmsQTQ47YXfC2Xi",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 92026.08716533,
+  "stakeShare": 0.000210597410715084,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "axy3tCRL3wmFMVG4c69rYurcf4fXhBo2RcuBj9ADnJ4",
+  "vote": "axyQeKp44XqUnvC1jVHoeuAJ3j8wVnGeWtddeAcNYcF",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 91937.006845651,
+  "stakeShare": 0.0002103935545559455,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "forb5u56XgvzxiKfRt4FVNFQKJrd2LWAfNCsCqL6P7q",
+  "vote": "76nwV8zz8tLz97SBRXH6uwHvgHXtqJDLQfF66jZhQ857",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 91721.659448185,
+  "stakeShare": 0.00020990074207518562,
+  "tpuQuic": "5.199.172.42:11228"
+ },
+ {
+  "identity": "6Rk694kh1QTyQkirdb1uDZmS5xqG9bNaYtxx8d311Mr7",
+  "vote": "AnodeNCzJGQ7QwheFqJr6EknKGa72m6XHiLtDQiXcmEc",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 91603.582646379,
+  "stakeShare": 0.00020963052881836,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "7CR6whiYULVf1Knj4J5PxUS37opdk8UAx2WnDzBQKiVe",
+  "vote": "2ve7kgjvaDZhMPq2nXhvGLno8sPJ8BAEdCvza384PyC8",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 90763.092318536,
+  "stakeShare": 0.00020770710588224398,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "EATpCzQNs8BzZh1mx1hXMAJm3o1MLXakTXr4UEmcsY7f",
+  "vote": "EATzgj3KL3NAkaSKv8JFXPJahGueMbvTdVZj4zD9nQiV",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 90533.221994392,
+  "stakeShare": 0.00020718105836076245,
+  "tpuQuic": "64.130.54.221:5010"
+ },
+ {
+  "identity": "hxMhrsuGPDmkLJ4mTxEjyeMST3VGhTiwJvS9XgHwePj",
+  "vote": "hxVjzDmta9TuN1gM981TRKnfwG2uZ9TQDGwSCs3uDow",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 89337.400953975,
+  "stakeShare": 0.00020444447765253352,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "6DTkuiey2RgMaBPC32dx2YpRKoNVfL19WdwBYih5SkVw",
+  "vote": "drXsaoxWGkvjEUveMpbS1RVQmtZ7y1kb9E4YERJxCFt",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 89155.998333761,
+  "stakeShare": 0.00020402934621219132,
+  "tpuQuic": "64.130.44.108:9007"
+ },
+ {
+  "identity": "9ueKvL3WiLM4mNUZrfWqPTYY2Np5YwzFTYvAiPibx1Zq",
+  "vote": "68Lq2AaLY1j4zVhzNc1R8sWWgfh5QdPMP1Fawx1iWEVV",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 88730.941907316,
+  "stakeShare": 0.00020305662439412352,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "CARBN9PY1Qej1aCg4885pfoYH8EHfjWuMy59pVa48ky",
+  "vote": "CarbnAxSfvsBdp6otKtoUa8XmUaX9PcsGq6R2WqZMuw2",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 88594.324314998,
+  "stakeShare": 0.00020274398140248344,
+  "tpuQuic": "162.43.190.155:8002"
+ },
+ {
+  "identity": "Lua1fxRRHCnjVAYdfGyv2GbUsRHGM2DN2wgpWuF2WSb",
+  "vote": "Lua298Woc4rgcswL64yfWAL4EW44FgBZeLsKforf6tJ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 87473.029092326,
+  "stakeShare": 0.0002001779495541699,
+  "tpuQuic": "64.130.53.11:5010"
+ },
+ {
+  "identity": "3BeharBd3j4sKQp7Qze27JLQLd9AEEwGTX9TC7dXYSNw",
+  "vote": "CP6mfD4Qc5AYrboXBAQeHMYj5x1UnYksDXRjG7DMkHH7",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 87229.648031371,
+  "stakeShare": 0.0001996209833412945,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "Hu7pi2Xg5Kav8vSAUUr5CCZaEmMCzT6FgCTpueu3oBtW",
+  "vote": "9YQXaP6VyiZepa1CCjGzBDZ1DZQ9rBSCfhKr5DLkUStz",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 85779.007076259,
+  "stakeShare": 0.00019630125913662423,
+  "tpuQuic": "198.13.133.200:12336"
+ },
+ {
+  "identity": "3YX7PQuESmR2h95FDgjahEQjyCBhmY1Ts2MsrM1Kg9DS",
+  "vote": "LNRmxHyXAzgBkgxDmb4ZefwLAnSv3fdsjPgjmThoa1T",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 85738.918429808,
+  "stakeShare": 0.00019620951813793886,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "gojir4WnhS7VS1JdbnanJMzaMfr4UD7KeX1ixWAHEmw",
+  "vote": "goJiRADNdmfnJ4iWEyft7KaYMPTVsRba2Ee1akDEBXb",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 84917.579168398,
+  "stakeShare": 0.00019432992152463473,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "6xFDLX751L7H9d5fQT9sf2SM5RWWE9LDgqz25pPDbWoJ",
+  "vote": "5CBkJdDPMWCmss3Y48B36w78Bgxur4mDib6tQ9yMKe1B",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 84651.064209158,
+  "stakeShare": 0.00019372001446391244,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "AG1PsJMQcutNUX64RD3bAhW7NpxWeFkqkgGizBznYFKW",
+  "vote": "6TBdCtZjNYRoh97hJ3RHN992nwzC4oaj74hMnbnrJsE8",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 84491.349508388,
+  "stakeShare": 0.0001933545148162433,
+  "tpuQuic": "63.254.166.232:12314"
+ },
+ {
+  "identity": "FoXyHJXdQGK2eHoTjSAzHq4hzxWdJvpGgyzrtPS9eAk",
+  "vote": "FoXyNdpkiQBsWgrYER43PcZ5rcpzMk8jGxN3NyEx5dmB",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 84364.102208324,
+  "stakeShare": 0.00019306331530163372,
+  "tpuQuic": "177.54.147.76:8002"
+ },
+ {
+  "identity": "MFLKSo4XDfrBf4FByx76zYM2dXSWcigag7ec2bCHTR4",
+  "vote": "MFLKX9vSfWXa4ZcVVpp4GF64ZbNUiX9EjSqtqNMdFXB",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 84342.194588911,
+  "stakeShare": 0.00019301318073582284,
+  "tpuQuic": "162.43.190.173:8002"
+ },
+ {
+  "identity": "3x9nibnhgBHWKMRiGnsXJELRBjviQpKyigfrXtKW27KJ",
+  "vote": "5afRnmkFn1pRU9oussqwk1RRBVyoDgUkL16Jz4qNf574",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 84037.778027589,
+  "stakeShare": 0.00019231653762550536,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "BR1aTt4ZZUCwWJDkSYf1hqkYJjo7Mb7Ar8iVTkeSwUB8",
+  "vote": "AbacusTT3yhEFEKkQKjGStDhKDnvSFGpg9EqBwz8FnDF",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 84014.409273912,
+  "stakeShare": 0.00019226305932204155,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "777idJ8gG2cZXjc5Wvcq7RBtkvcU1TJ8WoLQSHaU8nN2",
+  "vote": "777VtXKGPmbpN2yGDAtHuAmDt2rQ7GKLnH6K8ViVv777",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 83400.807264345,
+  "stakeShare": 0.00019085885972598324,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "FphFJA451qptiGyCeCN3xvrDi8cApGAnyR5vw2KxxQ1q",
+  "vote": "5HScvYkTWL9iojhPv26xK7GqB7oBsj9A2qHCeNRFmdyG",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 82994.611614167,
+  "stakeShare": 0.00018992929991521422,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "nodeEgRVkbYLAQePtMx2zCN7CGw7qRgzKMCBtjMfN1D",
+  "vote": "Node56Cr7y4Udym2vPt9DsRbWcBL29JivsGh2drpbKb",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 82964.466050193,
+  "stakeShare": 0.0001898603131972843,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "2dxz129YxB1xtf7Mx6HUT5JspexArNNtQt84FYueWZV7",
+  "vote": "5RCD4pZcKH3NHN4XHxvsnVAawSaConLgsZbreSN5dXpZ",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 82751.539711897,
+  "stakeShare": 0.00018937304119757815,
+  "tpuQuic": "72.251.3.65:8003"
+ },
+ {
+  "identity": "7PpXQgDb9eCHN1Uudgi77Wm89cRz4T85YgDw83qvaJXd",
+  "vote": "B8Jud6Mqv1FSKpjBM2hPBqoPhGMAciX2UqR9WcepDF7F",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 82662.810034053,
+  "stakeShare": 0.00018916998746593402,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "KAoSp3EudGqUBXv46tQoDwbZxSm3iXa9wM2aF4ySbJJ",
+  "vote": "kaosFcskhYZCQidKKmkUSQLAqwpz3vtPpyyZ67N5NwA",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 81529.882828973,
+  "stakeShare": 0.0001865773363681004,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "sfvTq7ojrEc5WdXcHijz676eX1pc5MgoLxbkYSdRDAB",
+  "vote": "sfo5vA1fFdPRsvqd8qdePtTnK97Qj6Jj3GupEzmNPjJ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 80977.042091797,
+  "stakeShare": 0.00018531218611154415,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "Fy7RCjDdFLG8wLn7TBKbccaKwYX1FetdSoVDREdUHf5o",
+  "vote": "4Q1khZnsdtNyQjUCpYPBDYyogui8b9x1MWtKNdaPiJdv",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 80783.205858313,
+  "stakeShare": 0.00018486860092682195,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "1Link6hB1NpkCwJt3ZtpQKZszKauhEcKgiWjaU8PRDG",
+  "vote": "1LinkCP4qUqGvUiNuAWhAxQyopdBxsh4vhfLBb4apyR",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 80572.958302529,
+  "stakeShare": 0.00018438745919602403,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "7HMHSdQkjDwz9Q5zAhEy83uzW3XHJchjdpMYapKXcKt5",
+  "vote": "GZgVV7MMweKm11hh8z8Nui9kRo3VxUVr2qgmkDdtJesa",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 80392.585967084,
+  "stakeShare": 0.00018397468551434936,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "CJFQNDPydtX4eL6TsgWS1hKxjh8xpJQXgkLTvkCBL4g2",
+  "vote": "EpicsoqLdDP8qRn3wQRKTSKAXbjK9dUgFfNPRQS77MQD",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 80300.64998226,
+  "stakeShare": 0.0001837642942986423,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "DupN8puwoPdFo9EYm8AXemEn9cMsore1QmZzfPaxyUG4",
+  "vote": "B48pw5uXH7gkCibuCBPE6nezKsCmYfFFwveCeMHpq4iv",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 80290.936248615,
+  "stakeShare": 0.00018374206487199791,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "ABREU5YkQcfpDZymoQ97iGUgQcfgjctWUUxEMfumiPdV",
+  "vote": "ABREUtpzkkMiPHrBebpsYDU3mubtSohjDKZbyRoTJLae",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 80117.22209149,
+  "stakeShare": 0.00018334452812103995,
+  "tpuQuic": "162.43.190.141:8002"
+ },
+ {
+  "identity": "3DaPk6TdeGnEBwTR8fEyZSLkdayk6vZXrqGZhAgYK8BV",
+  "vote": "2ZiMfQaT59j86HVWCvspuMtBotnVBeTc3BKk3kKpwgKP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 79872.2180423,
+  "stakeShare": 0.0001827838477752438,
+  "tpuQuic": "208.91.105.55:5010"
+ },
+ {
+  "identity": "CZanBzZHFzrGY5qKzaX3CNhJ5smHEMTWFFnoeUi4J6dr",
+  "vote": "GzjMbJQDVuBLFY69QwhhjDGDy2o5Q6nswXMuVTCWEFnp",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 79733.233449669,
+  "stakeShare": 0.00018246578801372427,
+  "tpuQuic": "63.254.166.232:9007"
+ },
+ {
+  "identity": "D3htsc6iRQJLqCNWcC2xcZgUuvcd1JT8zoYNqraNcTQz",
+  "vote": "3xjfK9C9YNcta8MvK1US4sQ3bc6DEjoJoR3qLExGf9xE",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 79597.622780205,
+  "stakeShare": 0.00018215544931809822,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "ArMBx6veRq33ffEP9sxHafiPRgrtzww4XvbwZbSMfXiM",
+  "vote": "GW8GgoeBpLM4TpeR2ePVcYYSoySBaKJgt2JiwoyjXRz3",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 79525.23873734,
+  "stakeShare": 0.00018198980181015765,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "NoditgWLFbgnbPjfHP8QQrjxvuhCayTZWHw9pM4EJpu",
+  "vote": "NoditP9RMZTVKS71xDUEXUvoemvVxFnXVnXqEnSsbFB",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 77784.690472047,
+  "stakeShare": 0.00017800663824006258,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "BaDhUB1eWfunwD21Tu3WywyYQ9wZx5hS9WXeHHNGZUPy",
+  "vote": "CBSrVMzHqnjb1td6diYaqy2Nq1GotkKQBB6i5eaR1ZyR",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 75001.025475225,
+  "stakeShare": 0.00017163635065437258,
+  "tpuQuic": "109.94.96.25:8002"
+ },
+ {
+  "identity": "3tm92VTxwyZ5MDhGoYR4tVTkwWYkzfam6hwBjauUACCk",
+  "vote": "4m1PbxzwLdUnEwog3T9UKxgjktgriHgE1CfAhMqDw7Xx",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 74884.062230643,
+  "stakeShare": 0.00017136868572134603,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "FyLVPAKkgdAy8Gn9jnFYN5yjC1ubQWRkw2EHt2UnC8uA",
+  "vote": "DKeL7T5t7XXKSbWpM3i9mkV9hRhqrEDbVVyL63AJ7TqE",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 74415.377815435,
+  "stakeShare": 0.00017029612328469705,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "mythxvB89eT3C1TKwwhsvdHfYq2aoCt2es8vLoDFYyk",
+  "vote": "mythxna3hpzXSbaseyR12vu5Vvym1HxS92eCgXLvY7w",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 74108.035647859,
+  "stakeShare": 0.00016959278506084339,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "LitxAVo3RnYXD2sX1TyRJxfnKy48amXgyGiysPZjZwE",
+  "vote": "D7WodK26tETSqyWBW35vvMGfige9afLEyTsm1Pvvropd",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 73918.329582558,
+  "stakeShare": 0.00016915865157348167,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "7knvB4bbqHCKuNp3ef2hJWdwqoH6WAUi55NQt6LdRfkx",
+  "vote": "D4mLBafAJjpRABT5Tyj6UhuwJ8DLRk74JzyuTMUdU9Fz",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 73082.509068102,
+  "stakeShare": 0.00016724591528762014,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "SA1LFXr4os2P4VKGUyRv84uFfuUYgcQkFh2uA4SmRcr",
+  "vote": "Sa1HXZsn2u6p2dMLZGhfxtsRw7Jo32hF15yBghWJsCz",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 72697.370268759,
+  "stakeShare": 0.00016636454309842952,
+  "tpuQuic": "103.88.233.43:8002"
+ },
+ {
+  "identity": "HDRqPft5ioWZnsV2XgNWpoyg9Js6Lnh6TxMSiDG843KD",
+  "vote": "54DYhq7YnjHgVw8fKTEtYbc7qAtctWo8bjj84BrK1199",
+  "clientId": "Firedancer",
+  "version": "0.1.1",
+  "activatedStakeSol": 71155.675152718,
+  "stakeShare": 0.00016283644569093001,
+  "tpuQuic": "202.8.11.195:9007"
+ },
+ {
+  "identity": "KAW1LjxH73tRBd1XsaqsRsgeERFkg4WpdXUSqR4QjkW",
+  "vote": "kawiL1oKtakS5xXsmeWKV9ubUJPtdgBrRU9EgHGDADf",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 71127.657036419,
+  "stakeShare": 0.00016277232753783411,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "TopjgY7N1fJdnW89S9fX6t7LF61nspgXGL1NpgAKhDG",
+  "vote": "5DnWqsJceNamPNNUpMnVr1XQ8anSxcj9TXRD5Rn52prJ",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 71050.321460495,
+  "stakeShare": 0.00016259534867730195,
+  "tpuQuic": "198.13.140.105:9007"
+ },
+ {
+  "identity": "CtzN7ysR5rX69qd168Aosbuc83mPozhi81bEHbG7ecNP",
+  "vote": "CtzNnqzSLwNtkzi2yEWvq4w3GYQ5gSpCagqFZ5TbdSKb",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 70933.297040712,
+  "stakeShare": 0.00016232754374767957,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "D1A4F2yh38JLQExKjDiCi4G2tCMwj93c3sikseSSePKe",
+  "vote": "5Syh63iLwvddy7HqhnQbLnQfJGF2wRtQ2AVay6oFQmYK",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 70239.125326712,
+  "stakeShare": 0.00016073896413875397,
+  "tpuQuic": "91.134.54.64:8002"
+ },
+ {
+  "identity": "vau1tt35joNg4WcuxxUfnojMg35kBmaLdiq5fcbfCZK",
+  "vote": "Vau1t2hwJfbZTMm1m7WetPc1azytdFPobVYbYpKHrW9",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 69292.085383651,
+  "stakeShare": 0.00015857170737498333,
+  "tpuQuic": "45.154.33.91:8002"
+ },
+ {
+  "identity": "pineXRUnbaLNFMxaM3zBmFfTiKgQMGqT9jYHXZWq2Fw",
+  "vote": "pine9rHVDS1pjwdhYkx3vRyaAyRd5KPDKXZEXAqvxcX",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 68913.603163282,
+  "stakeShare": 0.0001577055684564807,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "YE11a5nVJtUNqsojkphYuWc7StqBzbCeFH6BjhAAUEV",
+  "vote": "YE111yizdzBA7JQKMXjy9VSx1shKAczUbs3b3e6vKQH",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 68812.533405909,
+  "stakeShare": 0.0001574742750280628,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "NATsUSZGohWw8xtLdxG4yus21UCkaes4FLfM2eqKbRk",
+  "vote": "fuyugZxM5S4NyV3ZYoc6ebs3fmRTrZ3X27MKCFvHpVD",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 68675.632213138,
+  "stakeShare": 0.00015716098303000594,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "FdH9QEQBxPQfaF2JpcjgdfcMnDb7rjZkCDRCWLRjTQwj",
+  "vote": "HcbE5huUVDgsf7SURsRfQqnFMp3Zz3i49eXMddugPyAP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 67014.452427069,
+  "stakeShare": 0.00015335945052488204,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "meshRrDTME9cL2FSQ9E56EncfkZ7vL8apwcCFsw3o6Y",
+  "vote": "mesh3Px7WMi7Dkxke4ZZBULoKHM6sp37wKtg4DwPqPY",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 66719.781917759,
+  "stakeShare": 0.00015268511080028532,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "vtav4QSdUYDbCbFGczVv2YxxKsoJUiTwm5JoJUV5HRi",
+  "vote": "3jkJVgfz1zrHSy6YLK6g96eTj49kCnDj2i8AbbKLZhkk",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 64713.309679392,
+  "stakeShare": 0.00014809339261376024,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "BLUEHGDihXD9CqqC5XFSQzDC3aS5jASohb2BAsXaJokR",
+  "vote": "SmithX2hngQMZXVN36C6TsyjthTU3YnsALAs1MaDghV",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 62522.494528695,
+  "stakeShare": 0.00014307981426544614,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "MargusJeV9bkePFLWbbzRNsMVo3Re6h9wKB5Ago8Tfj",
+  "vote": "CzmqDuqEpfnkptuLAcikmJrhCnhFXo8aUBj6Rto1SPAc",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 62514.417063259,
+  "stakeShare": 0.00014306132936232397,
+  "tpuQuic": "195.182.16.19:11228"
+ },
+ {
+  "identity": "G1eAmANVWf6ZeoxG4aMbS1APauyEDHqLxHFytzk5hZqN",
+  "vote": "G1EAMrJcvzs5SwqAQRgDTjYBEGrxxJVwNS7qiUtB3akg",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 61571.862818568,
+  "stakeShare": 0.0001409043379101739,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "nateKhsYkrVc992UuTfAhEEFQqr2zQfpGg9RafNkxdC",
+  "vote": "nateBZg7oHVPLB2samBLkKvfzedU3ALZBexMFPMKjn1",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 61222.565519655,
+  "stakeShare": 0.00014010498732397876,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "4MKi9PLRv4x6Ey2Sc7KmuPGNhGmLW4NCcDVZd1PBdNSR",
+  "vote": "DkZehyHr92C4wHYfoXJU6FpKFVeh64LRgkJmFKYub4UV",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 61014.372302982,
+  "stakeShare": 0.0001396285468524741,
+  "tpuQuic": "170.23.153.111:11228"
+ },
+ {
+  "identity": "adre1Xia7ekGsEqNgHeFc7MYwkfzTQNeJgQmZ2agAKZ",
+  "vote": "adrePWHJJQNNuMfK3QrBKXDZZuRFPRjhovMMeSr3Drz",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 60869.768357624,
+  "stakeShare": 0.00013929762746418294,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "FoigPJ6kL6Gth5Er6t9d1Nkh96Skadqw63Ciyjxc1f8H",
+  "vote": "irKsY8c3sQur1XaYuQ811hzsEQJ5Hq3Yu3AAoXYnp8W",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 60715.651383006,
+  "stakeShare": 0.00013894493795187668,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "9bkyxgYxRrysC1ijd6iByp9idn112CnYTw243fdH2Uvr",
+  "vote": "6W8yrMwtDU5G6ErazhZHfLjqZV8cMvajpSRGYgrZ3d4v",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 59548.094635697,
+  "stakeShare": 0.0001362730387608956,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "sce2zXNjLpPMcSCATTrLiQhAAvHNNMKypTFVtg2H37U",
+  "vote": "9BSZriSFS8Yb835exZwTLN19Dqy9B43yvuMAAdL3nBvz",
+  "clientId": "Agave",
+  "version": "4.5.0-alpha.2",
+  "activatedStakeSol": 59032.247574914,
+  "stakeShare": 0.00013509254680831788,
+  "tpuQuic": "185.26.8.33:8003"
+ },
+ {
+  "identity": "scb1Z7du8NVSaHFXsafSjRdXr6xBjWR3iugikL739Y1",
+  "vote": "95Kg9C27WjjrnQpgZ418hxWTeumPTyH1ENnBoimVN5PL",
+  "clientId": "Agave",
+  "version": "4.4.0-beta.1",
+  "activatedStakeSol": 59002.61632575,
+  "stakeShare": 0.00013502473707585602,
+  "tpuQuic": "64.130.41.166:8003"
+ },
+ {
+  "identity": "sce1oTWYVXv7a7Hy2skxREozs5nwkQ4wDT8XJSi5tgE",
+  "vote": "BRrgfW2AKKYYEGVU6j1mbnoQajHTRuUgXCAPPzFgcF9q",
+  "clientId": "Agave",
+  "version": "4.5.0-alpha.2",
+  "activatedStakeSol": 58985.320160919,
+  "stakeShare": 0.00013498515560889476,
+  "tpuQuic": "67.213.117.45:8003"
+ },
+ {
+  "identity": "scb2TYPmwHgKxXJaJNq6gHKwYkVyLKx58hz9RbCKZZR",
+  "vote": "FWwnxVb7Q59MoMraDN2k8gqkdJJVd2qu9o5iiQsxpoUp",
+  "clientId": "Agave",
+  "version": "4.4.0-beta.1",
+  "activatedStakeSol": 58915.093603041,
+  "stakeShare": 0.00013482444540477656,
+  "tpuQuic": "109.94.99.161:8003"
+ },
+ {
+  "identity": "scs2Ra91pMbvqFAP7uitrN5U25SoyBTqZgBbhpVMJko",
+  "vote": "BjREhubbyR597w8tK9NUCLY74Zct2VuhvrNhyLinVc2e",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 58896.316246023,
+  "stakeShare": 0.00013478147429854057,
+  "tpuQuic": "67.213.118.73:8003"
+ },
+ {
+  "identity": "scs1NCSTafrUX6RBx113B9YDCepo1QdEzU8WwEkf25i",
+  "vote": "2zxo26eJJSryYa5fdMRoWWvPTx8aoeqZHe6L4767sCaN",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 58760.330015719,
+  "stakeShare": 0.00013447027614943882,
+  "tpuQuic": "109.94.99.167:8003"
+ },
+ {
+  "identity": "sce3TfT81rxYYcdbP1kBFMcTK3ZBc8hvHVeXD6WLSzE",
+  "vote": "6CscV2sTXdurJKwuJ6RZnPKca6pNhqAhN57ygKga2T7G",
+  "clientId": "Agave",
+  "version": "4.5.0-alpha.2",
+  "activatedStakeSol": 58641.586829988,
+  "stakeShare": 0.0001341985379040641,
+  "tpuQuic": "91.242.214.149:8003"
+ },
+ {
+  "identity": "vnd1Ps8w3fsi54qUMJxBhUWARES34Qw7JQXDZxvbysd",
+  "vote": "vnd1jskPHR2gfMtgTtq6xCwANrAiNbQTKgVBAJHnMke",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 58602.246655841,
+  "stakeShare": 0.00013410850974935665,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "2icWF7TvxyycF7d1NHpMZYuJJqiRy2h7wmjFSbqUij1B",
+  "vote": "CzGLRXJXoDo9q86MpphPVNNsTgAxHvZfUfAiouWDH89M",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 58351.288048671,
+  "stakeShare": 0.00013353420267519283,
+  "tpuQuic": "64.130.52.202:8002"
+ },
+ {
+  "identity": "9U4WqNGVywKt3gG9HSt9tGVXBDXJvgid6BVweRysaJmg",
+  "vote": "6hTLQ5HSdWcpZkbXmZxXaGjCgTh7zh8UeWKWKgGE1BPp",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 58278.022978337,
+  "stakeShare": 0.00013336653897695825,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "DeepM3FDWaAb7o53rvyZk5YvHLG3FvDiVXJLRY78z51p",
+  "vote": "DeEpSdaw8uBLQ5T2HQhDf8fBSVbm13jGqJwoSF3HTpL5",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 58064.851964019,
+  "stakeShare": 0.00013287870704758125,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "mds2fZEpJP688PqJHvfLxGyf2VFrcNkvjuUxNYCwjrq",
+  "vote": "5cJyfCLBfghRtoCuVJNreJgNCStqXLrhHmRhSRYtbgtr",
+  "clientId": "Agave",
+  "version": "4.5.0-alpha.2",
+  "activatedStakeSol": 57904.324522344,
+  "stakeShare": 0.00013251134748023665,
+  "tpuQuic": "64.130.33.190:8003"
+ },
+ {
+  "identity": "mds1WWedpezW3qvgML4WgP341jZksYAy5SbMLwjP5KC",
+  "vote": "6zzAPhyFZgS6rdknHNZLcsoooZ744GtVmTDyfvRmN37Q",
+  "clientId": "Agave",
+  "version": "4.5.0-alpha.2",
+  "activatedStakeSol": 57800.011523942,
+  "stakeShare": 0.00013227263204590637,
+  "tpuQuic": "64.130.33.185:8003"
+ },
+ {
+  "identity": "BCeczqpTRPigndHVJu1KEzno1Uhb4hjrE7ttmAndrV1p",
+  "vote": "FdGcvmbpebUwYA3vSywnagsaC3Tq3pAVmcR6VoxVcdV9",
+  "clientId": "Rakurai",
+  "version": "4.3.2",
+  "activatedStakeSol": 57555.519615088,
+  "stakeShare": 0.0001317131237093959,
+  "tpuQuic": "165.254.143.125:8002"
+ },
+ {
+  "identity": "mds3Df1ieBonG2qS8ZoKTqshq5MgTUNfZgc78cjiCdq",
+  "vote": "ASifxiwxht8FvsiV3VcLngsCBMw4E6zw3QMWoJTbM4Uf",
+  "clientId": "Agave",
+  "version": "4.5.0-alpha.2",
+  "activatedStakeSol": 56827.064643592,
+  "stakeShare": 0.00013004608846379237,
+  "tpuQuic": "109.94.99.175:8003"
+ },
+ {
+  "identity": "CVGwNaC1FaG95hRBHUuieDLyQU2hJuGhPduu2cMyHnw6",
+  "vote": "6frBSsexBMZNKAaQY9dMKhyCu83Px54aL9SZWtuJWeWV",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 56478.402659598,
+  "stakeShare": 0.0001292481917661744,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "Mwz8VgAEnPtfqS62r3ixrFiMJwnNfEwR141CGnsTo5k",
+  "vote": "A11pGbZDE8fPNZgiqDjoST6v3QMdhzZ3r8W5YahCKtS5",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 56341.562840089,
+  "stakeShare": 0.00012893504021796676,
+  "tpuQuic": "94.130.204.46:11228"
+ },
+ {
+  "identity": "8aySXUFrqJz5kath6aVijrkBH8ZtxMWJGhYXwYBpKmHK",
+  "vote": "A7uqmajxP3NdzbYDXiGQRGTL8d3dZ5pjS4kR9NTZcxtg",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 55756.003011451,
+  "stakeShare": 0.00012759501384578835,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "b1ueZK9bWTywN2587zsScyLTaH18wfRfN5W15XnkiqF",
+  "vote": "b1uei1YN8YVb3qHy2JitBx4Fq9nAatLQFcNbnk6Ex8p",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 55334.162152116,
+  "stakeShare": 0.0001266296507031593,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "5t4shVsKnUqgjmhK3fFNsvyju2E6Rd7cc4S5pmqqEVEW",
+  "vote": "sT34kbaqmHWbPwjhyeG1GnjoX82KpXawFsnzUkzJpYX",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 54923.767897737,
+  "stakeShare": 0.00012569048258239272,
+  "tpuQuic": "64.130.53.11:5010"
+ },
+ {
+  "identity": "2nhGaJvR17TeytzJVajPfABHQcAwinKoCG8F69gRdQot",
+  "vote": "mNyQrNRYAuL2CwNCGmCsmwj9EcG88Sf8hs5rCirZaUr",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 54831.049116386,
+  "stakeShare": 0.0001254782999733234,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "te1ee9rGf369wxYQkuxkvuvMuTJ9cksgZySmNUF8rNY",
+  "vote": "te1exfYnykh2cFGCwGSLQu26Dpr8n2PozvBqH5Eoi3K",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 54540.225187847,
+  "stakeShare": 0.00012481276296951417,
+  "tpuQuic": "198.13.130.9:5010"
+ },
+ {
+  "identity": "1i1yPyh843bTfi5qPgqozTbDcEX65rUNEFcUT2KAs2i",
+  "vote": "1i1yax3thZfiV8id5HTA61bjsxEi4pbjmhXsqy6JePP",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 53871.311740511,
+  "stakeShare": 0.0001232819857264442,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "RoYLttggWwa2st3KAGEjnPhsq4NPD5QwaNVyyR8pTz4",
+  "vote": "roYL9AoyuGae7uEAErzZhPSSxnLLZU4TNx8wmwCk77r",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 52945.891244559,
+  "stakeShare": 0.00012116420405959979,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "jntr1vkzvSujfckGR6ANmFmirVoPBMNr5XJGKP5uDQA",
+  "vote": "jntrMCSkeNagaMM437fhZxLYbFJh6pvj68bQDZx2pXf",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 52249.884842811,
+  "stakeShare": 0.00011957142585328621,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "chdvWr6T14nqGRFD37KY36dsvhkCtDaufW5rpu3AfHe",
+  "vote": "chdv8H9fPfk2zFqSVaxRjsEo2qEDmswbju3BVgAHPNb",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 52151.088479352,
+  "stakeShare": 0.00011934533498086705,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "DaRKu4L3qAgXLpuUfk7k8mTB9VzXBEj5hxLVe2mQS1dE",
+  "vote": "DrKHZXtuGhuYbe5MfigvCXR7VFd3u2wxepXei8m2GsDE",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 51473.760243159,
+  "stakeShare": 0.00011779530088575016,
+  "tpuQuic": "64.130.42.86:8002"
+ },
+ {
+  "identity": "sTEVErNNwF2qPnV6DuNPkWpEyCt4UU6k2Y3Hyn7WUFu",
+  "vote": "STevE9xVb1QfBHU4GgEn28r9oikAf5yxKJddF7fufwb",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 51341.077237545,
+  "stakeShare": 0.00011749166201237284,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "B94PGWcxE9iEDov8sZobTkqEY96Yb5gfcsYWSWpQxh6S",
+  "vote": "FgiteGaHbA22Wt4Quzv3muscQtvX7gzVwvUHbFnb3rTJ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 51001.706931618,
+  "stakeShare": 0.00011671502888688298,
+  "tpuQuic": "208.91.105.55:5010"
+ },
+ {
+  "identity": "vxida39xd7rX96zC4deP9gBteuRXhp9BbioHCrqC8gp",
+  "vote": "vxvo76XgSgrEtT6iZ5LWc8zHTbe8Myn2nTo8p9yFiDD",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 49573.026393714,
+  "stakeShare": 0.0001134455600733163,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "71F3mXrwguQ7euZkJAuSZ8o8N4EDAVnTsjMpffXEhaPy",
+  "vote": "VoUVynyfzZGQYopTXaND9o35Sbp5qphgHHibxm82i6K",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 49474.661432695,
+  "stakeShare": 0.00011322045644527141,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "65pHd5P2VrehonT1cdJ2JUnq5wi3WUgfL3A8RhYH7Kg7",
+  "vote": "HjiwKP8UAYigpUJyKeBEWfKWvaRgKw9fZQRcSLzdhP2w",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 47773.425429164,
+  "stakeShare": 0.00010932725715369179,
+  "tpuQuic": "185.26.10.209:8002"
+ },
+ {
+  "identity": "LFGGGJtnBLvq78DyMz1gTeedM6f8owck76qHThDABBC",
+  "vote": "fVotEjqpmpQYgyVyBCwYm62BKqqTQNE6SpYnRmdBazH",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 47622.451222617,
+  "stakeShare": 0.00010898175971961703,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "dzBhD4wikyy7xqwiJvT49gdrKqWVjfs9M6cTssmRX8Y",
+  "vote": "dzufrE42PJjNNRBstdmunAdeDToDA3Cax6WDpFVj36Y",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 47595.032448739,
+  "stakeShare": 0.00010891901313371346,
+  "tpuQuic": "45.76.239.188:8002"
+ },
+ {
+  "identity": "5ghoFEVrsXeAPB6SUmBpZ2xq3KvHEjNMeSaBnxEBXkHV",
+  "vote": "J6KaKtLRj7eQGuVVL2CAz1AS9kDxsrmej9QbYkEtsiAD",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 45468.637492128,
+  "stakeShare": 0.00010405285739664111,
+  "tpuQuic": "104.204.143.34:11228"
+ },
+ {
+  "identity": "7pR7t5axFfkg2VZB1uAuFNUvpAeowq2v15J4gw5MmHTB",
+  "vote": "59k9CiZ7L1bpEivLrAtaMPMgw18syZ4RQsJUo3hbbj8x",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 43134.799108762,
+  "stakeShare": 0.00009871197704734027,
+  "tpuQuic": "64.130.52.209:10002"
+ },
+ {
+  "identity": "DEU4agzdUCA5oZ1QSLxCyZb1smvdu5j1NXXsK2r823Uu",
+  "vote": "Gmmjsfpr1cj66zqwaYzEiSPsA1Y438MKXVNPnGZ2zB9Q",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 42452.874525978,
+  "stakeShare": 0.0000971514244273069,
+  "tpuQuic": "64.130.46.11:5010"
+ },
+ {
+  "identity": "ark1hdnnfmusE24wGHkyVG1gdRCqfmXs9drasDAdABZ",
+  "vote": "reyYoUdFgtDLxAWW1hyn5xk2PHstA3j8zUrerQi9Ayq",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 42403.840031644,
+  "stakeShare": 0.00009703921127274877,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "CTDGxTK789ZvhgyHZHtSnxTtysbyY1mrywXEJiYYqXxC",
+  "vote": "CTDGxxJBrZVqUUHdHopLn4k4gtc2PCpcM9TB7ZEC4Hu2",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 41486.92187123,
+  "stakeShare": 0.00009494088680444979,
+  "tpuQuic": "104.204.141.190:11228"
+ },
+ {
+  "identity": "9D3o3EYeknhTrRvXS1PnD2euGXnMFa3HwpYBq5gPZJDA",
+  "vote": "6yg4Usyr8VkvY8m7wrbLHegKVnKaAQmEwS6cuGnwB6wT",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 37049.476893492,
+  "stakeShare": 0.0000847860008227893,
+  "tpuQuic": "50.115.47.106:8002"
+ },
+ {
+  "identity": "AdSHK6vpQnwHRSw7jXUwjMEytmhFwnynZSENhvpAxL1y",
+  "vote": "9NZ18GkTnXZug6eXAzpBsmyCsYfAJ7mL9bgUfSJDSAKr",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 36718.055784301,
+  "stakeShare": 0.00008402755906348085,
+  "tpuQuic": "64.130.51.255:5010"
+ },
+ {
+  "identity": "suoHAQF4NJQd97mpot3A9cLDnHQ52r3wJEtjCXTsu5U",
+  "vote": "DhNXuhKQemndnvJrZ7qMYstszKwLN9vXDCUcTRG82ZWV",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 35550.569423834,
+  "stakeShare": 0.00008135582094950661,
+  "tpuQuic": "64.130.58.123:5010"
+ },
+ {
+  "identity": "7d7x84jiVtqpz9NK88ocLmu4L15uhdnzMEDmo8Py8oVi",
+  "vote": "4QQqaHgJfrpaS8aU47CkmgAMimGnxiphgwhqzQrotjQU",
+  "clientId": "AgaveBam",
+  "version": "4.3.0",
+  "activatedStakeSol": 35422.367695611,
+  "stakeShare": 0.00008106243727054547,
+  "tpuQuic": "141.98.218.73:5010"
+ },
+ {
+  "identity": "3DaifGfDESUzer5ggUeo6UDjqEKMkCpdNSrrvyuggHVe",
+  "vote": "H1SztaSNXFAYGRS7tL4APK7b6XmpXSx6L5C8h2YGtXnD",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 32790.581152271,
+  "stakeShare": 0.00007503971644588986,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "49j9bnkdgVNxLwsZ9h88sPR5MYEmsUyKrrJ6ZW8ijBrb",
+  "vote": "9QFvZhLvpbcFJTPkKq5wTWR2DGTXqrsP8z9igPgjSsZ1",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 30989.615702455,
+  "stakeShare": 0.0000709182909653391,
+  "tpuQuic": "208.91.105.55:5010"
+ },
+ {
+  "identity": "2bpfa8JbFfZUGUsedDsemu6vQUxbhcEM8ALSH3PgXd2d",
+  "vote": "Gar9q7Ru2sKfVxFnR5xmV8GieJeUSTp7Uf3ixai9BQKS",
+  "clientId": "JitoLabs",
+  "version": "4.3.0-rc.1",
+  "activatedStakeSol": 29951.10212132,
+  "stakeShare": 0.00006854170104484669,
+  "tpuQuic": "89.44.211.20:8002"
+ },
+ {
+  "identity": "LandXx5ebB8Bo1hJXNoUJtju3SM25YJKHUoAmYQU6tJ",
+  "vote": "D4Em5FzPmCNTyawCYfk3zLeDTmefk7ZPfdhyJfdjLdcZ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 28149.214785613,
+  "stakeShare": 0.00006441816587140776,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "UZBmptMjMSQEPKm4WyUkJeAuvZSqTuNK3cQCKFqJcXT",
+  "vote": "QodirbUG8AZQBWpHhPJPfjj1xg4AaQUZCVVtwT8YfPi",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 24837.221695581,
+  "stakeShare": 0.00005683882407222969,
+  "tpuQuic": "104.204.140.125:8002"
+ },
+ {
+  "identity": "5P35CJVKU15Rrh5M6EVkre23EyA3K34kAut2GXhHKM7W",
+  "vote": "9hHEiSDTz9LeA4B4N2tJp6SPchwWZbV1X7zWN8hYoMhb",
+  "clientId": "JitoLabs",
+  "version": "4.3.0-rc.1",
+  "activatedStakeSol": 24003.337691766,
+  "stakeShare": 0.000054930519400700344,
+  "tpuQuic": "89.44.211.18:8002"
+ },
+ {
+  "identity": "Atom7LRkdXj6MBoWJPgjaetrCMrgB9nnkQBYXTWE8Z3S",
+  "vote": "QUANT7qKUEW4PS4eP9jq4K35rDHpgWkWcgjbW1CwnGJ",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 23873.228109008,
+  "stakeShare": 0.00005463276968556981,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "EKgSCR3ahdypkxXcBY43ZNxdmyZqPkKNPey3rwKjqbz7",
+  "vote": "GAoCBDE9ABRYmhWUREDp4po4L8JgCPeQsPS77p1mx3WR",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 22157.096774296,
+  "stakeShare": 0.00005070548312292296,
+  "tpuQuic": "86.54.153.244:9007"
+ },
+ {
+  "identity": "2Le6TjeEescF87qDA8Ftdz6U8Kq6SNVwoLJLhzBCHUr5",
+  "vote": "Fe5zMqkmoYbwnXH9RHjFy7YMRnak9so2bzPBroPJ4iiX",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 20438.223231517,
+  "stakeShare": 0.000046771921144941814,
+  "tpuQuic": "64.130.32.201:9003"
+ },
+ {
+  "identity": "CRNyGD7xNPThLjNviGdxoAiHpQXZKx3UeyCfrxnmTi8r",
+  "vote": "8nshUCt7FvxGRphfmiqAr9wdkRMrktfuS7YMhaaP3oUV",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 20312.505988069,
+  "stakeShare": 0.00004648422309357491,
+  "tpuQuic": "198.13.140.105:12316"
+ },
+ {
+  "identity": "9Wmaz9VPpEnH67ZqrvYd9bcH66DtsGaEKcSQE1ac5wkf",
+  "vote": "3Z1N2Fkfha4ThNiRwN8RnU6U8dkFJ92DH2TFyLWJf8cj",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 20097.481791488,
+  "stakeShare": 0.00004599215024297446,
+  "tpuQuic": "104.204.142.28:11228"
+ },
+ {
+  "identity": "STaKesuXJH6UGRizuEVSWG1tyLu5ycKgWj3i1HUdvs5",
+  "vote": "2PEyBgsPYBQ8pMdXQtEaPGNqWQHE9GCnmV2tTVN4GMru",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 17927.980448656,
+  "stakeShare": 0.00004102734755042396,
+  "tpuQuic": "217.69.10.53:8003"
+ },
+ {
+  "identity": "2ooJ5UKSrpsuEzZV4DpDKvfHmXw3huZyqg8B6RSozdKy",
+  "vote": "EwgQDTsgriyM3AdjnBFMMPwPs9RUFxFoGfm24XaN1dUS",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 16075.298298274,
+  "stakeShare": 0.000036787570811383205,
+  "tpuQuic": "88.216.192.50:5010"
+ },
+ {
+  "identity": "DiFeTctQSaNczJNmZ5121kYqLaBe9wDpM9sjCzTELJLE",
+  "vote": "FXcZJuQwkcQpw2YrkTaxWJ6rnw4P12wvULttviMRn655",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 15856.263682164,
+  "stakeShare": 0.00003628632030263489,
+  "tpuQuic": "109.248.222.157:8002"
+ },
+ {
+  "identity": "CuStTdKU5nWev5YKxMHyFjiHYG2CnjZ3rrPa8r1G2hTw",
+  "vote": "5ni6KoVM62cRJNfFFKGdiyDfYbKWWAGZ21cfGZcj1y66",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 15798.122173853,
+  "stakeShare": 0.00003615326617111055,
+  "tpuQuic": "45.139.132.235:11228"
+ },
+ {
+  "identity": "6bBw4LYVzXQoNs1TH4yVavtpCu5cdwYGvmuXVcZmNeKy",
+  "vote": "FrkdQrmL2Qn3bgYpzajQDK2k7gRNNmsQNBXvm4mWz9uk",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 15371.376040608,
+  "stakeShare": 0.00003517667753779605,
+  "tpuQuic": "104.204.141.78:8002"
+ },
+ {
+  "identity": "5yEnvhM4Ld3UZs2n173J2iR369E1ddcbQYeLSZxk4cYj",
+  "vote": "B38JgkTi7Fu2Uxk8JzNw4M7aMhVxzGu2fsRqHNScPkCQ",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 14327.118553001,
+  "stakeShare": 0.00003278694295509258,
+  "tpuQuic": "91.242.214.213:8002"
+ },
+ {
+  "identity": "2abwQG3v2xRemFxRszVHSfnjJNe9zu5X8duKgxjyLeaK",
+  "vote": "EogKVYgic8LKAuV1kR9nRqJaS5zpwCvSMfqoehzmAMpK",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 12141.391034479,
+  "stakeShare": 0.000027785007415852826,
+  "tpuQuic": "84.17.53.104:8003"
+ },
+ {
+  "identity": "7zAHbRxEQaNjKnQMjFm7j8LebHSGfzsQDdm2ZpUNPa7G",
+  "vote": "FXRu5NA4ouLGFuZNNWZFwwnvQz9zE7JCX3D23RJTc2NU",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 11702.912460279,
+  "stakeShare": 0.000026781569638316294,
+  "tpuQuic": "216.242.0.106:8002"
+ },
+ {
+  "identity": "9fa5wcqnAQqHyn58U1vHHLuZW5GXLcoho7hKT17jGJfZ",
+  "vote": "BfxZj7ckfRGHxByn7aHgH2puyXhfjAUvULtRjJo4rd8C",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 11636.199063742,
+  "stakeShare": 0.000026628899140162224,
+  "tpuQuic": "136.244.110.4:9852"
+ },
+ {
+  "identity": "Xoir1BnQX9TbEvon9HRbD8tkjcD9dorsxmNjZAV64Re",
+  "vote": "DzPT1ZWDeURdTj38QBSceWnrpYFxZRBLPRXmUgHVDAGR",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 10275.514623744,
+  "stakeShare": 0.000023515036227039907,
+  "tpuQuic": "64.130.32.229:9003"
+ },
+ {
+  "identity": "FWD1aVC1U1zVYpLde4buhGkcNzFTVZPikPFYizMc4RGh",
+  "vote": "FWDV5duuz84fTkTpfEjgLFKVVfKbDtqKL2Lx5qNyUyvm",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 10004.053708332,
+  "stakeShare": 0.000022893810576171945,
+  "tpuQuic": "70.40.184.133:8002"
+ },
+ {
+  "identity": "5429ouKuzSkH8TV5GULMLtqkEGnJ7H6RsfhDLyscqXoB",
+  "vote": "HwYTVzrz6oB5exDihSKaoYAMaicZ1nLv859AS71C16W7",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 9709.511590833,
+  "stakeShare": 0.000022219764670249777,
+  "tpuQuic": "64.130.46.242:12300"
+ },
+ {
+  "identity": "AS4i8EXUZnPbmNT5ZXmoTEbrXQrbFoReiWwwFB43Ds5z",
+  "vote": "5AC692spnjbegP7ttCXJEzUe8S81sLYsqJd8Ae6Zv1xU",
+  "clientId": "JitoLabs",
+  "version": "4.3.0",
+  "activatedStakeSol": 9561.77093923,
+  "stakeShare": 0.000021881667075933357,
+  "tpuQuic": "213.21.195.65:11228"
+ },
+ {
+  "identity": "D4KUs6wFY8qh7H1euCoCCpRMh6841cskzzfNcjmGBt6e",
+  "vote": "TRAMp1Z9EXyWQQNwNjjoNvVksMUHKioVU7ky61yNsEq",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 7659.880118513,
+  "stakeShare": 0.000017529278588675327,
+  "tpuQuic": "170.23.153.113:11228"
+ },
+ {
+  "identity": "7Nn8qBJey7vXtVFMNBbbuN8UkujU8Y6nWzbHVGuf49yV",
+  "vote": "6SF5cmEXFFEmnFd5BwM4J6NkZhh3WfPkgmqdoAGjLLPX",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 6236.977539987,
+  "stakeShare": 0.000014273032365807709,
+  "tpuQuic": "104.204.142.146:11228"
+ },
+ {
+  "identity": "KESTR4VhkALtPjwn4QLEErMB6vEmi8nyDo8JRqJ7KsH",
+  "vote": "KESTRiqRhTuQo1MqU8TPevgkbSkGKKDrkcg8R5aNje9",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 5062.374372995,
+  "stakeShare": 0.000011585007771848372,
+  "tpuQuic": "208.91.109.115:5010"
+ },
+ {
+  "identity": "CVgwMrWo9chKEuEPCe6Za9KJe8jamnAcoeWzaMeNubr6",
+  "vote": "F1wBgGku883aGGCQYMQFR4PmdJ7faej3qKSk8xGCycP7",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 2764.053933667,
+  "stakeShare": 0.00000632540858182238,
+  "tpuQuic": "169.155.169.82:11228"
+ },
+ {
+  "identity": "HzrEstnLfzsijhaD6z5frkSE2vWZEH5EUfn3bU9swo1f",
+  "vote": "DQ7D6ZRtKbBSxCcAunEkoTzQhCBKLPdzTjPRRnM6wo1f",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 2619.446147757,
+  "stakeShare": 0.00000599448040460699,
+  "tpuQuic": "63.254.167.199:5010"
+ },
+ {
+  "identity": "HPJ2KUVgRnG889NyfEcUyZkGD1abrZxjZVmsYAjLZU1N",
+  "vote": "6jf9Hwx4ChqUpi8skCqmh7bnfTWXHXsqbfqAPHmSzPYc",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 2375.835400686,
+  "stakeShare": 0.000005436988565761885,
+  "tpuQuic": "57.129.59.250:8022"
+ },
+ {
+  "identity": "FsEq1UFSucxyyYcHKYSt4RjaUzBVL4eG7vuCrGz9qY2W",
+  "vote": "BzgTDU98GGMaq5RWkWcDLsX7W31VqRcEyNiukXzYV2Jd",
+  "clientId": "Unknown(16)",
+  "version": "0.1.0",
+  "activatedStakeSol": 1511.759553922,
+  "stakeShare": 0.0000034595912690255904,
+  "tpuQuic": "67.213.120.231:8032"
+ },
+ {
+  "identity": "4W3jdXyqhLCjzA3Liu8ZNjViwrc6N9YjSB7obbxfjcKE",
+  "vote": "3hhEWRNAVzqRjmF9hW5nYkrmDMxKKzGziE11Sg7yk3iX",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1275.373293451,
+  "stakeShare": 0.000002918632330997754,
+  "tpuQuic": "104.204.142.226:11228"
+ },
+ {
+  "identity": "DSRVdh9PQaqAcFtMCbJhyD4yMD5H2EeHNzdbqWctRY4E",
+  "vote": "2mxWiqtwdpE8zgkWxwFaJLn127dbuuHY4D32d8A6UnPL",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 750.358192807,
+  "stakeShare": 0.0000017171597465630147,
+  "tpuQuic": "15.235.231.135:8002"
+ },
+ {
+  "identity": "3iQqh65Gby53aaYUF8ocoiEyhBs4aoe7BTYYWvy1c9dF",
+  "vote": "AEtdq4CwtuktCEUWLLpRTNPBZs6tr7BBqxkHJ1DjAttR",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 212.895937382,
+  "stakeShare": 4.872024286315757e-7,
+  "tpuQuic": "155.138.141.175:8002"
+ },
+ {
+  "identity": "toshB4tPQTFfyd3VFz2tC3nmEFHVmiBMUpcxwWiexn2",
+  "vote": "MS1kjUoVPfy4AgyJLiJ3eC6Gv34Cwr839MryJgNKdwJ",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 160.287128863,
+  "stakeShare": 3.668096226764284e-7,
+  "tpuQuic": "204.210.160.82:8002"
+ },
+ {
+  "identity": "FFevTkywysWf8PJvH4DZkEp4v9ks9HJPJhZWbhhJiYnr",
+  "vote": "5DutFKQ8qPmbjFEmp31QH9JDYJXvwh9pma8ap5Phxk6H",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 20.110513264,
+  "stakeShare": 4.6021972160360785e-8,
+  "tpuQuic": "86.105.224.116:8002"
+ },
+ {
+  "identity": "EdfKqTQBwHH4fnLQx2ewkkH2mGJR8tiYbjBd2GufKeWg",
+  "vote": "7pnDh3TaUHg21FMM5c9bzkhc8jiPpD3u1i2RwU1qmrWn",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 2.001767621,
+  "stakeShare": 4.580951888984749e-9,
+  "tpuQuic": "104.204.143.126:8002"
+ },
+ {
+  "identity": "FhFB8MAj5Kzxo2aUKnnAXGWxQRhfe1Nfrf5gTReQ1evD",
+  "vote": "GdFaSCpPf9RqRjxkvXUCzLR62bEjmEPZMS9XRVFC3pDu",
+  "clientId": "Firedancer",
+  "version": "0.1.1",
+  "activatedStakeSol": 1.49871712,
+  "stakeShare": 3.429744266963434e-9,
+  "tpuQuic": "198.13.134.7:9007"
+ },
+ {
+  "identity": "8x5Tti54yDZ3PwqPTYHtDf8FWcuDWHApxsPk2bJ1to4",
+  "vote": "J1to4b3avELfpaCq5Mmta2MhALurRaMsZKnJ34FWJeqq",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 1.000144382,
+  "stakeShare": 2.2887837968383163e-9,
+  "tpuQuic": "88.216.222.157:8002"
+ }
+]

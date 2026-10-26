@@ -1,0 +1,47 @@
+{
+ "rpcUrl": "https://api.mainnet-beta.solana.com",
+ "spendCapLamports": "50000000",
+ "keypairPath": "/keys/burner.json",
+ "dataDir": "/app/data",
+ "targetClients": [
+  "Agave",
+  "JitoLabs",
+  "AgaveBam",
+  "HarmonicAgave",
+  "Firedancer",
+  "HarmonicFiredancer",
+  "FireBAM",
+  "Rakurai"
+ ],
+ "cuLimit": 8000,
+ "feeLadder": [
+  "0",
+  "1000",
+  "5000",
+  "20000",
+  "50000",
+  "100000",
+  "250000",
+  "500000"
+ ],
+ "batchSize": 8,
+ "minActivatedStakeSol": 50000,
+ "live": true,
+ "payer": "ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD",
+ "note": "run 2 (burst, lead 2)",
+ "sendPaths": [
+  "tpu"
+ ],
+ "arms": [
+  "F",
+  "T",
+  "N"
+ ],
+ "validatorsPerClient": 3,
+ "batchesPerValidator": 10,
+ "horizonSlots": 18000,
+ "sendGapMs": 0,
+ "leadSlots": 2,
+ "seed": 1945544959,
+ "reconstructed": "written after the run from the exact command line and the logged seed (config.json export was added later)"
+}

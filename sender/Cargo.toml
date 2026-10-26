@@ -1,0 +1,17 @@
+[package]
+name = "tpu-send"
+version = "0.1.0"
+edition = "2021"
+description = "Sends pre-signed Solana transactions straight to one leader's TPU over QUIC, in a given order, and timestamps every stream."
+
+[dependencies]
+quinn = { version = "0.11", default-features = false, features = ["runtime-tokio", "rustls-ring"] }
+rustls = { version = "0.23", default-features = false, features = ["ring", "std"] }
+rcgen = "0.13"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "io-std", "io-util", "time", "sync"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+base64 = "0.22"
+
+[profile.release]
+opt-level = 3

@@ -1,0 +1,65 @@
+{"ts":"2026-10-25T10:06:40.895Z","event":"start","cmd":"all","live":true,"rpc":"https://api.mainnet-beta.solana.com","capSol":0.05,"seed":1921438458}
+{"ts":"2026-10-25T10:06:42.312Z","event":"wallet","payer":"ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD","balance":"59866192","subPayersLocked":"0","ledgerReserved":"271824","capRemaining":"49728176"}
+{"ts":"2026-10-25T10:06:42.712Z","event":"snapshot","validators":665,"groups":[{"group":"AgaveBam 4.3.2","share":0.35558316664499784,"count":360},{"group":"JitoLabs 4.3.2","share":0.22957100402159353,"count":141},{"group":"HarmonicAgave 4.3.2","share":0.2156767341185495,"count":48},{"group":"HarmonicFiredancer 26.10.4","share":0.08694246196791912,"count":38},{"group":"Firedancer 26.10.4","share":0.06453301604142568,"count":19},{"group":"FireBAM 26.10.4","share":0.01616218741774891,"count":14},{"group":"Rakurai 4.3.2","share":0.011712282332797351,"count":9},{"group":"Agave 4.3.2","share":0.0088870812398794,"count":11},{"group":"Firedancer 26.10.3","share":0.00471121810682509,"count":2},{"group":"Agave 4.4.0-beta.1","share":0.0010528560014867413,"count":3}]}
+{"ts":"2026-10-25T10:06:42.718Z","event":"target","identity":"7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE","group":"Agave 4.3.2","stakeSol":1875002}
+{"ts":"2026-10-25T10:06:42.719Z","event":"target","identity":"HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU","group":"JitoLabs 4.3.2","stakeSol":16646121}
+{"ts":"2026-10-25T10:06:42.719Z","event":"target","identity":"DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy","group":"AgaveBam 4.3.2","stakeSol":12588035}
+{"ts":"2026-10-25T10:06:42.720Z","event":"target","identity":"Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk","group":"HarmonicAgave 4.3.2","stakeSol":17099113}
+{"ts":"2026-10-25T10:06:42.720Z","event":"target","identity":"EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4","group":"Firedancer 26.10.4","stakeSol":7785036}
+{"ts":"2026-10-25T10:06:42.721Z","event":"target","identity":"JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b","group":"HarmonicFiredancer 26.10.4","stakeSol":9721918}
+{"ts":"2026-10-25T10:06:42.721Z","event":"target","identity":"9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP","group":"FireBAM 26.10.4","stakeSol":4477330}
+{"ts":"2026-10-25T10:06:42.721Z","event":"target","identity":"ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY","group":"Rakurai 4.3.2","stakeSol":2264905}
+{"ts":"2026-10-25T10:06:43.226Z","event":"plan","windows":8,"firstSlot":461217264,"lastSlot":461217884,"approxMinutes":4,"perValidator":{"EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4":1,"HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU":1,"Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk":1,"9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP":1,"DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy":1,"JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b":1,"ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY":1,"7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE":1}}
+{"ts":"2026-10-25T10:06:48.231Z","event":"batch","start":461217264,"client":"Firedancer 26.10.4","arm":"F","path":"tpu","tip":461217263,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T10:06:51.449Z","event":"batch","start":461217280,"client":"JitoLabs 4.3.2","arm":"T","path":"tpu","tip":461217279,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T10:06:54.804Z","event":"batch","start":461217296,"client":"HarmonicAgave 4.3.2","arm":"F","path":"tpu","tip":461217295,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T10:07:00.106Z","event":"batch","start":461217320,"client":"FireBAM 26.10.4","arm":"T","path":"tpu","tip":461217319,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T10:07:16.118Z","event":"batch","start":461217392,"client":"AgaveBam 4.3.2","arm":"F","path":"tpu","tip":461217391,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T10:07:20.203Z","event":"batch","start":461217416,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"tpu","tip":461217415,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T10:08:14.412Z","event":"batch","start":461217672,"client":"Rakurai 4.3.2","arm":"F","path":"tpu","tip":461217671,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T10:08:59.513Z","event":"batch","start":461217884,"client":"Agave 4.3.2","arm":"T","path":"tpu","tip":461217883,"live":true,"sendErrors":6}
+{"ts":"2026-10-25T10:08:59.997Z","event":"wait","seconds":40,"why":"let the last batch finalize before collecting"}
+{"ts":"2026-10-25T10:09:42.538Z","event":"collect","run":"/app/data/runs/2026-10-25T10-06-40-live","probes":64,"landed":40,"blocks":32}
+{"ts":"2026-10-25T10:09:45.285Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:09:45.921Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T10:09:47.080Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T10:09:48.950Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T10:09:52.426Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T10:10:01.444Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:10:03.631Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:10:04.257Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T10:10:05.329Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T10:10:07.102Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T10:10:12.545Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:10:13.350Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T10:10:14.383Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T10:10:16.368Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T10:10:20.738Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:10:21.330Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T10:10:22.283Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T10:10:24.189Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T10:10:28.797Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:10:29.666Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T10:10:30.895Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T10:10:33.313Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:10:33.895Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T10:10:34.859Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T10:10:36.793Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T10:10:40.326Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T10:10:48.721Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:10:49.364Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T10:10:50.432Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T10:10:52.240Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T10:10:56.887Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:10:57.466Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T10:10:58.446Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T10:11:00.433Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T10:11:04.731Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:11:05.296Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T10:11:06.311Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T10:11:08.193Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T10:11:11.612Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T10:11:20.711Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T10:11:21.555Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T10:11:22.614Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T10:11:24.469Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}

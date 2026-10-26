@@ -1,0 +1,44 @@
+{
+ "rpcUrl": "https://api.mainnet-beta.solana.com",
+ "wsUrl": "wss://api.mainnet-beta.solana.com",
+ "sendRpcUrls": [
+  "https://api.mainnet-beta.solana.com"
+ ],
+ "sendPaths": [
+  "tpu"
+ ],
+ "tpuSenderBin": "/usr/local/bin/tpu-send",
+ "live": true,
+ "spendCapLamports": "50000000",
+ "keypairPath": "/keys/burner.json",
+ "dataDir": "/app/data",
+ "targetClients": [
+  "Agave"
+ ],
+ "validatorsPerClient": 6,
+ "batchesPerValidator": 10,
+ "batchSize": 8,
+ "arms": [
+  "F"
+ ],
+ "cuLimit": 8000,
+ "feeLadder": [
+  "0",
+  "1000",
+  "5000",
+  "20000",
+  "50000",
+  "100000",
+  "250000",
+  "500000"
+ ],
+ "leadSlots": [
+  2
+ ],
+ "sendGapMs": 0,
+ "horizonSlots": 30000,
+ "minActivatedStakeSol": 50000,
+ "seed": 2001110147,
+ "pinnedValidators": [],
+ "payer": "ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD"
+}

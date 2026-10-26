@@ -1,0 +1,17 @@
+{
+  "name": "inside-the-block",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Measuring how Solana mainnet leaders order transactions inside their blocks, per client (Agave, Jito, BAM, Harmonic, Firedancer).",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.ts",
+    "itb": "node src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "typescript": "5.9.3"
+  }
+}

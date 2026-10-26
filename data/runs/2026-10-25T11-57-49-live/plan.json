@@ -1,0 +1,1457 @@
+[
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461248724,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461248748,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461248784,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461248804,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461248816,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461248832,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461248876,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461248888,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461248904,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461248936,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461248948,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461248960,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461248988,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461249000,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461249012,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461249024,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461249040,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461249060,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461249080,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461249092,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461249104,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461249116,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461249140,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461249180,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461249208,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461249228,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461249240,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461249268,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461249284,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461249296,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461249312,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461249324,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461249340,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461249352,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461249364,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461249376,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461249400,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461249436,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461249460,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461249476,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461249500,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461249536,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461249548,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461249564,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461249576,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "7PdKhpKz7T39vZHFL1UfcYNDsLvay6hp4KPQq1aUckFf",
+  "startSlot": 461249604,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461249632,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461249652,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461249676,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461249688,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461249700,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461249720,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461249740,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461249752,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461249768,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461249780,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461249792,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461249828,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461249852,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461249864,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461249876,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461249888,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461249908,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461249960,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461249972,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461249996,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461250016,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461250028,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461250052,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461250064,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461250092,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461250112,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461250128,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461250160,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461250176,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461250200,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461250212,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461250224,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461250284,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461250300,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461250340,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461250376,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461250408,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461250460,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461250484,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461250504,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461250548,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461250564,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461250580,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461250616,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "startSlot": 461250636,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461250660,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461250680,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461250716,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461250736,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461250756,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461250796,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461250824,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461250856,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461250892,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461250932,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461250948,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461250960,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461250976,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461250988,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461251000,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461251016,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461251028,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461251044,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461251088,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461251100,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461251112,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461251124,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461251140,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461251164,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "startSlot": 461251176,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461251204,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461251220,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461251232,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461251244,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461251272,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461251308,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461251336,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461251352,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "startSlot": 461251368,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "startSlot": 461251380,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461251416,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461251460,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461251496,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461251552,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461251568,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461251592,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461251604,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461251620,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "startSlot": 461251696,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461251720,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461251748,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461251764,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461251804,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461251840,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461251860,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461251876,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461251896,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461251944,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461251956,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461251976,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461252028,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461252076,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461252100,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461252112,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461252124,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461252148,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461252168,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461252232,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461252244,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461252280,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461252324,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "startSlot": 461252372,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461252420,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461252432,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461252448,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461252496,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461252516,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461252528,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461252548,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461252572,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461252620,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461252640,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461252676,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461252700,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461252716,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461252748,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461252760,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461252772,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461252796,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461252844,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461252892,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461252928,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461252940,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "startSlot": 461252960,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461252992,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY",
+  "startSlot": 461253112,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461253188,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461253224,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461253240,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461253316,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461253352,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461253364,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "startSlot": 461253384,
+  "client": "JitoLabs 4.3.2"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461253416,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461253440,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461253524,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461253568,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461253600,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461253640,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461253664,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461253676,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461253696,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461253736,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461253752,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461253764,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461253776,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461253796,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "rsbp8zMHbGCpLoRktmsjspYv77VcjxAzH1KxPCD9BiU",
+  "startSlot": 461253832,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461253852,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461253876,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461253892,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461253916,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461253952,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461254044,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461254064,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461254144,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461254192,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461254244,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461254312,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "startSlot": 461254324,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "startSlot": 461254380,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461254424,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux",
+  "startSlot": 461254464,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461254552,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461254776,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461254888,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461255076,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "startSlot": 461255100,
+  "client": "Firedancer 26.10.4"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461255116,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY",
+  "startSlot": 461255176,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461255344,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461255408,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461255420,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461255572,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461255656,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461255812,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "startSlot": 461255864,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461256172,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461256196,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+  "startSlot": 461256300,
+  "client": "HarmonicAgave 4.3.2"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461256328,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461256484,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461256508,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461256524,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461256616,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461256660,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461256772,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461257144,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461257192,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461257476,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461257500,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461257516,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461257572,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461257684,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461257712,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461258020,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461258204,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461258384,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461258412,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461258444,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461258512,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461258524,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD",
+  "startSlot": 461258556,
+  "client": "AgaveBam 4.3.2"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461258728,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "startSlot": 461258820,
+  "client": "HarmonicFiredancer 26.10.4"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461258840,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461259328,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2",
+  "startSlot": 461259348,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461259416,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "rsbp8zMHbGCpLoRktmsjspYv77VcjxAzH1KxPCD9BiU",
+  "startSlot": 461259504,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY",
+  "startSlot": 461259560,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461259804,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461259976,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461260084,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461260456,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461260504,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461260732,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461260800,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461261100,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461261652,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461261984,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461261996,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "startSlot": 461262096,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461262264,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461262592,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "7PdKhpKz7T39vZHFL1UfcYNDsLvay6hp4KPQq1aUckFf",
+  "startSlot": 461262748,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "startSlot": 461262948,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "rsbp8zMHbGCpLoRktmsjspYv77VcjxAzH1KxPCD9BiU",
+  "startSlot": 461263224,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461263724,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461264056,
+  "client": "Agave 4.3.2"
+ },
+ {
+  "identity": "A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2",
+  "startSlot": 461264712,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2",
+  "startSlot": 461265572,
+  "client": "FireBAM 26.10.4"
+ },
+ {
+  "identity": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "startSlot": 461265760,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "7PdKhpKz7T39vZHFL1UfcYNDsLvay6hp4KPQq1aUckFf",
+  "startSlot": 461265984,
+  "client": "Rakurai 4.3.2"
+ },
+ {
+  "identity": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "startSlot": 461266176,
+  "client": "Agave 4.3.2"
+ }
+]

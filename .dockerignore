@@ -1,0 +1,8 @@
+node_modules
+keys
+.env
+data
+data-dev
+test/.devnet-key.json
+.git
+sender/target

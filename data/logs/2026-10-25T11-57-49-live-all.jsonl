@@ -1,0 +1,1688 @@
+{"ts":"2026-10-25T11:57:49.962Z","event":"start","cmd":"all","live":true,"rpc":"https://api.mainnet-beta.solana.com","capSol":0.05,"seed":1928107530}
+{"ts":"2026-10-25T11:57:50.828Z","event":"wallet","payer":"ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD","balance":"39600976","subPayersLocked":"20000000","ledgerReserved":"675056","capRemaining":"49324944"}
+{"ts":"2026-10-25T11:57:51.133Z","event":"snapshot","validators":665,"groups":[{"group":"AgaveBam 4.3.2","share":0.3551325205199902,"count":359},{"group":"JitoLabs 4.3.2","share":0.23002165014660111,"count":142},{"group":"HarmonicAgave 4.3.2","share":0.2156767341185495,"count":48},{"group":"HarmonicFiredancer 26.10.4","share":0.08694246196791912,"count":38},{"group":"Firedancer 26.10.4","share":0.06453301604142568,"count":19},{"group":"FireBAM 26.10.4","share":0.01616218741774891,"count":14},{"group":"Rakurai 4.3.2","share":0.011712282332797351,"count":9},{"group":"Agave 4.3.2","share":0.0088870812398794,"count":11},{"group":"Firedancer 26.10.3","share":0.00471121810682509,"count":2},{"group":"Firedancer 0.1.1","share":0.0008493735944302706,"count":3}]}
+{"ts":"2026-10-25T11:57:51.135Z","event":"target","identity":"7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE","group":"Agave 4.3.2","stakeSol":1875002}
+{"ts":"2026-10-25T11:57:51.135Z","event":"target","identity":"5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS","group":"Agave 4.3.2","stakeSol":1207980}
+{"ts":"2026-10-25T11:57:51.135Z","event":"target","identity":"rsbp8zMHbGCpLoRktmsjspYv77VcjxAzH1KxPCD9BiU","group":"Agave 4.3.2","stakeSol":259144}
+{"ts":"2026-10-25T11:57:51.136Z","event":"target","identity":"HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU","group":"JitoLabs 4.3.2","stakeSol":16646121}
+{"ts":"2026-10-25T11:57:51.136Z","event":"target","identity":"E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL","group":"JitoLabs 4.3.2","stakeSol":10881430}
+{"ts":"2026-10-25T11:57:51.137Z","event":"target","identity":"C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k","group":"JitoLabs 4.3.2","stakeSol":9216837}
+{"ts":"2026-10-25T11:57:51.137Z","event":"target","identity":"DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy","group":"AgaveBam 4.3.2","stakeSol":12588035}
+{"ts":"2026-10-25T11:57:51.137Z","event":"target","identity":"5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux","group":"AgaveBam 4.3.2","stakeSol":5695981}
+{"ts":"2026-10-25T11:57:51.138Z","event":"target","identity":"Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD","group":"AgaveBam 4.3.2","stakeSol":4319078}
+{"ts":"2026-10-25T11:57:51.138Z","event":"target","identity":"Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk","group":"HarmonicAgave 4.3.2","stakeSol":17099113}
+{"ts":"2026-10-25T11:57:51.138Z","event":"target","identity":"CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4","group":"HarmonicAgave 4.3.2","stakeSol":9483244}
+{"ts":"2026-10-25T11:57:51.139Z","event":"target","identity":"EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f","group":"HarmonicAgave 4.3.2","stakeSol":4111388}
+{"ts":"2026-10-25T11:57:51.139Z","event":"target","identity":"EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4","group":"Firedancer 26.10.4","stakeSol":7785036}
+{"ts":"2026-10-25T11:57:51.139Z","event":"target","identity":"9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY","group":"Firedancer 26.10.4","stakeSol":7038249}
+{"ts":"2026-10-25T11:57:51.139Z","event":"target","identity":"JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB","group":"Firedancer 26.10.4","stakeSol":6608867}
+{"ts":"2026-10-25T11:57:51.140Z","event":"target","identity":"JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b","group":"HarmonicFiredancer 26.10.4","stakeSol":9721918}
+{"ts":"2026-10-25T11:57:51.140Z","event":"target","identity":"Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM","group":"HarmonicFiredancer 26.10.4","stakeSol":7006653}
+{"ts":"2026-10-25T11:57:51.140Z","event":"target","identity":"87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5","group":"HarmonicFiredancer 26.10.4","stakeSol":3830697}
+{"ts":"2026-10-25T11:57:51.140Z","event":"target","identity":"9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP","group":"FireBAM 26.10.4","stakeSol":4477330}
+{"ts":"2026-10-25T11:57:51.141Z","event":"target","identity":"A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2","group":"FireBAM 26.10.4","stakeSol":354416}
+{"ts":"2026-10-25T11:57:51.141Z","event":"target","identity":"SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY","group":"FireBAM 26.10.4","stakeSol":303811}
+{"ts":"2026-10-25T11:57:51.141Z","event":"target","identity":"ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY","group":"Rakurai 4.3.2","stakeSol":2264905}
+{"ts":"2026-10-25T11:57:51.142Z","event":"target","identity":"E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F","group":"Rakurai 4.3.2","stakeSol":887408}
+{"ts":"2026-10-25T11:57:51.142Z","event":"target","identity":"7PdKhpKz7T39vZHFL1UfcYNDsLvay6hp4KPQq1aUckFf","group":"Rakurai 4.3.2","stakeSol":770107}
+{"ts":"2026-10-25T11:57:51.581Z","event":"plan","windows":291,"firstSlot":461248724,"lastSlot":461266176,"approxMinutes":116,"perValidator":{"Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk":14,"5Cchr1XGEg7dbBXByV5NY2ad8jfxAM7HA3x8D56rq9Ux":14,"HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU":14,"87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5":14,"Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM":14,"E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL":14,"JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB":14,"9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP":14,"JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b":14,"CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4":14,"DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy":14,"C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k":14,"EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f":14,"E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F":14,"7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE":14,"7PdKhpKz7T39vZHFL1UfcYNDsLvay6hp4KPQq1aUckFf":3,"EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4":14,"ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY":14,"Fc6NNdS2j3EmrWbU6Uqt6wsKB5ef72NjaWfNxKYbULGD":14,"9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY":14,"5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS":13,"SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY":3,"rsbp8zMHbGCpLoRktmsjspYv77VcjxAzH1KxPCD9BiU":3,"A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2":3}}
+{"ts":"2026-10-25T11:57:51.893Z","event":"rpc.retry","method":"getBalance","status":429,"attempt":0}
+{"ts":"2026-10-25T11:57:52.523Z","event":"rpc.retry","method":"getBalance","status":429,"attempt":0}
+{"ts":"2026-10-25T11:57:53.148Z","event":"rpc.retry","method":"getBalance","status":429,"attempt":0}
+{"ts":"2026-10-25T11:57:53.718Z","event":"rpc.retry","method":"getBalance","status":429,"attempt":1}
+{"ts":"2026-10-25T11:57:54.806Z","event":"rpc.retry","method":"getBalance","status":429,"attempt":0}
+{"ts":"2026-10-25T11:57:55.434Z","event":"window.missed","start":461248724,"tip":461248737}
+{"ts":"2026-10-25T11:57:57.941Z","event":"batch","start":461248748,"client":"AgaveBam 4.3.2","arm":"T","path":"tpu","tip":461248747,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:05.525Z","event":"batch","start":461248784,"client":"JitoLabs 4.3.2","arm":"N","path":"tpu","tip":461248783,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:09.845Z","event":"batch","start":461248804,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"rpc","tip":461248803,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:12.277Z","event":"batch","start":461248816,"client":"HarmonicAgave 4.3.2","arm":"T","path":"rpc","tip":461248815,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:15.995Z","event":"batch","start":461248832,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"rpc","tip":461248831,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T11:58:24.745Z","event":"batch","start":461248876,"client":"JitoLabs 4.3.2","arm":"F","path":"tpu","tip":461248875,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:27.186Z","event":"batch","start":461248888,"client":"Firedancer 26.10.4","arm":"T","path":"tpu","tip":461248887,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:30.718Z","event":"batch","start":461248904,"client":"JitoLabs 4.3.2","arm":"N","path":"tpu","tip":461248903,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:37.734Z","event":"batch","start":461248936,"client":"JitoLabs 4.3.2","arm":"F","path":"rpc","tip":461248935,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:39.999Z","event":"batch","start":461248948,"client":"FireBAM 26.10.4","arm":"T","path":"rpc","tip":461248947,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:43.169Z","event":"batch","start":461248960,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"rpc","tip":461248959,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T11:58:48.819Z","event":"batch","start":461248988,"client":"Firedancer 26.10.4","arm":"F","path":"tpu","tip":461248987,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:51.641Z","event":"batch","start":461249000,"client":"HarmonicAgave 4.3.2","arm":"T","path":"tpu","tip":461248999,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:54.203Z","event":"batch","start":461249012,"client":"JitoLabs 4.3.2","arm":"N","path":"tpu","tip":461249011,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:58:56.791Z","event":"batch","start":461249024,"client":"AgaveBam 4.3.2","arm":"F","path":"rpc","tip":461249023,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:00.367Z","event":"batch","start":461249040,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"rpc","tip":461249039,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:04.819Z","event":"batch","start":461249060,"client":"JitoLabs 4.3.2","arm":"N","path":"rpc","tip":461249059,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:08.693Z","event":"batch","start":461249080,"client":"HarmonicAgave 4.3.2","arm":"F","path":"tpu","tip":461249079,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:11.123Z","event":"batch","start":461249092,"client":"FireBAM 26.10.4","arm":"T","path":"tpu","tip":461249091,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:13.606Z","event":"batch","start":461249104,"client":"AgaveBam 4.3.2","arm":"N","path":"tpu","tip":461249103,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:16.221Z","event":"batch","start":461249116,"client":"HarmonicAgave 4.3.2","arm":"F","path":"rpc","tip":461249115,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:21.378Z","event":"batch","start":461249140,"client":"HarmonicAgave 4.3.2","arm":"T","path":"rpc","tip":461249140,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:29.577Z","event":"batch","start":461249180,"client":"Firedancer 26.10.4","arm":"N","path":"rpc","tip":461249179,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:36.152Z","event":"batch","start":461249208,"client":"AgaveBam 4.3.2","arm":"F","path":"tpu","tip":461249207,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:40.037Z","event":"batch","start":461249228,"client":"HarmonicAgave 4.3.2","arm":"T","path":"tpu","tip":461249227,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:42.587Z","event":"batch","start":461249240,"client":"HarmonicAgave 4.3.2","arm":"N","path":"tpu","tip":461249239,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:48.436Z","event":"batch","start":461249268,"client":"Firedancer 26.10.4","arm":"F","path":"rpc","tip":461249267,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:52.107Z","event":"batch","start":461249284,"client":"JitoLabs 4.3.2","arm":"T","path":"rpc","tip":461249283,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T11:59:54.554Z","event":"batch","start":461249296,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"rpc","tip":461249295,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T11:59:58.075Z","event":"batch","start":461249312,"client":"HarmonicAgave 4.3.2","arm":"F","path":"tpu","tip":461249311,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:01.000Z","event":"batch","start":461249324,"client":"AgaveBam 4.3.2","arm":"T","path":"tpu","tip":461249323,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:03.888Z","event":"batch","start":461249340,"client":"JitoLabs 4.3.2","arm":"N","path":"tpu","tip":461249339,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:06.594Z","event":"batch","start":461249352,"client":"AgaveBam 4.3.2","arm":"F","path":"rpc","tip":461249351,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:09.280Z","event":"batch","start":461249364,"client":"HarmonicAgave 4.3.2","arm":"T","path":"rpc","tip":461249363,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:12.400Z","event":"batch","start":461249376,"client":"JitoLabs 4.3.2","arm":"N","path":"rpc","tip":461249375,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:16.325Z","event":"batch","start":461249400,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"tpu","tip":461249399,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:24.424Z","event":"batch","start":461249436,"client":"Firedancer 26.10.4","arm":"T","path":"tpu","tip":461249435,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:29.840Z","event":"batch","start":461249460,"client":"Rakurai 4.3.2","arm":"N","path":"tpu","tip":461249459,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:33.371Z","event":"batch","start":461249476,"client":"Agave 4.3.2","arm":"F","path":"rpc","tip":461249475,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:39.042Z","event":"batch","start":461249500,"client":"AgaveBam 4.3.2","arm":"T","path":"rpc","tip":461249499,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:45.898Z","event":"batch","start":461249536,"client":"HarmonicAgave 4.3.2","arm":"N","path":"rpc","tip":461249535,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:48.332Z","event":"batch","start":461249548,"client":"HarmonicAgave 4.3.2","arm":"F","path":"tpu","tip":461249548,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:51.521Z","event":"batch","start":461249564,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"tpu","tip":461249563,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:00:54.008Z","event":"batch","start":461249576,"client":"HarmonicAgave 4.3.2","arm":"N","path":"tpu","tip":461249575,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:00.051Z","event":"batch","start":461249604,"client":"Rakurai 4.3.2","arm":"F","path":"rpc","tip":461249604,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:05.911Z","event":"batch","start":461249632,"client":"JitoLabs 4.3.2","arm":"T","path":"rpc","tip":461249631,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:10.523Z","event":"batch","start":461249652,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"rpc","tip":461249651,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:14.908Z","event":"batch","start":461249676,"client":"Firedancer 26.10.4","arm":"F","path":"tpu","tip":461249675,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:17.319Z","event":"batch","start":461249688,"client":"JitoLabs 4.3.2","arm":"T","path":"tpu","tip":461249687,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:19.820Z","event":"batch","start":461249700,"client":"JitoLabs 4.3.2","arm":"N","path":"tpu","tip":461249699,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:24.506Z","event":"batch","start":461249720,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"rpc","tip":461249719,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:28.460Z","event":"batch","start":461249740,"client":"JitoLabs 4.3.2","arm":"T","path":"rpc","tip":461249739,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:30.857Z","event":"batch","start":461249752,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"rpc","tip":461249751,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:01:33.867Z","event":"batch","start":461249768,"client":"JitoLabs 4.3.2","arm":"F","path":"tpu","tip":461249767,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:36.381Z","event":"batch","start":461249780,"client":"HarmonicAgave 4.3.2","arm":"T","path":"tpu","tip":461249779,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:38.907Z","event":"batch","start":461249792,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"tpu","tip":461249791,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:46.859Z","event":"batch","start":461249828,"client":"Rakurai 4.3.2","arm":"F","path":"rpc","tip":461249827,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:51.552Z","event":"batch","start":461249852,"client":"AgaveBam 4.3.2","arm":"T","path":"rpc","tip":461249851,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:54.184Z","event":"batch","start":461249864,"client":"Firedancer 26.10.4","arm":"N","path":"rpc","tip":461249863,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:01:56.741Z","event":"batch","start":461249876,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"tpu","tip":461249875,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:01:59.393Z","event":"batch","start":461249888,"client":"AgaveBam 4.3.2","arm":"T","path":"tpu","tip":461249887,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:02:03.855Z","event":"batch","start":461249908,"client":"HarmonicAgave 4.3.2","arm":"N","path":"tpu","tip":461249908,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:02:15.593Z","event":"batch","start":461249960,"client":"HarmonicAgave 4.3.2","arm":"F","path":"rpc","tip":461249959,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:02:18.011Z","event":"batch","start":461249972,"client":"HarmonicAgave 4.3.2","arm":"T","path":"rpc","tip":461249971,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:02:23.407Z","event":"batch","start":461249996,"client":"HarmonicAgave 4.3.2","arm":"N","path":"rpc","tip":461249995,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:02:27.677Z","event":"batch","start":461250016,"client":"JitoLabs 4.3.2","arm":"F","path":"tpu","tip":461250015,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:02:30.184Z","event":"batch","start":461250028,"client":"JitoLabs 4.3.2","arm":"T","path":"tpu","tip":461250027,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:02:34.840Z","event":"batch","start":461250052,"client":"HarmonicAgave 4.3.2","arm":"N","path":"tpu","tip":461250051,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:02:37.308Z","event":"batch","start":461250064,"client":"HarmonicAgave 4.3.2","arm":"F","path":"rpc","tip":461250063,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:02:43.049Z","event":"batch","start":461250092,"client":"HarmonicAgave 4.3.2","arm":"T","path":"rpc","tip":461250091,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:02:47.559Z","event":"batch","start":461250112,"client":"Firedancer 26.10.4","arm":"N","path":"rpc","tip":461250111,"live":true,"sendErrors":3}
+{"ts":"2026-10-25T12:02:50.538Z","event":"batch","start":461250128,"client":"JitoLabs 4.3.2","arm":"F","path":"tpu","tip":461250127,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:02:57.336Z","event":"batch","start":461250160,"client":"JitoLabs 4.3.2","arm":"T","path":"tpu","tip":461250159,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:03:00.385Z","event":"batch","start":461250176,"client":"HarmonicAgave 4.3.2","arm":"N","path":"tpu","tip":461250175,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:03:06.054Z","event":"batch","start":461250200,"client":"AgaveBam 4.3.2","arm":"F","path":"rpc","tip":461250199,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:03:08.332Z","event":"batch","start":461250212,"client":"HarmonicAgave 4.3.2","arm":"T","path":"rpc","tip":461250211,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:03:10.774Z","event":"batch","start":461250224,"client":"FireBAM 26.10.4","arm":"N","path":"rpc","tip":461250223,"live":true,"sendErrors":1}
+{"ts":"2026-10-25T12:03:23.548Z","event":"batch","start":461250284,"client":"HarmonicAgave 4.3.2","arm":"F","path":"tpu","tip":461250283,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:03:26.882Z","event":"batch","start":461250300,"client":"Rakurai 4.3.2","arm":"T","path":"tpu","tip":461250299,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:03:35.818Z","event":"batch","start":461250340,"client":"AgaveBam 4.3.2","arm":"N","path":"tpu","tip":461250339,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:03:43.734Z","event":"batch","start":461250376,"client":"Firedancer 26.10.4","arm":"F","path":"rpc","tip":461250375,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:03:51.033Z","event":"batch","start":461250408,"client":"JitoLabs 4.3.2","arm":"T","path":"rpc","tip":461250407,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:04:02.132Z","event":"batch","start":461250460,"client":"AgaveBam 4.3.2","arm":"N","path":"rpc","tip":461250459,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:04:06.486Z","event":"batch","start":461250484,"client":"JitoLabs 4.3.2","arm":"F","path":"tpu","tip":461250483,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:04:10.949Z","event":"batch","start":461250504,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"tpu","tip":461250503,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:04:19.997Z","event":"batch","start":461250548,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"tpu","tip":461250547,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:04:23.786Z","event":"batch","start":461250564,"client":"HarmonicAgave 4.3.2","arm":"F","path":"rpc","tip":461250563,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:04:27.112Z","event":"batch","start":461250580,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"rpc","tip":461250579,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:04:34.504Z","event":"batch","start":461250616,"client":"HarmonicAgave 4.3.2","arm":"N","path":"rpc","tip":461250615,"live":true,"sendErrors":2}
+{"ts":"2026-10-25T12:04:38.559Z","event":"batch","start":461250636,"client":"HarmonicAgave 4.3.2","arm":"F","path":"tpu","tip":461250635,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:04:43.658Z","event":"batch","start":461250660,"client":"AgaveBam 4.3.2","arm":"T","path":"tpu","tip":461250659,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:04:47.907Z","event":"batch","start":461250680,"client":"HarmonicAgave 4.3.2","arm":"N","path":"tpu","tip":461250679,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:04:55.879Z","event":"batch","start":461250716,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"rpc","tip":461250715,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:00.250Z","event":"batch","start":461250736,"client":"Firedancer 26.10.4","arm":"T","path":"rpc","tip":461250735,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:04.444Z","event":"batch","start":461250756,"client":"JitoLabs 4.3.2","arm":"N","path":"rpc","tip":461250755,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:05:12.869Z","event":"batch","start":461250796,"client":"Firedancer 26.10.4","arm":"F","path":"tpu","tip":461250795,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:18.885Z","event":"batch","start":461250824,"client":"Agave 4.3.2","arm":"T","path":"tpu","tip":461250823,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:25.388Z","event":"batch","start":461250856,"client":"JitoLabs 4.3.2","arm":"N","path":"tpu","tip":461250855,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:33.291Z","event":"batch","start":461250892,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"rpc","tip":461250891,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:41.362Z","event":"batch","start":461250932,"client":"FireBAM 26.10.4","arm":"T","path":"rpc","tip":461250931,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:44.683Z","event":"batch","start":461250948,"client":"Firedancer 26.10.4","arm":"N","path":"rpc","tip":461250947,"live":true,"sendErrors":1}
+{"ts":"2026-10-25T12:05:47.484Z","event":"batch","start":461250960,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461250959,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:50.761Z","event":"batch","start":461250976,"client":"JitoLabs 4.3.2","arm":"T","path":"tpu","tip":461250975,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:53.235Z","event":"batch","start":461250988,"client":"Agave 4.3.2","arm":"N","path":"tpu","tip":461250987,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:55.804Z","event":"batch","start":461251000,"client":"JitoLabs 4.3.2","arm":"F","path":"rpc","tip":461250999,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:05:58.924Z","event":"batch","start":461251016,"client":"HarmonicAgave 4.3.2","arm":"T","path":"rpc","tip":461251015,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:01.657Z","event":"batch","start":461251028,"client":"Firedancer 26.10.4","arm":"N","path":"rpc","tip":461251027,"live":true,"sendErrors":5}
+{"ts":"2026-10-25T12:06:05.000Z","event":"batch","start":461251044,"client":"AgaveBam 4.3.2","arm":"F","path":"tpu","tip":461251043,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:14.346Z","event":"batch","start":461251088,"client":"Firedancer 26.10.4","arm":"T","path":"tpu","tip":461251087,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:17.422Z","event":"batch","start":461251100,"client":"AgaveBam 4.3.2","arm":"N","path":"tpu","tip":461251099,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:20.521Z","event":"batch","start":461251112,"client":"AgaveBam 4.3.2","arm":"F","path":"rpc","tip":461251111,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:22.530Z","event":"batch","start":461251124,"client":"JitoLabs 4.3.2","arm":"T","path":"rpc","tip":461251123,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:26.231Z","event":"batch","start":461251140,"client":"AgaveBam 4.3.2","arm":"N","path":"rpc","tip":461251139,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:06:30.737Z","event":"batch","start":461251164,"client":"JitoLabs 4.3.2","arm":"F","path":"tpu","tip":461251163,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:33.336Z","event":"batch","start":461251176,"client":"HarmonicAgave 4.3.2","arm":"T","path":"tpu","tip":461251175,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:39.539Z","event":"batch","start":461251204,"client":"Firedancer 26.10.4","arm":"N","path":"tpu","tip":461251203,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:43.243Z","event":"batch","start":461251220,"client":"AgaveBam 4.3.2","arm":"F","path":"rpc","tip":461251219,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:45.404Z","event":"batch","start":461251232,"client":"AgaveBam 4.3.2","arm":"T","path":"rpc","tip":461251231,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:06:47.820Z","event":"batch","start":461251244,"client":"JitoLabs 4.3.2","arm":"N","path":"rpc","tip":461251243,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:06:53.377Z","event":"batch","start":461251272,"client":"HarmonicAgave 4.3.2","arm":"F","path":"tpu","tip":461251271,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:07:00.774Z","event":"batch","start":461251308,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"tpu","tip":461251307,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:07:06.771Z","event":"batch","start":461251336,"client":"Firedancer 26.10.4","arm":"N","path":"tpu","tip":461251335,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:07:10.904Z","event":"batch","start":461251352,"client":"AgaveBam 4.3.2","arm":"F","path":"rpc","tip":461251351,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:07:13.748Z","event":"batch","start":461251368,"client":"JitoLabs 4.3.2","arm":"T","path":"rpc","tip":461251367,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:07:16.142Z","event":"batch","start":461251380,"client":"AgaveBam 4.3.2","arm":"N","path":"rpc","tip":461251379,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:07:23.678Z","event":"batch","start":461251416,"client":"JitoLabs 4.3.2","arm":"F","path":"tpu","tip":461251415,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:07:33.297Z","event":"batch","start":461251460,"client":"AgaveBam 4.3.2","arm":"T","path":"tpu","tip":461251459,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:07:41.276Z","event":"batch","start":461251496,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"tpu","tip":461251495,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:07:53.055Z","event":"batch","start":461251552,"client":"JitoLabs 4.3.2","arm":"F","path":"rpc","tip":461251551,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:07:56.259Z","event":"batch","start":461251568,"client":"Firedancer 26.10.4","arm":"T","path":"rpc","tip":461251567,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:08:01.977Z","event":"batch","start":461251592,"client":"Firedancer 26.10.4","arm":"N","path":"rpc","tip":461251591,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:08:04.464Z","event":"batch","start":461251604,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"tpu","tip":461251603,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:08:07.510Z","event":"batch","start":461251620,"client":"JitoLabs 4.3.2","arm":"T","path":"tpu","tip":461251619,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:08:23.693Z","event":"batch","start":461251696,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"tpu","tip":461251695,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:08:30.094Z","event":"batch","start":461251720,"client":"AgaveBam 4.3.2","arm":"F","path":"rpc","tip":461251719,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:08:35.414Z","event":"batch","start":461251748,"client":"Rakurai 4.3.2","arm":"T","path":"rpc","tip":461251747,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:08:38.404Z","event":"batch","start":461251764,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"rpc","tip":461251763,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:08:46.537Z","event":"batch","start":461251804,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461251803,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:08:54.423Z","event":"batch","start":461251840,"client":"Firedancer 26.10.4","arm":"T","path":"tpu","tip":461251839,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:08:59.561Z","event":"batch","start":461251860,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"tpu","tip":461251859,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:09:01.809Z","event":"batch","start":461251876,"client":"HarmonicAgave 4.3.2","arm":"F","path":"rpc","tip":461251875,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:09:05.963Z","event":"batch","start":461251896,"client":"Firedancer 26.10.4","arm":"T","path":"rpc","tip":461251895,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:09:16.595Z","event":"batch","start":461251944,"client":"Firedancer 26.10.4","arm":"N","path":"rpc","tip":461251944,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:09:18.546Z","event":"batch","start":461251956,"client":"JitoLabs 4.3.2","arm":"F","path":"tpu","tip":461251955,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:09:22.649Z","event":"batch","start":461251976,"client":"JitoLabs 4.3.2","arm":"T","path":"tpu","tip":461251975,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:09:33.263Z","event":"batch","start":461252028,"client":"HarmonicAgave 4.3.2","arm":"N","path":"tpu","tip":461252027,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:09:43.903Z","event":"batch","start":461252076,"client":"JitoLabs 4.3.2","arm":"F","path":"rpc","tip":461252075,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:09:48.194Z","event":"batch","start":461252100,"client":"JitoLabs 4.3.2","arm":"T","path":"rpc","tip":461252099,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:09:50.668Z","event":"batch","start":461252112,"client":"Agave 4.3.2","arm":"N","path":"rpc","tip":461252111,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:09:53.227Z","event":"batch","start":461252124,"client":"AgaveBam 4.3.2","arm":"F","path":"tpu","tip":461252123,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:09:58.354Z","event":"batch","start":461252148,"client":"Firedancer 26.10.4","arm":"T","path":"tpu","tip":461252147,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:10:02.828Z","event":"batch","start":461252168,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"tpu","tip":461252167,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:10:16.458Z","event":"batch","start":461252232,"client":"FireBAM 26.10.4","arm":"F","path":"rpc","tip":461252231,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:10:18.694Z","event":"batch","start":461252244,"client":"Firedancer 26.10.4","arm":"T","path":"rpc","tip":461252243,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:10:27.384Z","event":"batch","start":461252280,"client":"Agave 4.3.2","arm":"N","path":"rpc","tip":461252279,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:10:35.546Z","event":"batch","start":461252324,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"tpu","tip":461252323,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:10:45.335Z","event":"batch","start":461252372,"client":"Firedancer 26.10.4","arm":"T","path":"tpu","tip":461252371,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:10:55.770Z","event":"batch","start":461252420,"client":"HarmonicAgave 4.3.2","arm":"N","path":"tpu","tip":461252419,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:10:58.485Z","event":"batch","start":461252432,"client":"Firedancer 26.10.4","arm":"F","path":"rpc","tip":461252431,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:02.715Z","event":"batch","start":461252448,"client":"JitoLabs 4.3.2","arm":"T","path":"rpc","tip":461252447,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:13.768Z","event":"batch","start":461252496,"client":"AgaveBam 4.3.2","arm":"N","path":"rpc","tip":461252495,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:17.474Z","event":"batch","start":461252516,"client":"Firedancer 26.10.4","arm":"F","path":"tpu","tip":461252515,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:19.851Z","event":"batch","start":461252528,"client":"JitoLabs 4.3.2","arm":"T","path":"tpu","tip":461252527,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:23.857Z","event":"batch","start":461252548,"client":"Firedancer 26.10.4","arm":"N","path":"tpu","tip":461252547,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:29.739Z","event":"batch","start":461252572,"client":"FireBAM 26.10.4","arm":"F","path":"rpc","tip":461252571,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:39.677Z","event":"batch","start":461252620,"client":"Agave 4.3.2","arm":"T","path":"rpc","tip":461252619,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:44.099Z","event":"batch","start":461252640,"client":"JitoLabs 4.3.2","arm":"N","path":"rpc","tip":461252639,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:51.228Z","event":"batch","start":461252676,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461252675,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:56.176Z","event":"batch","start":461252700,"client":"JitoLabs 4.3.2","arm":"T","path":"tpu","tip":461252699,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:11:59.501Z","event":"batch","start":461252716,"client":"Rakurai 4.3.2","arm":"N","path":"tpu","tip":461252715,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:12:06.540Z","event":"batch","start":461252748,"client":"Firedancer 26.10.4","arm":"F","path":"rpc","tip":461252747,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:12:09.056Z","event":"batch","start":461252760,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"rpc","tip":461252759,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:12:11.478Z","event":"batch","start":461252772,"client":"JitoLabs 4.3.2","arm":"N","path":"rpc","tip":461252771,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:12:16.506Z","event":"batch","start":461252796,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461252795,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:12:26.578Z","event":"batch","start":461252844,"client":"Firedancer 26.10.4","arm":"T","path":"tpu","tip":461252843,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:12:37.289Z","event":"batch","start":461252892,"client":"Rakurai 4.3.2","arm":"N","path":"tpu","tip":461252891,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:12:45.107Z","event":"batch","start":461252928,"client":"HarmonicAgave 4.3.2","arm":"F","path":"rpc","tip":461252927,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:12:47.255Z","event":"batch","start":461252940,"client":"FireBAM 26.10.4","arm":"T","path":"rpc","tip":461252939,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:12:51.184Z","event":"batch","start":461252960,"client":"JitoLabs 4.3.2","arm":"N","path":"rpc","tip":461252959,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:12:58.080Z","event":"batch","start":461252992,"client":"HarmonicAgave 4.3.2","arm":"F","path":"tpu","tip":461252991,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:13:23.767Z","event":"batch","start":461253112,"client":"FireBAM 26.10.4","arm":"T","path":"tpu","tip":461253111,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:13:39.381Z","event":"batch","start":461253188,"client":"FireBAM 26.10.4","arm":"N","path":"tpu","tip":461253187,"live":true,"sendErrors":7}
+{"ts":"2026-10-25T12:13:46.673Z","event":"batch","start":461253224,"client":"Firedancer 26.10.4","arm":"F","path":"rpc","tip":461253223,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:13:50.114Z","event":"batch","start":461253240,"client":"Firedancer 26.10.4","arm":"T","path":"rpc","tip":461253239,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:14:06.496Z","event":"batch","start":461253316,"client":"Firedancer 26.10.4","arm":"N","path":"rpc","tip":461253315,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:14:13.418Z","event":"batch","start":461253352,"client":"Firedancer 26.10.4","arm":"F","path":"tpu","tip":461253351,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:14:16.009Z","event":"batch","start":461253364,"client":"Firedancer 26.10.4","arm":"T","path":"tpu","tip":461253363,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:14:20.301Z","event":"batch","start":461253384,"client":"JitoLabs 4.3.2","arm":"N","path":"tpu","tip":461253383,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:14:27.688Z","event":"batch","start":461253416,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"rpc","tip":461253415,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:14:32.513Z","event":"batch","start":461253440,"client":"Agave 4.3.2","arm":"T","path":"rpc","tip":461253439,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:14:50.206Z","event":"batch","start":461253524,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"rpc","tip":461253523,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:14:59.051Z","event":"batch","start":461253568,"client":"HarmonicAgave 4.3.2","arm":"F","path":"tpu","tip":461253567,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:05.679Z","event":"batch","start":461253600,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"tpu","tip":461253599,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:14.294Z","event":"batch","start":461253640,"client":"HarmonicAgave 4.3.2","arm":"N","path":"tpu","tip":461253639,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:19.541Z","event":"batch","start":461253664,"client":"Agave 4.3.2","arm":"F","path":"rpc","tip":461253663,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:21.969Z","event":"batch","start":461253676,"client":"Agave 4.3.2","arm":"T","path":"rpc","tip":461253675,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:25.995Z","event":"batch","start":461253696,"client":"FireBAM 26.10.4","arm":"N","path":"rpc","tip":461253695,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:15:34.569Z","event":"batch","start":461253736,"client":"Firedancer 26.10.4","arm":"F","path":"tpu","tip":461253735,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:38.025Z","event":"batch","start":461253752,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"tpu","tip":461253751,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:40.502Z","event":"batch","start":461253764,"client":"FireBAM 26.10.4","arm":"N","path":"tpu","tip":461253763,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:43.256Z","event":"batch","start":461253776,"client":"Firedancer 26.10.4","arm":"F","path":"rpc","tip":461253775,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:47.629Z","event":"batch","start":461253796,"client":"AgaveBam 4.3.2","arm":"T","path":"rpc","tip":461253795,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:55.234Z","event":"batch","start":461253832,"client":"Agave 4.3.2","arm":"N","path":"rpc","tip":461253831,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:15:59.395Z","event":"batch","start":461253852,"client":"Firedancer 26.10.4","arm":"F","path":"tpu","tip":461253851,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:16:04.565Z","event":"batch","start":461253876,"client":"Firedancer 26.10.4","arm":"T","path":"tpu","tip":461253875,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:16:07.929Z","event":"batch","start":461253892,"client":"AgaveBam 4.3.2","arm":"N","path":"tpu","tip":461253891,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:16:13.198Z","event":"batch","start":461253916,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"rpc","tip":461253915,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:16:21.231Z","event":"batch","start":461253952,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"rpc","tip":461253951,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:16:40.691Z","event":"batch","start":461254044,"client":"AgaveBam 4.3.2","arm":"N","path":"rpc","tip":461254043,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:16:44.722Z","event":"batch","start":461254064,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"tpu","tip":461254063,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:17:02.491Z","event":"batch","start":461254144,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"tpu","tip":461254143,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:17:12.451Z","event":"batch","start":461254192,"client":"Firedancer 26.10.4","arm":"N","path":"tpu","tip":461254191,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:17:23.945Z","event":"batch","start":461254244,"client":"FireBAM 26.10.4","arm":"F","path":"rpc","tip":461254243,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:17:37.703Z","event":"batch","start":461254312,"client":"AgaveBam 4.3.2","arm":"T","path":"rpc","tip":461254311,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:17:40.243Z","event":"batch","start":461254324,"client":"Firedancer 26.10.4","arm":"N","path":"rpc","tip":461254323,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:17:52.262Z","event":"batch","start":461254380,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"tpu","tip":461254379,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:18:01.385Z","event":"batch","start":461254424,"client":"Rakurai 4.3.2","arm":"T","path":"tpu","tip":461254423,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:18:10.141Z","event":"batch","start":461254464,"client":"AgaveBam 4.3.2","arm":"N","path":"tpu","tip":461254463,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:18:29.296Z","event":"batch","start":461254552,"client":"AgaveBam 4.3.2","arm":"F","path":"rpc","tip":461254551,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:19:15.976Z","event":"batch","start":461254776,"client":"Rakurai 4.3.2","arm":"T","path":"rpc","tip":461254775,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:19:40.229Z","event":"batch","start":461254888,"client":"Rakurai 4.3.2","arm":"N","path":"rpc","tip":461254887,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:20:19.153Z","event":"batch","start":461255076,"client":"Firedancer 26.10.4","arm":"F","path":"tpu","tip":461255075,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:20:24.506Z","event":"batch","start":461255100,"client":"Firedancer 26.10.4","arm":"T","path":"tpu","tip":461255099,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:20:28.215Z","event":"batch","start":461255116,"client":"FireBAM 26.10.4","arm":"N","path":"tpu","tip":461255115,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:20:41.098Z","event":"batch","start":461255176,"client":"FireBAM 26.10.4","arm":"F","path":"rpc","tip":461255175,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:21:15.864Z","event":"batch","start":461255344,"client":"Agave 4.3.2","arm":"T","path":"rpc","tip":461255343,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:21:29.847Z","event":"batch","start":461255408,"client":"Agave 4.3.2","arm":"N","path":"rpc","tip":461255407,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:21:31.995Z","event":"batch","start":461255420,"client":"AgaveBam 4.3.2","arm":"F","path":"tpu","tip":461255419,"live":true,"sendErrors":6}
+{"ts":"2026-10-25T12:22:04.307Z","event":"batch","start":461255572,"client":"HarmonicAgave 4.3.2","arm":"T","path":"tpu","tip":461255571,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:22:21.650Z","event":"batch","start":461255656,"client":"HarmonicAgave 4.3.2","arm":"N","path":"tpu","tip":461255655,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:22:54.626Z","event":"batch","start":461255812,"client":"FireBAM 26.10.4","arm":"F","path":"rpc","tip":461255811,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:23:06.966Z","event":"batch","start":461255864,"client":"FireBAM 26.10.4","arm":"T","path":"rpc","tip":461255863,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:24:11.843Z","event":"batch","start":461256172,"client":"HarmonicAgave 4.3.2","arm":"N","path":"rpc","tip":461256171,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:24:16.118Z","event":"batch","start":461256196,"client":"AgaveBam 4.3.2","arm":"F","path":"tpu","tip":461256195,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:24:37.947Z","event":"batch","start":461256300,"client":"HarmonicAgave 4.3.2","arm":"T","path":"tpu","tip":461256299,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:24:43.924Z","event":"batch","start":461256328,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"tpu","tip":461256327,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:25:17.872Z","event":"batch","start":461256484,"client":"AgaveBam 4.3.2","arm":"F","path":"rpc","tip":461256483,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:25:23.382Z","event":"batch","start":461256508,"client":"HarmonicFiredancer 26.10.4","arm":"T","path":"rpc","tip":461256507,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:25:27.085Z","event":"batch","start":461256524,"client":"HarmonicFiredancer 26.10.4","arm":"N","path":"rpc","tip":461256523,"live":true,"sendErrors":4}
+{"ts":"2026-10-25T12:25:46.289Z","event":"batch","start":461256616,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461256615,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:25:55.451Z","event":"batch","start":461256660,"client":"Rakurai 4.3.2","arm":"T","path":"tpu","tip":461256659,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:26:18.787Z","event":"batch","start":461256772,"client":"AgaveBam 4.3.2","arm":"N","path":"tpu","tip":461256771,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:27:39.370Z","event":"batch","start":461257144,"client":"Rakurai 4.3.2","arm":"F","path":"rpc","tip":461257143,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:27:52.117Z","event":"batch","start":461257192,"client":"AgaveBam 4.3.2","arm":"T","path":"rpc","tip":461257191,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:28:50.668Z","event":"batch","start":461257476,"client":"Rakurai 4.3.2","arm":"N","path":"rpc","tip":461257475,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:28:55.657Z","event":"batch","start":461257500,"client":"HarmonicFiredancer 26.10.4","arm":"F","path":"tpu","tip":461257499,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:28:59.082Z","event":"batch","start":461257516,"client":"AgaveBam 4.3.2","arm":"T","path":"tpu","tip":461257515,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:29:10.859Z","event":"batch","start":461257572,"client":"Rakurai 4.3.2","arm":"N","path":"tpu","tip":461257571,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:29:35.038Z","event":"batch","start":461257684,"client":"AgaveBam 4.3.2","arm":"F","path":"rpc","tip":461257683,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:29:40.949Z","event":"batch","start":461257712,"client":"Agave 4.3.2","arm":"T","path":"rpc","tip":461257711,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:30:46.259Z","event":"batch","start":461258020,"client":"Rakurai 4.3.2","arm":"N","path":"rpc","tip":461258019,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:31:25.114Z","event":"batch","start":461258204,"client":"Rakurai 4.3.2","arm":"F","path":"tpu","tip":461258203,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:32:10.459Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:13.591Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:14.133Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:14.555Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:15.078Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:15.493Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:16.023Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:16.457Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:16.975Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:17.395Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:17.911Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:18.330Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:18.845Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:19.270Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:19.782Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:20.191Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:20.718Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:21.139Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:21.656Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:22.076Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:22.587Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:23.011Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:23.537Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:23.974Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:24.484Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:24.903Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:25.421Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:25.832Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:26.355Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:26.771Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:27.288Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:27.704Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:28.223Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:28.638Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:29.159Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:29.579Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:30.088Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:30.498Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:31.016Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:31.453Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:31.971Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:32.393Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:32.912Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:33.335Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:33.857Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:34.279Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:34.804Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:35.226Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:35.746Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:36.162Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:36.680Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:37.097Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:37.610Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:38.029Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:38.542Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:38.961Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:39.474Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:39.895Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:40.408Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:40.828Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:41.337Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:41.754Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:42.271Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:42.688Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:43.208Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:43.628Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:44.153Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:44.566Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:45.078Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:45.489Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:46.012Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:46.428Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:46.947Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:47.361Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:47.885Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:48.305Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:48.820Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:49.238Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:49.756Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:50.172Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:50.690Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:51.113Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:51.623Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:52.038Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:52.562Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:52.981Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:53.490Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:53.909Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:54.429Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:54.852Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:55.371Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:55.786Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:56.304Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:56.722Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:57.238Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:57.660Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:58.180Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:58.599Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:32:59.119Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:32:59.537Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:00.054Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:00.462Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:00.978Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:01.393Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:01.913Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:02.330Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:02.852Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:03.271Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:03.787Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:04.206Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:04.726Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:05.151Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:05.672Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:06.087Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:06.607Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:07.025Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:07.543Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:07.963Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:08.471Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:08.889Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:09.405Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:09.822Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:10.333Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:10.754Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:11.277Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:11.696Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:12.211Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:12.625Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:13.141Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:13.555Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:14.068Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:14.478Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:14.992Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:15.405Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:15.923Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:16.338Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:16.863Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:17.279Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:17.795Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:18.212Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:18.737Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:19.159Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:19.673Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:20.093Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:20.613Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:21.038Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:21.557Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:21.974Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:22.502Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:22.921Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:23.442Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:23.863Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:24.385Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:24.804Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:25.324Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:25.743Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:26.260Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:26.679Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:27.201Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:27.620Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:28.130Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:28.540Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:29.064Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:29.479Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:29.997Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:30.405Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:30.923Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:31.330Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:31.847Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:32.263Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:32.781Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:33.198Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:33.723Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:34.144Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:34.657Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:35.074Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:35.596Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:36.016Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:36.526Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:36.947Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:37.468Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:37.889Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:38.404Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:38.832Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:39.361Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:39.779Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:40.286Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:40.706Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:41.221Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:41.637Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:42.153Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:42.571Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:43.086Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:43.504Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:44.022Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:44.447Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:44.967Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:45.385Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:45.903Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:46.323Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:46.843Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:47.260Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:47.777Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:48.189Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:48.710Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:49.127Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:49.649Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:50.070Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:50.592Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:51.020Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:51.537Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:51.954Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:52.465Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:52.884Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:53.402Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:53.818Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:54.336Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:54.754Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:55.270Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:55.685Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:56.203Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:56.614Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:57.128Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:57.551Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:58.061Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:58.473Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:58.997Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:33:59.417Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:33:59.934Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:00.350Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:00.871Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:01.284Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:01.803Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:02.219Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:02.735Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:03.152Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:03.669Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:04.093Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:04.608Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:05.022Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:05.538Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:05.955Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:06.470Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:06.883Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:07.392Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:07.813Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:08.327Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:08.746Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:09.267Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:09.686Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:10.205Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:10.630Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:11.146Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:11.562Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:12.075Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:12.482Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:13.006Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:13.421Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:13.936Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:14.355Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:14.871Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:15.286Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:15.806Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:16.222Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:16.742Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:17.154Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:17.676Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:18.093Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:18.603Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:19.020Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:19.536Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:19.952Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:20.463Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:20.878Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:21.410Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:21.826Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:22.343Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:22.760Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:23.278Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:23.705Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:24.218Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:24.640Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:25.160Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:25.580Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:26.094Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:26.506Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:27.025Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:27.440Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:27.955Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:28.368Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:28.889Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:29.309Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:29.827Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:30.246Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:30.758Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:31.177Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:31.695Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:32.109Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:32.621Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:33.037Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:33.556Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:33.971Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:34.491Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:34.909Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:35.421Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:35.836Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:36.355Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:36.772Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:37.292Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:37.702Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:38.220Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:38.631Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:39.145Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:39.562Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:40.079Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:40.489Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:41.010Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:41.431Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:41.949Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:42.370Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:42.889Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:43.303Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:43.820Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:44.237Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:44.752Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:45.170Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:45.686Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:46.104Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:46.626Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:47.043Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:47.566Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:47.983Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:48.493Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:48.904Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:49.420Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:49.836Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:50.343Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:50.762Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:51.278Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:51.695Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:52.211Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:52.629Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:53.152Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:53.570Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:54.087Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:54.500Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:55.020Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:55.436Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:55.953Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:56.393Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:56.914Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:57.334Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:57.856Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:58.267Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:58.775Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:34:59.185Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:34:59.699Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:00.112Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:00.631Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:01.048Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:01.570Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:01.988Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:02.496Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:02.918Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:03.430Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:03.842Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:04.353Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:04.761Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:05.275Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:05.692Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:06.207Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:06.638Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:07.153Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:07.625Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:08.143Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:08.561Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:09.079Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:09.496Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:10.016Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:10.428Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:10.952Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:11.367Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:11.882Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:12.297Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:12.811Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:13.218Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:13.734Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:14.158Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:14.676Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:15.094Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:15.611Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:16.024Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:16.538Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:16.954Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:17.469Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:17.884Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:18.399Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:18.817Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:19.328Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:19.745Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:20.261Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:20.686Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:21.200Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:21.615Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:22.126Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:22.534Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:23.049Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:23.463Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:23.977Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:24.388Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:24.902Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:25.315Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:25.830Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:26.245Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:26.760Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:27.177Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:27.692Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:28.107Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:28.627Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:29.045Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:29.560Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:29.980Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:30.488Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:30.904Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:31.418Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:31.834Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:32.349Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:32.769Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:33.285Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:33.698Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:34.211Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:34.632Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:35.150Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:35.562Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:36.079Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:36.488Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:37.007Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:37.423Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:37.939Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:38.353Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:38.867Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:39.282Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:39.799Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:40.217Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:40.732Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:41.149Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:41.661Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:42.078Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:42.594Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:43.015Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:43.529Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:43.944Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:44.463Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:44.880Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:45.397Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:45.814Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:46.329Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:46.749Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:47.265Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:47.674Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:48.187Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:48.601Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:49.116Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:49.530Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:50.047Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:50.461Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:50.983Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:51.393Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:51.909Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:52.323Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:52.842Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:53.262Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:53.774Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:54.188Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:54.707Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:55.123Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:55.640Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:56.056Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:56.570Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:56.988Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:57.504Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:57.920Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:58.437Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:58.851Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:35:59.377Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:35:59.789Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:00.302Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:00.718Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:01.237Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:01.655Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:02.174Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:02.593Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:03.109Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:03.526Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:04.039Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:04.456Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:04.971Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:05.395Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:05.912Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:06.328Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:06.851Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:07.269Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:07.785Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:08.199Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:08.719Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:09.137Z","event":"slot.poll_error","error":"TypeError: fetch failed"}
+{"ts":"2026-10-25T12:36:09.654Z","event":"rpc.retry","method":"getSlot","reason":"TypeError: fetch failed","attempt":0}
+{"ts":"2026-10-25T12:36:10.254Z","event":"window.late","start":461258384,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.679Z","event":"batch","start":461258384,"client":"AgaveBam 4.3.2","arm":"T","path":"tpu","tip":461259546,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:36:10.738Z","event":"window.missed","start":461258412,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.740Z","event":"window.missed","start":461258444,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.741Z","event":"window.missed","start":461258512,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.741Z","event":"window.missed","start":461258524,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.742Z","event":"window.missed","start":461258556,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.743Z","event":"window.missed","start":461258728,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.743Z","event":"window.missed","start":461258820,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.744Z","event":"window.missed","start":461258840,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.744Z","event":"window.missed","start":461259328,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.745Z","event":"window.missed","start":461259348,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.745Z","event":"window.missed","start":461259416,"tip":461259546}
+{"ts":"2026-10-25T12:36:10.746Z","event":"window.missed","start":461259504,"tip":461259546}
+{"ts":"2026-10-25T12:36:13.075Z","event":"batch","start":461259560,"client":"FireBAM 26.10.4","arm":"N","path":"tpu","tip":461259559,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:37:05.705Z","event":"batch","start":461259804,"client":"Rakurai 4.3.2","arm":"F","path":"rpc","tip":461259803,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:37:41.253Z","event":"batch","start":461259976,"client":"Agave 4.3.2","arm":"T","path":"rpc","tip":461259975,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:38:05.134Z","event":"batch","start":461260084,"client":"Rakurai 4.3.2","arm":"N","path":"rpc","tip":461260084,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:39:22.882Z","event":"batch","start":461260456,"client":"Rakurai 4.3.2","arm":"F","path":"tpu","tip":461260455,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:39:35.981Z","event":"batch","start":461260504,"client":"Rakurai 4.3.2","arm":"T","path":"tpu","tip":461260503,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:40:19.947Z","event":"batch","start":461260732,"client":"Rakurai 4.3.2","arm":"N","path":"tpu","tip":461260731,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:40:33.700Z","event":"window.late","start":461260800,"tip":461260801}
+{"ts":"2026-10-25T12:40:34.141Z","event":"batch","start":461260800,"client":"Rakurai 4.3.2","arm":"F","path":"rpc","tip":461260801,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:41:38.234Z","event":"batch","start":461261100,"client":"Rakurai 4.3.2","arm":"T","path":"rpc","tip":461261099,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:43:35.238Z","event":"batch","start":461261652,"client":"Agave 4.3.2","arm":"N","path":"rpc","tip":461261651,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:44:45.010Z","event":"batch","start":461261984,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461261983,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:44:47.837Z","event":"batch","start":461261996,"client":"Rakurai 4.3.2","arm":"T","path":"tpu","tip":461261995,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:45:09.353Z","event":"batch","start":461262096,"client":"Rakurai 4.3.2","arm":"N","path":"tpu","tip":461262095,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:45:44.401Z","event":"batch","start":461262264,"client":"Agave 4.3.2","arm":"F","path":"rpc","tip":461262263,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:46:53.748Z","event":"batch","start":461262592,"client":"Rakurai 4.3.2","arm":"T","path":"rpc","tip":461262591,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:47:27.175Z","event":"batch","start":461262748,"client":"Rakurai 4.3.2","arm":"N","path":"rpc","tip":461262747,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:48:11.028Z","event":"batch","start":461262948,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461262947,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:49:09.062Z","event":"batch","start":461263224,"client":"Agave 4.3.2","arm":"T","path":"tpu","tip":461263223,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:50:53.156Z","event":"batch","start":461263724,"client":"Rakurai 4.3.2","arm":"N","path":"tpu","tip":461263723,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:52:04.596Z","event":"batch","start":461264056,"client":"Agave 4.3.2","arm":"F","path":"rpc","tip":461264055,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:54:24.563Z","event":"batch","start":461264712,"client":"FireBAM 26.10.4","arm":"T","path":"rpc","tip":461264711,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:57:26.601Z","event":"batch","start":461265572,"client":"FireBAM 26.10.4","arm":"N","path":"rpc","tip":461265571,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:58:05.774Z","event":"batch","start":461265760,"client":"Rakurai 4.3.2","arm":"F","path":"tpu","tip":461265759,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:58:52.748Z","event":"batch","start":461265984,"client":"Rakurai 4.3.2","arm":"T","path":"tpu","tip":461265983,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:59:37.553Z","event":"batch","start":461266176,"client":"Agave 4.3.2","arm":"N","path":"tpu","tip":461266175,"live":true,"sendErrors":0}
+{"ts":"2026-10-25T12:59:37.957Z","event":"wait","seconds":40,"why":"let the last batch finalize before collecting"}
+{"ts":"2026-10-25T13:00:50.894Z","event":"collect","run":"/app/data/runs/2026-10-25T11-57-49-live","probes":2224,"landed":1832,"blocks":490}
+{"ts":"2026-10-25T13:00:53.154Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:00:53.743Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:00:54.695Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:00:56.471Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:00:59.838Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:01:07.696Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:01:08.271Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:01:09.246Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:01:11.504Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:01:12.064Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:01:13.030Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:01:14.823Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:01:18.197Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:01:25.946Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:01:26.497Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:01:27.475Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:01:29.246Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:01:33.076Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:01:33.661Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:01:34.660Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:01:36.443Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:01:40.346Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:01:40.911Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:01:41.873Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:01:43.630Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:01:47.804Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:01:48.381Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:01:49.349Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:01:51.140Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:01:55.072Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:01:55.628Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:01:56.602Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:01:58.359Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:02:02.412Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:02:03.012Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:02:03.984Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:02:05.752Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:02:09.121Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:02:18.131Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:02:18.689Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:02:19.640Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:02:21.395Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:02:25.280Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:02:25.830Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:02:26.792Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:02:28.580Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:02:32.533Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:02:33.130Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:02:34.107Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:02:36.010Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:02:39.917Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:02:40.486Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:02:41.505Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:02:43.267Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:02:47.138Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:02:47.712Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:02:48.664Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:02:50.442Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:02:54.806Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:02:55.369Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:02:56.361Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:02:58.133Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:03:02.121Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:03:02.744Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:03:03.753Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:03:05.519Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:03:08.973Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:03:17.209Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:03:17.771Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:03:18.734Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:03:20.500Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:03:24.355Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:03:24.904Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:03:25.875Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:03:27.643Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:03:31.932Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:03:32.489Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:03:33.456Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:03:35.226Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:03:38.606Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:03:47.678Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:03:48.242Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:03:49.198Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:03:50.952Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:03:54.326Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:04:02.213Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:04:02.780Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:04:03.739Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:04:06.023Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:04:06.575Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:04:07.671Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:04:09.440Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:04:12.846Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:04:21.217Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:04:21.774Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:04:22.733Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:04:24.540Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:04:28.479Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:04:29.045Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:04:30.030Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:04:31.782Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:04:36.098Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:04:36.660Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:04:37.623Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:04:39.385Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:04:42.758Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:04:51.118Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:04:51.670Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:04:52.629Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:04:54.394Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:04:57.753Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:05:06.462Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:05:07.043Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:05:08.020Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:05:09.841Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:05:13.204Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:05:21.023Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:05:21.588Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:05:22.559Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:05:24.314Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:05:28.538Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:05:29.085Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:05:30.056Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:05:31.809Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:05:35.214Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:05:43.593Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:05:44.139Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:05:45.125Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:05:46.874Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:05:51.248Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:05:51.823Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:05:52.789Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:05:54.586Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:05:58.839Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:05:59.394Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:06:00.384Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:06:02.170Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:06:06.085Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:06:06.647Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:06:07.620Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:06:09.401Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:06:12.747Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:06:20.808Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:06:21.396Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:06:22.351Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:06:24.106Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:06:27.477Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:06:36.376Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:06:36.943Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:06:37.928Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:06:39.729Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:06:43.112Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:06:50.910Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:06:51.469Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:06:52.438Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:06:54.227Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:06:58.526Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:07:09.086Z","event":"rpc.retry","method":"getBlock","reason":"TypeError: fetch failed","attempt":1}
+{"ts":"2026-10-25T13:07:12.508Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:07:13.075Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:07:14.053Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:07:15.846Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:07:19.211Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:07:27.595Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:07:28.213Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:07:29.294Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:07:31.105Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:07:34.538Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:07:42.665Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:07:43.231Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:07:44.219Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:07:45.981Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:07:50.363Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:07:50.981Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:07:52.062Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:07:54.064Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:07:57.967Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:07:58.628Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:07:59.588Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:08:01.386Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:08:05.722Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:08:06.305Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:08:07.279Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:08:09.122Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:08:12.514Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:08:20.922Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:08:21.524Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:08:22.492Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:08:24.250Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:08:27.634Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:08:36.738Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:08:37.295Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:08:38.258Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:08:40.037Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:08:43.414Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:08:51.179Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:08:51.747Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:08:52.759Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:08:54.807Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:08:59.215Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:08:59.851Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:09:00.814Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:09:02.615Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:09:06.568Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:09:07.204Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:09:08.218Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:09:10.048Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:09:13.463Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:09:21.682Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:09:22.297Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:09:23.324Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:09:25.153Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:09:29.620Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:09:30.278Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:09:31.547Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:09:33.387Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:09:37.888Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:09:38.451Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:09:39.416Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:09:41.189Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:09:44.554Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:09:53.275Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:09:53.872Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:09:54.899Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:09:56.689Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:10:01.221Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:10:01.984Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:10:03.203Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:10:05.071Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:10:09.395Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:10:09.981Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:10:11.125Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:10:12.956Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:10:16.827Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:10:17.422Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:10:18.407Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:10:20.167Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:10:23.531Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:10:31.794Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:10:32.353Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:10:33.338Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:10:35.347Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:10:39.250Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:10:39.990Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:10:40.972Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:10:42.746Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:10:46.719Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:10:47.300Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:10:48.442Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:10:50.377Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:10:54.217Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:10:54.863Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:10:55.824Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:10:57.584Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:11:01.965Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:11:02.559Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:11:03.551Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:11:05.507Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:11:09.441Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:11:10.100Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:11:11.116Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:11:12.865Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:11:17.552Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:11:18.131Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:11:19.139Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:11:20.911Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:11:24.360Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:11:32.990Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:11:33.704Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:11:34.979Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:11:37.004Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:11:41.410Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:11:42.090Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:11:43.069Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:11:44.823Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:11:49.162Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:11:49.762Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:11:50.738Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:11:52.869Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:11:56.773Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:11:57.343Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:11:58.318Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:12:00.519Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:12:04.409Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:12:04.985Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:12:05.965Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:12:07.755Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:12:12.067Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:12:12.640Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:12:13.665Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:12:15.773Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:12:19.926Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:12:20.565Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:12:21.532Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:12:23.364Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:12:27.258Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:12:27.868Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:12:28.826Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:12:30.593Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:12:34.512Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:12:35.076Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:12:36.045Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:12:37.805Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:12:42.070Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:12:42.636Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:12:43.606Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:12:45.356Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:12:49.239Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:12:49.871Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:12:50.819Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:12:52.592Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:12:56.462Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:12:57.046Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:12:58.021Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:12:59.782Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:13:03.144Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:13:11.330Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:13:11.894Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:13:12.849Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:13:14.611Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:13:18.496Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:13:19.075Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:13:20.082Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:13:21.834Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:13:26.011Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:13:26.585Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:13:27.589Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:13:29.458Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:13:32.828Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:13:40.929Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:13:41.521Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:13:42.490Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:13:44.260Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:13:47.636Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:13:56.552Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:13:57.127Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:13:58.150Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:14:00.158Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:14:03.532Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:14:11.493Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:14:12.200Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:14:13.185Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:14:14.972Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:14:19.130Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:14:19.745Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:14:20.752Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:14:22.508Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:14:26.365Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:14:26.923Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:14:27.881Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:14:29.707Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:14:33.075Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:14:41.206Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:14:41.804Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:14:42.794Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:14:44.564Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:14:48.529Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:14:49.106Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:14:50.094Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:14:51.845Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:14:56.040Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:14:56.599Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:14:57.552Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:14:59.298Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:15:02.681Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:15:10.757Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:15:11.308Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:15:12.423Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:15:14.513Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:15:18.394Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:15:18.979Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:15:19.971Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:15:21.732Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:15:25.866Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:15:26.428Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:15:27.388Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:15:29.170Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:15:32.559Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:15:40.681Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:15:41.258Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:15:42.240Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:15:44.081Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:15:47.434Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:15:56.217Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:15:56.794Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:15:57.766Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:16:00.119Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:16:03.551Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:16:11.757Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:16:12.321Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:16:13.288Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:16:15.058Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:16:18.956Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:16:19.512Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:16:20.617Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:16:22.383Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:16:26.562Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:16:27.128Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:16:28.151Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:16:30.009Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:16:33.364Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:16:41.620Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:16:42.219Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:16:43.182Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:16:45.005Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:16:48.915Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:16:49.467Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:16:50.435Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:16:52.211Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:16:56.384Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:16:56.952Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:16:57.953Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:16:59.738Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:17:03.109Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:17:11.391Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:17:11.956Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:17:12.903Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:17:14.670Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:17:18.571Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:17:19.228Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:17:20.180Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:17:22.110Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:17:26.690Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:17:27.286Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:17:28.257Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:17:30.070Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:17:33.460Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:17:41.887Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:17:42.463Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:17:43.435Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:17:45.190Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:17:49.570Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:17:50.128Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:17:51.072Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:17:52.840Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:17:56.801Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:17:57.374Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:17:58.375Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:18:00.174Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:18:03.553Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:18:11.884Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:18:12.445Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:18:13.435Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:18:15.208Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:18:19.469Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:18:20.053Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:18:21.081Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:18:22.893Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:18:27.647Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:18:28.236Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:18:29.198Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:18:30.952Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:18:34.476Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:18:42.932Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:18:43.505Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:18:44.502Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:18:46.273Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:18:50.106Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:18:50.685Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:18:51.656Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:18:53.427Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:18:57.768Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:18:58.479Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:18:59.739Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:19:01.507Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:19:04.878Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:19:13.590Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:19:14.158Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:19:15.123Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:19:16.885Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:19:21.232Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:19:21.799Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:19:22.747Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:19:24.518Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:19:28.900Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:19:29.482Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:19:30.706Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:19:32.522Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:19:36.412Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:19:37.076Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:19:38.056Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:19:39.845Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:19:43.225Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:19:51.619Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:19:52.220Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:19:53.180Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:19:54.929Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:19:58.864Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:19:59.449Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:20:00.457Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:20:02.291Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:20:06.672Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:20:07.241Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:20:08.205Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:20:09.976Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:20:13.357Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:20:21.875Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:20:22.725Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:20:23.732Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:20:25.575Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:20:29.485Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:20:30.049Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:20:31.075Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:20:32.836Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:20:36.766Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:20:37.337Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:20:38.323Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:20:40.150Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:20:43.529Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:20:51.666Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:20:52.243Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:20:53.210Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:20:54.957Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:20:58.968Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:20:59.543Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:21:00.540Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:21:02.528Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:21:06.675Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:21:07.307Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:21:08.292Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:21:10.052Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:21:13.447Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:21:21.636Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:21:22.215Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:21:23.254Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:21:25.031Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:21:28.914Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:21:29.490Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:21:30.463Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:21:32.214Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:21:36.452Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:21:37.018Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:21:37.986Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:21:39.751Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:21:43.171Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:21:50.970Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:21:51.521Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:21:52.481Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:21:54.255Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:21:58.146Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:21:58.742Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:21:59.717Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:22:01.500Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:22:05.621Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:22:06.200Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:22:07.161Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:22:09.024Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:22:12.406Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:22:20.229Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:22:20.803Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:22:21.773Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:22:23.544Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:22:27.356Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:22:27.971Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:22:28.920Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:22:30.687Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:22:34.467Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:22:35.065Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:22:36.076Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:22:37.939Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:22:42.264Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:22:42.820Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:22:43.784Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:22:45.582Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:22:49.966Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:22:50.552Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:22:51.548Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:22:53.311Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:22:56.677Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:23:05.184Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:23:05.761Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:23:06.746Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:23:08.556Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:23:12.793Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:23:13.355Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:23:14.387Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:23:16.157Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:23:19.969Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:23:20.523Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:23:21.471Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:23:23.227Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:23:27.562Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:23:28.163Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:23:29.128Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:23:30.877Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:23:34.300Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:23:42.840Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:23:43.402Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:23:44.368Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:23:46.150Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:23:50.107Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:23:50.671Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:23:51.628Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:23:53.492Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:23:57.796Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:23:58.361Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:23:59.330Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:24:01.091Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:24:04.443Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:24:13.006Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:24:13.567Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:24:14.537Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:24:16.306Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:24:20.201Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:24:20.769Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:24:21.725Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:24:23.488Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:24:27.780Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:24:28.364Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:24:29.325Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:24:31.090Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:24:34.465Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:24:43.109Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:24:43.677Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:24:44.618Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:24:46.382Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:24:50.751Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:24:51.331Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:24:52.293Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:24:54.097Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:24:58.138Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:24:58.737Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:24:59.707Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:25:01.475Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:25:05.811Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:25:06.382Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:25:07.344Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:25:09.113Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:25:12.531Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:25:20.784Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:25:21.362Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:25:22.321Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:25:24.089Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:25:27.482Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:25:36.420Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:25:36.991Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:25:37.978Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:25:39.738Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:25:43.081Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:25:51.792Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:25:52.366Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:25:53.318Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:25:55.073Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:25:59.474Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:26:00.043Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:26:01.016Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:26:02.793Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:26:06.703Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:26:07.263Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:26:08.219Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:26:09.967Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:26:13.337Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:26:21.562Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:26:22.116Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:26:23.107Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:26:24.878Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:26:28.801Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:26:29.355Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:26:30.319Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:26:32.084Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:26:36.407Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:26:37.010Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:26:37.989Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:26:39.763Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:26:43.132Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:26:50.966Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:26:51.530Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:26:52.504Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:26:54.253Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:26:58.097Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:26:58.659Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:26:59.626Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:27:01.378Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:27:05.705Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:27:06.387Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:27:07.334Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:27:09.105Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:27:12.460Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:27:20.252Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:27:20.811Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:27:21.782Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:27:23.583Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:27:27.455Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:27:28.156Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:27:29.489Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:27:31.460Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:27:35.670Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:27:36.249Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:27:37.222Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:27:39.006Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:27:42.369Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:27:50.211Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:27:50.917Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:27:51.872Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:27:53.634Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:27:57.482Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:27:58.116Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:27:59.177Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:28:00.956Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:28:04.756Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:28:05.344Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:28:06.321Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:28:08.158Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:28:11.845Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:28:12.406Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:28:13.368Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:28:15.181Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:28:19.050Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:28:19.803Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:28:20.793Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:28:22.580Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:28:26.869Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:28:27.510Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:28:28.510Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:28:30.300Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:28:33.697Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:28:41.894Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:28:42.502Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:28:43.493Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:28:45.303Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:28:49.494Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:28:50.710Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:28:51.730Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:28:53.483Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:28:57.830Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:28:58.411Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:28:59.440Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:29:01.295Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:29:04.670Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:29:13.159Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:29:13.808Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:29:14.855Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:29:16.691Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:29:20.855Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:29:21.426Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:29:22.406Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:29:24.301Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:29:28.568Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:29:29.435Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:29:30.426Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:29:32.338Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:29:36.256Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:29:36.859Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:29:37.850Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:29:39.721Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:29:43.085Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:29:51.348Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:29:52.058Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:29:53.047Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:29:54.807Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:29:58.739Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:29:59.321Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:30:00.363Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:30:02.479Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:30:07.030Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:30:08.128Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:30:09.257Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:30:11.114Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:30:14.464Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:30:23.214Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:30:23.785Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:30:25.325Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:30:27.606Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:30:33.268Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:30:34.475Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:30:35.592Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:30:37.446Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:30:41.771Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:30:42.401Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:30:43.405Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:30:45.206Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:30:49.677Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:30:50.422Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:30:51.511Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:30:53.288Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:30:57.653Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:30:58.277Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:30:59.254Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:31:01.036Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:31:04.436Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:31:13.169Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:31:13.735Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:31:14.746Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:31:16.538Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:31:20.781Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:31:21.371Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:31:22.335Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:31:24.127Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:31:28.706Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:31:29.807Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:31:30.897Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:31:33.247Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:31:37.621Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:31:38.425Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:31:39.510Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:31:41.582Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:31:44.961Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:31:53.527Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:31:54.365Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:31:55.395Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:31:57.363Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:32:01.866Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:32:02.534Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:32:03.504Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:32:05.535Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:32:10.007Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:32:10.578Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:32:11.594Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:32:13.353Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:32:16.729Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:32:25.214Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:32:25.772Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:32:26.730Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:32:28.537Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:32:32.379Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:32:32.939Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:32:33.907Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:32:35.667Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:32:39.552Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:32:40.166Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:32:41.125Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:32:42.954Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:32:47.302Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:32:47.853Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:32:48.856Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:32:50.609Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:32:53.992Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:33:02.163Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:33:02.866Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:33:03.819Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:33:05.622Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:33:09.528Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:33:10.217Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:33:11.178Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:33:12.946Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:33:16.702Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:33:17.311Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:33:18.280Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:33:20.089Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:33:23.494Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-25T13:33:31.677Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:33:32.362Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:33:33.333Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:33:35.138Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:33:39.481Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:33:40.046Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:33:40.990Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:33:42.747Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:33:46.610Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-25T13:33:47.200Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-25T13:33:48.239Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-25T13:33:50.030Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-25T13:33:53.426Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}

@@ -1,0 +1,11 @@
+{"ts":"2026-10-25T18:26:56.967Z","event":"start","cmd":"status","live":false,"rpc":"https://api.mainnet-beta.solana.com","capSol":0.05,"seed":1951454534}
+{"ts":"2026-10-25T18:26:57.209Z","event":"wallet","payer":"ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD","balance":"28369792"}
+{"ts":"2026-10-25T18:26:57.291Z","event":"subpayer","pubkey":"7Ff6MJZGpNbBo8sZMe1Fk1yX5HBAGgHsRbQ967JcNYno","balance":"1790296"}
+{"ts":"2026-10-25T18:26:57.370Z","event":"subpayer","pubkey":"7UgHRrUuVQK8o2nNj4ywksU3ri4RhNn2mN3ozK1rNPqJ","balance":"1790048"}
+{"ts":"2026-10-25T18:26:57.421Z","event":"subpayer","pubkey":"3QC3z17XaDookSJFGua5m75MkuBQ5oo5eEjEChaAjHBY","balance":"1841440"}
+{"ts":"2026-10-25T18:26:57.483Z","event":"subpayer","pubkey":"C4J8scggRrdZ4Ez2MQnhM9TDpzb2XGeRVdJFUaNMiLqv","balance":"1802624"}
+{"ts":"2026-10-25T18:26:57.536Z","event":"subpayer","pubkey":"GxLqnV5iAiWmm41uCLK9XJCRRAQ4b26Sekfve1hhFvx9","balance":"1802707"}
+{"ts":"2026-10-25T18:26:57.588Z","event":"subpayer","pubkey":"EZpDcHQ3qEmtC7ChWoGXamjSKGQdh5CZ2P4Z9wYVfMzA","balance":"1769408"}
+{"ts":"2026-10-25T18:26:57.640Z","event":"subpayer","pubkey":"2YMoxgE921qDQWgWMTG5HUvopQEzFNLuCCWxjBD9MPPR","balance":"1809032"}
+{"ts":"2026-10-25T18:26:57.710Z","event":"subpayer","pubkey":"APtVK7gBRxjjZhjSKftx4H5n7Ha8QBMxMbutbLUHRQxr","balance":"1808312"}
+{"ts":"2026-10-25T18:26:57.718Z","event":"ledger","reservedSol":0.023128464,"capSol":0.05,"txCount":4024}

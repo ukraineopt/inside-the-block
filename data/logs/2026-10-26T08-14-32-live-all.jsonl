@@ -1,0 +1,86 @@
+{"ts":"2026-10-26T08:14:32.585Z","event":"start","cmd":"all","live":true,"rpc":"https://api.mainnet-beta.solana.com","capSol":0.05,"seed":2001110147}
+{"ts":"2026-10-26T08:14:33.434Z","event":"wallet","payer":"ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD","balance":"27197216","subPayersLocked":"13228667","ledgerReserved":"29193600","capRemaining":"20806400"}
+{"ts":"2026-10-26T08:14:33.747Z","event":"snapshot","validators":665,"groups":[{"group":"AgaveBam 4.3.2","share":0.3542091975023633,"count":358},{"group":"JitoLabs 4.3.2","share":0.22958781769746298,"count":141},{"group":"HarmonicAgave 4.3.2","share":0.21689581055883161,"count":50},{"group":"HarmonicFiredancer 26.10.4","share":0.08694335252843834,"count":38},{"group":"Firedancer 26.10.4","share":0.06455589714097504,"count":19},{"group":"FireBAM 26.10.4","share":0.01617266176779335,"count":14},{"group":"Rakurai 4.3.2","share":0.01171053737488243,"count":9},{"group":"Agave 4.3.2","share":0.008970003324633448,"count":11},{"group":"Firedancer 26.10.3","share":0.004735539068196305,"count":2},{"group":"Firedancer 0.1.1","share":0.0008489847245967334,"count":3}]}
+{"ts":"2026-10-26T08:14:33.748Z","event":"target","identity":"7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE","group":"Agave 4.3.2","stakeSol":1875002}
+{"ts":"2026-10-26T08:14:33.748Z","event":"target","identity":"5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS","group":"Agave 4.3.2","stakeSol":1207980}
+{"ts":"2026-10-26T08:14:33.749Z","event":"target","identity":"rsbp8zMHbGCpLoRktmsjspYv77VcjxAzH1KxPCD9BiU","group":"Agave 4.3.2","stakeSol":278047}
+{"ts":"2026-10-26T08:14:33.749Z","event":"target","identity":"dxa6QFqLcByyHykLCAW5tv1VYNVQFV3v6oovM2h8inH","group":"Agave 4.3.2","stakeSol":191577}
+{"ts":"2026-10-26T08:14:33.749Z","event":"target","identity":"9hQqNe3DQTiwhspatewA8EXhz12e6sq5UJVJ2qNRwnTf","group":"Agave 4.3.2","stakeSol":119993}
+{"ts":"2026-10-26T08:14:33.750Z","event":"target","identity":"scs2Ra91pMbvqFAP7uitrN5U25SoyBTqZgBbhpVMJko","group":"Agave 4.3.2","stakeSol":58903}
+{"ts":"2026-10-26T08:14:34.235Z","event":"plan","windows":31,"firstSlot":461592848,"lastSlot":461620348,"secPerSlot":0.212,"approxMinutes":99,"perValidator":{"7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE":10,"5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS":10,"9hQqNe3DQTiwhspatewA8EXhz12e6sq5UJVJ2qNRwnTf":3,"dxa6QFqLcByyHykLCAW5tv1VYNVQFV3v6oovM2h8inH":5,"rsbp8zMHbGCpLoRktmsjspYv77VcjxAzH1KxPCD9BiU":2,"scs2Ra91pMbvqFAP7uitrN5U25SoyBTqZgBbhpVMJko":1}}
+{"ts":"2026-10-26T08:16:17.222Z","event":"batch","start":461592848,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461592847,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:16:41.262Z","event":"batch","start":461592960,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461592958,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:19:29.965Z","event":"batch","start":461593752,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461593750,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:19:34.799Z","event":"batch","start":461593768,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461593766,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:22:23.608Z","event":"batch","start":461594556,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461594554,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:23:10.205Z","event":"batch","start":461594784,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461594782,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:24:53.469Z","event":"batch","start":461595272,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461595270,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:28:01.819Z","event":"batch","start":461596148,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461596146,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:28:22.388Z","event":"batch","start":461596244,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461596242,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:30:10.448Z","event":"batch","start":461596748,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461596746,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:30:56.897Z","event":"batch","start":461596960,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461596958,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:32:50.548Z","event":"window.late_skipped","start":461597492,"tip":461597496}
+{"ts":"2026-10-26T08:37:20.444Z","event":"batch","start":461598760,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461598758,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:39:21.736Z","event":"batch","start":461599332,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461599331,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:40:08.714Z","event":"batch","start":461599544,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461599542,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:41:59.894Z","event":"batch","start":461600076,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461600074,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:42:10.192Z","event":"batch","start":461600128,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461600126,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:47:28.176Z","event":"batch","start":461601612,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461601610,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:48:10.491Z","event":"batch","start":461601804,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461601802,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:56:26.336Z","event":"batch","start":461604108,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461604106,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:56:59.391Z","event":"batch","start":461604292,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461604290,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:57:19.456Z","event":"batch","start":461604396,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461604394,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:57:59.303Z","event":"batch","start":461604584,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461604582,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:58:32.682Z","event":"batch","start":461604736,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461604735,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T08:58:49.080Z","event":"batch","start":461604816,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461604814,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T09:00:11.206Z","event":"batch","start":461605196,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461605194,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T09:00:40.096Z","event":"batch","start":461605324,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461605322,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T09:12:36.768Z","event":"batch","start":461608684,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461608682,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T09:19:20.022Z","event":"batch","start":461610588,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461610586,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T09:39:38.393Z","event":"batch","start":461616316,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461616314,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T09:53:58.272Z","event":"batch","start":461620348,"client":"Agave 4.3.2","arm":"F","path":"tpu","tip":461620346,"live":true,"sendErrors":0}
+{"ts":"2026-10-26T09:53:58.874Z","event":"wait","seconds":40,"why":"let the last batch finalize before collecting"}
+{"ts":"2026-10-26T09:57:10.207Z","event":"collect","run":"/app/data/runs/2026-10-26T08-14-32-live","probes":240,"landed":32,"blocks":31}
+{"ts":"2026-10-26T09:57:13.342Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-26T09:57:13.982Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-26T09:57:14.974Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-26T09:57:17.017Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-26T09:57:20.459Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-26T09:57:29.839Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-26T09:57:30.486Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-26T09:57:31.662Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-26T09:57:33.505Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-26T09:57:38.011Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-26T09:57:38.642Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-26T09:57:39.676Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-26T09:57:41.755Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-26T09:57:46.439Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-26T09:57:47.028Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-26T09:57:48.018Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-26T09:57:49.902Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-26T09:57:54.479Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-26T09:57:55.104Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-26T09:57:56.268Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-26T09:57:58.148Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-26T09:58:02.869Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-26T09:58:03.953Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-26T09:58:05.081Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-26T09:58:06.881Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-26T09:58:11.334Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-26T09:58:11.942Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-26T09:58:13.007Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-26T09:58:14.790Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-26T09:58:18.241Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}
+{"ts":"2026-10-26T09:58:26.553Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-26T09:58:27.138Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-26T09:58:28.179Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-26T09:58:30.021Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-26T09:58:34.466Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-26T09:58:35.090Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-26T09:58:36.065Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-26T09:58:37.862Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-26T09:58:42.601Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":0}
+{"ts":"2026-10-26T09:58:43.245Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":1}
+{"ts":"2026-10-26T09:58:44.288Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":2}
+{"ts":"2026-10-26T09:58:46.156Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":3}
+{"ts":"2026-10-26T09:58:49.590Z","event":"rpc.retry","method":"getBlock","status":429,"attempt":4}

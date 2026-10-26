@@ -1,0 +1,440 @@
+// Analysis. Unit of evidence = an ordered PAIR of our own probes that landed in the SAME block.
+// For each pair we ask two yes/no questions:
+//   priority-concordant: did the probe with the higher compute-unit price land earlier?
+//   send-concordant:     did the probe we sent earlier land earlier?
+// Pairs inside one batch are not independent, so confidence intervals are bootstrapped over batches.
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { readJsonl, type TrimmedBlock } from './collect.ts';
+import { rng } from './rng.ts';
+import type { ProbeRecord } from './experiment.ts';
+
+interface Landed extends ProbeRecord {
+  leaderClient: string; // client group of the leader that actually produced the block
+  slot: number;
+  index: number; // position inside the block
+  leader: string | null;
+  ok: boolean;
+}
+
+interface PairStats {
+  n: number;
+  concordant: number;
+}
+
+export interface GroupResult {
+  group: string;
+  arm: string;
+  path: string;
+  batches: number;
+  probesSent: number;
+  probesLanded: number;
+  sameBlockPairs: number;
+  priority: { rate: number | null; ci: [number, number] | null; pairs: number };
+  send: { rate: number | null; ci: [number, number] | null; pairs: number };
+  inTargetLeader: number; // landed probes whose block was produced by the targeted leader
+  medianGapTxs: number | null; // foreign txs between consecutive probes of a batch in the same block
+}
+
+function loadBlocks(dir: string): Map<number, TrimmedBlock> {
+  const m = new Map<number, TrimmedBlock>();
+  if (!existsSync(dir)) return m;
+  for (const f of readdirSync(dir)) if (f.endsWith('.json')) {
+    const b = JSON.parse(readFileSync(join(dir, f), 'utf8')) as TrimmedBlock;
+    m.set(b.slot, b);
+  }
+  return m;
+}
+
+function pairStats(probes: Landed[], key: (p: Landed) => bigint): PairStats {
+  const s: PairStats = { n: 0, concordant: 0 };
+  for (let a = 0; a < probes.length; a++) for (let b = a + 1; b < probes.length; b++) {
+    const pa = probes[a], pb = probes[b];
+    if (pa.slot !== pb.slot) continue;
+    const ka = key(pa), kb = key(pb);
+    if (ka === kb) continue;
+    s.n++;
+    // "higher key should come first"
+    const firstIsHigher = (pa.index < pb.index) === (ka > kb);
+    if (firstIsHigher) s.concordant++;
+  }
+  return s;
+}
+
+function bootstrap(batches: PairStats[], seed = 7, iters = 2000): [number, number] | null {
+  const valid = batches.filter((b) => b.n > 0);
+  if (!valid.length) return null;
+  const rand = rng(seed);
+  const rates: number[] = [];
+  for (let it = 0; it < iters; it++) {
+    let n = 0, c = 0;
+    for (let k = 0; k < valid.length; k++) {
+      const b = valid[Math.floor(rand() * valid.length)];
+      n += b.n;
+      c += b.concordant;
+    }
+    rates.push(c / n);
+  }
+  rates.sort((a, b) => a - b);
+  return [rates[Math.floor(iters * 0.025)], rates[Math.floor(iters * 0.975)]];
+}
+
+function median(xs: number[]): number | null {
+  if (!xs.length) return null;
+  const s = [...xs].sort((a, b) => a - b);
+  return s[Math.floor(s.length / 2)];
+}
+
+export function analyze(dataDir: string): { results: GroupResult[]; landed: Landed[]; passive: PassiveResult[] } {
+  const blocks = loadBlocks(join(dataDir, 'blocks'));
+  const runsDir = join(dataDir, 'runs');
+  const probes: ProbeRecord[] = [];
+  if (existsSync(runsDir)) for (const r of readdirSync(runsDir)) probes.push(...readJsonl<ProbeRecord>(join(runsDir, r, 'probes.jsonl')));
+  // index every probe signature found in any stored block
+  const where = new Map<string, { slot: number; index: number; leader: string | null; ok: boolean }>();
+  for (const b of blocks.values()) for (const t of b.txs) if (t.memo?.startsWith('itb')) where.set(t.sig, { slot: b.slot, index: t.i, leader: b.leader, ok: t.ok });
+  const live = probes.filter((p) => p.live);
+  const groupOf = leaderGroups(dataDir);
+  const landed: Landed[] = live.filter((p) => where.has(p.signature)).map((p) => {
+    const w = where.get(p.signature)!;
+    return { ...p, ...w, leaderClient: (w.leader && groupOf.get(w.leader)) || 'unknown' };
+  });
+
+  // Evidence is attributed to whoever BUILT the block, not to whom we aimed at:
+  // a probe that spills into the next leader's block is evidence about that next leader.
+  const groups = new Map<string, Landed[]>();
+  for (const p of landed) {
+    const k = `${p.leaderClient}\u0000${p.arm}\u0000${p.path ?? 'rpc'}`;
+    groups.set(k, [...(groups.get(k) ?? []), p]);
+  }
+  const results: GroupResult[] = [];
+  for (const [k, ps] of groups) {
+    const [group, arm, path] = k.split('\u0000');
+    const batchIds = [...new Set(ps.map((p) => `${p.runId}/${p.batchId}`))];
+    const sentToGroup = live.filter((p) => p.targetClient === group && p.arm === arm && (p.path ?? 'rpc') === path).length;
+    const prio: PairStats[] = [], send: PairStats[] = [];
+    const gaps: number[] = [];
+    let inTarget = 0;
+    for (const bid of batchIds) {
+      const lb = ps.filter((p) => `${p.runId}/${p.batchId}` === bid);
+      prio.push(pairStats(lb, (p) => BigInt(p.cuPrice)));
+      send.push(pairStats(lb, (p) => -BigInt(p.sendSeq))); // earlier send = "higher"
+      inTarget += lb.filter((p) => p.leader === p.targetIdentity).length;
+      const bySlot = new Map<number, number[]>();
+      for (const p of lb) bySlot.set(p.slot, [...(bySlot.get(p.slot) ?? []), p.index]);
+      for (const idx of bySlot.values()) {
+        idx.sort((a, b) => a - b);
+        for (let i = 1; i < idx.length; i++) gaps.push(idx[i] - idx[i - 1] - 1);
+      }
+    }
+    const sum = (xs: PairStats[]) => xs.reduce((a, b) => ({ n: a.n + b.n, concordant: a.concordant + b.concordant }), { n: 0, concordant: 0 });
+    const P = sum(prio), S = sum(send);
+    results.push({
+      group, arm, path, batches: batchIds.length, probesSent: sentToGroup,
+      probesLanded: ps.length,
+      sameBlockPairs: S.n,
+      priority: { rate: P.n ? P.concordant / P.n : null, ci: bootstrap(prio), pairs: P.n },
+      send: { rate: S.n ? S.concordant / S.n : null, ci: bootstrap(send), pairs: S.n },
+      inTargetLeader: inTarget,
+      medianGapTxs: median(gaps),
+    });
+  }
+  results.sort((a, b) => a.group.localeCompare(b.group) || a.path.localeCompare(b.path) || a.arm.localeCompare(b.arm));
+  return { results, landed, passive: passiveAnalysis(blocks, dataDir) };
+}
+
+// Supplementary (not primary evidence): in every collected block, how well does position follow the
+// compute-unit price of ALL other non-vote transactions? Spearman rho between index and cuPrice.
+export interface PassiveResult {
+  group: string;
+  blocks: number;
+  meanRho: number | null;
+  medianTxs: number | null;
+}
+
+function spearman(x: number[], y: number[]): number | null {
+  const n = x.length;
+  if (n < 10) return null;
+  const rank = (v: number[]) => {
+    const idx = v.map((val, i) => [val, i] as const).sort((a, b) => a[0] - b[0]);
+    const r = new Array<number>(n);
+    for (let i = 0; i < n; ) {
+      let j = i;
+      while (j + 1 < n && idx[j + 1][0] === idx[i][0]) j++;
+      for (let k = i; k <= j; k++) r[idx[k][1]] = (i + j) / 2;
+      i = j + 1;
+    }
+    return r;
+  };
+  const rx = rank(x), ry = rank(y);
+  const mx = rx.reduce((a, b) => a + b, 0) / n, my = ry.reduce((a, b) => a + b, 0) / n;
+  let num = 0, dx = 0, dy = 0;
+  for (let i = 0; i < n; i++) {
+    num += (rx[i] - mx) * (ry[i] - my);
+    dx += (rx[i] - mx) ** 2;
+    dy += (ry[i] - my) ** 2;
+  }
+  return dx && dy ? num / Math.sqrt(dx * dy) : null;
+}
+
+// leader identity -> client group, from every validator snapshot we have (later snapshots win)
+function leaderGroups(dataDir: string): Map<string, string> {
+  const groupOf = new Map<string, string>();
+  const runsDir = join(dataDir, 'runs');
+  if (existsSync(runsDir)) for (const r of readdirSync(runsDir).sort()) {
+    const f = join(runsDir, r, 'validators-start.json');
+    if (!existsSync(f)) continue;
+    for (const v of JSON.parse(readFileSync(f, 'utf8')) as { identity: string; clientId: string; version: string }[]) {
+      groupOf.set(v.identity, `${v.clientId} ${v.version}`);
+    }
+  }
+  return groupOf;
+}
+
+function passiveAnalysis(blocks: Map<number, TrimmedBlock>, dataDir: string): PassiveResult[] {
+  const groupOf = leaderGroups(dataDir);
+  const acc = new Map<string, { rhos: number[]; sizes: number[] }>();
+  for (const b of blocks.values()) {
+    if (b.skipped || !b.leader) continue;
+    const g = groupOf.get(b.leader) ?? 'unknown';
+    const txs = b.txs.filter((t) => !t.isVote);
+    // -index so that rho > 0 means "higher price sits earlier"
+    const rho = spearman(txs.map((t) => Number(t.cuPrice ?? 0)), txs.map((t) => -t.i));
+    const a = acc.get(g) ?? { rhos: [], sizes: [] };
+    if (rho !== null) a.rhos.push(rho);
+    a.sizes.push(b.txCount);
+    acc.set(g, a);
+  }
+  return [...acc.entries()].map(([group, a]) => ({
+    group, blocks: a.sizes.length,
+    meanRho: a.rhos.length ? a.rhos.reduce((x, y) => x + y, 0) / a.rhos.length : null,
+    medianTxs: median(a.sizes),
+  })).sort((a, b) => a.group.localeCompare(b.group));
+}
+
+// The decisive comparison: pairs in one block where the HIGHER-fee probe left our sidecar at the same time
+// or LATER than the lower-fee one. If the leader orders by fee, the higher-fee probe still comes first;
+// if it orders by arrival, it comes second. Bucketed by how much later it was sent (tpu path only,
+// where the sidecar timestamps every stream in microseconds).
+export interface FeeVsArrival {
+  group: string;
+  arm: string;
+  bucket: string;
+  pairs: number;
+  batches: number;
+  feeWins: number | null;
+  ci: [number, number] | null;
+}
+
+const BUCKETS: [string, number, number][] = [
+  ['same burst (<1 ms)', 0, 1_000],
+  ['1-20 ms later', 1_000, 20_000],
+  ['20-50 ms later', 20_000, 50_000],
+  ['50-150 ms later', 50_000, 150_000],
+];
+
+// lead (slots before the window at send time) per run, for records written before it was stored per probe
+function runLeads(dataDir: string): Map<string, number> {
+  const m = new Map<string, number>();
+  const runsDir = join(dataDir, 'runs');
+  if (existsSync(runsDir)) for (const r of readdirSync(runsDir)) {
+    const f = join(runsDir, r, 'config.json');
+    if (!existsSync(f)) continue;
+    const c = JSON.parse(readFileSync(f, 'utf8')) as { leadSlots: number | number[] };
+    if (typeof c.leadSlots === 'number') m.set(r, c.leadSlots);
+    else if (c.leadSlots.length === 1) m.set(r, c.leadSlots[0]);
+  }
+  return m;
+}
+
+export function feeVsArrival(landed: Landed[], leads: Map<string, number> = new Map()): FeeVsArrival[] {
+  const byBlock = new Map<string, Landed[]>();
+  for (const p of landed) {
+    if (p.path !== 'tpu' || !p.sentAtUs) continue;
+    const k = `${p.runId}/${p.batchId}/${p.slot}`;
+    byBlock.set(k, [...(byBlock.get(k) ?? []), p]);
+  }
+  const acc = new Map<string, Map<string, PairStats>>(); // key -> batch -> stats
+  for (const [blockKey, ps] of byBlock) {
+    const batch = blockKey.split('/').slice(0, 2).join('/');
+    for (let a = 0; a < ps.length; a++) for (let b = a + 1; b < ps.length; b++) {
+      const fa = BigInt(ps[a].cuPrice), fb = BigInt(ps[b].cuPrice);
+      if (fa === fb) continue;
+      const [hi, lo] = fa > fb ? [ps[a], ps[b]] : [ps[b], ps[a]];
+      const dt = Number(BigInt(hi.sentAtUs!) - BigInt(lo.sentAtUs!));
+      if (dt < 0) continue; // higher fee was sent earlier: both rules agree, no information
+      let bucket = BUCKETS.find(([, lo_, hi_]) => dt >= lo_ && dt < hi_)?.[0];
+      if (!bucket) continue;
+      // for bursts, WHEN they reach the leader matters: queued before its slot, or trickling in mid-block
+      if (bucket === BUCKETS[0][0]) bucket += `, sent ${hi.leadSlots ?? leads.get(hi.runId) ?? '?'} slot(s) early`;
+      const key = `${hi.leaderClient}\u0000${hi.arm}\u0000${bucket}`;
+      const m = acc.get(key) ?? new Map<string, PairStats>();
+      const st = m.get(batch) ?? { n: 0, concordant: 0 };
+      st.n++;
+      if (hi.index < lo.index) st.concordant++;
+      m.set(batch, st);
+      acc.set(key, m);
+    }
+  }
+  const out: FeeVsArrival[] = [];
+  for (const [key, m] of acc) {
+    const [group, arm, bucket] = key.split('\u0000');
+    const all = [...m.values()];
+    const n = all.reduce((x, y) => x + y.n, 0), c = all.reduce((x, y) => x + y.concordant, 0);
+    out.push({ group, arm, bucket, pairs: n, batches: all.length, feeWins: n ? c / n : null, ci: bootstrap(all) });
+  }
+  const rank = (x: string) => (x.startsWith('same burst') ? 0 : BUCKETS.findIndex((b) => b[0] === x));
+  return out.sort((a, b) => a.group.localeCompare(b.group) || a.arm.localeCompare(b.arm) || rank(a.bucket) - rank(b.bucket) || a.bucket.localeCompare(b.bucket));
+}
+
+// "Sorted runs": read the fees of one batch's probes in block order and count the maximal stretches
+// in which the fee never increases. 1 = the whole batch is sorted by fee; a random order of 8 distinct
+// fees gives 4.5 on average. A scheduler that sorts by priority within each pass and takes passes in
+// arrival order produces a few sorted stretches: that is what vanilla Agave's greedy scheduler predicts.
+export interface SortedRuns {
+  group: string;
+  mode: string;
+  batches: number;
+  meanRuns: number;
+  fullySorted: number;
+}
+
+function descendingRuns(fees: bigint[]): number {
+  let runs = 1;
+  for (let i = 1; i < fees.length; i++) if (fees[i] > fees[i - 1]) runs++;
+  return runs;
+}
+
+export function sortedRuns(landed: Landed[], modes: Map<string, string>): SortedRuns[] {
+  const byBlock = new Map<string, Landed[]>();
+  for (const p of landed) {
+    if (p.arm !== 'F' || p.path !== 'tpu') continue;
+    const k = `${p.runId}/${p.batchId}/${p.slot}`;
+    byBlock.set(k, [...(byBlock.get(k) ?? []), p]);
+  }
+  const acc = new Map<string, number[]>();
+  for (const ps of byBlock.values()) {
+    if (ps.length !== 8) continue; // only complete batches in one block, so the random baseline is 4.5
+    ps.sort((a, b) => a.index - b.index);
+    const lead = ps[0].leadSlots;
+    const mode = (modes.get(ps[0].runId) ?? '?') + (lead !== undefined && modes.get(ps[0].runId)?.startsWith('burst') ? `, ${lead} slot(s) early` : '');
+    const key = `${ps[0].leaderClient}\u0000${mode}`;
+    acc.set(key, [...(acc.get(key) ?? []), descendingRuns(ps.map((p) => BigInt(p.cuPrice)))]);
+  }
+  return [...acc.entries()].map(([k, r]) => {
+    const [group, mode] = k.split('\u0000');
+    return { group, mode, batches: r.length, meanRuns: r.reduce((a, b) => a + b, 0) / r.length, fullySorted: r.filter((x) => x === 1).length };
+  }).sort((a, b) => a.group.localeCompare(b.group) || a.mode.localeCompare(b.mode));
+}
+
+// timing mode per run from config.json: "spaced 15 ms" or "burst"
+function runModes(dataDir: string): Map<string, string> {
+  const m = new Map<string, string>();
+  const runsDir = join(dataDir, 'runs');
+  if (existsSync(runsDir)) for (const r of readdirSync(runsDir)) {
+    const f = join(runsDir, r, 'config.json');
+    if (!existsSync(f)) continue;
+    const c = JSON.parse(readFileSync(f, 'utf8')) as { sendGapMs: number };
+    m.set(r, c.sendGapMs === 0 ? 'burst' : `spaced ${c.sendGapMs} ms`);
+  }
+  return m;
+}
+
+const pct = (x: number | null) => (x === null ? 'n/a' : `${(x * 100).toFixed(1)}%`);
+const ci = (c: [number, number] | null) => (c ? `${pct(c[0])} to ${pct(c[1])}` : 'n/a');
+
+// Window check (works in dry-run too): was every targeted window really produced by the targeted leader,
+// and how far ahead of the window did we (would we) send?
+export interface WindowCheck {
+  group: string;
+  windows: number;
+  slotsByTarget: number;
+  slotsByOther: number;
+  slotsNoLeaderInfo: number; // block without a Fee reward entry: producer cannot be confirmed
+  slotsSkipped: number;
+  slotsNotCollected: number;
+  sendOffsets: Record<string, number>; // (window start - tip slot at first send) -> count
+}
+
+export function windowChecks(dataDir: string): WindowCheck[] {
+  const blocks = loadBlocks(join(dataDir, 'blocks'));
+  const runsDir = join(dataDir, 'runs');
+  const m = new Map<string, WindowCheck>();
+  if (!existsSync(runsDir)) return [];
+  for (const r of readdirSync(runsDir)) {
+    for (const w of readJsonl<{ identity: string; startSlot: number; client: string; status: string; tipSlotAtFirstSend?: number }>(join(runsDir, r, 'windows.jsonl'))) {
+      if (w.status !== 'sent') continue;
+      const c = m.get(w.client) ?? { group: w.client, windows: 0, slotsByTarget: 0, slotsByOther: 0, slotsNoLeaderInfo: 0, slotsSkipped: 0, slotsNotCollected: 0, sendOffsets: {} };
+      c.windows++;
+      for (let k = 0; k < 4; k++) {
+        const b = blocks.get(w.startSlot + k);
+        if (!b) c.slotsNotCollected++;
+        else if (b.skipped) c.slotsSkipped++;
+        else if (b.leader === null) c.slotsNoLeaderInfo++;
+        else if (b.leader === w.identity) c.slotsByTarget++;
+        else c.slotsByOther++;
+      }
+      const off = String(w.startSlot - (w.tipSlotAtFirstSend ?? w.startSlot));
+      c.sendOffsets[off] = (c.sendOffsets[off] ?? 0) + 1;
+      m.set(w.client, c);
+    }
+  }
+  return [...m.values()].sort((a, b) => a.group.localeCompare(b.group));
+}
+
+export function writeAnalysis(dataDir: string, outPath: string): void {
+  const { results, landed, passive } = analyze(dataDir);
+  const lines: string[] = [];
+  lines.push('# Analysis (generated by `itb analyze`, do not edit by hand)', '');
+  lines.push(`Generated: ${new Date().toISOString()}`, '');
+  lines.push('## Runs', '');
+  lines.push('| run | mode | first send (UTC) | last send (UTC) | batches sent | probes sent | probes landed | windows skipped (late/missed/connect) |');
+  lines.push('|---|---|---|---|---|---|---|---|');
+  const runsDir = join(dataDir, 'runs');
+  const landedSigs = new Set(landed.map((p) => p.signature));
+  const modes = runModes(dataDir);
+  if (existsSync(runsDir)) for (const r of readdirSync(runsDir).sort()) {
+    const ps = readJsonl<ProbeRecord>(join(runsDir, r, 'probes.jsonl')).filter((p) => p.live);
+    if (!ps.length) continue;
+    const ws = readJsonl<{ status: string }>(join(runsDir, r, 'windows.jsonl'));
+    const t = ps.map((p) => p.sentAtMs).sort((a, b) => a - b);
+    const iso = (ms: number) => new Date(ms).toISOString().replace('T', ' ').slice(0, 16);
+    const batches = new Set(ps.map((p) => p.batchId)).size;
+    lines.push(`| ${r} | ${modes.get(r) ?? '?'} | ${iso(t[0])} | ${iso(t.at(-1)!)} | ${batches} | ${ps.length} | ${ps.filter((p) => landedSigs.has(p.signature)).length} | ${ws.filter((w) => w.status !== 'sent').length} |`);
+  }
+  lines.push('');
+  lines.push('## Window check: did we target the right leader at the right time?', '');
+  lines.push('| client group | windows | slots produced by target | by another leader | no Fee reward (producer unconfirmed) | skipped | not collected | slots between tip and window start at first send |');
+  lines.push('|---|---|---|---|---|---|---|---|');
+  for (const c of windowChecks(dataDir)) {
+    lines.push(`| ${c.group} | ${c.windows} | ${c.slotsByTarget} | ${c.slotsByOther} | ${c.slotsNoLeaderInfo} | ${c.slotsSkipped} | ${c.slotsNotCollected} | ${Object.entries(c.sendOffsets).map(([k, v]) => `${k}: ${v}`).join(', ')} |`);
+  }
+  lines.push('');
+  lines.push('## Primary evidence: our own probes, same-block pairs', '');
+  lines.push('| block leader client | path | arm | batches | sent while targeting this client | landed in blocks of this client | of which the targeted leader | same-block pairs | higher fee first (95% CI) | earlier send first (95% CI) | median foreign txs between our probes |');
+  lines.push('|---|---|---|---|---|---|---|---|---|---|---|');
+  for (const r of results) {
+    lines.push(`| ${r.group} | ${r.path} | ${r.arm} | ${r.batches} | ${r.probesSent} | ${r.probesLanded} | ${r.inTargetLeader} | ${r.sameBlockPairs} | ${pct(r.priority.rate)} (${ci(r.priority.ci)}) | ${pct(r.send.rate)} (${ci(r.send.ci)}) | ${r.medianGapTxs ?? 'n/a'} |`);
+  }
+  lines.push('', 'Arm T has equal fees by design, so its "higher fee first" column is always n/a.', '');
+  lines.push('## Fee vs arrival (tpu path): the higher-fee probe was sent at the same time or LATER', '');
+  lines.push('"higher fee still first" near 100% = ordered by fee; near 0% = ordered by arrival; near 50% = neither explains the order.', '');
+  lines.push('| block leader client | arm | higher-fee probe sent | pairs | batches | higher fee still first (95% CI) |');
+  lines.push('|---|---|---|---|---|---|');
+  for (const r of feeVsArrival(landed, runLeads(dataDir))) lines.push(`| ${r.group} | ${r.arm} | ${r.bucket} | ${r.pairs} | ${r.batches} | ${pct(r.feeWins)} (${ci(r.ci)}) |`);
+  lines.push('');
+  lines.push('## Sorted runs (arm F, tpu path, complete batches of 8 in one block)', '');
+  lines.push('Fees read in block order, number of stretches where the fee never increases. 1 = fully sorted by fee, 4.5 = expected for a random order.', '');
+  lines.push('| block leader client | timing mode | batches | mean sorted runs | fully sorted batches |');
+  lines.push('|---|---|---|---|---|');
+  const leads = runLeads(dataDir);
+  const withLead = landed.map((p) => ({ ...p, leadSlots: p.leadSlots ?? leads.get(p.runId) ?? p.leadSlots }));
+  for (const r of sortedRuns(withLead, runModes(dataDir))) lines.push(`| ${r.group} | ${r.mode} | ${r.batches} | ${r.meanRuns.toFixed(2)} | ${r.fullySorted} |`);
+  lines.push('');
+  lines.push('## Supplementary: all non-vote transactions in collected blocks', '');
+  lines.push('| leader client group | blocks | mean Spearman rho (price vs earlier position) | median txs per block |');
+  lines.push('|---|---|---|---|');
+  for (const p of passive) lines.push(`| ${p.group} | ${p.blocks} | ${p.meanRho === null ? 'n/a' : p.meanRho.toFixed(3)} | ${p.medianTxs ?? 'n/a'} |`);
+  writeFileSync(outPath, lines.join('\n') + '\n');
+  writeFileSync(join(dataDir, 'landed-probes.json'), JSON.stringify(landed, null, 1));
+}

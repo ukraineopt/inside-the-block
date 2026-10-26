@@ -1,0 +1,74 @@
+[
+ {
+  "identity": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "vote": "8BMMDVM8Tb88a2Hx1VSZ1TKmH1rMHbVU7xVafMk9JrEW",
+  "clientId": "Agave",
+  "version": "4.3.2",
+  "activatedStakeSol": 1875001.9534662,
+  "stakeShare": 0.004290854567969395,
+  "tpuQuic": "5.199.172.176:12002"
+ },
+ {
+  "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "vote": "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk",
+  "clientId": "JitoLabs",
+  "version": "4.3.2",
+  "activatedStakeSol": 16646121.3256387,
+  "stakeShare": 0.0380938727007983,
+  "tpuQuic": "64.130.57.215:8002"
+ },
+ {
+  "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "vote": "3N7s9zXMZ4QqvHQR15t5GNHyqc89KduzMP7423eWiD5g",
+  "clientId": "AgaveBam",
+  "version": "4.3.2",
+  "activatedStakeSol": 12588035.108330877,
+  "stakeShare": 0.028807131558710848,
+  "tpuQuic": "208.91.105.55:5010"
+ },
+ {
+  "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "vote": "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1",
+  "clientId": "HarmonicAgave",
+  "version": "4.3.2",
+  "activatedStakeSol": 17099112.748625334,
+  "stakeShare": 0.039130522456271855,
+  "tpuQuic": "198.13.140.105:12341"
+ },
+ {
+  "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "vote": "9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF",
+  "clientId": "Firedancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 7785035.622557846,
+  "stakeShare": 0.017815691125603387,
+  "tpuQuic": "104.204.143.114:9007"
+ },
+ {
+  "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "vote": "CatzoSMUkTRidT5DwBxAC2pEtnwMBTpkCepHkFgZDiqb",
+  "clientId": "HarmonicFiredancer",
+  "version": "26.10.4",
+  "activatedStakeSol": 9721917.560720269,
+  "stakeShare": 0.022248155154036976,
+  "tpuQuic": "198.13.140.105:12349"
+ },
+ {
+  "identity": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "vote": "HZKopZYvv8v6un2H6KUNVQCnK5zM9emKKezvqhTBSpEc",
+  "clientId": "FireBAM",
+  "version": "26.10.4",
+  "activatedStakeSol": 4477329.987787841,
+  "stakeShare": 0.01024616096793423,
+  "tpuQuic": "198.13.141.173:5010"
+ },
+ {
+  "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "vote": "4AUED4uj6nSTuANzaAUnGBPJQRmhpDYDwoWJNkoUUBBW",
+  "clientId": "Rakurai",
+  "version": "4.3.2",
+  "activatedStakeSol": 2264904.869679214,
+  "stakeShare": 0.005183129216539438,
+  "tpuQuic": "45.32.145.112:8002"
+ }
+]
