@@ -33,7 +33,7 @@ the start and end of every run.
 
 **Spend.** Worst-case fees reserved by the spend cap: 0.0306 SOL for 5,296 transactions (cap 0.05).
 Actual on-chain spend (start balance minus everything left on the burner and the 8 sub-payers):
-0.0198 SOL (26.10.2026, after run 5; the 0.0128 SOL still parked on sub-payers is returned with `sweep`). Every live transaction with its worst-case fee: `data/spend-ledger.json`.
+**0.0198 SOL in total** (0.06 SOL funded, 0.0402 SOL returned to the owner's wallet on 26.10.2026 13:36 UTC after `sweep` + `withdraw`, tx `2TuVC8yQf2K1aTsSSx5G6cqJmSBnnqnbPvHHqynq8mfGsqEQPRwECUdfaK4hV5uM5y5nGXH6NwhEXg6U8EZcT8EM`; burner and all 8 sub-payers left at 0). Every live transaction with its worst-case fee: `data/spend-ledger.json`.
 
 **Verification.** `docker compose --profile verify run --rm verify` (26.10.2026 10:20-10:30 UTC)
 re-fetched all 578 blocks that contain a probe from the public mainnet RPC: every probe at the stored

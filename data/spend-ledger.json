@@ -1,7 +1,7 @@
 {
  "capLamports": "50000000",
- "reservedLamports": "30615840",
- "txCount": 5296,
+ "reservedLamports": "30661740",
+ "txCount": 5305,
  "wallet": "ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD",
  "startBalanceLamports": "60000000",
  "entries": [
@@ -31780,6 +31780,60 @@
    "signature": "4Ro5bDQcWrppeNWcdvnASJBU25hR5NnihAtWyPkPgyv2GFhS7rHu4S2KL6UvrBSYgmoZMmNpZAGgXTX1c1SHzrYT",
    "maxFeeLamports": "5800",
    "kind": "probe:F:tpu"
+  },
+  {
+   "ts": "2026-10-26T13:35:48.704Z",
+   "signature": "5aBrKcJBuNANpsdL6jNWqXrWMacGsahMtXMDFhwL8aNNRsoszrTvYmwoPkEspcLSBXmv7akenbksGZYL6FW6hnzU",
+   "maxFeeLamports": "5100",
+   "kind": "sweep"
+  },
+  {
+   "ts": "2026-10-26T13:35:50.438Z",
+   "signature": "auJRQzrZBMob9Qx1Jt4B2SNEQnzN3xygdPeyuV5KzEvxf5RUbP3ErRC3qQieuYZUFRHyYj65SDt4BGGDMFehsjj",
+   "maxFeeLamports": "5100",
+   "kind": "sweep"
+  },
+  {
+   "ts": "2026-10-26T13:35:52.190Z",
+   "signature": "4JMRw5VxSk8CV148vYJiG8vtvKwhC3nw4nEJSxwpFtefKB3xYCfgPA5GL3wPREeemGuP3oQQEV7nRpXnz2Z9v8si",
+   "maxFeeLamports": "5100",
+   "kind": "sweep"
+  },
+  {
+   "ts": "2026-10-26T13:35:54.032Z",
+   "signature": "2hR5wMTgfBfcocbRidYyYoshCcd8C4at96cfRbLRmnbzsrXoFu7wcTxuGULvvmQxTPh1iwu1BaJpXeCfrgx7xyt9",
+   "maxFeeLamports": "5100",
+   "kind": "sweep"
+  },
+  {
+   "ts": "2026-10-26T13:35:55.750Z",
+   "signature": "5z4MEH9XGkAU1j5naDkzY4nQ1ExEnr5zejLtQPQur5mrUrhT5Bf1LcopbNDvaNPvw4kypwPCX6SpWjFPt7hS2z6i",
+   "maxFeeLamports": "5100",
+   "kind": "sweep"
+  },
+  {
+   "ts": "2026-10-26T13:35:57.478Z",
+   "signature": "5P9vnojUgcbRadzkADTeqtmBPTxCiiGfpMVx1bibLA7TUcT837i6cmKnyCu9gpS7xzA8MrUfQRoTv2tRNcdX6Njm",
+   "maxFeeLamports": "5100",
+   "kind": "sweep"
+  },
+  {
+   "ts": "2026-10-26T13:35:59.241Z",
+   "signature": "5sNvMK5hcyC5pGedHvjUwTQxge7tCMaMCiWCoQtFq4f7wf7CWCbUfBXasJ1Q25Pz2MxG4hqyWB8KCWAZ5eSGRhHr",
+   "maxFeeLamports": "5100",
+   "kind": "sweep"
+  },
+  {
+   "ts": "2026-10-26T13:36:01.010Z",
+   "signature": "5TqbPCEBzRNi6dJr5MJ9pJEtt5FzwFRKVnJDMVk18DR3eT4GGUqeYCyL1UC7s3VBkoqYotnD7CUS2A5Veuhu4sDL",
+   "maxFeeLamports": "5100",
+   "kind": "sweep"
+  },
+  {
+   "ts": "2026-10-26T13:36:33.512Z",
+   "signature": "2TuVC8yQf2K1aTsSSx5G6cqJmSBnnqnbPvHHqynq8mfGsqEQPRwECUdfaK4hV5uM5y5nGXH6NwhEXg6U8EZcT8EM",
+   "maxFeeLamports": "5100",
+   "kind": "withdraw"
   }
  ]
 }

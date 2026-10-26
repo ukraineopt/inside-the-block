@@ -1,0 +1,10 @@
+{"ts":"2026-10-26T13:35:47.877Z","event":"start","cmd":"sweep","live":true,"rpc":"https://api.mainnet-beta.solana.com","capSol":0.05,"seed":2020385439}
+{"ts":"2026-10-26T13:35:48.578Z","event":"wallet","payer":"ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD","balance":"27007584","subPayersLocked":"13228667","ledgerReserved":"30615840","capRemaining":"19384160"}
+{"ts":"2026-10-26T13:35:48.799Z","event":"sweep.sent","sub":"7Ff6MJZGpNbBo8sZMe1Fk1yX5HBAGgHsRbQ967JcNYno","lamports":"1624684","sig":"5aBrKcJBuNANpsdL6jNWqXrWMacGsahMtXMDFhwL8aNNRsoszrTvYmwoPkEspcLSBXmv7akenbksGZYL6FW6hnzU"}
+{"ts":"2026-10-26T13:35:50.549Z","event":"sweep.sent","sub":"7UgHRrUuVQK8o2nNj4ywksU3ri4RhNn2mN3ozK1rNPqJ","lamports":"1640564","sig":"auJRQzrZBMob9Qx1Jt4B2SNEQnzN3xygdPeyuV5KzEvxf5RUbP3ErRC3qQieuYZUFRHyYj65SDt4BGGDMFehsjj"}
+{"ts":"2026-10-26T13:35:52.382Z","event":"sweep.sent","sub":"3QC3z17XaDookSJFGua5m75MkuBQ5oo5eEjEChaAjHBY","lamports":"1688436","sig":"4JMRw5VxSk8CV148vYJiG8vtvKwhC3nw4nEJSxwpFtefKB3xYCfgPA5GL3wPREeemGuP3oQQEV7nRpXnz2Z9v8si"}
+{"ts":"2026-10-26T13:35:54.120Z","event":"sweep.sent","sub":"C4J8scggRrdZ4Ez2MQnhM9TDpzb2XGeRVdJFUaNMiLqv","lamports":"1658844","sig":"2hR5wMTgfBfcocbRidYyYoshCcd8C4at96cfRbLRmnbzsrXoFu7wcTxuGULvvmQxTPh1iwu1BaJpXeCfrgx7xyt9"}
+{"ts":"2026-10-26T13:35:55.836Z","event":"sweep.sent","sub":"GxLqnV5iAiWmm41uCLK9XJCRRAQ4b26Sekfve1hhFvx9","lamports":"1651831","sig":"5z4MEH9XGkAU1j5naDkzY4nQ1ExEnr5zejLtQPQur5mrUrhT5Bf1LcopbNDvaNPvw4kypwPCX6SpWjFPt7hS2z6i"}
+{"ts":"2026-10-26T13:35:57.566Z","event":"sweep.sent","sub":"EZpDcHQ3qEmtC7ChWoGXamjSKGQdh5CZ2P4Z9wYVfMzA","lamports":"1614364","sig":"5P9vnojUgcbRadzkADTeqtmBPTxCiiGfpMVx1bibLA7TUcT837i6cmKnyCu9gpS7xzA8MrUfQRoTv2tRNcdX6Njm"}
+{"ts":"2026-10-26T13:35:59.347Z","event":"sweep.sent","sub":"2YMoxgE921qDQWgWMTG5HUvopQEzFNLuCCWxjBD9MPPR","lamports":"1650676","sig":"5sNvMK5hcyC5pGedHvjUwTQxge7tCMaMCiWCoQtFq4f7wf7CWCbUfBXasJ1Q25Pz2MxG4hqyWB8KCWAZ5eSGRhHr"}
+{"ts":"2026-10-26T13:36:01.093Z","event":"sweep.sent","sub":"APtVK7gBRxjjZhjSKftx4H5n7Ha8QBMxMbutbLUHRQxr","lamports":"1658468","sig":"5TqbPCEBzRNi6dJr5MJ9pJEtt5FzwFRKVnJDMVk18DR3eT4GGUqeYCyL1UC7s3VBkoqYotnD7CUS2A5Veuhu4sDL"}
