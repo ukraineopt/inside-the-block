@@ -10,7 +10,8 @@ Full dated results, numbers and the "what went wrong" log are in [REPORT.md](REP
 The machine-generated tables are in [data/ANALYSIS.md](data/ANALYSIS.md).
 
 ```
-docker compose up                              # mainnet DRY-RUN end to end: nothing is sent, nothing is spent
+docker compose up                              # mainnet DRY-RUN end to end (~45 min): nothing is sent, nothing is spent
+HORIZON_SLOTS=600 docker compose up            # the same, 2-minute version
 docker compose --profile test run --rm test    # offline unit tests (tx encoding, spend cap)
 docker compose --profile verify run --rm verify   # re-fetch every block with a probe, compare with data/blocks
 docker compose run --rm itb analyze            # rebuild data/ANALYSIS.md from the raw data, no network

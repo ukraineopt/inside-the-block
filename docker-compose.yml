@@ -9,6 +9,19 @@ services:
     env_file:
       - path: .env
         required: false
+    # shell variables with these names are passed through (unset = default), e.g. HORIZON_SLOTS=600 docker compose up
+    environment:
+      - RPC_URL
+      - WS_URL
+      - SEND_PATHS
+      - TARGET_CLIENTS
+      - VALIDATORS_PER_CLIENT
+      - BATCHES_PER_VALIDATOR
+      - ARMS
+      - SEND_GAP_MS
+      - LEAD_SLOTS
+      - HORIZON_SLOTS
+      - SEED
     volumes:
       - ./data:/app/data
       - ./keys:/keys:ro
