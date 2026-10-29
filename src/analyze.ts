@@ -96,10 +96,10 @@ export function analyze(dataDir: string): { results: GroupResult[]; landed: Land
   const where = new Map<string, { slot: number; index: number; leader: string | null; ok: boolean }>();
   for (const b of blocks.values()) for (const t of b.txs) if (t.memo?.startsWith('itb')) where.set(t.sig, { slot: b.slot, index: t.i, leader: b.leader, ok: t.ok });
   const live = probes.filter((p) => p.live);
-  const groupOf = leaderGroups(dataDir);
+  const snaps = snapshots(dataDir);
   const landed: Landed[] = live.filter((p) => where.has(p.signature)).map((p) => {
     const w = where.get(p.signature)!;
-    return { ...p, ...w, leaderClient: (w.leader && groupOf.get(w.leader)) || 'unknown' };
+    return { ...p, ...w, leaderClient: w.leader ? groupForRun(snaps, p.runId, w.leader) : 'unknown' };
   });
 
   // Evidence is attributed to whoever BUILT the block, not to whom we aimed at:
@@ -179,26 +179,48 @@ function spearman(x: number[], y: number[]): number | null {
   return dx && dy ? num / Math.sqrt(dx * dy) : null;
 }
 
-// leader identity -> client group, from every validator snapshot we have (later snapshots win)
-function leaderGroups(dataDir: string): Map<string, string> {
-  const groupOf = new Map<string, string>();
+// leader identity -> client group AT THE TIME OF MEASUREMENT. Validators upgrade (between 25.10 and
+// 29.10 several moved to 4.4.0-rc.1 / 26.10.5), so each run uses its own start snapshot, and a block
+// outside any run uses the latest snapshot taken before it.
+interface Snapshot {
+  run: string;
+  t: number; // ms, run start
+  groups: Map<string, string>;
+}
+
+function snapshots(dataDir: string): Snapshot[] {
+  const out: Snapshot[] = [];
   const runsDir = join(dataDir, 'runs');
   if (existsSync(runsDir)) for (const r of readdirSync(runsDir).sort()) {
     const f = join(runsDir, r, 'validators-start.json');
     if (!existsSync(f)) continue;
+    const groups = new Map<string, string>();
     for (const v of JSON.parse(readFileSync(f, 'utf8')) as { identity: string; clientId: string; version: string }[]) {
-      groupOf.set(v.identity, `${v.clientId} ${v.version}`);
+      groups.set(v.identity, `${v.clientId} ${v.version}`);
     }
+    // run id = ISO time with ':' and '.' replaced by '-', e.g. 2026-10-25T11-57-49-live
+    const iso = r.slice(0, 19).replace(/T(\d\d)-(\d\d)-(\d\d)/, 'T$1:$2:$3') + 'Z';
+    out.push({ run: r, t: Date.parse(iso), groups });
   }
-  return groupOf;
+  return out.sort((a, b) => a.t - b.t);
+}
+
+function groupForRun(snaps: Snapshot[], run: string, identity: string): string {
+  return snaps.find((s) => s.run === run)?.groups.get(identity) ?? 'unknown';
+}
+
+function groupAtTime(snaps: Snapshot[], tMs: number | null, identity: string): string {
+  let best = snaps[0];
+  for (const s of snaps) if (tMs !== null && s.t <= tMs) best = s;
+  return best?.groups.get(identity) ?? 'unknown';
 }
 
 function passiveAnalysis(blocks: Map<number, TrimmedBlock>, dataDir: string): PassiveResult[] {
-  const groupOf = leaderGroups(dataDir);
+  const snaps = snapshots(dataDir);
   const acc = new Map<string, { rhos: number[]; sizes: number[] }>();
   for (const b of blocks.values()) {
     if (b.skipped || !b.leader) continue;
-    const g = groupOf.get(b.leader) ?? 'unknown';
+    const g = groupAtTime(snaps, b.blockTime === null ? null : b.blockTime * 1000, b.leader);
     const txs = b.txs.filter((t) => !t.isVote);
     // -index so that rho > 0 means "higher price sits earlier"
     const rho = spearman(txs.map((t) => Number(t.cuPrice ?? 0)), txs.map((t) => -t.i));
@@ -319,7 +341,8 @@ export function sortedRuns(landed: Landed[], modes: Map<string, string>): Sorted
     if (ps.length !== 8) continue; // only complete batches in one block, so the random baseline is 4.5
     ps.sort((a, b) => a.index - b.index);
     const lead = ps[0].leadSlots;
-    const mode = (modes.get(ps[0].runId) ?? '?') + (lead !== undefined && modes.get(ps[0].runId)?.startsWith('burst') ? `, ${lead} slot(s) early` : '');
+    const base = ps[0].sendGapMs !== undefined ? (ps[0].sendGapMs === 0 ? 'burst' : `spaced ${ps[0].sendGapMs} ms`) : (modes.get(ps[0].runId) ?? '?');
+    const mode = base + (lead !== undefined && base === 'burst' ? `, ${lead} slot(s) early` : '');
     const key = `${ps[0].leaderClient}\u0000${mode}`;
     acc.set(key, [...(acc.get(key) ?? []), descendingRuns(ps.map((p) => BigInt(p.cuPrice)))]);
   }
@@ -336,8 +359,9 @@ function runModes(dataDir: string): Map<string, string> {
   if (existsSync(runsDir)) for (const r of readdirSync(runsDir)) {
     const f = join(runsDir, r, 'config.json');
     if (!existsSync(f)) continue;
-    const c = JSON.parse(readFileSync(f, 'utf8')) as { sendGapMs: number };
-    m.set(r, c.sendGapMs === 0 ? 'burst' : `spaced ${c.sendGapMs} ms`);
+    const c = JSON.parse(readFileSync(f, 'utf8')) as { sendGapMs: number; timings?: { gapMs: number; lead: number }[] };
+    if (c.timings?.length) m.set(r, 'mixed ' + c.timings.map((t) => `${t.gapMs}ms@${t.lead}`).join(' '));
+    else m.set(r, c.sendGapMs === 0 ? 'burst' : `spaced ${c.sendGapMs} ms`);
   }
   return m;
 }
@@ -393,7 +417,7 @@ export function examples(landed: Landed[], leads: Map<string, number>, modes: Ma
   const blocks = [...byBlock.values()].filter((ps) => ps.length === 8).sort((a, b) => a[0].slot - b[0].slot);
   for (const ps of blocks) {
     ps.sort((a, b) => a.index - b.index);
-    const mode = modes.get(ps[0].runId) ?? '?';
+    const mode = ps[0].sendGapMs !== undefined ? (ps[0].sendGapMs === 0 ? 'burst' : `spaced ${ps[0].sendGapMs} ms`) : (modes.get(ps[0].runId) ?? '?');
     const cond = mode === 'burst' ? `burst, ${ps[0].leadSlots ?? leads.get(ps[0].runId)} slot(s) early` : mode;
     const key = `${ps[0].leaderClient}|${cond}`;
     if (seen.has(key)) continue;
@@ -403,6 +427,26 @@ export function examples(landed: Landed[], leads: Map<string, number>, modes: Ma
     out.push(`| ${ps[0].leaderClient} | ${cond} | [${ps[0].slot}](https://solscan.io/block/${ps[0].slot}) | ${ps[0].index}-${ps.at(-1)!.index} | ${fees} | ${sends} | [first probe](https://solscan.io/tx/${ps[0].signature}) |`);
   }
   return out.sort();
+}
+
+// Replication: the three key cells per client, separately for each measurement day (UTC).
+export function replication(landed: Landed[], leads: Map<string, number>): string[] {
+  const days = [...new Set(landed.map((p) => new Date(p.sentAtMs).toISOString().slice(0, 10)))].sort();
+  const rows: string[] = [];
+  const groups = [...new Set(landed.map((p) => p.leaderClient))].sort();
+  const cell = (r: FeeVsArrival[], pred: (b: string) => boolean) => {
+    const sel = r.filter((x) => x.arm === 'F' && pred(x.bucket));
+    const n = sel.reduce((a, x) => a + x.pairs, 0);
+    if (!n) return 'n/a';
+    const w = sel.reduce((a, x) => a + (x.feeWins ?? 0) * x.pairs, 0);
+    return `${((100 * w) / n).toFixed(0)}% (${n})`;
+  };
+  for (const g of groups) for (const d of days) {
+    const r = feeVsArrival(landed.filter((p) => p.leaderClient === g && new Date(p.sentAtMs).toISOString().startsWith(d)), leads);
+    if (!r.length) continue;
+    rows.push(`| ${g} | ${d} | ${cell(r, (b) => b.startsWith('same burst') && b.includes('2 slot'))} | ${cell(r, (b) => b.startsWith('same burst') && b.includes('1 slot'))} | ${cell(r, (b) => b === '20-50 ms later' || b === '50-150 ms later')} |`);
+  }
+  return rows;
 }
 
 const pct = (x: number | null) => (x === null ? 'n/a' : `${(x * 100).toFixed(1)}%`);
@@ -496,6 +540,12 @@ export function writeAnalysis(dataDir: string, outPath: string): void {
   const withLead = landed.map((p) => ({ ...p, leadSlots: p.leadSlots ?? leads.get(p.runId) ?? p.leadSlots }));
   for (const r of sortedRuns(withLead, runModes(dataDir))) lines.push(`| ${r.group} | ${r.mode} | ${r.batches} | ${r.meanRuns.toFixed(2)} | ${r.fullySorted} |`);
   lines.push('');
+  lines.push('## Replication by measurement day (arm F, tpu path)', '');
+  lines.push('Share of pairs with the higher-fee probe first (pairs in brackets). Days are UTC.', '');
+  lines.push('| block leader client | day | burst, queued (2 slots early) | burst, mid-block (1 slot early) | higher fee sent 20-150 ms later |');
+  lines.push('|---|---|---|---|---|');
+  for (const r of replication(landed, runLeads(dataDir))) lines.push(r);
+  lines.push('');
   lines.push('## Per validator (arm F, tpu path): is it the client or the operator?', '');
   lines.push('| block leader | client | pairs, same burst | higher fee first | pairs, higher fee sent 1-150 ms later | higher fee first |');
   lines.push('|---|---|---|---|---|---|');
@@ -512,16 +562,29 @@ export function writeAnalysis(dataDir: string, outPath: string): void {
   lines.push('|---|---|---|---|');
   for (const p of passive) lines.push(`| ${p.group} | ${p.blocks} | ${p.meanRho === null ? 'n/a' : p.meanRho.toFixed(3)} | ${p.medianTxs ?? 'n/a'} |`);
   writeFileSync(outPath, lines.join('\n') + '\n');
-  // figure: client order by stake share from the latest validator snapshot
-  const snapRuns = existsSync(runsDir) ? readdirSync(runsDir).filter((r) => existsSync(join(runsDir, r, 'validators-start.json'))).sort() : [];
-  const share = new Map<string, number>();
-  if (snapRuns.length) {
-    for (const v of JSON.parse(readFileSync(join(runsDir, snapRuns.at(-1)!, 'validators-start.json'), 'utf8')) as { clientId: string; version: string; stakeShare: number }[]) {
+  // figure panels ordered by stake share, from the first validator snapshot of each campaign
+  const stakeOrder = (day: string) => {
+    const run = existsSync(runsDir) ? readdirSync(runsDir).sort().find((r) => r.startsWith(day) && existsSync(join(runsDir, r, 'validators-start.json'))) : undefined;
+    const share = new Map<string, number>();
+    if (run) for (const v of JSON.parse(readFileSync(join(runsDir, run, 'validators-start.json'), 'utf8')) as { clientId: string; version: string; stakeShare: number }[]) {
       share.set(`${v.clientId} ${v.version}`, (share.get(`${v.clientId} ${v.version}`) ?? 0) + v.stakeShare);
     }
-  }
-  const order = [...share.entries()].map(([group, s]) => ({ group, share: s })).sort((a, b) => b.share - a.share);
+    return [...share.entries()].map(([group, sh]) => ({ group, share: sh })).sort((a, b) => b.share - a.share);
+  };
   mkdirSync(join(dataDir, 'figures'), { recursive: true });
-  writeFileSync(join(dataDir, 'figures', 'fee-vs-arrival.svg'), feeVsArrivalSvg(feeVsArrival(landed, runLeads(dataDir)), order));
+  // one figure per measurement campaign (UTC days, a gap of more than one day starts a new campaign),
+  // because ordering rules can change between campaigns (Harmonic did between 25.10 and 29.10)
+  const days = [...new Set(landed.map((p) => new Date(p.sentAtMs).toISOString().slice(0, 10)))].sort();
+  const campaigns: string[][] = [];
+  for (const d of days) {
+    const last = campaigns.at(-1);
+    if (last && Date.parse(d) - Date.parse(last.at(-1)!) <= 86_400_000) last.push(d);
+    else campaigns.push([d]);
+  }
+  for (const c of campaigns) {
+    const sel = landed.filter((p) => c.includes(new Date(p.sentAtMs).toISOString().slice(0, 10)));
+    const label = c.length > 1 ? `${c[0]} to ${c.at(-1)}` : c[0];
+    writeFileSync(join(dataDir, 'figures', `fee-vs-arrival-${c[0]}.svg`), feeVsArrivalSvg(feeVsArrival(sel, runLeads(dataDir)), stakeOrder(c[0]), label));
+  }
   writeFileSync(join(dataDir, 'landed-probes.json'), JSON.stringify(landed, null, 1));
 }

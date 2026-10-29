@@ -54,8 +54,8 @@ async function main(): Promise<void> {
     let locked = 0n;
     for (const s of subs) locked += await balance(cfg.rpcUrl, s.publicKey);
     ledger.bindWallet(payer.publicKey, main + locked);
-    ledger.checkOnChain(main, locked);
-    log('wallet', { payer: payer.publicKey, balance: main, subPayersLocked: locked, ledgerReserved: ledger.reserved, capRemaining: ledger.remaining });
+    const onChainSpent = ledger.checkOnChain(main, locked);
+    log('wallet', { payer: payer.publicKey, balance: main, subPayersLocked: locked, onChainSpent, ledgerReserved: ledger.reserved, capRemaining: ledger.remaining });
   }
 
   switch (cmd) {

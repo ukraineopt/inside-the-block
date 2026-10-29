@@ -6,7 +6,7 @@ Code, raw data and the method: [README.md](README.md). Generated tables: [data/A
 
 ## 1. When and where every measurement was taken
 
-All measurements: **Solana mainnet, 25-26 October 2026, after the Alpenglow activation**
+All measurements: **Solana mainnet, 25-26 October 2026 (main campaign) and 29 October 2026 (replication), after the Alpenglow activation**
 (21 October 2026, slot 459,653,000). Times are UTC (Kyiv = UTC+2: summer time ended on 25 October 2026 at 04:00, before the first run).
 Sender: a home connection in Dnipro, Ukraine; Docker Desktop 29.9.2 on macOS; public mainnet RPC
 (`api.mainnet-beta.solana.com`) for schedule, slots, statuses and blocks; direct QUIC to leaders for sending.
@@ -42,7 +42,8 @@ position, every transaction count equal, 0 mismatches.
 ## 2. Results by client
 
 Numbers are the share of same-block pairs of our probes in which the higher-fee probe is earlier,
-with 95% bootstrap confidence intervals over batches. "Burst" = all 8 probes left within 1 ms.
+with 95% bootstrap confidence intervals over batches. "Burst" cells use only pairs whose two probes
+really left within 1 ms of each other (measured per stream by the sidecar), see README "Timing modes".
 "F" = probes share one fee payer (they conflict and must be serialized), "N" = 8 different payers.
 
 ### Vanilla Agave 4.3.2 (control: the rule is in the open-source code)
@@ -145,7 +146,8 @@ that this design does not separate further.
    probes arriving mid-block are fee-ordered by BAM/FireBAM/Firedancer/Rakurai but split into arrival-ordered
    passes for vanilla Agave.
 2. **Arrival order beats fee for Agave, BAM, Jito and Harmonic once the gap is tens of milliseconds**,
-   most sharply for Harmonic. Not for Firedancer, FireBAM and Rakurai.
+   most sharply for Harmonic on 25.10 (not any more on 29.10, section 6). Not for Firedancer, FireBAM
+   and Rakurai.
 3. **Without a write-lock conflict, position is largely noise** for Jito (44%), Harmonic (61%) and
    Firedancer (67%): independent transactions are executed in parallel and the block records whatever
    finishes first. BAM keeps fee order even here (95%).
@@ -205,16 +207,57 @@ HarmonicFiredancer 100%, JitoLabs 96%, Rakurai 56%. Ordering results are reporte
 12. A cosmetic one: the time estimate in the run log assumed 400 ms slots (116 min instead of ~61); now
     measured from `getRecentPerformanceSamples`.
 
-## 6. Bottom line
+## 6. Replication on 29 October 2026
+
+| # | Run id | Date, time (UTC) | Mode | Arms | Path | Batches | Probes sent | Landed |
+|---|---|---|---|---|---|---|---|---|
+| 6 | 2026-10-29T17-03-07-live | 29.10 17:03-18:06 | mixed: burst 2 slots early / burst 1 slot early / spaced 15 ms, rotated per window | F | tpu | 145 | 1,160 | 488 |
+
+Same code (plus a QUIC warm-up stream that turned out to change nothing), 3 validators per client,
+the three timing conditions interleaved so they share the same hour. 43 of 188 windows were skipped
+(34 too late after public-RPC slowdowns: 286 retried requests, 8 missed, 1 connection failure).
+
+| Client | 25-26.10: burst queued / mid-block / higher fee 20-150 ms later | 29.10: same cells |
+|---|---|---|
+| AgaveBam 4.3.2 | 100% / 100% / 46% | 100% / 100% / 0% |
+| FireBAM | 100% / 100% / 100% (26.10.4) | 100% / n/a / 100% (26.10.5) |
+| Firedancer 26.10.4 | 93% / 84% / 52% | 73% / 100% / 22% |
+| JitoLabs 4.3.2 | 74% / 75% / 45% | 100% / 82% / 63% |
+| HarmonicAgave 4.3.2 | 92% / n/a / **3%** | 95% / 94% / **96%** |
+| HarmonicFiredancer 26.10.4 | 94% / n/a / **5%** | 94% / 100% / **66%** |
+| Rakurai 4.3.2 | 83% / 96% / n/a | 16% / 83% / 33% (small n) |
+| Agave 4.3.2 | 100% / 51% / 39% | no landings (0 of 88) |
+
+(pairs per cell: "Replication by measurement day" in `data/ANALYSIS.md`.)
+
+**What held:** every client that landed probes still fee-orders transactions that reach it together.
+**What changed:** Harmonic. A higher-fee probe that arrived tens of milliseconds later was almost never
+ahead on 25.10 and almost always ahead on 29.10, on the same client versions and partly on the same
+validators (`Fd7btg…`: block 461249312 on 25.10 in arrival order; block 462958608 on 29.10 sorted
+`500k 250k 100k 50k 20k 5k 1k 0` with the probes arriving scrambled over 130 ms). Since the validator
+software did not change, the most likely cause is a change in Harmonic's external builder. This is
+the strongest evidence in the study that, for builder-based clients, **the ordering rule is a
+property of the builder at a point in time, not of the client software**.
+
+Also observed: between the two days several AgaveBam and Jito validators moved to 4.4.0-rc.1 / 4.4.0
+and FireBAM to 26.10.5. The first version of this analysis attributed the 25.10 probes to those new
+versions (it used the latest validator snapshot); fixed before publishing: each probe now carries the
+client version from the snapshot taken at the start of its own run.
+
+Spend for the replication: see section 1.
+
+## 7. Bottom line
 
 * There is no single "Solana ordering rule" today. For transactions that reach a leader at the same
   moment and compete for the same account, **every client measured orders by fee** (72-100%). This
   matches the open-source Agave rule.
-* What differs between clients is **how much arrival time overrides fee**. Harmonic is close to strict
-  FIFO beyond ~30 ms. Jito, vanilla Agave and BAM let arrival win once the gap is large. Firedancer,
+* What differs between clients is **how much arrival time overrides fee**. On 25.10 Harmonic was close to
+  strict FIFO beyond ~30 ms (on 29.10 it ordered by fee). Jito, vanilla Agave and BAM let arrival win once the gap is large. Firedancer,
   FireBAM and Rakurai do not let arrival decide.
 * **For independent transactions, the in-block position is mostly execution noise** for Jito, Harmonic
   and Firedancer; BAM is the exception.
+* **Rules move.** Harmonic (30% of stake) switched from arrival order to fee order between 25.10 and
+  29.10 with no client upgrade. Any statement about "how client X orders" needs a date.
 * Practical consequence for a user: on most of the stake, paying more helps only against transactions
-  that arrive within the same few milliseconds; arriving earlier is worth more than paying more, most
-  of all on Harmonic leaders.
+  that arrive within the same few milliseconds; arriving earlier is worth more than paying more (on
+  25.10 most of all on Harmonic leaders; that can change, as 29.10 showed).

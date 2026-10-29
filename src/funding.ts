@@ -70,5 +70,6 @@ export async function withdrawAll(cfg: Config, payer: Keypair, to: string, ledge
   const tx = buildTransferTx({ from: payer, to, lamports: have - fee, blockhash: await blockhash(cfg.rpcUrl), cuLimit: TRANSFER_CU_LIMIT, cuPriceMicroLamports: TRANSFER_CU_PRICE });
   ledger.charge(tx.signature, fee, 'withdraw');
   const sig = await rpc<string>(cfg.rpcUrl, 'sendTransaction', [tx.wire.toString('base64'), { encoding: 'base64' }]);
+  ledger.recordWithdrawal(tx.signature, have - fee);
   log('withdraw.sent', { to, lamports: have - fee, sig });
 }

@@ -31,3 +31,16 @@ test('on-chain check catches spend beyond the cap', () => {
   assert.throws(() => l.checkOnChain(90_000n, 5_000n), SpendCapExceeded);
   assert.throws(() => l.bindWallet('OTHER', 1n));
 });
+
+test('withdrawals and later top-ups are not counted as spend', () => {
+  const f = join(mkdtempSync(join(tmpdir(), 'itb-')), 'ledger.json');
+  const l = new SpendLedger(f, 1000n);
+  l.bindWallet('W', 100_000n);
+  l.checkOnChain(99_400n, 0n); // 600 spent on fees
+  l.charge('wd', 5n, 'withdraw');
+  l.recordWithdrawal('wd', 99_395n); // owner takes the rest, wallet is now 0
+  assert.equal(l.checkOnChain(0n, 0n), 605n);
+  assert.equal(l.checkOnChain(15_000n, 0n), 605n); // top-up detected, still 605 spent
+  assert.equal(l.checkOnChain(14_800n, 0n), 805n); // 200 more fees
+  assert.throws(() => l.checkOnChain(14_000n, 0n), SpendCapExceeded);
+});

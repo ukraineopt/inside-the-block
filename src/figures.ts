@@ -17,9 +17,11 @@ const PAD = { top: 46, right: 16, bottom: 50, left: 42 };
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-export function feeVsArrivalSvg(rows: FeeVsArrival[], clientOrder: { group: string; share: number }[]): string {
+export function feeVsArrivalSvg(rows: FeeVsArrival[], clientOrder: { group: string; share: number }[], period: string): string {
   const f = rows.filter((r) => r.arm === 'F');
-  const groups = clientOrder.filter((c) => f.some((r) => r.group === c.group));
+  // a panel needs at least 10 pairs in total, otherwise it is noise drawn as a line
+  const pairsOf = (g: string) => f.filter((r) => r.group === g).reduce((a, r) => a + r.pairs, 0);
+  const groups = clientOrder.filter((c) => pairsOf(c.group) >= 10);
   const rowsN = Math.ceil(groups.length / COLS);
   const W = COLS * PANEL_W + 16;
   const H = rowsN * PANEL_H + 76;
@@ -45,9 +47,9 @@ export function feeVsArrivalSvg(rows: FeeVsArrival[], clientOrder: { group: stri
   text{font-size:11px}.t{font-size:13px;font-weight:600}.h{font-size:15px;font-weight:600}.v{font-size:10px;font-variant-numeric:tabular-nums}
 </style>`);
   out.push(`<rect class="bg" width="${W}" height="${H}"/>`);
-  out.push(`<text class="h ink" x="12" y="22">Does the higher-fee transaction still land first if it arrives later?</text>`);
+  out.push(`<text class="h ink" x="12" y="22">Does the higher-fee transaction still land first if it arrives later? (mainnet, ${esc(period)} UTC)</text>`);
   out.push(`<text class="ink2" x="12" y="42">Share of same-block pairs of our probes (shared fee payer) in which the higher-fee probe is earlier. 100% = ordered by fee, 0% = ordered by arrival,</text>`);
-  out.push(`<text class="ink2" x="12" y="58">dashed line = coin flip. Left: all 8 probes sent within 1 ms (queued before the slot / arriving mid-block). Right: higher fee sent this many ms later. Bars: 95% CI.</text>`);
+  out.push(`<text class="ink2" x="12" y="58">dashed line = coin flip. Left: probes sent within 1 ms of each other (queued before the slot / arriving mid-block). Right: higher fee sent this many ms later. Bars: 95% CI.</text>`);
 
   groups.forEach((g, gi) => {
     const ox = 8 + (gi % COLS) * PANEL_W;

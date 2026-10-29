@@ -145,7 +145,16 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                 match addr.parse::<SocketAddr>() {
                     Err(e) => vec![json!({"op":"connect","addr":addr,"ok":false,"err":e.to_string()})],
                     Ok(sa) => match sender.conn(sa).await {
-                        Ok(c) => vec![json!({"op":"connect","addr":addr,"ok":true,"ms":t0.elapsed().as_millis(),"rtt_ms":c.rtt().as_millis()})],
+                        Ok(c) => {
+                            // Warm-up: an empty stream (no bytes, so no packet for the TPU) makes the
+                            // server raise our stream credit before the window. Without it, a fresh
+                            // connection let 1 stream through and the other 7 only ~1 RTT later.
+                            let warm = match c.open_uni().await {
+                                Ok(mut st) => st.finish().is_ok(),
+                                Err(_) => false,
+                            };
+                            vec![json!({"op":"connect","addr":addr,"ok":true,"warm":warm,"ms":t0.elapsed().as_millis(),"rtt_ms":c.rtt().as_millis()})]
+                        }
                         Err(e) => vec![json!({"op":"connect","addr":addr,"ok":false,"err":e,"ms":t0.elapsed().as_millis()})],
                     },
                 }

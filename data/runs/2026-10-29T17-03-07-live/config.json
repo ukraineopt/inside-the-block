@@ -1,0 +1,65 @@
+{
+ "rpcUrl": "https://api.mainnet-beta.solana.com",
+ "wsUrl": "wss://api.mainnet-beta.solana.com",
+ "sendRpcUrls": [
+  "https://api.mainnet-beta.solana.com"
+ ],
+ "sendPaths": [
+  "tpu"
+ ],
+ "tpuSenderBin": "/usr/local/bin/tpu-send",
+ "live": true,
+ "spendCapLamports": "50000000",
+ "keypairPath": "/keys/burner.json",
+ "dataDir": "/app/data",
+ "targetClients": [
+  "Agave",
+  "JitoLabs",
+  "AgaveBam",
+  "HarmonicAgave",
+  "Firedancer",
+  "HarmonicFiredancer",
+  "FireBAM",
+  "Rakurai"
+ ],
+ "validatorsPerClient": 3,
+ "batchesPerValidator": 9,
+ "batchSize": 8,
+ "arms": [
+  "F"
+ ],
+ "cuLimit": 8000,
+ "feeLadder": [
+  "0",
+  "1000",
+  "5000",
+  "20000",
+  "50000",
+  "100000",
+  "250000",
+  "500000"
+ ],
+ "leadSlots": [
+  1
+ ],
+ "sendGapMs": 15,
+ "timings": [
+  {
+   "gapMs": 0,
+   "lead": 2
+  },
+  {
+   "gapMs": 0,
+   "lead": 1
+  },
+  {
+   "gapMs": 15,
+   "lead": 1
+  }
+ ],
+ "horizonSlots": 18000,
+ "minActivatedStakeSol": 50000,
+ "seed": 144541113,
+ "pinnedValidators": [],
+ "payer": "ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD"
+}

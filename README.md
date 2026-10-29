@@ -4,7 +4,7 @@ A measurement project for the Superteam Ukraine bounty *Inside the Block*. We se
 transactions ("probes") into the leader windows of chosen mainnet validators, find them in the
 produced blocks, and ask, for every pair of our probes in the same block: which one came first, and why.
 
-All measurements were taken on **Solana mainnet on 25-26 October 2026, after the Alpenglow activation
+All measurements were taken on **Solana mainnet on 25-26 and 29 October 2026, after the Alpenglow activation
 (21 October 2026, slot 459,653,000)**. Nothing pre-Alpenglow is mixed in.
 Full dated results, numbers and the "what went wrong" log are in [REPORT.md](REPORT.md).
 The machine-generated tables are in [data/ANALYSIS.md](data/ANALYSIS.md).
@@ -24,8 +24,8 @@ docker compose run --rm itb analyze            # rebuild data/ANALYSIS.md from t
 | Agave 4.3.2 (vanilla, control) | 0.9% | ordered by fee within each scheduling pass (sorted stretches) | arrival increasingly wins with the gap | fee-priority among what is queued at the same time (matches the open-source greedy scheduler); smallest sample |
 | AgaveBam 4.3.2 (Jito BAM) | 35.6% | ordered by fee | arrival increasingly wins | same as Agave for transactions that reach the validator's own TPU |
 | JitoLabs 4.3.2 (Jito-Solana) | 22.9% | mostly by fee, weakest of all | arrival dominates | fee matters weakly, arrival strongly |
-| HarmonicAgave 4.3.2 | 21.6% | ordered by fee | **arrival, strictly** (30 ms late = never ahead) | arrival-ordered with a ~15-30 ms batching granularity; fee only breaks ties inside it |
-| HarmonicFiredancer 26.10.4 | 8.7% | ordered by fee | **arrival, strictly** | same as HarmonicAgave |
+| HarmonicAgave 4.3.2 | 21.6% | ordered by fee | 25.10: **arrival, strictly** (30 ms late = never ahead); **29.10: by fee** | the rule changed between our two days with no client change (builder-side) |
+| HarmonicFiredancer 26.10.4 | 8.7% | ordered by fee | 25.10: **arrival, strictly**; 29.10: mostly by fee (66%) | same change as HarmonicAgave |
 | Firedancer 26.10.4 | 6.4% | ordered by fee | neither arrival nor fee explains the order (~50%) | fee-priority when it can compare; otherwise no detectable rule at our resolution |
 | FireBAM 26.10.4 | 1.6% | ordered by fee | ~50% | like Firedancer |
 | Rakurai 4.3.2 | 1.2% | mostly by fee | ~50% | weak fee preference, no arrival rule |
@@ -42,10 +42,29 @@ Two cross-client observations:
 
 The exact numbers with 95% confidence intervals are in [REPORT.md](REPORT.md) and [data/ANALYSIS.md](data/ANALYSIS.md).
 
-![Higher fee first, by client and arrival condition](data/figures/fee-vs-arrival.svg)
+![Higher fee first, by client and arrival condition, 25-26.10](data/figures/fee-vs-arrival-2026-10-25.svg)
 
 *Generated from the raw data by `docker compose run --rm itb analyze` (`src/figures.ts`); the same numbers
 are in the "Fee vs arrival" table of `data/ANALYSIS.md`.*
+
+### Replication on 29.10: what held and what changed
+
+The same measurement repeated four days later (29.10.2026, 17:03-18:06 UTC, all three timing conditions
+interleaved in one run, 1,160 probes, 488 landed) — figure [`fee-vs-arrival-2026-10-29.svg`](data/figures/fee-vs-arrival-2026-10-29.svg),
+table "Replication by measurement day" in `data/ANALYSIS.md`:
+
+* **Held:** fee order for probes arriving together on AgaveBam (100%), FireBAM (100%), Jito (82-100%),
+  Firedancer (73-100%), Harmonic (94-100%). AgaveBam still lets arrival win once the gap is tens of ms (0%).
+* **Changed: Harmonic.** On 25.10 a higher-fee probe sent 20-150 ms later was ahead in 3% (HarmonicAgave)
+  and 5% (HarmonicFiredancer) of pairs; on 29.10 in **96% and 66%**, on the same validator software
+  version (4.3.2 / 26.10.4) and partly on the same validators (e.g. `Fd7btg…`: arrival order on 25.10,
+  `500k 250k 100k 50k 20k 5k 1k 0` on 29.10 although the probes arrived scrambled over 130 ms). With
+  the validator unchanged, the most likely cause is a change in Harmonic's external builder. **The
+  ordering rule of 30% of stake changed within four days without any client upgrade.**
+* **Not reproducible here:** vanilla Agave included none of 88 direct probes on 29.10; Rakurai's burst
+  numbers moved (83% -> 16% queued, small n). Stake also moved: several AgaveBam / Jito validators
+  upgraded to 4.4.0-rc.1 / 4.4.0 and FireBAM to 26.10.5 between the two days; every probe is
+  attributed to the client version from the snapshot taken at the start of its own run.
 
 ### Client or operator?
 
@@ -107,8 +126,16 @@ send order are two **independent** random permutations (seeded, seed in `config.
 ### Timing modes (separate runs, recorded in each `data/runs/*/config.json`)
 
 * **Spaced** (run 1): probes leave 15 ms apart, starting when our tip is 1 slot before the window.
-* **Burst** (runs 2-3): all 8 leave in < 1 ms, 1 or 2 slots before the window, so they wait in the
-  leader's buffer together.
+* **Burst** (runs 2-5): all 8 are handed to QUIC at once, 1 or 2 slots before the window, so they wait
+  in the leader's buffer together. On a fresh connection some servers granted our unstaked connection
+  a single stream first and the other 7 only ~1 RTT later (e.g. Jito: 0, 42, 42, ... ms). The sidecar
+  timestamps every stream right before it opens, and **every comparison uses these measured
+  microsecond offsets, not the intended mode**: a "burst" pair that left 42 ms apart is counted as
+  "20-50 ms later". For the replication (29.10) we added an empty warm-up stream on connect; it did
+  **not** change the pattern (Jito still 0 / +41 ms x 7, BAM 0 / +170 ms x 7), so this is the server pacing
+  an unstaked peer, not a cold connection. The remaining 7 probes still form a real burst (21 pairs per batch).
+* **Mixed** (replication, 29.10): `TIMINGS=0@2,0@1,15@1` rotates the three conditions inside one run, so
+  they share the same hours and network conditions.
 
 The decisive table ("Fee vs arrival" in `data/ANALYSIS.md`) uses only pairs where the **higher-fee
 probe left later or at the same time** as the lower-fee one. If the leader orders by fee, the
@@ -198,7 +225,8 @@ are skipped instead of being sent late.
   validator; the raw data allows a per-validator split.
 * **Bundles.** Jito bundles and tips are out of scope and we send none. Bundles of other users may sit
   between our probes, which only adds foreign transactions, never reorders ours.
-* **Time of day and load.** All runs were within 24 hours (25-26.10.2026). A congested day may behave differently.
+* **Time and change.** Main campaign within 24 hours (25-26.10), replication on 29.10. The replication shows
+  that rules can change between days (Harmonic), so every verdict is dated.
 
 ## Spend cap, dry-run and safety
 

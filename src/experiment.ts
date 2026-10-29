@@ -34,6 +34,7 @@ export interface ProbeRecord {
   targetClient: string;
   windowStart: number;
   leadSlots: number; // we sent when our tip was this many slots before the window
+  sendGapMs: number; // pause between consecutive probes of this batch
   path: string; // "tpu" (direct QUIC to the leader) or "rpc" (sendTransaction)
   sentAtMs: number; // wall clock when handed to the HTTP client / sidecar
   sentAtUs: string | null; // tpu path: microsecond timestamp taken by the sidecar right before opening the stream
@@ -127,7 +128,7 @@ export async function runExperiment(ctx: RunContext): Promise<void> {
   const plan: LeaderWindow[] = [];
   let lastStart = -Infinity;
   for (const w of windows) {
-    if (w.startSlot <= tracker.slot + Math.max(...cfg.leadSlots) + 2 || w.startSlot >= Math.min(horizonEnd, epochEnd)) continue;
+    if (w.startSlot <= tracker.slot + Math.max(...cfg.leadSlots, ...cfg.timings.map((t) => t.lead)) + 2 || w.startSlot >= Math.min(horizonEnd, epochEnd)) continue;
     if ((counts.get(w.identity) ?? 0) >= cfg.batchesPerValidator) continue;
     if (w.startSlot - lastStart < 10) continue;
     plan.push(w);
@@ -182,7 +183,12 @@ export async function runExperiment(ctx: RunContext): Promise<void> {
       }
       // lead rotates on a slower cycle than arm and path, so every arm meets every lead
       // (rotating both per window made arm and lead identical whenever their list lengths matched)
-      const lead = cfg.leadSlots[Math.floor(windowIdx++ / (arms.length * cfg.sendPaths.length)) % cfg.leadSlots.length];
+      const slowIdx = Math.floor(windowIdx++ / (arms.length * cfg.sendPaths.length));
+      const timing = cfg.timings.length
+        ? cfg.timings[slowIdx % cfg.timings.length]
+        : { gapMs: cfg.sendGapMs, lead: cfg.leadSlots[slowIdx % cfg.leadSlots.length] };
+      const lead = timing.lead;
+      const gapMs = timing.gapMs;
       const sendAt = w.startSlot - lead;
       if (tracker.slot > sendAt) {
         log('window.missed', { start: w.startSlot, tip: tracker.slot });
@@ -235,7 +241,7 @@ export async function runExperiment(ctx: RunContext): Promise<void> {
         runId: ctx.runId, batchId, arm, probeIdx: p.probeIdx, sendSeq: seq,
         cuPrice: p.cuPrice.toString(), cuLimit: cfg.cuLimit, maxFee: p.maxFee.toString(),
         payer: p.payer.publicKey, signature: p.tx.signature, memo: p.memo,
-        targetIdentity: w.identity, targetClient: clientGroup(target), windowStart: w.startSlot, leadSlots: lead,
+        targetIdentity: w.identity, targetClient: clientGroup(target), windowStart: w.startSlot, leadSlots: lead, sendGapMs: gapMs,
         path, sentAtMs: Date.now(), sentAtUs: null, sentAtHr: process.hrtime.bigint().toString(), tipSlotAtSend: tracker.slot,
         sendRpc: path === 'tpu' ? tpuAddr! : cfg.sendRpcUrls[seq % cfg.sendRpcUrls.length],
         sendResult: 'dry-run', live: ctx.ledger !== null,
@@ -245,7 +251,7 @@ export async function runExperiment(ctx: RunContext): Promise<void> {
         // charge the whole batch first: if the cap would be exceeded, nothing of this batch leaves
         for (const p of ordered) ctx.ledger.charge(p.tx.signature, p.maxFee, `probe:${arm}:${path}`);
         if (path === 'tpu') {
-          const replies = await tpu!.sendBatch(tpuAddr!, cfg.sendGapMs, ordered.map((p) => ({ id: p.tx.signature, tx: p.tx.wire.toString('base64') })));
+          const replies = await tpu!.sendBatch(tpuAddr!, gapMs, ordered.map((p) => ({ id: p.tx.signature, tx: p.tx.wire.toString('base64') })));
           replies.forEach((r, k) => {
             records[k].sendResult = r.ok ? 'quic-ok' : `error: ${r.err}`;
             records[k].sentAtUs = r.t_us ?? null;
@@ -257,16 +263,16 @@ export async function runExperiment(ctx: RunContext): Promise<void> {
             rec.sentAtHr = process.hrtime.bigint().toString();
             rec.tipSlotAtSend = tracker.slot;
             pending.push(sendRaw(rec.sendRpc, ordered[seq].tx).then((r) => { rec.sendResult = r; }));
-            await sleep(cfg.sendGapMs);
+            await sleep(gapMs);
           }
         }
       } else {
-        await sleep(cfg.sendGapMs * ordered.length); // same pacing in dry-run, so the dry-run timing is representative
+        await sleep(gapMs * ordered.length); // same pacing in dry-run, so the dry-run timing is representative
       }
       await Promise.all(pending);
       for (const r of records) appendFileSync(probesFile, JSON.stringify(r) + '\n');
       appendFileSync(windowsFile, JSON.stringify({
-        ...w, client: clientGroup(target), arm, path, tpuAddr, leadSlots: lead, status: 'sent', tipSlotAtFirstSend: records[0].tipSlotAtSend,
+        ...w, client: clientGroup(target), arm, path, tpuAddr, leadSlots: lead, sendGapMs: gapMs, status: 'sent', tipSlotAtFirstSend: records[0].tipSlotAtSend,
         tipSlotAtLastSend: tracker.slot, sendSpanMs: records.at(-1)!.sentAtMs - records[0].sentAtMs, live: ctx.ledger !== null,
       }) + '\n');
       log('batch', { start: w.startSlot, client: clientGroup(target), arm, path, tip: tipBefore, live: ctx.ledger !== null, sendErrors: records.filter((r) => r.sendResult.startsWith('error')).length });

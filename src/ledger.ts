@@ -9,7 +9,11 @@ interface LedgerFile {
   txCount: number;
   wallet: string | null;
   startBalanceLamports: string | null;
-  entries: { ts: string; signature: string; maxFeeLamports: string; kind: string }[];
+  // owner's own money moving in and out is not spend: withdrawals and later top-ups are tracked separately
+  withdrawnLamports?: string;
+  depositedLamports?: string;
+  lastOnChainSpentLamports?: string; // spend can only grow: used to tell a top-up from a refund
+  entries: { ts: string; signature: string; maxFeeLamports: string; kind: string; amountLamports?: string }[];
 }
 
 export class SpendCapExceeded extends Error {}
@@ -52,10 +56,31 @@ export class SpendLedger {
 
   // Independent check: the real balance drop since the first live run must stay under the cap.
   // `lockedLamports` = SOL parked in our own sub-payer accounts (not spent, recoverable by sweep).
-  checkOnChain(balance: bigint, lockedLamports: bigint): void {
-    if (this.data.startBalanceLamports === null) return;
-    const spent = BigInt(this.data.startBalanceLamports) - balance - lockedLamports;
+  // Money the owner withdrew is added back; money that appears beyond what was ever there is a top-up.
+  checkOnChain(balance: bigint, lockedLamports: bigint): bigint {
+    if (this.data.startBalanceLamports === null) return 0n;
+    const withdrawn = BigInt(this.data.withdrawnLamports ?? '0');
+    let deposited = BigInt(this.data.depositedLamports ?? '0');
+    const lastSpent = BigInt(this.data.lastOnChainSpentLamports ?? '0');
+    const have = balance + lockedLamports;
+    // more than could be left given what was already spent: the owner topped up, the excess is a deposit
+    const maxLeft = BigInt(this.data.startBalanceLamports) + deposited - withdrawn - lastSpent;
+    if (have > maxLeft) {
+      deposited += have - maxLeft;
+      this.data.depositedLamports = deposited.toString();
+    }
+    const spent = BigInt(this.data.startBalanceLamports) + deposited - withdrawn - have;
+    this.data.lastOnChainSpentLamports = spent.toString();
+    this.flush();
     if (spent > this.cap) throw new SpendCapExceeded(`on-chain spend ${spent} lamports exceeds cap ${this.cap}`);
+    return spent;
+  }
+
+  recordWithdrawal(signature: string, amount: bigint): void {
+    this.data.withdrawnLamports = (BigInt(this.data.withdrawnLamports ?? '0') + amount).toString();
+    const e = this.data.entries.find((x) => x.signature === signature);
+    if (e) e.amountLamports = amount.toString();
+    this.flush();
   }
 
   canAfford(maxFees: bigint[]): boolean {

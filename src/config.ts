@@ -18,6 +18,7 @@ export interface Config {
   feeLadder: bigint[];
   leadSlots: number[];
   sendGapMs: number;
+  timings: { gapMs: number; lead: number }[];
   horizonSlots: number;
   minActivatedStakeSol: number;
   seed: number;
@@ -66,6 +67,13 @@ export function loadConfig(): Config {
     // several values rotate per window (e.g. "1,2"), so both arrival moments are measured in the same run
     leadSlots: list('LEAD_SLOTS', '1').map(Number),
     sendGapMs: Number(env('SEND_GAP_MS', '15')),
+    // TIMINGS="0@2,0@1,15@1" = (gap ms @ lead slots) conditions rotated within ONE run, so they share
+    // the same hours and network conditions. Overrides SEND_GAP_MS / LEAD_SLOTS when set.
+    timings: list('TIMINGS', '').map((t) => {
+      const [g, l] = t.split('@').map(Number);
+      if (!(g >= 0) || !(l >= 1)) throw new Error(`bad TIMINGS entry ${t}, expected <gapMs>@<leadSlots>`);
+      return { gapMs: g, lead: l };
+    }),
     horizonSlots: Number(env('HORIZON_SLOTS', '9000')),
     minActivatedStakeSol: Number(env('MIN_STAKE_SOL', '50000')),
     seed: Number(env('SEED', String(Date.now() % 2 ** 31))),
