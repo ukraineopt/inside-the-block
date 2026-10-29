@@ -31,9 +31,13 @@ In total **27 targeted validators on 8 client builds** (3 per client, 6 for vani
 26.10.4, FireBAM 26.10.4. Client = gossip `clientId` + `version` from `getClusterNodes`, snapshotted at
 the start and end of every run.
 
-**Spend.** Worst-case fees reserved by the spend cap: 0.0306 SOL for 5,296 transactions (cap 0.05).
+**Spend.** Worst-case fees reserved by the spend cap over the whole study: 0.0375 SOL (cap 0.05, never exceeded; 0.0306 for the main campaign, the rest for the replication).
 Actual on-chain spend (start balance minus everything left on the burner and the 8 sub-payers):
-**0.0198 SOL in total** (0.06 SOL funded, 0.0402 SOL returned to the owner's wallet on 26.10.2026 13:36 UTC after `sweep` + `withdraw`, tx `2TuVC8yQf2K1aTsSSx5G6cqJmSBnnqnbPvHHqynq8mfGsqEQPRwECUdfaK4hV5uM5y5nGXH6NwhEXg6U8EZcT8EM`; burner and all 8 sub-payers left at 0). Every live transaction with its worst-case fee: `data/spend-ledger.json`.
+**0.0227 SOL in total**: main campaign 0.0198 (0.06 SOL funded, 0.0402 returned on 26.10.2026 13:36 UTC,
+tx `2TuVC8yQf2K1aTsSSx5G6cqJmSBnnqnbPvHHqynq8mfGsqEQPRwECUdfaK4hV5uM5y5nGXH6NwhEXg6U8EZcT8EM`) and replication
+0.0029 (0.015 funded on 29.10, 0.0121 returned on 29.10.2026 19:31 UTC, tx
+`yggtk6hYZNBadBVpwXKZ4S1Wo1JVdNQMFD3f9QBZ9VdfVATfXMHZzJMTgWjjLtKYmCMM6NuuMkGGcc1kq6mz3Li`). Burner and all
+8 sub-payers left at 0. The ledger records the owner's withdrawals and top-ups separately from spend. Every live transaction with its worst-case fee: `data/spend-ledger.json`.
 
 **Verification.** `docker compose --profile verify run --rm verify` re-fetches every block that contains
 a probe from the public mainnet RPC and compares positions. 26.10.2026: 578 blocks, 0 mismatches.

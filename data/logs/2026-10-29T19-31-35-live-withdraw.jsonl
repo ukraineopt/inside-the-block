@@ -1,0 +1,2 @@
+{"ts":"2026-10-29T19:31:35.817Z","event":"start","cmd":"withdraw","live":true,"rpc":"https://api.mainnet-beta.solana.com","capSol":0.05,"seed":153449731}
+{"ts":"2026-10-29T19:31:36.294Z","event":"withdraw.sent","to":"BMHv97u3LmtTxsH7xLiXAUNRS58zBU6DZpWd6wrqJb86","lamports":"12103012","sig":"yggtk6hYZNBadBVpwXKZ4S1Wo1JVdNQMFD3f9QBZ9VdfVATfXMHZzJMTgWjjLtKYmCMM6NuuMkGGcc1kq6mz3Li"}

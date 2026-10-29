@@ -1,7 +1,7 @@
 {
  "capLamports": "50000000",
- "reservedLamports": "37535900",
- "txCount": 6465,
+ "reservedLamports": "37541000",
+ "txCount": 6466,
  "wallet": "ktEfEokCN1Y4s4D8QDhXz3ZEgdxDE47oEjLzYxMKzZD",
  "startBalanceLamports": "60000000",
  "entries": [
@@ -38795,9 +38795,16 @@
    "signature": "3dtGCnpMhHKU7hWEKemNoHZtGu1xssURLpxmBX53GVSSMshX4WokPad4tvXQkvDGX1HwFMHAaS4vUTVgjdHhDJQK",
    "maxFeeLamports": "5040",
    "kind": "probe:F:tpu"
+  },
+  {
+   "ts": "2026-10-29T19:31:36.213Z",
+   "signature": "yggtk6hYZNBadBVpwXKZ4S1Wo1JVdNQMFD3f9QBZ9VdfVATfXMHZzJMTgWjjLtKYmCMM6NuuMkGGcc1kq6mz3Li",
+   "maxFeeLamports": "5100",
+   "kind": "withdraw",
+   "amountLamports": "12103012"
   }
  ],
- "withdrawnLamports": "40190351",
+ "withdrawnLamports": "52293363",
  "lastOnChainSpentLamports": "19809649",
  "depositedLamports": "15000000"
 }
