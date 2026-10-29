@@ -122,6 +122,7 @@ export async function fetchBlock(rpcUrl: string, slot: number, ourSigs: Set<stri
       slot,
       { encoding: 'json', transactionDetails: 'full', rewards: true, maxSupportedTransactionVersion: 1, commitment: 'confirmed' },
     ]);
+    if (!b) throw new Error(`getBlock ${slot}: empty result`); // public RPC occasionally answers null
     tb = trimBlock(slot, b, ourSigs);
   } catch (e) {
     // -32007 slot skipped / -32009 missing in long-term storage

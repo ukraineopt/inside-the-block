@@ -105,21 +105,37 @@ async function main(): Promise<void> {
       return;
     case 'verify': {
       // For every stored block that contains one of our probes: re-fetch from RPC, compare the order of signatures.
-      let ok = 0, bad = 0;
+      let ok = 0, bad = 0, errors = 0;
+      const verifyOne = async (stored: TrimmedBlock, ours: TrimmedBlock['txs'], tmp: string): Promise<TrimmedBlock> => {
+        // one retry after a pause: the public RPC sometimes returns an empty result for an existing block
+        try {
+          return await fetchBlock(cfg.rpcUrl, stored.slot, new Set(ours.map((t) => t.sig)), tmp);
+        } catch {
+          await sleep(3000);
+          return await fetchBlock(cfg.rpcUrl, stored.slot, new Set(ours.map((t) => t.sig)), tmp);
+        }
+      };
       for (const f of readdirSync(blocksDir)) {
         const stored = JSON.parse(readFileSync(join(blocksDir, f), 'utf8')) as TrimmedBlock;
         const ours = stored.txs.filter((t) => t.memo?.startsWith('itb'));
         if (!ours.length) continue;
         const tmp = join(cfg.dataDir, 'verify-tmp');
         mkdirSync(tmp, { recursive: true });
-        const fresh = await fetchBlock(cfg.rpcUrl, stored.slot, new Set(ours.map((t) => t.sig)), tmp);
+        let fresh: TrimmedBlock;
+        try {
+          fresh = await verifyOne(stored, ours, tmp);
+        } catch (e) {
+          errors++;
+          log('verify.error', { slot: stored.slot, error: String(e) });
+          continue;
+        }
         const same = ours.every((t) => fresh.txs[t.i]?.sig === t.sig) && fresh.txCount === stored.txCount;
         if (same) ok++; else bad++;
         log(same ? 'verify.ok' : 'verify.MISMATCH', { slot: stored.slot, probes: ours.length });
         await sleep(150);
       }
-      log('verify.done', { ok, mismatched: bad });
-      if (bad) process.exitCode = 1;
+      log('verify.done', { ok, mismatched: bad, couldNotFetch: errors });
+      if (bad || errors) process.exitCode = 1;
       return;
     }
     default:
